@@ -76,6 +76,65 @@ jobs:
           ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
           rm -f runtime/pb40_latest.json.tmp
 
+          # Compact, truncation-resistant payload for ChatGPT/automation consumers.
+          # It is intentionally small and keeps up to 15 ranked actionable matches.
+          jq '{
+            ok,
+            source,
+            generated_at_dublin,
+            match_date,
+            selection_window,
+            fixtures_today_total,
+            fixtures_in_next_75m,
+            relevant_fixtures_in_next_75m,
+            fixtures_analyzed_before_ranking,
+            analysis_truncated,
+            actionable_candidates_found,
+            max_is_return_limit_only,
+            partial_api_errors,
+            top_actionable: [
+              .matches[]
+              | select(.actionable_candidate == true)
+              | {
+                  fixture_id,
+                  kickoff_dublin,
+                  minutes_to_kickoff,
+                  timing_priority,
+                  league,
+                  country,
+                  home,
+                  away,
+                  bookmaker: (.live_odds.bookmaker // ""),
+                  best_value_market,
+                  value_markets,
+                  pb_metrics,
+                  pb_raw_available,
+                  pb_picks,
+                  rank_score,
+                  actionable_candidate
+                }
+            ][0:15],
+            technical_fallbacks: [
+              .matches[]
+              | select(.actionable_candidate != true)
+              | {
+                  fixture_id,
+                  kickoff_dublin,
+                  minutes_to_kickoff,
+                  timing_priority,
+                  league,
+                  country,
+                  home,
+                  away,
+                  bookmaker: (.live_odds.bookmaker // ""),
+                  live_odds,
+                  pb_metrics,
+                  pb_raw_available,
+                  rank_score
+                }
+            ][0:5]
+          }' runtime/pb40_latest.json > runtime/pb40_compact.json
+
           jq -n \
             --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
@@ -132,7 +191,7 @@ jobs:
           set -euo pipefail
           git config user.name 'pb40-public-feed-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add runtime/pb40_latest.json runtime/pb40_status.json runtime/x_watch_latest.json runtime/x_watch_urls.txt
+          git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json runtime/x_watch_latest.json runtime/x_watch_urls.txt
           if git diff --cached --quiet; then
             echo 'No public feed changes.'
             exit 0

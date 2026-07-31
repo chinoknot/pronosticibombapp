@@ -8,7 +8,7 @@ on:
       - 'runtime/x_watch_urls.txt'
   schedule:
     # Five-minute cadence, offset from the top of the hour. The :37 run is the
-    # primary source for PB :40; the surrounding runs provide redundancy.
+    # primary source for PB :40; surrounding runs provide redundancy.
     - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 
 permissions:
@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: pb40-public-feed
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -30,14 +30,15 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p runtime
-          PB40_URL='https://pronosticibomba-pb40.onrender.com/pb40?max=30'
-          HEALTH_URL='https://pronosticibomba-pb40.onrender.com/health'
+          CACHE_BUSTER="$(date +%s)"
+          PB40_URL="https://pronosticibomba-pb40.onrender.com/pb40?max=30&_=${CACHE_BUSTER}"
+          HEALTH_URL="https://pronosticibomba-pb40.onrender.com/health?_=${CACHE_BUSTER}"
 
-          # Wake Render first; failure here is non-fatal because the main request retries.
-          curl -fsS --connect-timeout 10 --max-time 25 "$HEALTH_URL" >/dev/null || true
+          curl -fsS --retry 2 --retry-all-errors --retry-delay 3 \
+            --connect-timeout 10 --max-time 35 "$HEALTH_URL" >/dev/null || true
 
-          curl -fsS --retry 4 --retry-all-errors --retry-delay 4 \
-            --connect-timeout 20 --max-time 120 "$PB40_URL" \
+          curl -fsS --retry 3 --retry-all-errors --retry-delay 3 \
+            --connect-timeout 15 --max-time 90 "$PB40_URL" \
             -o runtime/pb40_latest.json.tmp
 
           jq -e '
@@ -137,4 +138,5 @@ jobs:
             exit 0
           fi
           git commit -m 'Refresh PB40 public feed'
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

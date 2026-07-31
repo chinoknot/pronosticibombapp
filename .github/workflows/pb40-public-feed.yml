@@ -7,8 +7,9 @@ on:
       - '.github/workflows/pb40-public-feed.yml'
       - 'runtime/x_watch_urls.txt'
   schedule:
-    # Leaves a fresh public snapshot roughly three minutes before each PB :40.
-    - cron: '7,17,27,37,47,57 * * * *'
+    # Five-minute cadence, offset from the top of the hour. The :37 run is the
+    # primary source for PB :40; the surrounding runs provide redundancy.
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 
 permissions:
   contents: write

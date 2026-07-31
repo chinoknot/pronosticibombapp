@@ -1,0 +1,139 @@
+name: PB40 public feed
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/pb40-public-feed.yml'
+      - 'runtime/x_watch_urls.txt'
+  schedule:
+    # Leaves a fresh public snapshot roughly three minutes before each PB :40.
+    - cron: '7,17,27,37,47,57 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pb40-public-feed
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch fresh PB40 snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p runtime
+          PB40_URL='https://pronosticibomba-pb40.onrender.com/pb40?max=30'
+          HEALTH_URL='https://pronosticibomba-pb40.onrender.com/health'
+
+          # Wake Render first; failure here is non-fatal because the main request retries.
+          curl -fsS --connect-timeout 10 --max-time 25 "$HEALTH_URL" >/dev/null || true
+
+          curl -fsS --retry 4 --retry-all-errors --retry-delay 4 \
+            --connect-timeout 20 --max-time 120 "$PB40_URL" \
+            -o runtime/pb40_latest.json.tmp
+
+          jq -e '
+            .ok == true
+            and .max_is_return_limit_only == true
+            and (.generated_at_dublin | type == "string")
+            and (.matches | type == "array")
+            and (.fixtures_analyzed_before_ranking | type == "number")
+          ' runtime/pb40_latest.json.tmp >/dev/null
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+
+          path = 'runtime/pb40_latest.json.tmp'
+          with open(path, encoding='utf-8') as fh:
+              payload = json.load(fh)
+          generated = datetime.fromisoformat(payload['generated_at_dublin'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds()
+          if age < -120 or age > 10 * 60:
+              raise SystemExit(f'PB40 source stale: age_seconds={age:.1f}')
+          print(f'PB40 source freshness OK: age_seconds={age:.1f}')
+          PY
+
+          jq '
+            .public_feed = {
+              "repository": "chinoknot/pronosticibombapp",
+              "refreshed_by": "pb40-public-feed",
+              "source_url": "Render /pb40?max=30"
+            }
+            | .matches |= map(
+                .value_markets = [(.value_markets // [])[] | select((.edge // 0) > 0)]
+                | .best_value_market = ((.value_markets // [])[0] // null)
+              )
+          ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
+          rm -f runtime/pb40_latest.json.tmp
+
+          jq -n \
+            --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
+            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at}' \
+            > runtime/pb40_status.json
+
+      - name: Fetch watched X posts
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p runtime
+          touch runtime/x_watch_urls.txt
+          python - <<'PY'
+          import json
+          import re
+          import urllib.request
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          source = Path('runtime/x_watch_urls.txt')
+          results = []
+          for raw in source.read_text(encoding='utf-8').splitlines():
+              url = raw.strip()
+              if not url or url.startswith('#'):
+                  continue
+              m = re.search(r'(?:status/|/i/status/)(\d+)', url)
+              if not m:
+                  results.append({'url': url, 'ok': False, 'error': 'tweet id not found'})
+                  continue
+              post_id = m.group(1)
+              api_url = f'https://api.fxtwitter.com/status/{post_id}'
+              req = urllib.request.Request(api_url, headers={'User-Agent': 'PronosticiBomba-news/1.0'})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      body = json.loads(response.read().decode('utf-8'))
+                  results.append({'url': url, 'post_id': post_id, 'ok': True, 'data': body})
+              except Exception as exc:
+                  results.append({'url': url, 'post_id': post_id, 'ok': False, 'error': f'{type(exc).__name__}: {exc}'})
+
+          payload = {
+              'ok': True,
+              'generated_at_utc': datetime.now(timezone.utc).isoformat(),
+              'posts': results,
+          }
+          Path('runtime/x_watch_latest.json').write_text(
+              json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          PY
+
+      - name: Commit public feed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'pb40-public-feed-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add runtime/pb40_latest.json runtime/pb40_status.json runtime/x_watch_latest.json runtime/x_watch_urls.txt
+          if git diff --cached --quiet; then
+            echo 'No public feed changes.'
+            exit 0
+          fi
+          git commit -m 'Refresh PB40 public feed'
+          git push

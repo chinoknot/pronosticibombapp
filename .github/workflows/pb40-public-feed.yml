@@ -7,8 +7,6 @@ on:
       - '.github/workflows/pb40-public-feed.yml'
       - 'runtime/x_watch_urls.txt'
   schedule:
-    # Five-minute cadence, offset from the top of the hour. The :37 run is the
-    # primary source for PB :40; surrounding runs provide redundancy.
     - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 
 permissions:
@@ -76,95 +74,61 @@ jobs:
           ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
           rm -f runtime/pb40_latest.json.tmp
 
-          # Compact, truncation-resistant payload for ChatGPT/automation consumers.
-          # It exports every ranked match returned by the endpoint, not only actionable picks.
-          jq '{
-            ok,
-            source,
-            generated_at_dublin,
-            match_date,
-            selection_window,
-            fixtures_today_total,
-            fixtures_in_next_75m,
-            relevant_fixtures_in_next_75m,
-            fixtures_analyzed_before_ranking,
-            analysis_truncated,
-            actionable_candidates_found,
-            matches_returned,
-            max_is_return_limit_only,
-            partial_api_errors,
-            top_actionable: [
-              .matches[]
-              | select(.actionable_candidate == true)
-              | {
-                  fixture_id,
-                  kickoff_dublin,
-                  minutes_to_kickoff,
-                  timing_priority,
-                  league,
-                  country,
-                  home,
-                  away,
-                  bookmaker: (.live_odds.bookmaker // ""),
-                  live_odds,
-                  best_value_market,
-                  value_markets,
-                  pb_metrics,
-                  pb_raw_available,
-                  pb_picks,
-                  rank_score,
-                  actionable_candidate,
-                  selection_reason: (if ((.pb_picks // []) | length) > 0 then "PB editorial pick" elif ((.best_value_market.edge // 0) >= 0.02) then "Positive model edge >= 2%" else "Actionable by ranker" end)
-                }
-            ],
-            technical_fallbacks: [
-              .matches[]
-              | select(.actionable_candidate != true)
-              | {
-                  fixture_id,
-                  kickoff_dublin,
-                  minutes_to_kickoff,
-                  timing_priority,
-                  league,
-                  country,
-                  home,
-                  away,
-                  bookmaker: (.live_odds.bookmaker // ""),
-                  live_odds,
-                  best_value_market,
-                  value_markets,
-                  pb_metrics,
-                  pb_raw_available,
-                  pb_picks,
-                  rank_score,
-                  actionable_candidate,
-                  selection_reason: (if ((.live_odds.bookmaker // "") == "" then "No bookmaker odds" elif ((.value_markets // []) | length) == 0 then "No positive value market" elif ((.best_value_market.edge // 0) < 0.02) then "Positive edge below actionable threshold" else "Below actionable ranking threshold" end)
-                }
-            ],
-            all_ranked: [
-              .matches[]
-              | {
-                  fixture_id,
-                  kickoff_dublin,
-                  minutes_to_kickoff,
-                  timing_priority,
-                  league,
-                  country,
-                  home,
-                  away,
-                  bookmaker: (.live_odds.bookmaker // ""),
-                  live_odds,
-                  best_value_market,
-                  value_markets,
-                  pb_metrics,
-                  pb_raw_available,
-                  pb_picks,
-                  rank_score,
-                  actionable_candidate,
-                  selection_reason: (if .actionable_candidate == true then (if ((.pb_picks // []) | length) > 0 then "PB editorial pick" elif ((.best_value_market.edge // 0) >= 0.02) then "Positive model edge >= 2%" else "Actionable by ranker" end) elif ((.live_odds.bookmaker // "") == "" then "No bookmaker odds" elif ((.value_markets // []) | length) == 0 then "No positive value market" elif ((.best_value_market.edge // 0) < 0.02) then "Positive edge below actionable threshold" else "Below actionable ranking threshold" end)
-                }
-            ]
-          }' runtime/pb40_latest.json > runtime/pb40_compact.json
+          jq '
+            def reason:
+              if .actionable_candidate == true then
+                if ((.pb_picks // []) | length) > 0 then "PB editorial pick"
+                elif ((.best_value_market.edge // 0) >= 0.02) then "Positive model edge >= 2%"
+                else "Actionable by ranker"
+                end
+              elif ((.live_odds.bookmaker // "") == "") then "No bookmaker odds"
+              elif ((.value_markets // []) | length) == 0 then "No positive value market"
+              elif ((.best_value_market.edge // 0) < 0.02) then "Positive edge below actionable threshold"
+              else "Below actionable ranking threshold"
+              end;
+
+            def compact_match:
+              {
+                fixture_id,
+                kickoff_dublin,
+                minutes_to_kickoff,
+                timing_priority,
+                league,
+                country,
+                home,
+                away,
+                bookmaker: (.live_odds.bookmaker // ""),
+                live_odds,
+                best_value_market,
+                value_markets,
+                pb_metrics,
+                pb_raw_available,
+                pb_picks,
+                rank_score,
+                actionable_candidate,
+                selection_reason: reason
+              };
+
+            {
+              ok,
+              source,
+              generated_at_dublin,
+              match_date,
+              selection_window,
+              fixtures_today_total,
+              fixtures_in_next_75m,
+              relevant_fixtures_in_next_75m,
+              fixtures_analyzed_before_ranking,
+              analysis_truncated,
+              actionable_candidates_found,
+              matches_returned,
+              max_is_return_limit_only,
+              partial_api_errors,
+              top_actionable: [.matches[] | select(.actionable_candidate == true) | compact_match],
+              technical_fallbacks: [.matches[] | select(.actionable_candidate != true) | compact_match],
+              all_ranked: [.matches[] | compact_match]
+            }
+          ' runtime/pb40_latest.json > runtime/pb40_compact.json
 
           jq -n \
             --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
@@ -186,19 +150,20 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
 
-          source = Path('runtime/x_watch_urls.txt')
           results = []
-          for raw in source.read_text(encoding='utf-8').splitlines():
+          for raw in Path('runtime/x_watch_urls.txt').read_text(encoding='utf-8').splitlines():
               url = raw.strip()
               if not url or url.startswith('#'):
                   continue
-              m = re.search(r'(?:status/|/i/status/)(\d+)', url)
-              if not m:
+              match = re.search(r'(?:status/|/i/status/)(\d+)', url)
+              if not match:
                   results.append({'url': url, 'ok': False, 'error': 'tweet id not found'})
                   continue
-              post_id = m.group(1)
-              api_url = f'https://api.fxtwitter.com/status/{post_id}'
-              req = urllib.request.Request(api_url, headers={'User-Agent': 'PronosticiBomba-news/1.0'})
+              post_id = match.group(1)
+              req = urllib.request.Request(
+                  f'https://api.fxtwitter.com/status/{post_id}',
+                  headers={'User-Agent': 'PronosticiBomba-news/1.0'},
+              )
               try:
                   with urllib.request.urlopen(req, timeout=30) as response:
                       body = json.loads(response.read().decode('utf-8'))
@@ -212,7 +177,8 @@ jobs:
               'posts': results,
           }
           Path('runtime/x_watch_latest.json').write_text(
-              json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+              json.dumps(payload, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
           )
           PY
 

@@ -1,0 +1,144 @@
+name: PB40 max100 pre-40 refresh
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/pb40-public-feed-100.yml'
+  schedule:
+    - cron: '37 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pb40-public-feed-100
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch PB40 max100 snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p runtime
+          CACHE_BUSTER="$(date +%s)"
+          URL="https://pronosticibomba-pb40.onrender.com/pb40?max=100&_=${CACHE_BUSTER}"
+
+          curl -fsS --retry 3 --retry-all-errors --retry-delay 3 \
+            --connect-timeout 15 --max-time 120 "$URL" \
+            -o runtime/pb40_latest.json.tmp
+
+          jq -e '
+            .ok == true
+            and .max_is_return_limit_only == true
+            and (.generated_at_dublin | type == "string")
+            and (.matches | type == "array")
+            and (.fixtures_analyzed_before_ranking | type == "number")
+          ' runtime/pb40_latest.json.tmp >/dev/null
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          path = 'runtime/pb40_latest.json.tmp'
+          with open(path, encoding='utf-8') as fh:
+              payload = json.load(fh)
+          generated = datetime.fromisoformat(payload['generated_at_dublin'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds()
+          if age < -120 or age > 15 * 60:
+              raise SystemExit(f'PB40 source stale: age_seconds={age:.1f}')
+          print(f'PB40 source freshness OK: age_seconds={age:.1f}')
+          PY
+
+          jq '
+            .public_feed = {
+              "repository": "chinoknot/pronosticibombapp",
+              "refreshed_by": "pb40-public-feed-100",
+              "source_url": "Render /pb40?max=100"
+            }
+            | .matches |= map(
+                .value_markets = [(.value_markets // [])[] | select((.edge // 0) > 0)]
+                | .best_value_market = ((.value_markets // [])[0] // null)
+              )
+          ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
+          rm -f runtime/pb40_latest.json.tmp
+
+          jq '
+            def reason:
+              if .actionable_candidate == true then
+                if ((.pb_picks // []) | length) > 0 then "PB editorial pick"
+                elif ((.best_value_market.edge // 0) >= 0.02) then "Positive model edge >= 2%"
+                else "Actionable by ranker"
+                end
+              elif ((.live_odds.bookmaker // "") == "") then "No bookmaker odds"
+              elif ((.value_markets // []) | length) == 0 then "No positive value market"
+              elif ((.best_value_market.edge // 0) < 0.02) then "Positive edge below actionable threshold"
+              else "Below actionable ranking threshold"
+              end;
+            def compact_match:
+              {
+                fixture_id,
+                kickoff_dublin,
+                minutes_to_kickoff,
+                timing_priority,
+                league,
+                country,
+                home,
+                away,
+                bookmaker: (.live_odds.bookmaker // ""),
+                live_odds,
+                best_value_market,
+                value_markets,
+                pb_metrics,
+                pb_raw_available,
+                pb_picks,
+                rank_score,
+                actionable_candidate,
+                selection_reason: reason
+              };
+            {
+              ok,
+              source,
+              generated_at_dublin,
+              match_date,
+              selection_window,
+              fixtures_today_total,
+              fixtures_in_next_75m,
+              relevant_fixtures_in_next_75m,
+              fixtures_analyzed_before_ranking,
+              analysis_truncated,
+              actionable_candidates_found,
+              matches_returned,
+              max_is_return_limit_only,
+              partial_api_errors,
+              top_actionable: [.matches[] | select(.actionable_candidate == true) | compact_match],
+              technical_fallbacks: [.matches[] | select(.actionable_candidate != true) | compact_match],
+              all_ranked: [.matches[] | compact_match]
+            }
+          ' runtime/pb40_latest.json > runtime/pb40_compact.json
+
+          jq -n \
+            --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
+            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at, max:100}' \
+            > runtime/pb40_status.json
+
+      - name: Commit max100 feed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'pb40-public-feed-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json
+          if git diff --cached --quiet; then
+            echo 'No feed changes.'
+            exit 0
+          fi
+          git commit -m 'Refresh PB40 max100 feed'
+          git pull --rebase origin main
+          git push origin HEAD:main

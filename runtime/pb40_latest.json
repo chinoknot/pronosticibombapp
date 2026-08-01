@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-01T17:34:17.367102+01:00",
+  "generated_at_dublin": "2026-08-01T17:41:10.956678+01:00",
   "match_date": "2026-08-01",
   "selection_window": "fallback_0_75_ranked",
   "fixtures_today_total": 943,
@@ -19,30 +19,28 @@
   "actionable_candidates_found": 0,
   "matches_returned": 14,
   "max_is_return_limit_only": true,
-  "request_ms": 5514,
+  "request_ms": 622,
   "api_usage_this_request": {
-    "calls": 29,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/predictions": 14,
-      "/odds": 14
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 14,
+    "odds_cache_hits": 14
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 67740,
+    "daily_remaining": 67733,
     "minute_limit": 450,
-    "minute_remaining": 425
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "matches": [
     {
       "fixture_id": "1525927",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "Premier League",
       "country": "Belarus",
       "round": "Regular Season - 16",
@@ -81,14 +79,14 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1561082",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "2. liga",
       "country": "Slovakia",
       "round": "Regular Season - 2",
@@ -127,14 +125,14 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1571501",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "Second League",
       "country": "Bulgaria",
       "round": "Regular Season - 2",
@@ -173,14 +171,14 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1589442",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "National Division",
       "country": "Luxembourg",
       "round": "Regular Season - 1",
@@ -219,14 +217,14 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1595197",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "Super Liga",
       "country": "Moldova",
       "round": "Regular Season - 6",
@@ -265,13 +263,59 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
+      "actionable_candidate": false
+    },
+    {
+      "fixture_id": "1571496",
+      "kickoff_dublin": "2026-08-01T18:00:00+01:00",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
+      "league": "Second League",
+      "country": "Bulgaria",
+      "round": "Regular Season - 2",
+      "home": "Fratria",
+      "away": "Rilski Sportist",
+      "venue": "Albena Stadium",
+      "referee": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.42,
+        "odd_draw": 3.9,
+        "odd_away": 6.5,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 3.2,
+        "odd_btts_yes": 1.95,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": 3.0,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1498698",
       "kickoff_dublin": "2026-08-01T18:30:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 48.8,
       "timing_priority": "fallback_0_75",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -315,55 +359,9 @@
       "actionable_candidate": false
     },
     {
-      "fixture_id": "1571496",
-      "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "round": "Regular Season - 2",
-      "home": "Fratria",
-      "away": "Rilski Sportist",
-      "venue": "Albena Stadium",
-      "referee": "",
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.42,
-        "odd_draw": 3.9,
-        "odd_away": 6.5,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 3.2,
-        "odd_btts_yes": 1.95,
-        "odd_btts_no": 1.73,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 1.0,
-      "actionable_candidate": false
-    },
-    {
       "fixture_id": "1561896",
       "kickoff_dublin": "2026-08-01T18:30:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 48.8,
       "timing_priority": "fallback_0_75",
       "league": "Bundesliga",
       "country": "Austria",
@@ -398,8 +396,8 @@
     {
       "fixture_id": "1601081",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "CECAFA Club Cup",
       "country": "World",
       "round": "Group Stage - 3",
@@ -438,14 +436,14 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1601087",
       "kickoff_dublin": "2026-08-01T18:00:00+01:00",
-      "minutes_to_kickoff": 25.7,
-      "timing_priority": "fallback_0_75",
+      "minutes_to_kickoff": 18.8,
+      "timing_priority": "primary_5_25",
       "league": "CECAFA Club Cup",
       "country": "World",
       "round": "Group Stage - 3",
@@ -484,13 +482,13 @@
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1549979",
       "kickoff_dublin": "2026-08-01T18:30:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 48.8,
       "timing_priority": "fallback_0_75",
       "league": "Torneo Promocional Amateur",
       "country": "Argentina",
@@ -536,7 +534,7 @@
     {
       "fixture_id": "1557939",
       "kickoff_dublin": "2026-08-01T18:30:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 48.8,
       "timing_priority": "fallback_0_75",
       "league": "Toto Cup Ligat Al",
       "country": "Israel",
@@ -582,7 +580,7 @@
     {
       "fixture_id": "1557941",
       "kickoff_dublin": "2026-08-01T18:30:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 48.8,
       "timing_priority": "fallback_0_75",
       "league": "Toto Cup Ligat Al",
       "country": "Israel",
@@ -628,7 +626,7 @@
     {
       "fixture_id": "1605367",
       "kickoff_dublin": "2026-08-01T18:45:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 63.8,
       "timing_priority": "fallback_0_75",
       "league": "Carioca A2",
       "country": "Brazil",
@@ -674,7 +672,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100",
-    "source_url": "Render /pb40?max=100"
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

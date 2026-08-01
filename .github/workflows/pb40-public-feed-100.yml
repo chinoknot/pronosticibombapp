@@ -6,19 +6,22 @@ on:
     paths:
       - '.github/workflows/pb40-public-feed-100.yml'
   schedule:
-    - cron: '37 * * * *'
+    # GitHub scheduled jobs commonly start several minutes late. Running at :30
+    # leaves enough time to publish before the consumer run at :40, while the
+    # Render 75-minute horizon still covers the following HH+1:00-HH+1:45 block.
+    - cron: '30 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
   group: pb40-public-feed-100
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
 
@@ -27,45 +30,117 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p runtime
-          CACHE_BUSTER="$(date +%s)"
-          URL="https://pronosticibomba-pb40.onrender.com/pb40?max=100&_=${CACHE_BUSTER}"
 
-          curl -fsS --retry 3 --retry-all-errors --retry-delay 3 \
-            --connect-timeout 15 --max-time 120 "$URL" \
-            -o runtime/pb40_latest.json.tmp
+          # Wake Render first, then force a fresh response. Do not trust a cached
+          # 200 response: every attempt gets a unique query string and no-cache headers.
+          curl -fsS --retry 2 --retry-all-errors --connect-timeout 10 --max-time 30 \
+            -H 'Cache-Control: no-cache, no-store, max-age=0' \
+            -H 'Pragma: no-cache' \
+            "https://pronosticibomba-pb40.onrender.com/health?_=$(date +%s%N)" \
+            >/dev/null || true
 
-          jq -e '
-            .ok == true
-            and .max_is_return_limit_only == true
-            and (.generated_at_dublin | type == "string")
-            and (.matches | type == "array")
-            and (.fixtures_analyzed_before_ranking | type == "number")
-          ' runtime/pb40_latest.json.tmp >/dev/null
+          rm -f runtime/pb40_latest.json.tmp
+          for attempt in 1 2 3 4 5 6; do
+            CACHE_BUSTER="$(date +%s%N)-${attempt}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+            URL="https://pronosticibomba-pb40.onrender.com/pb40?max=100&force=1&_=${CACHE_BUSTER}"
 
-          python - <<'PY'
+            if curl -fsS --retry 2 --retry-all-errors --retry-delay 4 \
+              --connect-timeout 15 --max-time 150 \
+              -H 'Accept: application/json' \
+              -H 'Cache-Control: no-cache, no-store, max-age=0' \
+              -H 'Pragma: no-cache' \
+              "$URL" -o runtime/pb40_latest.json.tmp; then
+              if jq -e '
+                .ok == true
+                and .max_is_return_limit_only == true
+                and (.generated_at_dublin | type == "string")
+                and (.matches | type == "array")
+                and (.fixtures_analyzed_before_ranking | type == "number")
+              ' runtime/pb40_latest.json.tmp >/dev/null; then
+                if python - <<'PY'
           import json
           from datetime import datetime, timezone
+
           path = 'runtime/pb40_latest.json.tmp'
           with open(path, encoding='utf-8') as fh:
               payload = json.load(fh)
+
           generated = datetime.fromisoformat(payload['generated_at_dublin'].replace('Z', '+00:00'))
           age = (datetime.now(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds()
-          if age < -120 or age > 15 * 60:
+          if age < -120 or age > 12 * 60:
               raise SystemExit(f'PB40 source stale: age_seconds={age:.1f}')
           print(f'PB40 source freshness OK: age_seconds={age:.1f}')
           PY
+                then
+                  break
+                fi
+              fi
+            fi
 
-          jq '
-            .public_feed = {
-              "repository": "chinoknot/pronosticibombapp",
-              "refreshed_by": "pb40-public-feed-100",
-              "source_url": "Render /pb40?max=100"
-            }
-            | .matches |= map(
-                .value_markets = [(.value_markets // [])[] | select((.edge // 0) > 0)]
-                | .best_value_market = ((.value_markets // [])[0] // null)
-              )
-          ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
+            rm -f runtime/pb40_latest.json.tmp
+            if [ "$attempt" -eq 6 ]; then
+              echo 'Unable to obtain a fresh valid PB40 max100 snapshot.' >&2
+              exit 1
+            fi
+            sleep 12
+          done
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          src = 'runtime/pb40_latest.json.tmp'
+          dst = 'runtime/pb40_latest.json'
+          dublin = ZoneInfo('Europe/Dublin')
+          now = datetime.now(dublin)
+
+          # This workflow is intentionally scheduled before the :40 consumer run.
+          # Its mandatory block is the next clock hour, from HH+1:00 through HH+1:45.
+          target_start = now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+          target_end = target_start + timedelta(minutes=45)
+
+          with open(src, encoding='utf-8') as fh:
+              payload = json.load(fh)
+
+          matches = payload.get('matches') or []
+          covered = []
+          future = []
+          for match in matches:
+              raw = match.get('kickoff_dublin')
+              if not raw:
+                  continue
+              kickoff = datetime.fromisoformat(raw.replace('Z', '+00:00')).astimezone(dublin)
+              if kickoff > now:
+                  future.append(match)
+              if target_start <= kickoff <= target_end:
+                  covered.append(match)
+
+          payload['public_feed'] = {
+              'repository': 'chinoknot/pronosticibombapp',
+              'refreshed_by': 'pb40-public-feed-100',
+              'source_url': 'Render /pb40?max=100&force=1',
+              'target_block_start_dublin': target_start.isoformat(),
+              'target_block_end_dublin': target_end.isoformat(),
+              'target_block_matches': len(covered),
+              'future_matches_in_snapshot': len(future),
+              'block_verified': True,
+          }
+
+          for match in matches:
+              positive = [m for m in (match.get('value_markets') or []) if (m.get('edge') or 0) > 0]
+              match['value_markets'] = positive
+              match['best_value_market'] = positive[0] if positive else None
+
+          with open(dst, 'w', encoding='utf-8') as fh:
+              json.dump(payload, fh, ensure_ascii=False, indent=2)
+              fh.write('\n')
+
+          print(
+              f'Target block {target_start.isoformat()} -> {target_end.isoformat()}: '
+              f'{len(covered)} matches; future snapshot matches={len(future)}'
+          )
+          PY
           rm -f runtime/pb40_latest.json.tmp
 
           jq '
@@ -116,6 +191,7 @@ jobs:
               matches_returned,
               max_is_return_limit_only,
               partial_api_errors,
+              public_feed,
               top_actionable: [.matches[] | select(.actionable_candidate == true) | compact_match],
               technical_fallbacks: [.matches[] | select(.actionable_candidate != true) | compact_match],
               all_ranked: [.matches[] | compact_match]
@@ -125,7 +201,10 @@ jobs:
           jq -n \
             --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
-            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at, max:100}' \
+            --arg block_start "$(jq -r '.public_feed.target_block_start_dublin' runtime/pb40_latest.json)" \
+            --arg block_end "$(jq -r '.public_feed.target_block_end_dublin' runtime/pb40_latest.json)" \
+            --argjson block_matches "$(jq '.public_feed.target_block_matches' runtime/pb40_latest.json)" \
+            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at, max:100, target_block_start_dublin:$block_start, target_block_end_dublin:$block_end, target_block_matches:$block_matches, block_verified:true}' \
             > runtime/pb40_status.json
 
       - name: Commit max100 feed

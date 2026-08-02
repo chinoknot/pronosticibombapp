@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-02T16:36:31.455298+01:00",
+  "generated_at_dublin": "2026-08-02T16:41:15.527904+01:00",
   "match_date": "2026-08-02",
   "selection_window": "primary_5_25_ranked",
   "fixtures_today_total": 523,
@@ -9,7 +9,7 @@
   "relevant_fixtures_in_next_75m": 20,
   "fixtures_analyzed_before_ranking": 20,
   "analysis_truncated": false,
-  "actionable_candidates_found": 7,
+  "actionable_candidates_found": 6,
   "matches_returned": 20,
   "max_is_return_limit_only": true,
   "partial_api_errors": [],
@@ -28,7 +28,7 @@
     {
       "fixture_id": "1589336",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Premier League - Summer Series",
       "country": "England",
@@ -105,7 +105,7 @@
     {
       "fixture_id": "1549436",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Primera División",
       "country": "Peru",
@@ -180,10 +180,136 @@
       "selection_reason": "PB editorial pick"
     },
     {
+      "fixture_id": "1513598",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "Meistriliiga",
+      "country": "Estonia",
+      "home": "Vaprus",
+      "away": "FC Levadia Tallinn",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 8.0,
+        "odd_draw": 5.0,
+        "odd_away": 1.25,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 2.0,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.6066,
+        "odd": 1.73,
+        "implied_probability": 0.578,
+        "edge": 0.0286
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.6066,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0286
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 2.4,
+        "lambda_total": 3.5,
+        "p_over_1_5": 0.8641,
+        "p_over_2_5": 0.6792,
+        "p_over_3_5": 0.4634,
+        "p_btts_yes": 0.6066
+      },
+      "pb_raw_available": true,
+      "pb_picks": [
+        {
+          "category": "OVER_UNDER_TIPS",
+          "model": "TG_O35_MATCHCENTER_CORE",
+          "pick": "Over 3.5 goals",
+          "odd": 2.1,
+          "score": 1.384
+        }
+      ],
+      "rank_score": 22.46,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
+    },
+    {
+      "fixture_id": "1557983",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "1. SNL",
+      "country": "Slovenia",
+      "home": "Radomlje",
+      "away": "Bravo",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.6,
+        "odd_draw": 3.6,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6201,
+        "odd": 1.62,
+        "implied_probability": 0.6173,
+        "edge": 0.0028
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6201,
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "edge": 0.0028
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 2.0,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.6042
+      },
+      "pb_raw_available": true,
+      "pb_picks": [
+        {
+          "category": "SAFE_GOALS",
+          "model": "SAFE_O25_CORE",
+          "pick": "Over 2.5 goals",
+          "odd": 1.62,
+          "score": 2.019
+        }
+      ],
+      "rank_score": 19.58,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
+    },
+    {
       "fixture_id": "1547600",
       "kickoff_dublin": "2026-08-02T16:45:00+01:00",
-      "minutes_to_kickoff": 8.5,
-      "timing_priority": "primary_5_25",
+      "minutes_to_kickoff": 3.7,
+      "timing_priority": "fallback_0_75",
       "league": "A Lyga",
       "country": "Lithuania",
       "home": "Hegelmann Litauen",
@@ -252,140 +378,14 @@
           "score": 0.838
         }
       ],
-      "rank_score": 24.78,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1513598",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "Meistriliiga",
-      "country": "Estonia",
-      "home": "Vaprus",
-      "away": "FC Levadia Tallinn",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 8.0,
-        "odd_draw": 5.0,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 2.75,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6066,
-        "odd": 1.73,
-        "implied_probability": 0.578,
-        "edge": 0.0286
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6066,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.0286
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 2.4,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6066
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_CORE",
-          "pick": "Over 3.5 goals",
-          "odd": 2.1,
-          "score": 1.384
-        }
-      ],
-      "rank_score": 22.46,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1557983",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "1. SNL",
-      "country": "Slovenia",
-      "home": "Radomlje",
-      "away": "Bravo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.6,
-        "odd_draw": 3.6,
-        "odd_away": 2.35,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6201,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.0028
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6201,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0028
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 2.0,
-        "lambda_total": 3.2,
-        "p_over_1_5": 0.8288,
-        "p_over_2_5": 0.6201,
-        "p_over_3_5": 0.3975,
-        "p_btts_yes": 0.6042
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "SAFE_GOALS",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.62,
-          "score": 2.019
-        }
-      ],
-      "rank_score": 19.58,
+      "rank_score": 22.78,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1511629",
       "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 48.7,
       "timing_priority": "fallback_0_75",
       "league": "Primera B",
       "country": "Chile",
@@ -430,75 +430,13 @@
       "rank_score": 12.55,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1505476",
-      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
-      "timing_priority": "fallback_0_75",
-      "league": "Primera División",
-      "country": "Chile",
-      "home": "Concepción",
-      "away": "U. Catolica",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.4,
-        "odd_draw": 3.5,
-        "odd_away": 2.0,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.3304,
-        "odd": 3.25,
-        "implied_probability": 0.3077,
-        "edge": 0.0227
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.3304,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.0227
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.554,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0135
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.7,
-        "lambda_total": 2.9,
-        "p_over_1_5": 0.7854,
-        "p_over_2_5": 0.554,
-        "p_over_3_5": 0.3304,
-        "p_btts_yes": 0.5711
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 5.27,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
     }
   ],
   "technical_fallbacks": [
     {
       "fixture_id": "1513597",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -539,7 +477,7 @@
     {
       "fixture_id": "1492744",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Premier Division",
       "country": "Ireland",
@@ -580,7 +518,7 @@
     {
       "fixture_id": "1511353",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Division 2 - Västra Götaland",
       "country": "Sweden",
@@ -621,7 +559,7 @@
     {
       "fixture_id": "1551065",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "First League",
       "country": "Bulgaria",
@@ -662,7 +600,7 @@
     {
       "fixture_id": "1568115",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -701,50 +639,9 @@
       "selection_reason": "No positive value market"
     },
     {
-      "fixture_id": "1599182",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "Super Cup",
-      "country": "Netherlands",
-      "home": "PSV Eindhoven",
-      "away": "AZ Alkmaar",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.57,
-        "odd_draw": 4.2,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.1,
-        "odd_ou_3_5_over": 1.83,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
       "fixture_id": "1603432",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "David Kipiani Cup",
       "country": "Georgia",
@@ -785,7 +682,7 @@
     {
       "fixture_id": "1548984",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Superliga",
       "country": "Denmark",
@@ -826,7 +723,7 @@
     {
       "fixture_id": "1569031",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -867,7 +764,7 @@
     {
       "fixture_id": "1506507",
       "kickoff_dublin": "2026-08-02T17:15:00+01:00",
-      "minutes_to_kickoff": 38.5,
+      "minutes_to_kickoff": 33.7,
       "timing_priority": "fallback_0_75",
       "league": "Meistaradeildin",
       "country": "Faroe-Islands",
@@ -906,50 +803,9 @@
       "selection_reason": "No positive value market"
     },
     {
-      "fixture_id": "1548501",
-      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
-      "timing_priority": "fallback_0_75",
-      "league": "HNL",
-      "country": "Croatia",
-      "home": "NK Varazdin",
-      "away": "HNK Hajduk Split",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.9,
-        "odd_draw": 3.25,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.4,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 2.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
       "fixture_id": "1557940",
       "kickoff_dublin": "2026-08-02T17:45:00+01:00",
-      "minutes_to_kickoff": 68.5,
+      "minutes_to_kickoff": 63.7,
       "timing_priority": "fallback_0_75",
       "league": "Toto Cup Ligat Al",
       "country": "Israel",
@@ -988,9 +844,50 @@
       "selection_reason": "No positive value market"
     },
     {
+      "fixture_id": "1599182",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "Super Cup",
+      "country": "Netherlands",
+      "home": "PSV Eindhoven",
+      "away": "AZ Alkmaar",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
       "fixture_id": "1603433",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "David Kipiani Cup",
       "country": "Georgia",
@@ -1027,13 +924,95 @@
       "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1505476",
+      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
+      "minutes_to_kickoff": 48.7,
+      "timing_priority": "fallback_0_75",
+      "league": "Primera División",
+      "country": "Chile",
+      "home": "Concepción",
+      "away": "U. Catolica",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.7,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5711
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1548501",
+      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
+      "minutes_to_kickoff": 48.7,
+      "timing_priority": "fallback_0_75",
+      "league": "HNL",
+      "country": "Croatia",
+      "home": "NK Varazdin",
+      "away": "HNK Hajduk Split",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
     }
   ],
   "all_ranked": [
     {
       "fixture_id": "1589336",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Premier League - Summer Series",
       "country": "England",
@@ -1110,7 +1089,7 @@
     {
       "fixture_id": "1549436",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Primera División",
       "country": "Peru",
@@ -1185,10 +1164,136 @@
       "selection_reason": "PB editorial pick"
     },
     {
+      "fixture_id": "1513598",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "Meistriliiga",
+      "country": "Estonia",
+      "home": "Vaprus",
+      "away": "FC Levadia Tallinn",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 8.0,
+        "odd_draw": 5.0,
+        "odd_away": 1.25,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 2.0,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.6066,
+        "odd": 1.73,
+        "implied_probability": 0.578,
+        "edge": 0.0286
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.6066,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0286
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 2.4,
+        "lambda_total": 3.5,
+        "p_over_1_5": 0.8641,
+        "p_over_2_5": 0.6792,
+        "p_over_3_5": 0.4634,
+        "p_btts_yes": 0.6066
+      },
+      "pb_raw_available": true,
+      "pb_picks": [
+        {
+          "category": "OVER_UNDER_TIPS",
+          "model": "TG_O35_MATCHCENTER_CORE",
+          "pick": "Over 3.5 goals",
+          "odd": 2.1,
+          "score": 1.384
+        }
+      ],
+      "rank_score": 22.46,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
+    },
+    {
+      "fixture_id": "1557983",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "1. SNL",
+      "country": "Slovenia",
+      "home": "Radomlje",
+      "away": "Bravo",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.6,
+        "odd_draw": 3.6,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6201,
+        "odd": 1.62,
+        "implied_probability": 0.6173,
+        "edge": 0.0028
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6201,
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "edge": 0.0028
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 2.0,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.6042
+      },
+      "pb_raw_available": true,
+      "pb_picks": [
+        {
+          "category": "SAFE_GOALS",
+          "model": "SAFE_O25_CORE",
+          "pick": "Over 2.5 goals",
+          "odd": 1.62,
+          "score": 2.019
+        }
+      ],
+      "rank_score": 19.58,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
+    },
+    {
       "fixture_id": "1547600",
       "kickoff_dublin": "2026-08-02T16:45:00+01:00",
-      "minutes_to_kickoff": 8.5,
-      "timing_priority": "primary_5_25",
+      "minutes_to_kickoff": 3.7,
+      "timing_priority": "fallback_0_75",
       "league": "A Lyga",
       "country": "Lithuania",
       "home": "Hegelmann Litauen",
@@ -1257,140 +1362,14 @@
           "score": 0.838
         }
       ],
-      "rank_score": 24.78,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1513598",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "Meistriliiga",
-      "country": "Estonia",
-      "home": "Vaprus",
-      "away": "FC Levadia Tallinn",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 8.0,
-        "odd_draw": 5.0,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 2.75,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6066,
-        "odd": 1.73,
-        "implied_probability": 0.578,
-        "edge": 0.0286
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6066,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.0286
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 2.4,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6066
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_CORE",
-          "pick": "Over 3.5 goals",
-          "odd": 2.1,
-          "score": 1.384
-        }
-      ],
-      "rank_score": 22.46,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1557983",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "1. SNL",
-      "country": "Slovenia",
-      "home": "Radomlje",
-      "away": "Bravo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.6,
-        "odd_draw": 3.6,
-        "odd_away": 2.35,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6201,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.0028
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6201,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0028
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 2.0,
-        "lambda_total": 3.2,
-        "p_over_1_5": 0.8288,
-        "p_over_2_5": 0.6201,
-        "p_over_3_5": 0.3975,
-        "p_btts_yes": 0.6042
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "SAFE_GOALS",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.62,
-          "score": 2.019
-        }
-      ],
-      "rank_score": 19.58,
+      "rank_score": 22.78,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1511629",
       "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 48.7,
       "timing_priority": "fallback_0_75",
       "league": "Primera B",
       "country": "Chile",
@@ -1439,7 +1418,7 @@
     {
       "fixture_id": "1513597",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -1478,71 +1457,9 @@
       "selection_reason": "No positive value market"
     },
     {
-      "fixture_id": "1505476",
-      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
-      "timing_priority": "fallback_0_75",
-      "league": "Primera División",
-      "country": "Chile",
-      "home": "Concepción",
-      "away": "U. Catolica",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.4,
-        "odd_draw": 3.5,
-        "odd_away": 2.0,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.3304,
-        "odd": 3.25,
-        "implied_probability": 0.3077,
-        "edge": 0.0227
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.3304,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.0227
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.554,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0135
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.7,
-        "lambda_total": 2.9,
-        "p_over_1_5": 0.7854,
-        "p_over_2_5": 0.554,
-        "p_over_3_5": 0.3304,
-        "p_btts_yes": 0.5711
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 5.27,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
       "fixture_id": "1492744",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Premier Division",
       "country": "Ireland",
@@ -1583,7 +1500,7 @@
     {
       "fixture_id": "1511353",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Division 2 - Västra Götaland",
       "country": "Sweden",
@@ -1624,7 +1541,7 @@
     {
       "fixture_id": "1551065",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "First League",
       "country": "Bulgaria",
@@ -1665,7 +1582,7 @@
     {
       "fixture_id": "1568115",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -1704,50 +1621,9 @@
       "selection_reason": "No positive value market"
     },
     {
-      "fixture_id": "1599182",
-      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
-      "timing_priority": "primary_5_25",
-      "league": "Super Cup",
-      "country": "Netherlands",
-      "home": "PSV Eindhoven",
-      "away": "AZ Alkmaar",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.57,
-        "odd_draw": 4.2,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.1,
-        "odd_ou_3_5_over": 1.83,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
       "fixture_id": "1603432",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "David Kipiani Cup",
       "country": "Georgia",
@@ -1788,7 +1664,7 @@
     {
       "fixture_id": "1548984",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "Superliga",
       "country": "Denmark",
@@ -1829,7 +1705,7 @@
     {
       "fixture_id": "1569031",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -1870,7 +1746,7 @@
     {
       "fixture_id": "1506507",
       "kickoff_dublin": "2026-08-02T17:15:00+01:00",
-      "minutes_to_kickoff": 38.5,
+      "minutes_to_kickoff": 33.7,
       "timing_priority": "fallback_0_75",
       "league": "Meistaradeildin",
       "country": "Faroe-Islands",
@@ -1909,50 +1785,9 @@
       "selection_reason": "No positive value market"
     },
     {
-      "fixture_id": "1548501",
-      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
-      "timing_priority": "fallback_0_75",
-      "league": "HNL",
-      "country": "Croatia",
-      "home": "NK Varazdin",
-      "away": "HNK Hajduk Split",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.9,
-        "odd_draw": 3.25,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.4,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 2.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
       "fixture_id": "1557940",
       "kickoff_dublin": "2026-08-02T17:45:00+01:00",
-      "minutes_to_kickoff": 68.5,
+      "minutes_to_kickoff": 63.7,
       "timing_priority": "fallback_0_75",
       "league": "Toto Cup Ligat Al",
       "country": "Israel",
@@ -1991,9 +1826,50 @@
       "selection_reason": "No positive value market"
     },
     {
+      "fixture_id": "1599182",
+      "kickoff_dublin": "2026-08-02T17:00:00+01:00",
+      "minutes_to_kickoff": 18.7,
+      "timing_priority": "primary_5_25",
+      "league": "Super Cup",
+      "country": "Netherlands",
+      "home": "PSV Eindhoven",
+      "away": "AZ Alkmaar",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
       "fixture_id": "1603433",
       "kickoff_dublin": "2026-08-02T17:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 18.7,
       "timing_priority": "primary_5_25",
       "league": "David Kipiani Cup",
       "country": "Georgia",
@@ -2028,6 +1904,88 @@
       "pb_raw_available": true,
       "pb_picks": [],
       "rank_score": -0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1505476",
+      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
+      "minutes_to_kickoff": 48.7,
+      "timing_priority": "fallback_0_75",
+      "league": "Primera División",
+      "country": "Chile",
+      "home": "Concepción",
+      "away": "U. Catolica",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.7,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5711
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1548501",
+      "kickoff_dublin": "2026-08-02T17:30:00+01:00",
+      "minutes_to_kickoff": 48.7,
+      "timing_priority": "fallback_0_75",
+      "league": "HNL",
+      "country": "Croatia",
+      "home": "NK Varazdin",
+      "away": "HNK Hajduk Split",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     }

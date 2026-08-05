@@ -70,7 +70,7 @@ jobs:
             for variant in 1 2 3; do
               fetch_candidate "$attempt" "$variant" || true
             done
-            python - <<'PY'
+            if python - <<'PY'
           import glob, json, os
           from datetime import datetime
           from zoneinfo import ZoneInfo
@@ -132,9 +132,17 @@ jobs:
               raise SystemExit(0 if covered > 0 else 2)
           raise SystemExit(3)
           PY
-            rc=$?
+            then
+              rc=0
+            else
+              rc=$?
+            fi
+
             if [ "$rc" -eq 0 ]; then
               break
+            fi
+            if [ "$rc" -ne 2 ]; then
+              echo "PB40 candidate validation returned rc=$rc; retrying if attempts remain." >&2
             fi
             if [ "$attempt" -lt 4 ]; then sleep 20; fi
           done
@@ -142,6 +150,13 @@ jobs:
           if [ ! -f runtime/pb40_latest.json ]; then
             echo 'No valid PB40 payload obtained.' >&2
             exit 1
+          fi
+
+          BLOCK_MATCHES="$(jq -r '.public_feed.target_block_matches // 0' runtime/pb40_latest.json)"
+          if [ "$BLOCK_MATCHES" -eq 0 ]; then
+            BLOCK_START="$(jq -r '.public_feed.target_block_start_dublin' runtime/pb40_latest.json)"
+            BLOCK_END="$(jq -r '.public_feed.target_block_end_dublin' runtime/pb40_latest.json)"
+            echo "No matches found in target block ${BLOCK_START} -> ${BLOCK_END}; publishing the empty block successfully."
           fi
 
           jq '

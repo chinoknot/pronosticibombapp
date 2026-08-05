@@ -1,196 +1,313 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-05T12:03:30.130205+01:00",
+  "generated_at_dublin": "2026-08-05T12:48:11.219340+01:00",
   "match_date": "2026-08-05",
   "selection_window": "fallback_0_75_ranked",
   "fixtures_today_total": 225,
-  "fixtures_in_next_75m": 3,
+  "fixtures_in_next_75m": 5,
   "relevant_fixtures_in_next_75m": 2,
   "fixtures_analyzed_before_ranking": 2,
   "analysis_truncated": false,
-  "actionable_candidates_found": 0,
+  "actionable_candidates_found": 2,
   "matches_returned": 2,
   "max_is_return_limit_only": true,
   "partial_api_errors": [],
-  "public_feed": {
-    "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-4-3.json",
-    "target_block_start_dublin": "2026-08-05T13:00:00+01:00",
-    "target_block_end_dublin": "2026-08-05T13:45:00+01:00",
-    "target_block_matches": 0,
-    "future_matches_in_snapshot": 2,
-    "block_verified": false,
-    "fallback_used": false
-  },
-  "top_actionable": [],
-  "technical_fallbacks": [
+  "top_actionable": [
     {
-      "fixture_id": "1532766",
-      "kickoff_dublin": "2026-08-05T12:30:00+01:00",
-      "minutes_to_kickoff": 26.5,
+      "fixture_id": "1530981",
+      "kickoff_dublin": "2026-08-05T14:00:00+01:00",
+      "minutes_to_kickoff": 71.8,
       "timing_priority": "fallback_0_75",
-      "league": "League Two",
-      "country": "China",
-      "home": "Rizhao Yuqi",
-      "away": "BIT",
+      "league": "Pro League A",
+      "country": "Uzbekistan",
+      "home": "Aral",
+      "away": "Metalourg",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.65,
+        "odd_home": 1.73,
         "odd_draw": 3.4,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.15,
-        "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 2.05,
-        "odd_btts_no": 1.67,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3863,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0391
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3863,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0391
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6096,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0316
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6225,
+          "odd": 1.67,
+          "implied_probability": 0.5988,
+          "edge": 0.0237
+        }
+      ],
       "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 0.8,
-        "lambda_total": 1.6,
-        "p_over_1_5": 0.4751,
-        "p_over_2_5": 0.2166,
-        "p_over_3_5": 0.0788,
-        "p_btts_yes": 0.3032
+        "lambda_home": 1.75,
+        "lambda_away": 1.4,
+        "lambda_total": 3.15,
+        "p_over_1_5": 0.8222,
+        "p_over_2_5": 0.6096,
+        "p_over_3_5": 0.3863,
+        "p_btts_yes": 0.6225
       },
       "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 2.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
+      "pb_picks": [
+        {
+          "category": "BEST_TIPS_OF_DAY",
+          "model": "TG_O35_MATCHCENTER_FALLBACK_O25",
+          "pick": "Over 2.5 goals",
+          "odd": 1.73,
+          "score": 1.206
+        }
+      ],
+      "rank_score": 20.16,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
     },
     {
-      "fixture_id": "1532811",
-      "kickoff_dublin": "2026-08-05T12:30:00+01:00",
-      "minutes_to_kickoff": 26.5,
+      "fixture_id": "1531073",
+      "kickoff_dublin": "2026-08-05T13:30:00+01:00",
+      "minutes_to_kickoff": 41.8,
       "timing_priority": "fallback_0_75",
-      "league": "League Two",
-      "country": "China",
-      "home": "Hubei Chufeng Heli",
-      "away": "Jiangxi Liansheng",
+      "league": "Pro League A",
+      "country": "Uzbekistan",
+      "home": "Lochin",
+      "away": "Yaypan",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.8,
-        "odd_draw": 2.9,
-        "odd_away": 2.4,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.8,
+        "odd_home": 1.5,
+        "odd_draw": 4.2,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 1.95,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4197,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0725
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4197,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0725
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6485,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0705
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6406,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0626
+        }
+      ],
       "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 0.8,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4149
+        "lambda_home": 1.8,
+        "lambda_away": 1.5,
+        "lambda_total": 3.3,
+        "p_over_1_5": 0.8414,
+        "p_over_2_5": 0.6406,
+        "p_over_3_5": 0.4197,
+        "p_btts_yes": 0.6485
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
+      "rank_score": 10.65,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
     }
   ],
+  "technical_fallbacks": [],
   "all_ranked": [
     {
-      "fixture_id": "1532766",
-      "kickoff_dublin": "2026-08-05T12:30:00+01:00",
-      "minutes_to_kickoff": 26.5,
+      "fixture_id": "1530981",
+      "kickoff_dublin": "2026-08-05T14:00:00+01:00",
+      "minutes_to_kickoff": 71.8,
       "timing_priority": "fallback_0_75",
-      "league": "League Two",
-      "country": "China",
-      "home": "Rizhao Yuqi",
-      "away": "BIT",
+      "league": "Pro League A",
+      "country": "Uzbekistan",
+      "home": "Aral",
+      "away": "Metalourg",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.65,
+        "odd_home": 1.73,
         "odd_draw": 3.4,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.15,
-        "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 2.05,
-        "odd_btts_no": 1.67,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3863,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0391
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3863,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0391
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6096,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0316
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6225,
+          "odd": 1.67,
+          "implied_probability": 0.5988,
+          "edge": 0.0237
+        }
+      ],
       "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 0.8,
-        "lambda_total": 1.6,
-        "p_over_1_5": 0.4751,
-        "p_over_2_5": 0.2166,
-        "p_over_3_5": 0.0788,
-        "p_btts_yes": 0.3032
+        "lambda_home": 1.75,
+        "lambda_away": 1.4,
+        "lambda_total": 3.15,
+        "p_over_1_5": 0.8222,
+        "p_over_2_5": 0.6096,
+        "p_over_3_5": 0.3863,
+        "p_btts_yes": 0.6225
       },
       "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 2.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
+      "pb_picks": [
+        {
+          "category": "BEST_TIPS_OF_DAY",
+          "model": "TG_O35_MATCHCENTER_FALLBACK_O25",
+          "pick": "Over 2.5 goals",
+          "odd": 1.73,
+          "score": 1.206
+        }
+      ],
+      "rank_score": 20.16,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
     },
     {
-      "fixture_id": "1532811",
-      "kickoff_dublin": "2026-08-05T12:30:00+01:00",
-      "minutes_to_kickoff": 26.5,
+      "fixture_id": "1531073",
+      "kickoff_dublin": "2026-08-05T13:30:00+01:00",
+      "minutes_to_kickoff": 41.8,
       "timing_priority": "fallback_0_75",
-      "league": "League Two",
-      "country": "China",
-      "home": "Hubei Chufeng Heli",
-      "away": "Jiangxi Liansheng",
+      "league": "Pro League A",
+      "country": "Uzbekistan",
+      "home": "Lochin",
+      "away": "Yaypan",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.8,
-        "odd_draw": 2.9,
-        "odd_away": 2.4,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.8,
+        "odd_home": 1.5,
+        "odd_draw": 4.2,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 1.95,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4197,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0725
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4197,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0725
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6485,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0705
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6406,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.0626
+        }
+      ],
       "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 0.8,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4149
+        "lambda_home": 1.8,
+        "lambda_away": 1.5,
+        "lambda_total": 3.3,
+        "p_over_1_5": 0.8414,
+        "p_over_2_5": 0.6406,
+        "p_over_3_5": 0.4197,
+        "p_btts_yes": 0.6485
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
+      "rank_score": 10.65,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
     }
   ]
 }

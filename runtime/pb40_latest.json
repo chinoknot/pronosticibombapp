@@ -1,141 +1,44 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-05T09:17:01.730978+01:00",
+  "generated_at_dublin": "2026-08-05T10:48:25.858012+01:00",
   "match_date": "2026-08-05",
   "selection_window": "fallback_0_75_ranked",
-  "fixtures_today_total": 224,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 2,
-  "excluded_in_next_75m": 1,
+  "fixtures_today_total": 225,
+  "fixtures_in_next_75m": 6,
+  "relevant_fixtures_in_next_75m": 0,
+  "excluded_in_next_75m": 6,
   "excluded_breakdown": {
-    "women": 1
+    "youth": 1,
+    "friendly": 2,
+    "women": 3
   },
-  "fixtures_analyzed_before_ranking": 2,
+  "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 150,
   "actionable_candidates_found": 0,
-  "matches_returned": 2,
+  "matches_returned": 0,
   "max_is_return_limit_only": true,
-  "request_ms": 2103,
+  "request_ms": 5141,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
       "/fixtures": 1
     },
-    "prediction_cache_hits": 2,
-    "odds_cache_hits": 2
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73960,
+    "daily_remaining": 73743,
     "minute_limit": 450,
     "minute_remaining": 449
   },
   "partial_api_errors": [],
-  "matches": [
-    {
-      "fixture_id": "1537489",
-      "kickoff_dublin": "2026-08-05T10:30:00+01:00",
-      "minutes_to_kickoff": 73.0,
-      "timing_priority": "fallback_0_75",
-      "league": "Capital Territory NPL",
-      "country": "Australia",
-      "round": "Regular Season - 16",
-      "home": "Queanbeyan City",
-      "away": "Tuggeranong United",
-      "venue": "High Street Oval",
-      "referee": "",
-      "api_prediction": {
-        "pred_winner_name": "Queanbeyan City",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Queanbeyan City or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.7,
-        "odd_draw": 3.4,
-        "odd_away": 4.1,
-        "odd_ou_1_5_over": 1.05,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 2.75,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 3.0,
-        "odd_btts_no": 1.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 0.5,
-      "actionable_candidate": false
-    },
-    {
-      "fixture_id": "1595184",
-      "kickoff_dublin": "2026-08-05T10:30:00+01:00",
-      "minutes_to_kickoff": 73.0,
-      "timing_priority": "fallback_0_75",
-      "league": "Calcutta Premier Division",
-      "country": "India",
-      "round": "Regular season",
-      "home": "Mohammedan",
-      "away": "Police",
-      "venue": "",
-      "referee": "",
-      "api_prediction": {
-        "pred_winner_name": "Mohammedan",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Mohammedan or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": -4.5,
-      "actionable_candidate": false
-    }
-  ],
+  "matches": [],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-05T10:00:00+01:00",
-    "target_block_end_dublin": "2026-08-05T10:45:00+01:00",
-    "target_block_matches": 2,
-    "future_matches_in_snapshot": 2,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

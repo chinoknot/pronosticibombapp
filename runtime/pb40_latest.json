@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-07T19:09:09.810574+01:00",
+  "generated_at_dublin": "2026-08-07T19:25:29.173835+01:00",
   "match_date": "2026-08-07",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-07T20:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 330,
   "fixtures_target_date_total": 330,
-  "fixtures_in_next_75m": 54,
-  "relevant_fixtures_in_next_75m": 50,
+  "fixtures_in_next_75m": 52,
+  "relevant_fixtures_in_next_75m": 48,
   "fixtures_in_target_block": 8,
   "relevant_fixtures_in_target_block": 7,
   "excluded_in_target_block": 1,
@@ -25,90 +25,29 @@
   "matches_returned": 8,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 476,
+  "request_ms": 5684,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 15,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/predictions": 7,
+      "/odds": 7
     },
-    "prediction_cache_hits": 7,
-    "odds_cache_hits": 7
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 68431,
+    "daily_remaining": 68327,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 435
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
-      "fixture_id": "1492750",
-      "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier Division",
-      "country": "Ireland",
-      "round": "Regular Season - 27",
-      "home": "Shamrock Rovers",
-      "away": "Dundalk",
-      "venue": "Tallaght Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Shamrock Rovers",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Shamrock Rovers or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.8,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.1,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5512
-      },
-      "pb_picks": [
-        {
-          "category": "GG Special",
-          "model": "GG_BALANCED",
-          "pick": "Both teams to score YES",
-          "odd": 1.75,
-          "score": 1.081
-        }
-      ],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 16.95,
-      "actionable_candidate": true
-    },
-    {
       "fixture_id": "1514250",
       "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -185,13 +124,76 @@
         "implied_probability": 0.6369,
         "edge": 0.1307
       },
-      "rank_score": 16.67,
+      "rank_score": 17.67,
+      "actionable_candidate": true
+    },
+    {
+      "fixture_id": "1492750",
+      "kickoff_dublin": "2026-08-07T20:00:00+01:00",
+      "minutes_to_kickoff": 34.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier Division",
+      "country": "Ireland",
+      "round": "Regular Season - 27",
+      "home": "Shamrock Rovers",
+      "away": "Dundalk",
+      "venue": "Tallaght Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Shamrock Rovers",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Shamrock Rovers or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.7,
+        "odd_draw": 3.7,
+        "odd_away": 4.2,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.75,
+        "lambda_away": 1.1,
+        "lambda_total": 2.85,
+        "p_over_1_5": 0.7773,
+        "p_over_2_5": 0.5424,
+        "p_over_3_5": 0.3192,
+        "p_btts_yes": 0.5512
+      },
+      "pb_picks": [
+        {
+          "category": "GG Special",
+          "model": "GG_BALANCED",
+          "pick": "Both teams to score YES",
+          "odd": 1.75,
+          "score": 1.081
+        }
+      ],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": 16.95,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1514251",
       "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -215,15 +217,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 5.0,
-        "odd_draw": 4.0,
-        "odd_away": 1.55,
-        "odd_ou_1_5_over": 1.14,
+        "odd_home": 5.5,
+        "odd_draw": 4.2,
+        "odd_away": 1.48,
+        "odd_ou_1_5_over": 1.12,
         "odd_ou_2_5_over": 1.44,
         "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
+        "odd_ou_3_5_over": 2.0,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.38,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -242,16 +244,9 @@
         {
           "market": "BTTS YES",
           "probability": 0.693,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0561
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4848,
-          "odd": 2.1,
-          "implied_probability": 0.4762,
-          "edge": 0.0086
+          "odd": 1.53,
+          "implied_probability": 0.6536,
+          "edge": 0.0394
         },
         {
           "market": "Over 2.5",
@@ -264,17 +259,17 @@
       "best_value_market": {
         "market": "BTTS YES",
         "probability": 0.693,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.0561
+        "odd": 1.53,
+        "implied_probability": 0.6536,
+        "edge": 0.0394
       },
-      "rank_score": 8.31,
+      "rank_score": 7.64,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1597736",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -302,11 +297,66 @@
         "odd_draw": 3.3,
         "odd_away": 4.2,
         "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.2,
-        "odd_ou_2_5_under": 1.65,
-        "odd_ou_3_5_over": 4.2,
-        "odd_btts_yes": 1.95,
-        "odd_btts_no": 1.7,
+        "odd_ou_2_5_over": 2.15,
+        "odd_ou_2_5_under": 1.67,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": 2.5,
+      "actionable_candidate": false
+    },
+    {
+      "fixture_id": "1575447",
+      "kickoff_dublin": "2026-08-07T20:15:00+01:00",
+      "minutes_to_kickoff": 49.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primeira Liga",
+      "country": "Portugal",
+      "round": "Regular Season - 1",
+      "home": "Estoril",
+      "away": "Famalicao",
+      "venue": "Estadio Antonio Coimbra da Mota",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Famalicao",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Famalicao",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.88,
+        "odd_draw": 3.3,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -329,7 +379,7 @@
     {
       "fixture_id": "1567407",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "League Cup",
       "country": "England",
@@ -382,64 +432,9 @@
       "actionable_candidate": false
     },
     {
-      "fixture_id": "1575447",
-      "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Primeira Liga",
-      "country": "Portugal",
-      "round": "Regular Season - 1",
-      "home": "Estoril",
-      "away": "Famalicao",
-      "venue": "Estadio Antonio Coimbra da Mota",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Famalicao",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Famalicao",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.88,
-        "odd_draw": 3.3,
-        "odd_away": 2.38,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.9,
-        "odd_ou_2_5_under": 1.9,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 1.5,
-      "actionable_candidate": false
-    },
-    {
       "fixture_id": "1612413",
       "kickoff_dublin": "2026-08-07T20:30:00+01:00",
-      "minutes_to_kickoff": 80.8,
+      "minutes_to_kickoff": 64.5,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -496,7 +491,7 @@
     {
       "fixture_id": "1492750",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "Premier Division",
       "country": "Ireland",
@@ -520,15 +515,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.8,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 2.0,
+        "odd_home": 1.7,
+        "odd_draw": 3.7,
+        "odd_away": 4.2,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -559,7 +554,7 @@
     {
       "fixture_id": "1535413",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "Premiership Women",
       "country": "Northern-Ireland",
@@ -582,7 +577,7 @@
     {
       "fixture_id": "1567407",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "League Cup",
       "country": "England",
@@ -637,7 +632,7 @@
     {
       "fixture_id": "1597736",
       "kickoff_dublin": "2026-08-07T20:00:00+01:00",
-      "minutes_to_kickoff": 50.8,
+      "minutes_to_kickoff": 34.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -665,11 +660,11 @@
         "odd_draw": 3.3,
         "odd_away": 4.2,
         "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.2,
-        "odd_ou_2_5_under": 1.65,
-        "odd_ou_3_5_over": 4.2,
-        "odd_btts_yes": 1.95,
-        "odd_btts_no": 1.7,
+        "odd_ou_2_5_over": 2.15,
+        "odd_ou_2_5_under": 1.67,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.73,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -692,7 +687,7 @@
     {
       "fixture_id": "1514250",
       "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -769,13 +764,13 @@
         "implied_probability": 0.6369,
         "edge": 0.1307
       },
-      "rank_score": 16.67,
+      "rank_score": 17.67,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1514251",
       "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -799,15 +794,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 5.0,
-        "odd_draw": 4.0,
-        "odd_away": 1.55,
-        "odd_ou_1_5_over": 1.14,
+        "odd_home": 5.5,
+        "odd_draw": 4.2,
+        "odd_away": 1.48,
+        "odd_ou_1_5_over": 1.12,
         "odd_ou_2_5_over": 1.44,
         "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
+        "odd_ou_3_5_over": 2.0,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.38,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -826,16 +821,9 @@
         {
           "market": "BTTS YES",
           "probability": 0.693,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0561
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4848,
-          "odd": 2.1,
-          "implied_probability": 0.4762,
-          "edge": 0.0086
+          "odd": 1.53,
+          "implied_probability": 0.6536,
+          "edge": 0.0394
         },
         {
           "market": "Over 2.5",
@@ -848,17 +836,17 @@
       "best_value_market": {
         "market": "BTTS YES",
         "probability": 0.693,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.0561
+        "odd": 1.53,
+        "implied_probability": 0.6536,
+        "edge": 0.0394
       },
-      "rank_score": 8.31,
+      "rank_score": 7.64,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1575447",
       "kickoff_dublin": "2026-08-07T20:15:00+01:00",
-      "minutes_to_kickoff": 65.8,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "Primeira Liga",
       "country": "Portugal",
@@ -907,13 +895,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1612413",
       "kickoff_dublin": "2026-08-07T20:30:00+01:00",
-      "minutes_to_kickoff": 80.8,
+      "minutes_to_kickoff": 64.5,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -968,13 +956,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-07T20:00:00+01:00",
-    "target_block_end_dublin": "2026-08-07T20:45:00+01:00",
-    "target_block_matches": 8,
-    "future_matches_in_snapshot": 8,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

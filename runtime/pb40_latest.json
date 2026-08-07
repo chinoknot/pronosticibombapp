@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-07T22:18:39.459030+01:00",
+  "generated_at_dublin": "2026-08-07T22:42:30.616177+01:00",
   "match_date": "2026-08-07",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-07T23:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 330,
   "fixtures_target_date_total": 330,
-  "fixtures_in_next_75m": 9,
-  "relevant_fixtures_in_next_75m": 8,
+  "fixtures_in_next_75m": 8,
+  "relevant_fixtures_in_next_75m": 7,
   "fixtures_in_target_block": 8,
   "relevant_fixtures_in_target_block": 7,
   "excluded_in_target_block": 1,
@@ -25,27 +25,28 @@
   "matches_returned": 8,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 439,
+  "request_ms": 5496,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 8,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 7
     },
     "prediction_cache_hits": 7,
-    "odds_cache_hits": 7
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 66941,
+    "daily_remaining": 66813,
     "minute_limit": 450,
-    "minute_remaining": 433
+    "minute_remaining": 373
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1499564",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -122,13 +123,13 @@
         "implied_probability": 0.4444,
         "edge": 0.0582
       },
-      "rank_score": 8.42,
+      "rank_score": 10.42,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1611271",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Uruguay",
@@ -205,13 +206,13 @@
         "implied_probability": 0.4167,
         "edge": 0.0522
       },
-      "rank_score": 7.87,
+      "rank_score": 9.87,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1520808",
       "kickoff_dublin": "2026-08-07T23:30:00+01:00",
-      "minutes_to_kickoff": 71.3,
+      "minutes_to_kickoff": 47.5,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -288,13 +289,13 @@
         "implied_probability": 0.4545,
         "edge": 0.0519
       },
-      "rank_score": 6.99,
+      "rank_score": 7.99,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1511640",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -364,13 +365,13 @@
         "implied_probability": 0.5128,
         "edge": 0.0177
       },
-      "rank_score": 4.67,
+      "rank_score": 6.67,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1499570",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -419,13 +420,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 2.5,
+      "rank_score": 4.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1493057",
       "kickoff_dublin": "2026-08-07T23:30:00+01:00",
-      "minutes_to_kickoff": 71.3,
+      "minutes_to_kickoff": 47.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -474,13 +475,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1612414",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -529,7 +530,7 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false
     }
   ],
@@ -537,7 +538,7 @@
     {
       "fixture_id": "1499564",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -614,13 +615,13 @@
         "implied_probability": 0.4444,
         "edge": 0.0582
       },
-      "rank_score": 8.42,
+      "rank_score": 10.42,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1499570",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -669,13 +670,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 2.5,
+      "rank_score": 4.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1511640",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -745,13 +746,13 @@
         "implied_probability": 0.5128,
         "edge": 0.0177
       },
-      "rank_score": 4.67,
+      "rank_score": 6.67,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1547411",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -774,7 +775,7 @@
     {
       "fixture_id": "1611271",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Uruguay",
@@ -851,13 +852,13 @@
         "implied_probability": 0.4167,
         "edge": 0.0522
       },
-      "rank_score": 7.87,
+      "rank_score": 9.87,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1612414",
       "kickoff_dublin": "2026-08-07T23:00:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -906,13 +907,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1493057",
       "kickoff_dublin": "2026-08-07T23:30:00+01:00",
-      "minutes_to_kickoff": 71.3,
+      "minutes_to_kickoff": 47.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -961,13 +962,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1520808",
       "kickoff_dublin": "2026-08-07T23:30:00+01:00",
-      "minutes_to_kickoff": 71.3,
+      "minutes_to_kickoff": 47.5,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -1044,19 +1045,13 @@
         "implied_probability": 0.4545,
         "edge": 0.0519
       },
-      "rank_score": 6.99,
+      "rank_score": 7.99,
       "actionable_candidate": true
     }
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-07T23:00:00+01:00",
-    "target_block_end_dublin": "2026-08-07T23:45:00+01:00",
-    "target_block_matches": 8,
-    "future_matches_in_snapshot": 8,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

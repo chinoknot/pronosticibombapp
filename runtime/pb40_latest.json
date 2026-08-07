@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-07T12:25:10.049560+01:00",
+  "generated_at_dublin": "2026-08-07T12:29:07.243017+01:00",
   "match_date": "2026-08-07",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-07T13:00:00+01:00",
@@ -25,27 +25,29 @@
   "matches_returned": 2,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 551,
+  "request_ms": 650,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 3,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/predictions": 1,
+      "/odds": 1
     },
-    "prediction_cache_hits": 1,
-    "odds_cache_hits": 1
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70816,
+    "daily_remaining": 70804,
     "minute_limit": 450,
-    "minute_remaining": 446
+    "minute_remaining": 447
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1534816",
       "kickoff_dublin": "2026-08-07T13:00:00+01:00",
-      "minutes_to_kickoff": 34.8,
+      "minutes_to_kickoff": 30.9,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Kazakhstan",
@@ -102,7 +104,7 @@
     {
       "fixture_id": "1534816",
       "kickoff_dublin": "2026-08-07T13:00:00+01:00",
-      "minutes_to_kickoff": 34.8,
+      "minutes_to_kickoff": 30.9,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Kazakhstan",
@@ -157,7 +159,7 @@
     {
       "fixture_id": "1542348",
       "kickoff_dublin": "2026-08-07T13:00:00+01:00",
-      "minutes_to_kickoff": 34.8,
+      "minutes_to_kickoff": 30.9,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -180,13 +182,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-07T13:00:00+01:00",
-    "target_block_end_dublin": "2026-08-07T13:45:00+01:00",
-    "target_block_matches": 2,
-    "future_matches_in_snapshot": 2,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

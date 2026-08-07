@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-07T09:35:53.119121+01:00",
+  "generated_at_dublin": "2026-08-07T09:41:49.033239+01:00",
   "match_date": "2026-08-07",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-07T10:00:00+01:00",
@@ -25,27 +25,29 @@
   "matches_returned": 6,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 388,
+  "request_ms": 4978,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 11,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/predictions": 5,
+      "/odds": 5
     },
-    "prediction_cache_hits": 5,
-    "odds_cache_hits": 5
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71150,
+    "daily_remaining": 71140,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 442
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1611918",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -100,7 +102,7 @@
     {
       "fixture_id": "1611920",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -110,18 +112,7 @@
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "United Kolkata",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : United Kolkata or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.1,
@@ -149,13 +140,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 2.9,
+      "rank_score": 2.4,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611328",
       "kickoff_dublin": "2026-08-07T10:00:00+01:00",
-      "minutes_to_kickoff": 24.1,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bhutan",
@@ -210,7 +201,7 @@
     {
       "fixture_id": "1611919",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -265,7 +256,7 @@
     {
       "fixture_id": "1541359",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -322,7 +313,7 @@
     {
       "fixture_id": "1611328",
       "kickoff_dublin": "2026-08-07T10:00:00+01:00",
-      "minutes_to_kickoff": 24.1,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bhutan",
@@ -377,7 +368,7 @@
     {
       "fixture_id": "1541359",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -432,7 +423,7 @@
     {
       "fixture_id": "1585039",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -455,7 +446,7 @@
     {
       "fixture_id": "1611918",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -510,7 +501,7 @@
     {
       "fixture_id": "1611919",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -565,7 +556,7 @@
     {
       "fixture_id": "1611920",
       "kickoff_dublin": "2026-08-07T10:30:00+01:00",
-      "minutes_to_kickoff": 54.1,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -575,18 +566,7 @@
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "United Kolkata",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : United Kolkata or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.1,
@@ -614,19 +594,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 2.9,
+      "rank_score": 2.4,
       "actionable_candidate": false
     }
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-07T10:00:00+01:00",
-    "target_block_end_dublin": "2026-08-07T10:45:00+01:00",
-    "target_block_matches": 6,
-    "future_matches_in_snapshot": 6,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

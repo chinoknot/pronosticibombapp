@@ -1,4 +1,4 @@
-name: PB40 max100 resilient refresh
+name: PB40 max1000 block-fresh refresh
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     paths:
       - '.github/workflows/pb40-public-feed-100.yml'
   schedule:
-    - cron: '25 * * * *'
+    - cron: '27 * * * *'
     - cron: '32 * * * *'
     - cron: '37 * * * *'
 
@@ -20,144 +20,172 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch freshest PB40 snapshot with block validation
+      - name: Fetch exactly one fresh fixed-block snapshot
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p runtime runtime/archive
-          cp -f runtime/pb40_latest.json runtime/pb40_previous.json 2>/dev/null || true
 
           python - <<'PY'
           from datetime import datetime, timedelta
           from zoneinfo import ZoneInfo
+
           now = datetime.now(ZoneInfo('Europe/Dublin'))
           start = now.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
           end = start + timedelta(minutes=45)
-          print(start.isoformat(), end.isoformat())
+          print(f'Expected PB40 block: {start.isoformat()} -> {end.isoformat()}')
           open('/tmp/pb40_target_start','w').write(start.isoformat())
           open('/tmp/pb40_target_end','w').write(end.isoformat())
           PY
 
-          fetch_candidate() {
-            local attempt="$1"
-            local variant="$2"
-            local cb="$(date +%s%N)-${attempt}-${variant}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-            local extra=''
-            case "$variant" in
-              1) extra='max=100&force=1' ;;
-              2) extra='max=100&force=1&window=120' ;;
-              3) extra='max=100&force=1&horizon=120' ;;
-            esac
-            curl -fsS --retry 2 --retry-all-errors --retry-delay 4 \
-              --connect-timeout 15 --max-time 150 \
+          BASE='https://pronosticibomba-pb40.onrender.com'
+          curl -fsS --retry 2 --retry-all-errors --retry-delay 3 \
+            --connect-timeout 10 --max-time 30 \
+            -H 'Cache-Control: no-cache, no-store, max-age=0' \
+            -H 'Pragma: no-cache' \
+            "$BASE/health?_=$(date +%s%N)" >/dev/null || true
+
+          rm -f runtime/pb40_candidate.json
+          VALID=0
+
+          for attempt in 1 2 3; do
+            cb="$(date +%s%N)-${attempt}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+            echo "PB40 fetch attempt ${attempt}/3"
+
+            if curl -fsS --retry 1 --retry-all-errors --retry-delay 4 \
+              --connect-timeout 15 --max-time 210 \
               -H 'Accept: application/json' \
               -H 'Cache-Control: no-cache, no-store, max-age=0' \
               -H 'Pragma: no-cache' \
-              "https://pronosticibomba-pb40.onrender.com/pb40?${extra}&_=${cb}" \
-              -o "runtime/candidate-${attempt}-${variant}.json"
-          }
+              "$BASE/pb40?max=1000&force=1&_=${cb}" \
+              -o runtime/pb40_candidate.json; then
 
-          curl -fsS --retry 2 --retry-all-errors --connect-timeout 10 --max-time 30 \
-            -H 'Cache-Control: no-cache, no-store, max-age=0' \
-            "https://pronosticibomba-pb40.onrender.com/health?_=$(date +%s%N)" >/dev/null || true
-
-          rm -f runtime/candidate-*.json
-          for attempt in 1 2 3 4; do
-            for variant in 1 2 3; do
-              fetch_candidate "$attempt" "$variant" || true
-            done
-            if python - <<'PY'
-          import glob, json, os
+              if python - <<'PY'
+          import json
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
           dublin = ZoneInfo('Europe/Dublin')
           start = datetime.fromisoformat(open('/tmp/pb40_target_start').read().strip())
           end = datetime.fromisoformat(open('/tmp/pb40_target_end').read().strip())
-          best = None
-          best_key = (-1, datetime.min.replace(tzinfo=dublin))
+          now = datetime.now(dublin)
 
-          paths = glob.glob('runtime/candidate-*.json')
-          if os.path.exists('runtime/pb40_previous.json'):
-              paths.append('runtime/pb40_previous.json')
+          with open('runtime/pb40_candidate.json', encoding='utf-8') as fh:
+              p = json.load(fh)
 
-          for path in paths:
-              try:
-                  payload = json.load(open(path, encoding='utf-8'))
-                  if payload.get('ok') is not True or not isinstance(payload.get('matches'), list):
-                      continue
-                  generated = datetime.fromisoformat(payload['generated_at_dublin'].replace('Z','+00:00')).astimezone(dublin)
-                  covered = 0
-                  future = 0
-                  for m in payload['matches']:
-                      raw = m.get('kickoff_dublin')
-                      if not raw:
-                          continue
-                      ko = datetime.fromisoformat(raw.replace('Z','+00:00')).astimezone(dublin)
-                      if ko > datetime.now(dublin):
-                          future += 1
-                      if start <= ko <= end:
-                          covered += 1
-                  key = (covered, generated)
-                  if key > best_key:
-                      best_key = key
-                      best = (path, payload, covered, future, generated)
-              except Exception:
-                  pass
+          if p.get('ok') is not True:
+              raise SystemExit('payload ok != true')
+          if not isinstance(p.get('matches'), list):
+              raise SystemExit('matches is not a list')
+          if p.get('block_verified') is not True:
+              raise SystemExit('block_verified != true')
+          if p.get('analysis_truncated') is True:
+              raise SystemExit('analysis_truncated == true')
 
-          if best:
-              path, payload, covered, future, generated = best
-              payload['public_feed'] = {
-                  'repository': 'chinoknot/pronosticibombapp',
-                  'refreshed_by': 'pb40-public-feed-100-resilient',
-                  'source_url': path,
-                  'target_block_start_dublin': start.isoformat(),
-                  'target_block_end_dublin': end.isoformat(),
-                  'target_block_matches': covered,
-                  'future_matches_in_snapshot': future,
-                  'block_verified': covered > 0,
-                  'fallback_used': path.endswith('pb40_previous.json'),
-              }
-              for m in payload.get('matches', []):
-                  positive = [x for x in (m.get('value_markets') or []) if (x.get('edge') or 0) > 0]
-                  m['value_markets'] = positive
-                  m['best_value_market'] = positive[0] if positive else None
-              json.dump(payload, open('runtime/pb40_latest.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
-              open('runtime/pb40_latest.json','a',encoding='utf-8').write('\n')
-              print(f'Chosen {path}: covered={covered}, future={future}, generated={generated.isoformat()}')
-              raise SystemExit(0 if covered > 0 else 2)
-          raise SystemExit(3)
+          generated_raw = p.get('generated_at_dublin')
+          if not generated_raw:
+              raise SystemExit('missing generated_at_dublin')
+          generated = datetime.fromisoformat(generated_raw.replace('Z', '+00:00')).astimezone(dublin)
+          age = (now - generated).total_seconds()
+          if age < -120 or age > 8 * 60:
+              raise SystemExit(f'stale/future payload age_seconds={age:.1f}')
+
+          payload_start = datetime.fromisoformat(str(p.get('target_block_start_dublin')).replace('Z', '+00:00')).astimezone(dublin)
+          payload_end = datetime.fromisoformat(str(p.get('target_block_end_dublin')).replace('Z', '+00:00')).astimezone(dublin)
+          if payload_start != start or payload_end != end:
+              raise SystemExit(
+                  f'wrong block payload={payload_start.isoformat()}->{payload_end.isoformat()} '
+                  f'expected={start.isoformat()}->{end.isoformat()}'
+              )
+
+          target_count = int(p.get('target_block_matches') or 0)
+          relevant_count = int(p.get('relevant_fixtures_in_target_block') or 0)
+          analysed_count = int(p.get('fixtures_analyzed_before_ranking') or 0)
+          returned_count = len(p['matches'])
+
+          if target_count <= 1000 and returned_count != target_count:
+              raise SystemExit(f'incomplete returned block matches={returned_count}/{target_count}')
+          if relevant_count <= 1000 and analysed_count != relevant_count:
+              raise SystemExit(f'incomplete relevant analysis={analysed_count}/{relevant_count}')
+
+          seen = set()
+          for m in p['matches']:
+              fid = str(m.get('fixture_id') or '').strip()
+              if not fid:
+                  raise SystemExit('match without fixture_id')
+              if fid in seen:
+                  raise SystemExit(f'duplicate fixture_id={fid}')
+              seen.add(fid)
+              raw = m.get('kickoff_dublin')
+              if not raw:
+                  raise SystemExit(f'missing kickoff fixture_id={fid}')
+              ko = datetime.fromisoformat(raw.replace('Z', '+00:00')).astimezone(dublin)
+              if not (start <= ko <= end):
+                  raise SystemExit(f'fixture outside block fixture_id={fid} ko={ko.isoformat()}')
+
+          print(
+              f'VALID fresh block: target={target_count}, relevant={relevant_count}, '
+              f'analysed={analysed_count}, returned={returned_count}, age={age:.1f}s'
+          )
           PY
-            then
-              rc=0
-            else
-              rc=$?
+              then
+                VALID=1
+                break
+              fi
             fi
 
-            if [ "$rc" -eq 0 ]; then
-              break
-            fi
-            if [ "$rc" -ne 2 ]; then
-              echo "PB40 candidate validation returned rc=$rc; retrying if attempts remain." >&2
-            fi
-            if [ "$attempt" -lt 4 ]; then sleep 20; fi
+            rm -f runtime/pb40_candidate.json
+            if [ "$attempt" -lt 3 ]; then sleep 12; fi
           done
 
-          if [ ! -f runtime/pb40_latest.json ]; then
-            echo 'No valid PB40 payload obtained.' >&2
+          if [ "$VALID" -ne 1 ] || [ ! -f runtime/pb40_candidate.json ]; then
+            echo 'Could not obtain a fresh, exact PB40 block snapshot.' >&2
             exit 1
           fi
 
-          BLOCK_MATCHES="$(jq -r '.public_feed.target_block_matches // 0' runtime/pb40_latest.json)"
-          if [ "$BLOCK_MATCHES" -eq 0 ]; then
-            BLOCK_START="$(jq -r '.public_feed.target_block_start_dublin' runtime/pb40_latest.json)"
-            BLOCK_END="$(jq -r '.public_feed.target_block_end_dublin' runtime/pb40_latest.json)"
-            echo "No matches found in target block ${BLOCK_START} -> ${BLOCK_END}; publishing the empty block successfully."
-          fi
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          path = 'runtime/pb40_candidate.json'
+          with open(path, encoding='utf-8') as fh:
+              p = json.load(fh)
+
+          dublin = ZoneInfo('Europe/Dublin')
+          start = datetime.fromisoformat(open('/tmp/pb40_target_start').read().strip())
+          end = datetime.fromisoformat(open('/tmp/pb40_target_end').read().strip())
+
+          p['public_feed'] = {
+              'repository': 'chinoknot/pronosticibombapp',
+              'refreshed_by': 'pb40-public-feed-1000-block-fresh',
+              'source_url': 'Render /pb40?max=1000&force=1',
+              'target_block_start_dublin': start.isoformat(),
+              'target_block_end_dublin': end.isoformat(),
+              'target_block_matches': int(p.get('target_block_matches') or 0),
+              'relevant_fixtures_in_target_block': int(p.get('relevant_fixtures_in_target_block') or 0),
+              'block_verified': True,
+              'fallback_used': False,
+              'freshness_limit_seconds': 480,
+              'complete_block_required': True,
+          }
+
+          for m in p.get('matches', []):
+              positive = [x for x in (m.get('value_markets') or []) if float(x.get('edge') or 0) > 0]
+              positive.sort(key=lambda x: float(x.get('edge') or 0), reverse=True)
+              m['value_markets'] = positive
+              m['best_value_market'] = positive[0] if positive else None
+
+          with open('runtime/pb40_latest.json', 'w', encoding='utf-8') as fh:
+              json.dump(p, fh, ensure_ascii=False, indent=2)
+              fh.write('\n')
+          PY
+
+          rm -f runtime/pb40_candidate.json
 
           jq '
             def reason:
@@ -172,40 +200,57 @@ jobs:
             def compact_match:
               {fixture_id,kickoff_dublin,minutes_to_kickoff,timing_priority,league,country,home,away,
                bookmaker:(.live_odds.bookmaker // ""),live_odds,best_value_market,value_markets,pb_metrics,
-               pb_raw_available,pb_picks,rank_score,actionable_candidate,selection_reason:reason};
-            {ok,source,generated_at_dublin,match_date,selection_window,fixtures_today_total,
-             fixtures_in_next_75m,relevant_fixtures_in_next_75m,fixtures_analyzed_before_ranking,
-             analysis_truncated,actionable_candidates_found,matches_returned,max_is_return_limit_only,
-             partial_api_errors,public_feed,
+               api_prediction,pb_raw_available,pb_picks,rank_score,actionable_candidate,selection_reason:reason,
+               exclusion_reason,live_enrichment};
+            {ok,source,generated_at_dublin,match_date,selection_window,
+             target_block_start_dublin,target_block_end_dublin,target_block_matches,block_verified,
+             fixtures_today_total,fixtures_target_date_total,fixtures_in_next_75m,relevant_fixtures_in_next_75m,
+             fixtures_in_target_block,relevant_fixtures_in_target_block,excluded_in_target_block,excluded_breakdown,
+             fixtures_analyzed_before_ranking,analysis_truncated,analysis_hard_cap,technical_coverage_count,
+             odds_coverage_count,actionable_candidates_found,matches_returned,max_is_return_limit_only,
+             max_return_limit,partial_api_errors,api_rate_limit,public_feed,
              top_actionable:[.matches[]|select(.actionable_candidate==true)|compact_match],
-             technical_fallbacks:[.matches[]|select(.actionable_candidate!=true)|compact_match],
+             technical_fallbacks:[.matches[]|select(.actionable_candidate!=true and ((.exclusion_reason // "") == ""))|compact_match],
+             excluded_matches:[.matches[]|select((.exclusion_reason // "") != "")|compact_match],
              all_ranked:[.matches[]|compact_match]}
           ' runtime/pb40_latest.json > runtime/pb40_compact.json
 
-          cp runtime/pb40_latest.json "runtime/archive/pb40-$(date -u +%Y%m%d-%H%M%S).json" || true
+          cp runtime/pb40_latest.json "runtime/archive/pb40-$(date -u +%Y%m%d-%H%M%S).json"
           find runtime/archive -type f -name 'pb40-*.json' -printf '%T@ %p\n' | sort -nr | tail -n +49 | cut -d' ' -f2- | xargs -r rm -f
 
           jq -n \
             --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
-            --arg block_start "$(jq -r '.public_feed.target_block_start_dublin' runtime/pb40_latest.json)" \
-            --arg block_end "$(jq -r '.public_feed.target_block_end_dublin' runtime/pb40_latest.json)" \
-            --argjson block_matches "$(jq '.public_feed.target_block_matches' runtime/pb40_latest.json)" \
-            --argjson block_verified "$(jq '.public_feed.block_verified' runtime/pb40_latest.json)" \
-            --argjson fallback_used "$(jq '.public_feed.fallback_used' runtime/pb40_latest.json)" \
-            '{ok:true,refreshed_at_utc:$refreshed_at,source_generated_at_dublin:$generated_at,max:100,
+            --arg block_start "$(jq -r '.target_block_start_dublin' runtime/pb40_latest.json)" \
+            --arg block_end "$(jq -r '.target_block_end_dublin' runtime/pb40_latest.json)" \
+            --argjson block_matches "$(jq '.target_block_matches' runtime/pb40_latest.json)" \
+            --argjson relevant_matches "$(jq '.relevant_fixtures_in_target_block' runtime/pb40_latest.json)" \
+            --argjson analysed_matches "$(jq '.fixtures_analyzed_before_ranking' runtime/pb40_latest.json)" \
+            --argjson block_verified "$(jq '.block_verified' runtime/pb40_latest.json)" \
+            --argjson analysis_truncated "$(jq '.analysis_truncated' runtime/pb40_latest.json)" \
+            '{ok:true,refreshed_at_utc:$refreshed_at,source_generated_at_dublin:$generated_at,max:1000,
               target_block_start_dublin:$block_start,target_block_end_dublin:$block_end,
-              target_block_matches:$block_matches,block_verified:$block_verified,fallback_used:$fallback_used}' \
+              target_block_matches:$block_matches,relevant_fixtures_in_target_block:$relevant_matches,
+              fixtures_analyzed_before_ranking:$analysed_matches,block_verified:$block_verified,
+              analysis_truncated:$analysis_truncated,fallback_used:false,
+              freshness_limit_seconds:480,complete_block_required:true}' \
             > runtime/pb40_status.json
 
-      - name: Commit resilient feed
+      - name: Commit canonical block-fresh feed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'pb40-public-feed-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json runtime/archive
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh PB40 resilient feed'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo 'No canonical PB40 feed changes.'
+            exit 0
+          fi
+          git commit -m 'Refresh PB40 block-fresh feed'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            if [ "$attempt" -lt 3 ]; then sleep 5; fi
+          done
+          exit 1

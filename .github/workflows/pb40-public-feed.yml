@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch fresh PB40 snapshot
+      - name: Fetch legacy PB40 max30 snapshot
         shell: bash
         run: |
           set -euo pipefail
@@ -37,7 +37,7 @@ jobs:
 
           curl -fsS --retry 3 --retry-all-errors --retry-delay 3 \
             --connect-timeout 15 --max-time 90 "$PB40_URL" \
-            -o runtime/pb40_latest.json.tmp
+            -o runtime/pb40_public30_latest.json.tmp
 
           jq -e '
             .ok == true
@@ -45,13 +45,13 @@ jobs:
             and (.generated_at_dublin | type == "string")
             and (.matches | type == "array")
             and (.fixtures_analyzed_before_ranking | type == "number")
-          ' runtime/pb40_latest.json.tmp >/dev/null
+          ' runtime/pb40_public30_latest.json.tmp >/dev/null
 
           python - <<'PY'
           import json
           from datetime import datetime, timezone
 
-          path = 'runtime/pb40_latest.json.tmp'
+          path = 'runtime/pb40_public30_latest.json.tmp'
           with open(path, encoding='utf-8') as fh:
               payload = json.load(fh)
           generated = datetime.fromisoformat(payload['generated_at_dublin'].replace('Z', '+00:00'))
@@ -64,15 +64,16 @@ jobs:
           jq '
             .public_feed = {
               "repository": "chinoknot/pronosticibombapp",
-              "refreshed_by": "pb40-public-feed",
-              "source_url": "Render /pb40?max=30"
+              "refreshed_by": "pb40-public-feed-legacy30",
+              "source_url": "Render /pb40?max=30",
+              "canonical": false
             }
             | .matches |= map(
                 .value_markets = [(.value_markets // [])[] | select((.edge // 0) > 0)]
                 | .best_value_market = ((.value_markets // [])[0] // null)
               )
-          ' runtime/pb40_latest.json.tmp > runtime/pb40_latest.json
-          rm -f runtime/pb40_latest.json.tmp
+          ' runtime/pb40_public30_latest.json.tmp > runtime/pb40_public30_latest.json
+          rm -f runtime/pb40_public30_latest.json.tmp
 
           jq '
             def reason:
@@ -124,17 +125,18 @@ jobs:
               matches_returned,
               max_is_return_limit_only,
               partial_api_errors,
+              public_feed,
               top_actionable: [.matches[] | select(.actionable_candidate == true) | compact_match],
               technical_fallbacks: [.matches[] | select(.actionable_candidate != true) | compact_match],
               all_ranked: [.matches[] | compact_match]
             }
-          ' runtime/pb40_latest.json > runtime/pb40_compact.json
+          ' runtime/pb40_public30_latest.json > runtime/pb40_public30_compact.json
 
           jq -n \
             --arg refreshed_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
-            --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_latest.json)" \
-            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at}' \
-            > runtime/pb40_status.json
+            --arg generated_at "$(jq -r '.generated_at_dublin' runtime/pb40_public30_latest.json)" \
+            '{ok:true, refreshed_at_utc:$refreshed_at, source_generated_at_dublin:$generated_at, max:30, canonical:false}' \
+            > runtime/pb40_public30_status.json
 
       - name: Fetch watched X posts
         continue-on-error: true
@@ -182,17 +184,17 @@ jobs:
           )
           PY
 
-      - name: Commit public feed
+      - name: Commit legacy public feed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'pb40-public-feed-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json runtime/x_watch_latest.json runtime/x_watch_urls.txt
+          git add runtime/pb40_public30_latest.json runtime/pb40_public30_compact.json runtime/pb40_public30_status.json runtime/x_watch_latest.json
           if git diff --cached --quiet; then
-            echo 'No public feed changes.'
+            echo 'No legacy public feed changes.'
             exit 0
           fi
-          git commit -m 'Refresh PB40 public feed'
+          git commit -m 'Refresh PB40 legacy public feed'
           git pull --rebase origin main
           git push origin HEAD:main

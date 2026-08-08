@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-08T22:01:14.741494+01:00",
+  "generated_at_dublin": "2026-08-08T22:54:14.475266+01:00",
   "match_date": "2026-08-08",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-08T23:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1199,
   "fixtures_target_date_total": 1199,
-  "fixtures_in_next_75m": 15,
-  "relevant_fixtures_in_next_75m": 15,
+  "fixtures_in_next_75m": 11,
+  "relevant_fixtures_in_next_75m": 9,
   "fixtures_in_target_block": 11,
   "relevant_fixtures_in_target_block": 9,
   "excluded_in_target_block": 2,
@@ -24,14 +24,14 @@
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 9,
   "odds_coverage_count": 8,
-  "actionable_candidates_found": 0,
+  "actionable_candidates_found": 1,
   "matches_returned": 11,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 48562,
+    "daily_remaining": 47367,
     "minute_limit": 450,
     "minute_remaining": 449
   },
@@ -48,59 +48,11 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [],
-  "technical_fallbacks": [
-    {
-      "fixture_id": "1513269",
-      "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
-      "timing_priority": "fixed_target_block",
-      "league": "MLS Next Pro",
-      "country": "USA",
-      "home": "Columbus Crew II",
-      "away": "New York RB II",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.35,
-        "odd_draw": 3.75,
-        "odd_away": 2.35,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.88,
-        "odd_btts_yes": 1.3,
-        "odd_btts_no": 3.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {
-        "pred_winner_name": "Columbus Crew II",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Columbus Crew II",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
+  "top_actionable": [
     {
       "fixture_id": "1546099",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paulista",
       "country": "Brazil",
@@ -121,9 +73,45 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4634,
+        "odd": 4.2,
+        "implied_probability": 0.2381,
+        "edge": 0.2253
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4634,
+          "odd": 4.2,
+          "implied_probability": 0.2381,
+          "edge": 0.2253
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6792,
+          "odd": 2.15,
+          "implied_probability": 0.4651,
+          "edge": 0.2141
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.5802,
+          "odd": 2.15,
+          "implied_probability": 0.4651,
+          "edge": 0.1151
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 2.5,
+        "lambda_away": 1.0,
+        "lambda_total": 3.5,
+        "p_over_1_5": 0.8641,
+        "p_over_2_5": 0.6792,
+        "p_over_3_5": 0.4634,
+        "p_btts_yes": 0.5802
+      },
       "api_prediction": {
         "pred_winner_name": "São José EC",
         "pred_winner_comment": null,
@@ -136,9 +124,66 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 28.13,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "technical_fallbacks": [
+    {
+      "fixture_id": "1513269",
+      "kickoff_dublin": "2026-08-08T23:00:00+01:00",
+      "minutes_to_kickoff": 5.8,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Columbus Crew II",
+      "away": "New York RB II",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.35,
+        "odd_draw": 3.75,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.07,
+        "odd_ou_2_5_over": 1.36,
+        "odd_ou_2_5_under": 3.0,
+        "odd_ou_3_5_over": 1.93,
+        "odd_btts_yes": 1.3,
+        "odd_btts_no": 3.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.1,
+        "lambda_away": 1.2,
+        "lambda_total": 3.3,
+        "p_over_1_5": 0.8414,
+        "p_over_2_5": 0.6406,
+        "p_over_3_5": 0.4197,
+        "p_btts_yes": 0.6132
+      },
+      "api_prediction": {
+        "pred_winner_name": "Columbus Crew II",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Columbus Crew II",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 5.4,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -147,7 +192,7 @@
     {
       "fixture_id": "1586096",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -170,7 +215,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.5,
+        "lambda_away": 1.25,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.2807
+      },
       "api_prediction": {
         "pred_winner_name": "H&H Export",
         "pred_winner_comment": "Win or draw",
@@ -183,9 +236,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -194,7 +247,7 @@
     {
       "fixture_id": "1603310",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -217,7 +270,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "América W",
         "pred_winner_comment": "Win or draw",
@@ -230,9 +291,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -241,7 +302,7 @@
     {
       "fixture_id": "1493050",
       "kickoff_dublin": "2026-08-08T23:15:00+01:00",
-      "minutes_to_kickoff": 73.8,
+      "minutes_to_kickoff": 20.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -264,7 +325,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.95,
+        "lambda_away": 0.95,
+        "lambda_total": 1.9,
+        "p_over_1_5": 0.5663,
+        "p_over_2_5": 0.2963,
+        "p_over_3_5": 0.1253,
+        "p_btts_yes": 0.3761
+      },
       "api_prediction": {
         "pred_winner_name": "Velez Sarsfield",
         "pred_winner_comment": "Win or draw",
@@ -277,9 +346,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -288,7 +357,7 @@
     {
       "fixture_id": "1526908",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie C",
       "country": "Brazil",
@@ -311,7 +380,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.4,
+        "lambda_away": 0.7,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.3793
+      },
       "api_prediction": {
         "pred_winner_name": "Inter De Limeira",
         "pred_winner_comment": "Win or draw",
@@ -324,9 +401,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -335,7 +412,7 @@
     {
       "fixture_id": "1526910",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie C",
       "country": "Brazil",
@@ -358,7 +435,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.15,
+        "lambda_away": 0.8,
+        "lambda_total": 1.95,
+        "p_over_1_5": 0.5803,
+        "p_over_2_5": 0.3098,
+        "p_over_3_5": 0.134,
+        "p_btts_yes": 0.3763
+      },
       "api_prediction": {
         "pred_winner_name": "Barra",
         "pred_winner_comment": "Win or draw",
@@ -371,9 +456,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -382,7 +467,7 @@
     {
       "fixture_id": "1530131",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Leagues Cup",
       "country": "World",
@@ -405,7 +490,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Orlando City SC",
         "pred_winner_comment": "Win or draw",
@@ -418,9 +511,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -429,7 +522,7 @@
     {
       "fixture_id": "1606368",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -475,7 +568,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.35,
+      "rank_score": -2.35,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -486,7 +579,7 @@
     {
       "fixture_id": "1508497",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -509,7 +602,7 @@
     {
       "fixture_id": "1592792",
       "kickoff_dublin": "2026-08-08T23:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 50.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX U21",
       "country": "Mexico",
@@ -534,7 +627,7 @@
     {
       "fixture_id": "1513269",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -549,7 +642,7 @@
         "odd_ou_1_5_over": 1.07,
         "odd_ou_2_5_over": 1.36,
         "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.88,
+        "odd_ou_3_5_over": 1.93,
         "odd_btts_yes": 1.3,
         "odd_btts_no": 3.0,
         "odd_ht_home_team_o05": null,
@@ -557,7 +650,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 2.1,
+        "lambda_away": 1.2,
+        "lambda_total": 3.3,
+        "p_over_1_5": 0.8414,
+        "p_over_2_5": 0.6406,
+        "p_over_3_5": 0.4197,
+        "p_btts_yes": 0.6132
+      },
       "api_prediction": {
         "pred_winner_name": "Columbus Crew II",
         "pred_winner_comment": null,
@@ -570,9 +671,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 5.4,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -581,7 +682,7 @@
     {
       "fixture_id": "1546099",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paulista",
       "country": "Brazil",
@@ -602,9 +703,45 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4634,
+        "odd": 4.2,
+        "implied_probability": 0.2381,
+        "edge": 0.2253
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4634,
+          "odd": 4.2,
+          "implied_probability": 0.2381,
+          "edge": 0.2253
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6792,
+          "odd": 2.15,
+          "implied_probability": 0.4651,
+          "edge": 0.2141
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.5802,
+          "odd": 2.15,
+          "implied_probability": 0.4651,
+          "edge": 0.1151
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 2.5,
+        "lambda_away": 1.0,
+        "lambda_total": 3.5,
+        "p_over_1_5": 0.8641,
+        "p_over_2_5": 0.6792,
+        "p_over_3_5": 0.4634,
+        "p_btts_yes": 0.5802
+      },
       "api_prediction": {
         "pred_winner_name": "São José EC",
         "pred_winner_comment": null,
@@ -617,18 +754,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 28.13,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1586096",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -651,7 +788,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.5,
+        "lambda_away": 1.25,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.2807
+      },
       "api_prediction": {
         "pred_winner_name": "H&H Export",
         "pred_winner_comment": "Win or draw",
@@ -664,9 +809,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -675,7 +820,7 @@
     {
       "fixture_id": "1603310",
       "kickoff_dublin": "2026-08-08T23:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 5.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -698,7 +843,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "América W",
         "pred_winner_comment": "Win or draw",
@@ -711,9 +864,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -722,7 +875,7 @@
     {
       "fixture_id": "1493050",
       "kickoff_dublin": "2026-08-08T23:15:00+01:00",
-      "minutes_to_kickoff": 73.8,
+      "minutes_to_kickoff": 20.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -745,7 +898,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.95,
+        "lambda_away": 0.95,
+        "lambda_total": 1.9,
+        "p_over_1_5": 0.5663,
+        "p_over_2_5": 0.2963,
+        "p_over_3_5": 0.1253,
+        "p_btts_yes": 0.3761
+      },
       "api_prediction": {
         "pred_winner_name": "Velez Sarsfield",
         "pred_winner_comment": "Win or draw",
@@ -758,9 +919,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 4.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -769,7 +930,7 @@
     {
       "fixture_id": "1508497",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -792,7 +953,7 @@
     {
       "fixture_id": "1526908",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie C",
       "country": "Brazil",
@@ -815,7 +976,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.4,
+        "lambda_away": 0.7,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.3793
+      },
       "api_prediction": {
         "pred_winner_name": "Inter De Limeira",
         "pred_winner_comment": "Win or draw",
@@ -828,9 +997,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -839,7 +1008,7 @@
     {
       "fixture_id": "1526910",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie C",
       "country": "Brazil",
@@ -862,7 +1031,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.15,
+        "lambda_away": 0.8,
+        "lambda_total": 1.95,
+        "p_over_1_5": 0.5803,
+        "p_over_2_5": 0.3098,
+        "p_over_3_5": 0.134,
+        "p_btts_yes": 0.3763
+      },
       "api_prediction": {
         "pred_winner_name": "Barra",
         "pred_winner_comment": "Win or draw",
@@ -875,9 +1052,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -886,7 +1063,7 @@
     {
       "fixture_id": "1530131",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Leagues Cup",
       "country": "World",
@@ -909,7 +1086,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Orlando City SC",
         "pred_winner_comment": "Win or draw",
@@ -922,9 +1107,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -933,7 +1118,7 @@
     {
       "fixture_id": "1606368",
       "kickoff_dublin": "2026-08-08T23:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 35.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -979,7 +1164,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.35,
+      "rank_score": -2.35,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -988,7 +1173,7 @@
     {
       "fixture_id": "1592792",
       "kickoff_dublin": "2026-08-08T23:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 50.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX U21",
       "country": "Mexico",

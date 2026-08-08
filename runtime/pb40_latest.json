@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-08T07:09:56.739346+01:00",
+  "generated_at_dublin": "2026-08-08T07:22:39.767775+01:00",
   "match_date": "2026-08-08",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-08T08:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1140,
   "fixtures_target_date_total": 1140,
-  "fixtures_in_next_75m": 17,
-  "relevant_fixtures_in_next_75m": 11,
+  "fixtures_in_next_75m": 20,
+  "relevant_fixtures_in_next_75m": 13,
   "fixtures_in_target_block": 11,
   "relevant_fixtures_in_target_block": 8,
   "excluded_in_target_block": 3,
@@ -21,31 +21,33 @@
   "fixtures_analyzed_before_ranking": 8,
   "analysis_truncated": false,
   "analysis_hard_cap": 150,
-  "actionable_candidates_found": 4,
+  "actionable_candidates_found": 3,
   "matches_returned": 11,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 725,
+  "request_ms": 6794,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 17,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/predictions": 8,
+      "/odds": 8
     },
-    "prediction_cache_hits": 8,
-    "odds_cache_hits": 8
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 64155,
+    "daily_remaining": 64125,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 434
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1537511",
       "kickoff_dublin": "2026-08-08T08:45:00+01:00",
-      "minutes_to_kickoff": 95.1,
+      "minutes_to_kickoff": 82.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -121,7 +123,7 @@
     {
       "fixture_id": "1537510",
       "kickoff_dublin": "2026-08-08T08:30:00+01:00",
-      "minutes_to_kickoff": 80.1,
+      "minutes_to_kickoff": 67.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -190,7 +192,7 @@
     {
       "fixture_id": "1517621",
       "kickoff_dublin": "2026-08-08T08:30:00+01:00",
-      "minutes_to_kickoff": 80.1,
+      "minutes_to_kickoff": 67.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -271,92 +273,9 @@
       "actionable_candidate": true
     },
     {
-      "fixture_id": "1517910",
-      "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
-      "timing_priority": "fixed_target_block",
-      "league": "New South Wales NPL 2",
-      "country": "Australia",
-      "round": "Regular Season - 27",
-      "home": "Bankstown City Lions",
-      "away": "Hurstville FC",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Bankstown City Lions",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Bankstown City Lions or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.55,
-        "odd_draw": 4.2,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.53,
-        "odd_ou_2_5_under": 2.38,
-        "odd_ou_3_5_over": 2.11,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.9,
-        "lambda_away": 1.65,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6871
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6883,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0347
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6871,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0335
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4741,
-          "odd": 2.11,
-          "implied_probability": 0.4739,
-          "edge": 0.0002
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6883,
-        "odd": 1.53,
-        "implied_probability": 0.6536,
-        "edge": 0.0347
-      },
-      "rank_score": 7.12,
-      "actionable_candidate": true
-    },
-    {
       "fixture_id": "1517837",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -411,7 +330,7 @@
     {
       "fixture_id": "1517838",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -466,7 +385,7 @@
     {
       "fixture_id": "1517618",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -521,7 +440,7 @@
     {
       "fixture_id": "1517836",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -572,13 +491,68 @@
       "best_value_market": null,
       "rank_score": -1.05,
       "actionable_candidate": false
+    },
+    {
+      "fixture_id": "1517910",
+      "kickoff_dublin": "2026-08-08T08:00:00+01:00",
+      "minutes_to_kickoff": 37.3,
+      "timing_priority": "fixed_target_block",
+      "league": "New South Wales NPL 2",
+      "country": "Australia",
+      "round": "Regular Season - 27",
+      "home": "Bankstown City Lions",
+      "away": "Hurstville FC",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Bankstown City Lions",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Bankstown City Lions or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.9,
+        "lambda_away": 1.65,
+        "lambda_total": 3.55,
+        "p_over_1_5": 0.8693,
+        "p_over_2_5": 0.6883,
+        "p_over_3_5": 0.4741,
+        "p_btts_yes": 0.6871
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": -1.35,
+      "actionable_candidate": false
     }
   ],
   "matches": [
     {
       "fixture_id": "1517618",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -633,7 +607,7 @@
     {
       "fixture_id": "1517619",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -656,7 +630,7 @@
     {
       "fixture_id": "1517836",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -711,7 +685,7 @@
     {
       "fixture_id": "1517837",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -766,7 +740,7 @@
     {
       "fixture_id": "1517838",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -821,7 +795,7 @@
     {
       "fixture_id": "1517910",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -844,16 +818,16 @@
         "prob_away": "10%"
       },
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.55,
-        "odd_draw": 4.2,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.53,
-        "odd_ou_2_5_under": 2.38,
-        "odd_ou_3_5_over": 2.11,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.3,
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -868,43 +842,15 @@
       },
       "pb_picks": [],
       "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6883,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0347
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6871,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0335
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4741,
-          "odd": 2.11,
-          "implied_probability": 0.4739,
-          "edge": 0.0002
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6883,
-        "odd": 1.53,
-        "implied_probability": 0.6536,
-        "edge": 0.0347
-      },
-      "rank_score": 7.12,
-      "actionable_candidate": true
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": -1.35,
+      "actionable_candidate": false
     },
     {
       "fixture_id": "1549357",
       "kickoff_dublin": "2026-08-08T08:00:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 37.3,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -927,7 +873,7 @@
     {
       "fixture_id": "1517620",
       "kickoff_dublin": "2026-08-08T08:30:00+01:00",
-      "minutes_to_kickoff": 80.1,
+      "minutes_to_kickoff": 67.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -950,7 +896,7 @@
     {
       "fixture_id": "1517621",
       "kickoff_dublin": "2026-08-08T08:30:00+01:00",
-      "minutes_to_kickoff": 80.1,
+      "minutes_to_kickoff": 67.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -1033,7 +979,7 @@
     {
       "fixture_id": "1537510",
       "kickoff_dublin": "2026-08-08T08:30:00+01:00",
-      "minutes_to_kickoff": 80.1,
+      "minutes_to_kickoff": 67.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -1102,7 +1048,7 @@
     {
       "fixture_id": "1537511",
       "kickoff_dublin": "2026-08-08T08:45:00+01:00",
-      "minutes_to_kickoff": 95.1,
+      "minutes_to_kickoff": 82.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -1178,13 +1124,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-08T08:00:00+01:00",
-    "target_block_end_dublin": "2026-08-08T08:45:00+01:00",
-    "target_block_matches": 11,
-    "future_matches_in_snapshot": 11,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

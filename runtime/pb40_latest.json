@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-08T09:08:35.310297+01:00",
+  "generated_at_dublin": "2026-08-08T09:57:55.559446+01:00",
   "match_date": "2026-08-08",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-08T10:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1139,
   "fixtures_target_date_total": 1139,
-  "fixtures_in_next_75m": 41,
-  "relevant_fixtures_in_next_75m": 25,
+  "fixtures_in_next_75m": 62,
+  "relevant_fixtures_in_next_75m": 35,
   "fixtures_in_target_block": 30,
   "relevant_fixtures_in_target_block": 14,
   "excluded_in_target_block": 16,
@@ -28,27 +28,29 @@
   "matches_returned": 30,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 637,
+  "request_ms": 6554,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 29,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/predictions": 14,
+      "/odds": 14
     },
-    "prediction_cache_hits": 14,
-    "odds_cache_hits": 14
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 63331,
+    "daily_remaining": 63008,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 424
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1607637",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Australia Cup",
       "country": "Australia",
@@ -125,13 +127,13 @@
         "implied_probability": 0.4,
         "edge": 0.3619
       },
-      "rank_score": 40.49,
+      "rank_score": 41.49,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1527349",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "South Australia State League 1",
       "country": "Australia",
@@ -208,13 +210,13 @@
         "implied_probability": 0.4149,
         "edge": 0.0909
       },
-      "rank_score": 11.89,
+      "rank_score": 12.89,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1497209",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 5",
       "country": "Norway",
@@ -277,123 +279,13 @@
         "implied_probability": 0.7042,
         "edge": 0.0521
       },
-      "rank_score": 8.86,
+      "rank_score": 9.86,
       "actionable_candidate": true
-    },
-    {
-      "fixture_id": "1554344",
-      "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Parceiro Nagano",
-      "away": "Renofa Yamaguchi",
-      "venue": "Nagano U Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Parceiro Nagano",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Parceiro Nagano or draw",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "1xBet",
-        "odd_home": 3.41,
-        "odd_draw": 3.4,
-        "odd_away": 2.05,
-        "odd_ou_1_5_over": 1.38,
-        "odd_ou_2_5_over": 2.16,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.96,
-        "odd_btts_no": 1.77,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 2.5,
-      "actionable_candidate": false
-    },
-    {
-      "fixture_id": "1554347",
-      "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Sagamihara",
-      "away": "Roasso Kumamoto",
-      "venue": "Sagamihara Gion Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Sagamihara",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Sagamihara or draw",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Marathonbet",
-        "odd_home": 2.25,
-        "odd_draw": 3.32,
-        "odd_away": 2.73,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.01,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.56,
-        "odd_btts_no": 2.18,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "rank_score": 2.5,
-      "actionable_candidate": false
     },
     {
       "fixture_id": "1517623",
       "kickoff_dublin": "2026-08-08T10:15:00+01:00",
-      "minutes_to_kickoff": 66.4,
+      "minutes_to_kickoff": 17.1,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -403,18 +295,7 @@
       "venue": "Penshurst Park",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Rockdale City Suns",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Rockdale City Suns",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 3.4,
@@ -456,13 +337,123 @@
         "implied_probability": 0.3077,
         "edge": 0.0004
       },
-      "rank_score": 1.94,
+      "rank_score": 4.44,
+      "actionable_candidate": false
+    },
+    {
+      "fixture_id": "1554344",
+      "kickoff_dublin": "2026-08-08T10:00:00+01:00",
+      "minutes_to_kickoff": 2.1,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Parceiro Nagano",
+      "away": "Renofa Yamaguchi",
+      "venue": "Nagano U Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Parceiro Nagano",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Parceiro Nagano or draw",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.25,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 3.95,
+        "odd_btts_yes": 1.9,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": 2.5,
+      "actionable_candidate": false
+    },
+    {
+      "fixture_id": "1554347",
+      "kickoff_dublin": "2026-08-08T10:00:00+01:00",
+      "minutes_to_kickoff": 2.1,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Sagamihara",
+      "away": "Roasso Kumamoto",
+      "venue": "Sagamihara Gion Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Sagamihara",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Sagamihara or draw",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.2,
+        "odd_draw": 3.2,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.55,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611921",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -511,13 +502,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1554346",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -572,7 +563,7 @@
     {
       "fixture_id": "1581868",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -627,7 +618,7 @@
     {
       "fixture_id": "1592973",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -676,13 +667,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1606598",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -731,13 +722,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611922",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -786,13 +777,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611923",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -841,13 +832,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1606597",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -896,7 +887,7 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false
     }
   ],
@@ -904,7 +895,7 @@
     {
       "fixture_id": "1549358",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -927,7 +918,7 @@
     {
       "fixture_id": "1549359",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -950,7 +941,7 @@
     {
       "fixture_id": "1550625",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -973,7 +964,7 @@
     {
       "fixture_id": "1554344",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -996,16 +987,16 @@
         "prob_away": "0%"
       },
       "live_odds": {
-        "bookmaker": "1xBet",
-        "odd_home": 3.41,
-        "odd_draw": 3.4,
-        "odd_away": 2.05,
-        "odd_ou_1_5_over": 1.38,
-        "odd_ou_2_5_over": 2.16,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.96,
-        "odd_btts_no": 1.77,
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.25,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 3.95,
+        "odd_btts_yes": 1.9,
+        "odd_btts_no": 1.75,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1028,7 +1019,7 @@
     {
       "fixture_id": "1554346",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1083,7 +1074,7 @@
     {
       "fixture_id": "1554347",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1106,16 +1097,16 @@
         "prob_away": "0%"
       },
       "live_odds": {
-        "bookmaker": "Marathonbet",
-        "odd_home": 2.25,
-        "odd_draw": 3.32,
-        "odd_away": 2.73,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.01,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.56,
-        "odd_btts_no": 2.18,
+        "bookmaker": "Bet365",
+        "odd_home": 2.2,
+        "odd_draw": 3.2,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.55,
+        "odd_btts_no": 2.2,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1138,7 +1129,7 @@
     {
       "fixture_id": "1565055",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -1161,7 +1152,7 @@
     {
       "fixture_id": "1565056",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -1184,7 +1175,7 @@
     {
       "fixture_id": "1565058",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -1207,7 +1198,7 @@
     {
       "fixture_id": "1577476",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",
@@ -1230,7 +1221,7 @@
     {
       "fixture_id": "1581868",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -1285,7 +1276,7 @@
     {
       "fixture_id": "1585048",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -1308,7 +1299,7 @@
     {
       "fixture_id": "1595487",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -1331,7 +1322,7 @@
     {
       "fixture_id": "1599183",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -1354,7 +1345,7 @@
     {
       "fixture_id": "1607285",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -1377,7 +1368,7 @@
     {
       "fixture_id": "1612430",
       "kickoff_dublin": "2026-08-08T10:00:00+01:00",
-      "minutes_to_kickoff": 51.4,
+      "minutes_to_kickoff": 2.1,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Champions League Women",
       "country": "World",
@@ -1400,7 +1391,7 @@
     {
       "fixture_id": "1517623",
       "kickoff_dublin": "2026-08-08T10:15:00+01:00",
-      "minutes_to_kickoff": 66.4,
+      "minutes_to_kickoff": 17.1,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -1410,18 +1401,7 @@
       "venue": "Penshurst Park",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Rockdale City Suns",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Rockdale City Suns",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 3.4,
@@ -1463,13 +1443,13 @@
         "implied_probability": 0.3077,
         "edge": 0.0004
       },
-      "rank_score": 1.94,
+      "rank_score": 4.44,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1497209",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 5",
       "country": "Norway",
@@ -1532,13 +1512,13 @@
         "implied_probability": 0.7042,
         "edge": 0.0521
       },
-      "rank_score": 8.86,
+      "rank_score": 9.86,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1527349",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "South Australia State League 1",
       "country": "Australia",
@@ -1615,13 +1595,13 @@
         "implied_probability": 0.4149,
         "edge": 0.0909
       },
-      "rank_score": 11.89,
+      "rank_score": 12.89,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1585047",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -1644,7 +1624,7 @@
     {
       "fixture_id": "1592973",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -1693,13 +1673,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1595488",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -1722,7 +1702,7 @@
     {
       "fixture_id": "1606597",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1771,13 +1751,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1606598",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1826,13 +1806,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1607637",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Australia Cup",
       "country": "Australia",
@@ -1909,13 +1889,13 @@
         "implied_probability": 0.4,
         "edge": 0.3619
       },
-      "rank_score": 40.49,
+      "rank_score": 41.49,
       "actionable_candidate": true
     },
     {
       "fixture_id": "1611921",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -1964,13 +1944,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611922",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -2019,13 +1999,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1611923",
       "kickoff_dublin": "2026-08-08T10:30:00+01:00",
-      "minutes_to_kickoff": 81.4,
+      "minutes_to_kickoff": 32.1,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -2074,13 +2054,13 @@
       "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false
     },
     {
       "fixture_id": "1549361",
       "kickoff_dublin": "2026-08-08T10:45:00+01:00",
-      "minutes_to_kickoff": 96.4,
+      "minutes_to_kickoff": 47.1,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -2103,7 +2083,7 @@
     {
       "fixture_id": "1549362",
       "kickoff_dublin": "2026-08-08T10:45:00+01:00",
-      "minutes_to_kickoff": 96.4,
+      "minutes_to_kickoff": 47.1,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -2126,13 +2106,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-08T10:00:00+01:00",
-    "target_block_end_dublin": "2026-08-08T10:45:00+01:00",
-    "target_block_matches": 30,
-    "future_matches_in_snapshot": 30,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

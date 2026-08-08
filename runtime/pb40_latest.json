@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase",
-  "generated_at_dublin": "2026-08-08T03:29:48.894647+01:00",
+  "generated_at_dublin": "2026-08-08T03:30:31.216098+01:00",
   "match_date": "2026-08-08",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-08T04:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1140,
   "fixtures_target_date_total": 1140,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 1,
+  "fixtures_in_next_75m": 2,
+  "relevant_fixtures_in_next_75m": 0,
   "fixtures_in_target_block": 2,
   "relevant_fixtures_in_target_block": 0,
   "excluded_in_target_block": 2,
@@ -25,7 +25,7 @@
   "matches_returned": 2,
   "max_is_return_limit_only": true,
   "fallback_used": false,
-  "request_ms": 261,
+  "request_ms": 389,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
@@ -36,9 +36,9 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 66790,
+    "daily_remaining": 66609,
     "minute_limit": 450,
-    "minute_remaining": 214
+    "minute_remaining": 314
   },
   "partial_api_errors": [],
   "ranked_matches": [],
@@ -46,7 +46,7 @@
     {
       "fixture_id": "1611927",
       "kickoff_dublin": "2026-08-08T04:00:00+01:00",
-      "minutes_to_kickoff": 30.2,
+      "minutes_to_kickoff": 29.5,
       "timing_priority": "fixed_target_block",
       "league": "CONCACAF U20",
       "country": "World",
@@ -69,7 +69,7 @@
     {
       "fixture_id": "1549360",
       "kickoff_dublin": "2026-08-08T04:15:00+01:00",
-      "minutes_to_kickoff": 45.2,
+      "minutes_to_kickoff": 44.5,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -92,13 +92,7 @@
   ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
-    "refreshed_by": "pb40-public-feed-100-resilient",
-    "source_url": "runtime/candidate-1-3.json",
-    "target_block_start_dublin": "2026-08-08T04:00:00+01:00",
-    "target_block_end_dublin": "2026-08-08T04:45:00+01:00",
-    "target_block_matches": 2,
-    "future_matches_in_snapshot": 2,
-    "block_verified": true,
-    "fallback_used": false
+    "refreshed_by": "pb40-public-feed",
+    "source_url": "Render /pb40?max=30"
   }
 }

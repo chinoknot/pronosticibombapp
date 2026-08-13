@@ -1,22 +1,21 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-12T11:33:31.088112+01:00",
-  "match_date": "2026-08-12",
+  "generated_at_dublin": "2026-08-13T11:39:17.846257+01:00",
+  "match_date": "2026-08-13",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-08-12T12:00:00+01:00",
-  "target_block_end_dublin": "2026-08-12T12:45:00+01:00",
-  "target_block_matches": 3,
+  "target_block_start_dublin": "2026-08-13T12:00:00+01:00",
+  "target_block_end_dublin": "2026-08-13T12:45:00+01:00",
+  "target_block_matches": 1,
   "block_verified": true,
-  "fixtures_today_total": 275,
-  "fixtures_target_date_total": 275,
-  "fixtures_in_next_75m": 3,
+  "fixtures_today_total": 125,
+  "fixtures_target_date_total": 125,
+  "fixtures_in_next_75m": 1,
   "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 3,
+  "fixtures_in_target_block": 1,
   "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 3,
+  "excluded_in_target_block": 1,
   "excluded_breakdown": {
-    "excluded_country": 2,
     "youth": 1
   },
   "fixtures_analyzed_before_ranking": 0,
@@ -34,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -56,19 +55,19 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 3,
+  "matches_returned": 1,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 448,
+  "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 428,
+  "live_api_budget": 429,
   "live_odds_requested": 0,
   "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5950,
+  "request_ms": 414,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
@@ -79,103 +78,23 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73105,
+    "daily_remaining": 73700,
     "minute_limit": 450,
-    "minute_remaining": 448
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [],
   "matches": [
     {
-      "fixture_id": "1560920",
-      "kickoff_dublin": "2026-08-12T12:00:00+01:00",
-      "minutes_to_kickoff": 26.5,
+      "fixture_id": "1546425",
+      "kickoff_dublin": "2026-08-13T12:30:00+01:00",
+      "minutes_to_kickoff": 50.7,
       "timing_priority": "fixed_target_block",
-      "league": "Cup",
-      "country": "Russia",
-      "round": "Round of 32",
-      "home": "Zvezda St. Petersburg",
-      "away": "Luki-Energiya",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "excluded_country",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1607644",
-      "kickoff_dublin": "2026-08-12T12:00:00+01:00",
-      "minutes_to_kickoff": 26.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Cup",
-      "country": "Russia",
-      "round": "Round of 32",
-      "home": "Dinamo Barnaul",
-      "away": "Dinamo Vladivostok",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "excluded_country",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1611736",
-      "kickoff_dublin": "2026-08-12T12:00:00+01:00",
-      "minutes_to_kickoff": 26.5,
-      "timing_priority": "fixed_target_block",
-      "league": "U19 League",
-      "country": "Ukraine",
-      "round": "Regular Season - 2",
-      "home": "Oleksandria U19",
-      "away": "Metalist 1925 U19",
+      "league": "Nasjonal U19 Champions League",
+      "country": "Norway",
+      "round": "Round of 16",
+      "home": "Lyn U19",
+      "away": "Viking U19",
       "venue": "",
       "referee": "",
       "exclusion_reason": "youth",
@@ -211,9 +130,9 @@
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-1000-block-fresh",
     "source_url": "Render /pb40?max=1000&force=1",
-    "target_block_start_dublin": "2026-08-12T12:00:00+01:00",
-    "target_block_end_dublin": "2026-08-12T12:45:00+01:00",
-    "target_block_matches": 3,
+    "target_block_start_dublin": "2026-08-13T12:00:00+01:00",
+    "target_block_end_dublin": "2026-08-13T12:45:00+01:00",
+    "target_block_matches": 1,
     "relevant_fixtures_in_target_block": 0,
     "block_verified": true,
     "fallback_used": false,

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-15T00:36:09.098917+01:00",
+  "generated_at_dublin": "2026-08-15T00:57:08.675552+01:00",
   "match_date": "2026-08-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-15T01:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1196,
   "fixtures_target_date_total": 1196,
-  "fixtures_in_next_75m": 5,
-  "relevant_fixtures_in_next_75m": 3,
+  "fixtures_in_next_75m": 11,
+  "relevant_fixtures_in_next_75m": 8,
   "fixtures_in_target_block": 5,
   "relevant_fixtures_in_target_block": 3,
   "excluded_in_target_block": 2,
@@ -60,36 +60,34 @@
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 437,
+  "live_api_minute_remaining_before_enrichment": 442,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 417,
+  "live_api_budget": 422,
   "live_odds_requested": 3,
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5207,
+  "request_ms": 346,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 3,
+    "odds_cache_hits": 3
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62050,
+    "daily_remaining": 60644,
     "minute_limit": 450,
-    "minute_remaining": 422
+    "minute_remaining": 442
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1519451",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -149,14 +147,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1618973",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -216,14 +214,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1526953",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "OFC Champions League",
       "country": "World",
@@ -283,7 +281,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -292,7 +290,7 @@
     {
       "fixture_id": "1508503",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -332,7 +330,7 @@
     {
       "fixture_id": "1519451",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -392,14 +390,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1522437",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "Brasileiro Women",
       "country": "Brazil",
@@ -439,7 +437,7 @@
     {
       "fixture_id": "1526953",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "OFC Champions League",
       "country": "World",
@@ -499,14 +497,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1618973",
       "kickoff_dublin": "2026-08-15T01:00:00+01:00",
-      "minutes_to_kickoff": 23.8,
+      "minutes_to_kickoff": 2.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -566,7 +564,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

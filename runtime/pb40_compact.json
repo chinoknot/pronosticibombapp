@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-15T10:48:24.823136+01:00",
+  "generated_at_dublin": "2026-08-15T10:49:54.373472+01:00",
   "match_date": "2026-08-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-15T11:00:00+01:00",
@@ -23,18 +23,18 @@
   "fixtures_analyzed_before_ranking": 36,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 36,
+  "technical_coverage_count": 34,
   "odds_coverage_count": 30,
-  "actionable_candidates_found": 11,
+  "actionable_candidates_found": 1,
   "matches_returned": 51,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62888,
+    "daily_remaining": 62886,
     "minute_limit": 450,
-    "minute_remaining": 414
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -51,811 +51,9 @@
   },
   "top_actionable": [
     {
-      "fixture_id": "1496851",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "3. Division - Girone 3",
-      "country": "Norway",
-      "home": "Gneist",
-      "away": "Førde",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.9,
-        "odd_draw": 4.2,
-        "odd_away": 1.85,
-        "odd_ou_1_5_over": 1.0,
-        "odd_ou_2_5_over": 1.28,
-        "odd_ou_2_5_under": 3.5,
-        "odd_ou_3_5_over": 1.71,
-        "odd_btts_yes": 1.22,
-        "odd_btts_no": 3.6,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6824,
-        "odd": 1.71,
-        "implied_probability": 0.5848,
-        "edge": 0.0976
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6824,
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "edge": 0.0976
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8426,
-          "odd": 1.28,
-          "implied_probability": 0.7812,
-          "edge": 0.0614
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 2.15,
-        "lambda_total": 4.65,
-        "p_over_1_5": 0.946,
-        "p_over_2_5": 0.8426,
-        "p_over_3_5": 0.6824,
-        "p_btts_yes": 0.811
-      },
-      "api_prediction": {
-        "pred_winner_name": "Førde",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or Førde and +1.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 16.51,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1554009",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "J1 League",
-      "country": "Japan",
-      "home": "JEF United Chiba",
-      "away": "Machida Zelvia",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 4.75,
-        "odd_draw": 3.5,
-        "odd_away": 1.75,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.15,
-        "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.95,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8488,
-        "odd": 3.75,
-        "implied_probability": 0.2667,
-        "edge": 0.5821
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8488,
-          "odd": 3.75,
-          "implied_probability": 0.2667,
-          "edge": 0.5821
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.938,
-          "odd": 2.15,
-          "implied_probability": 0.4651,
-          "edge": 0.4729
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6279,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.1151
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 5.0,
-        "lambda_total": 6.0,
-        "p_over_1_5": 0.9826,
-        "p_over_2_5": 0.938,
-        "p_over_3_5": 0.8488,
-        "p_btts_yes": 0.6279
-      },
-      "api_prediction": {
-        "pred_winner_name": "Machida Zelvia",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+1.5",
-        "advice": "Combo Winner : Machida Zelvia and +1.5 goals",
-        "goals_home": null,
-        "goals_away": "-5.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 65.71,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1554011",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "J1 League",
-      "country": "Japan",
-      "home": "Kawasaki Frontale",
-      "away": "Kyoto Sanga",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.1,
-        "odd_draw": 3.4,
-        "odd_away": 3.4,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 3.0,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
-      "api_prediction": {
-        "pred_winner_name": "Kawasaki Frontale",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Kawasaki Frontale or draw",
-        "goals_home": "-1.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 7.22,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1561620",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "II Liga - East",
-      "country": "Poland",
-      "home": "Śląsk Wrocław II",
-      "away": "Chojniczanka Chojnice",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.8,
-        "odd_draw": 3.4,
-        "odd_away": 2.2,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.65,
-        "implied_probability": 0.6061,
-        "edge": 0.0731
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.65,
-          "implied_probability": 0.6061,
-          "edge": 0.0731
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.0634
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 1.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.5802
-      },
-      "api_prediction": {
-        "pred_winner_name": "Śląsk Wrocław II",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Śląsk Wrocław II",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 12.91,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1565453",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Ukraine",
-      "home": "Kryvbas KR",
-      "away": "Livyi Bereh",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.1,
-        "odd_draw": 3.1,
-        "odd_away": 3.2,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.735,
-        "odd": 3.25,
-        "implied_probability": 0.3077,
-        "edge": 0.4273
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.735,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.4273
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8753,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.3625
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6205,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.0425
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 4.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.6205
-      },
-      "api_prediction": {
-        "pred_winner_name": "Kryvbas KR",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Kryvbas KR",
-        "goals_home": "-2.5",
-        "goals_away": null,
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 49.83,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1568739",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 2",
-      "country": "Poland",
-      "home": "Bałtyk Koszalin",
-      "away": "Flota Świnoujście",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.8,
-        "odd_draw": 3.5,
-        "odd_away": 2.1,
-        "odd_ou_1_5_over": 1.15,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.25,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6046,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.1602
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6046,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.1602
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7898,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.1529
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 3.0,
-        "lambda_total": 4.2,
-        "p_over_1_5": 0.922,
-        "p_over_2_5": 0.7898,
-        "p_over_3_5": 0.6046,
-        "p_btts_yes": 0.664
-      },
-      "api_prediction": {
-        "pred_winner_name": "Flota Świnoujście",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : draw or Flota Świnoujście and -3.5 goals",
-        "goals_home": "-1.5",
-        "goals_away": "-1.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 22.32,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1569052",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 1",
-      "country": "Poland",
-      "home": "Widzew II",
-      "away": "Swit",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.8,
-        "odd_away": 2.8,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.12,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6577,
-        "odd": 2.12,
-        "implied_probability": 0.4717,
-        "edge": 0.186
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 2.12,
-          "implied_probability": 0.4717,
-          "edge": 0.186
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.1597
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7382,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0239
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
-      },
-      "api_prediction": {
-        "pred_winner_name": "Widzew II",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Widzew II or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-3.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 25.2,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581877",
-      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
-      "timing_priority": "fixed_target_block",
-      "league": "Persha Liga",
-      "country": "Ukraine",
-      "home": "Metal Kharkiv",
-      "away": "Oleksandria",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 4.5,
-        "odd_draw": 3.4,
-        "odd_away": 1.67,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.28,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8488,
-        "odd": 3.28,
-        "implied_probability": 0.3049,
-        "edge": 0.5439
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8488,
-          "odd": 3.28,
-          "implied_probability": 0.3049,
-          "edge": 0.5439
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.938,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.4502
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.8902,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.3666
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.5,
-        "lambda_away": 2.5,
-        "lambda_total": 6.0,
-        "p_over_1_5": 0.9826,
-        "p_over_2_5": 0.938,
-        "p_over_3_5": 0.8488,
-        "p_btts_yes": 0.8902
-      },
-      "api_prediction": {
-        "pred_winner_name": "Metal Kharkiv",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+3.5",
-        "advice": "Combo Winner : Metal Kharkiv and +3.5 goals",
-        "goals_home": "-6.5",
-        "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 61.89,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1507028",
-      "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
-      "timing_priority": "fixed_target_block",
-      "league": "K League 1",
-      "country": "South-Korea",
-      "home": "Gwangju FC",
-      "away": "Pohang Steelers",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.8,
-        "odd_draw": 3.1,
-        "odd_away": 1.95,
-        "odd_ou_1_5_over": 1.44,
-        "odd_ou_2_5_over": 2.4,
-        "odd_ou_2_5_under": 1.53,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 2.1,
-        "odd_btts_no": 1.67,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5064,
-        "odd": 2.4,
-        "implied_probability": 0.4167,
-        "edge": 0.0897
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5064,
-          "odd": 2.4,
-          "implied_probability": 0.4167,
-          "edge": 0.0897
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2859,
-          "odd": 4.5,
-          "implied_probability": 0.2222,
-          "edge": 0.0637
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.5166,
-          "odd": 2.1,
-          "implied_probability": 0.4762,
-          "edge": 0.0404
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.7,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5166
-      },
-      "api_prediction": {
-        "pred_winner_name": "Gwangju FC",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Gwangju FC or draw",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 11.77,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1510412",
-      "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
-      "timing_priority": "fixed_target_block",
-      "league": "K League 2",
-      "country": "South-Korea",
-      "home": "Cheongju",
-      "away": "Jeonnam Dragons",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.45,
-        "odd_draw": 3.0,
-        "odd_away": 2.55,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.73,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.0751
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.0751
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.0563
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.612,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.034
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.5,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.612
-      },
-      "api_prediction": {
-        "pred_winner_name": "Jeonnam Dragons",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Jeonnam Dragons",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 10.66,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1510413",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -876,38 +74,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5185,
-        "odd": 2.05,
-        "implied_probability": 0.4878,
-        "edge": 0.0307
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5185,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.0307
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.297,
-          "odd": 3.5,
-          "implied_probability": 0.2857,
-          "edge": 0.0113
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 1.7,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5313
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Gyeongnam FC",
         "pred_winner_comment": "Win or draw",
@@ -920,7 +89,7 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "GG Special",
@@ -930,7 +99,7 @@
           "score": 1.165
         }
       ],
-      "rank_score": 19.92,
+      "rank_score": 15.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -941,7 +110,7 @@
     {
       "fixture_id": "1495370",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -964,15 +133,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.3,
-        "lambda_away": 1.7,
-        "lambda_total": 4.0,
-        "p_over_1_5": 0.9084,
-        "p_over_2_5": 0.7619,
-        "p_over_3_5": 0.5665,
-        "p_btts_yes": 0.7354
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Fortuna Ålesund W",
         "pred_winner_comment": "Win or draw",
@@ -985,18 +146,65 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1496851",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "3. Division - Girone 3",
+      "country": "Norway",
+      "home": "Gneist",
+      "away": "Førde",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 4.2,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.0,
+        "odd_ou_2_5_over": 1.28,
+        "odd_ou_2_5_under": 3.5,
+        "odd_ou_3_5_over": 1.71,
+        "odd_btts_yes": 1.22,
+        "odd_btts_no": 3.6,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Førde",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Førde and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1528679",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "League One",
       "country": "China",
@@ -1019,15 +227,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 0.9,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.4675
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Yanbian Longding",
         "pred_winner_comment": "Win or draw",
@@ -1040,9 +240,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.55,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1051,7 +251,7 @@
     {
       "fixture_id": "1533763",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "WK-League",
       "country": "South-Korea",
@@ -1074,15 +274,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 1.85,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5759
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Incheon Red Angels W",
         "pred_winner_comment": null,
@@ -1095,9 +287,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1106,7 +298,7 @@
     {
       "fixture_id": "1533764",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "WK-League",
       "country": "South-Korea",
@@ -1129,15 +321,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 1.4,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4149
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Hwacheon KSPO W",
         "pred_winner_comment": "Win or draw",
@@ -1150,9 +334,103 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1554009",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "home": "JEF United Chiba",
+      "away": "Machida Zelvia",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.75,
+        "odd_draw": 3.5,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.15,
+        "odd_ou_2_5_under": 1.67,
+        "odd_ou_3_5_over": 3.75,
+        "odd_btts_yes": 1.95,
+        "odd_btts_no": 1.8,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Machida Zelvia",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Machida Zelvia and +1.5 goals",
+        "goals_home": null,
+        "goals_away": "-5.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1554011",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "home": "Kawasaki Frontale",
+      "away": "Kyoto Sanga",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.1,
+        "odd_draw": 3.4,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Kawasaki Frontale",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Kawasaki Frontale or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1161,7 +439,7 @@
     {
       "fixture_id": "1554015",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -1184,15 +462,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Sanfrecce Hiroshima",
         "pred_winner_comment": "Win or draw",
@@ -1205,9 +475,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1216,7 +486,7 @@
     {
       "fixture_id": "1554016",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -1239,15 +509,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vissel Kobe",
         "pred_winner_comment": "Win or draw",
@@ -1260,9 +522,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1271,7 +533,7 @@
     {
       "fixture_id": "1554351",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1294,15 +556,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kanazawa",
         "pred_winner_comment": "Win or draw",
@@ -1315,9 +569,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1326,7 +580,7 @@
     {
       "fixture_id": "1554352",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1349,15 +603,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Roasso Kumamoto",
         "pred_winner_comment": "Win or draw",
@@ -1370,9 +616,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1381,7 +627,7 @@
     {
       "fixture_id": "1554353",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1404,19 +650,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1425,7 +663,7 @@
     {
       "fixture_id": "1554356",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1448,15 +686,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Renofa Yamaguchi",
         "pred_winner_comment": "Win or draw",
@@ -1469,9 +699,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1480,7 +710,7 @@
     {
       "fixture_id": "1556022",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -1503,15 +733,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cerezo Osaka",
         "pred_winner_comment": null,
@@ -1524,9 +746,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1535,7 +757,7 @@
     {
       "fixture_id": "1556418",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "1 Lyga",
       "country": "Lithuania",
@@ -1558,15 +780,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.0,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.4911
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Tauras",
         "pred_winner_comment": "Win or draw",
@@ -1579,9 +793,150 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.6,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1561620",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "II Liga - East",
+      "country": "Poland",
+      "home": "Śląsk Wrocław II",
+      "away": "Chojniczanka Chojnice",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.8,
+        "odd_draw": 3.4,
+        "odd_away": 2.2,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.65,
+        "odd_ou_2_5_under": 2.2,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.38,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Śląsk Wrocław II",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Śląsk Wrocław II",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1565453",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Ukraine",
+      "home": "Kryvbas KR",
+      "away": "Livyi Bereh",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.1,
+        "odd_draw": 3.1,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Kryvbas KR",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Kryvbas KR",
+        "goals_home": "-2.5",
+        "goals_away": null,
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1568739",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "III Liga - Group 2",
+      "country": "Poland",
+      "home": "Bałtyk Koszalin",
+      "away": "Flota Świnoujście",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.8,
+        "odd_draw": 3.5,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.15,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.25,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Flota Świnoujście",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or Flota Świnoujście and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1590,7 +945,7 @@
     {
       "fixture_id": "1568742",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -1613,15 +968,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 2.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.8216
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Gedania Gdansk",
         "pred_winner_comment": null,
@@ -1634,18 +981,112 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1569052",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "III Liga - Group 1",
+      "country": "Poland",
+      "home": "Widzew II",
+      "away": "Swit",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.8,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.12,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.12,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Widzew II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Widzew II or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-3.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581877",
+      "kickoff_dublin": "2026-08-15T11:00:00+01:00",
+      "minutes_to_kickoff": 10.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Persha Liga",
+      "country": "Ukraine",
+      "home": "Metal Kharkiv",
+      "away": "Oleksandria",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.5,
+        "odd_draw": 3.4,
+        "odd_away": 1.67,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.28,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Metal Kharkiv",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+3.5",
+        "advice": "Combo Winner : Metal Kharkiv and +3.5 goals",
+        "goals_home": "-6.5",
+        "goals_away": "-3.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1597738",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -1668,15 +1109,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Mafra",
         "pred_winner_comment": null,
@@ -1689,9 +1122,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1700,7 +1133,7 @@
     {
       "fixture_id": "1605557",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group B",
       "country": "Portugal",
@@ -1744,7 +1177,7 @@
     {
       "fixture_id": "1606609",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1767,19 +1200,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1788,7 +1213,7 @@
     {
       "fixture_id": "1606610",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1811,15 +1236,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vegalta Sendai",
         "pred_winner_comment": "Win or draw",
@@ -1832,9 +1249,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1843,7 +1260,7 @@
     {
       "fixture_id": "1606611",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1866,15 +1283,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Omiya Ardija",
         "pred_winner_comment": "Win or draw",
@@ -1887,9 +1296,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1898,7 +1307,7 @@
     {
       "fixture_id": "1606612",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1921,15 +1330,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Tegevajaro Miyazaki",
         "pred_winner_comment": "Win or draw",
@@ -1942,9 +1343,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1953,7 +1354,7 @@
     {
       "fixture_id": "1606613",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -1976,15 +1377,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Montedio Yamagata",
         "pred_winner_comment": "Win or draw",
@@ -1997,9 +1390,56 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1507028",
+      "kickoff_dublin": "2026-08-15T11:30:00+01:00",
+      "minutes_to_kickoff": 40.1,
+      "timing_priority": "fixed_target_block",
+      "league": "K League 1",
+      "country": "South-Korea",
+      "home": "Gwangju FC",
+      "away": "Pohang Steelers",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.8,
+        "odd_draw": 3.1,
+        "odd_away": 1.95,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 4.5,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Gwangju FC",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Gwangju FC or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2008,7 +1448,7 @@
     {
       "fixture_id": "1507029",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 1",
       "country": "South-Korea",
@@ -2031,15 +1471,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 1.4,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.5026
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Jeju United FC",
         "pred_winner_comment": "Win or draw",
@@ -2052,9 +1484,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.6,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2063,7 +1495,7 @@
     {
       "fixture_id": "1507030",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 1",
       "country": "South-Korea",
@@ -2086,15 +1518,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.2,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.4986
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2107,9 +1531,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.05,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2118,7 +1542,7 @@
     {
       "fixture_id": "1510411",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -2141,15 +1565,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 1.4,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5767
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Hwaseong",
         "pred_winner_comment": "Win or draw",
@@ -2162,9 +1578,56 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.95,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1510412",
+      "kickoff_dublin": "2026-08-15T11:30:00+01:00",
+      "minutes_to_kickoff": 40.1,
+      "timing_priority": "fixed_target_block",
+      "league": "K League 2",
+      "country": "South-Korea",
+      "home": "Cheongju",
+      "away": "Jeonnam Dragons",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.45,
+        "odd_draw": 3.0,
+        "odd_away": 2.55,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Jeonnam Dragons",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Jeonnam Dragons",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2173,7 +1636,7 @@
     {
       "fixture_id": "1510414",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -2196,15 +1659,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.25,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5285
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Suwon City FC",
         "pred_winner_comment": "Win or draw",
@@ -2217,9 +1672,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.7,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2228,7 +1683,7 @@
     {
       "fixture_id": "1592983",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -2251,15 +1706,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Nyva Vinnytsya",
         "pred_winner_comment": "Win or draw",
@@ -2272,9 +1719,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2285,7 +1732,7 @@
     {
       "fixture_id": "1536657",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -2308,7 +1755,7 @@
     {
       "fixture_id": "1565062",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -2331,7 +1778,7 @@
     {
       "fixture_id": "1566587",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "I Liga - Women",
       "country": "Slovakia",
@@ -2354,7 +1801,7 @@
     {
       "fixture_id": "1581700",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraliga Women",
       "country": "Poland",
@@ -2377,7 +1824,7 @@
     {
       "fixture_id": "1591980",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -2400,7 +1847,7 @@
     {
       "fixture_id": "1599195",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -2423,7 +1870,7 @@
     {
       "fixture_id": "1621925",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -2446,7 +1893,7 @@
     {
       "fixture_id": "1621926",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -2469,7 +1916,7 @@
     {
       "fixture_id": "1621927",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -2492,7 +1939,7 @@
     {
       "fixture_id": "1621928",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -2515,7 +1962,7 @@
     {
       "fixture_id": "1621929",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -2538,7 +1985,7 @@
     {
       "fixture_id": "1622167",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -2561,7 +2008,7 @@
     {
       "fixture_id": "1622168",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -2584,7 +2031,7 @@
     {
       "fixture_id": "1577477",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",
@@ -2607,7 +2054,7 @@
     {
       "fixture_id": "1622172",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -2632,7 +2079,7 @@
     {
       "fixture_id": "1495370",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -2655,15 +2102,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.3,
-        "lambda_away": 1.7,
-        "lambda_total": 4.0,
-        "p_over_1_5": 0.9084,
-        "p_over_2_5": 0.7619,
-        "p_over_3_5": 0.5665,
-        "p_btts_yes": 0.7354
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Fortuna Ålesund W",
         "pred_winner_comment": "Win or draw",
@@ -2676,9 +2115,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2687,7 +2126,7 @@
     {
       "fixture_id": "1496851",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 3",
       "country": "Norway",
@@ -2708,38 +2147,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6824,
-        "odd": 1.71,
-        "implied_probability": 0.5848,
-        "edge": 0.0976
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6824,
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "edge": 0.0976
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8426,
-          "odd": 1.28,
-          "implied_probability": 0.7812,
-          "edge": 0.0614
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 2.15,
-        "lambda_total": 4.65,
-        "p_over_1_5": 0.946,
-        "p_over_2_5": 0.8426,
-        "p_over_3_5": 0.6824,
-        "p_btts_yes": 0.811
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Førde",
         "pred_winner_comment": "Win or draw",
@@ -2752,18 +2162,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 16.51,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1528679",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "League One",
       "country": "China",
@@ -2786,15 +2196,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 0.9,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.4675
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Yanbian Longding",
         "pred_winner_comment": "Win or draw",
@@ -2807,9 +2209,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.55,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2818,7 +2220,7 @@
     {
       "fixture_id": "1533763",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "WK-League",
       "country": "South-Korea",
@@ -2841,15 +2243,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 1.85,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5759
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Incheon Red Angels W",
         "pred_winner_comment": null,
@@ -2862,9 +2256,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2873,7 +2267,7 @@
     {
       "fixture_id": "1533764",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "WK-League",
       "country": "South-Korea",
@@ -2896,15 +2290,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 1.4,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4149
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Hwacheon KSPO W",
         "pred_winner_comment": "Win or draw",
@@ -2917,9 +2303,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2928,7 +2314,7 @@
     {
       "fixture_id": "1536657",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -2951,7 +2337,7 @@
     {
       "fixture_id": "1554009",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -2972,45 +2358,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8488,
-        "odd": 3.75,
-        "implied_probability": 0.2667,
-        "edge": 0.5821
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8488,
-          "odd": 3.75,
-          "implied_probability": 0.2667,
-          "edge": 0.5821
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.938,
-          "odd": 2.15,
-          "implied_probability": 0.4651,
-          "edge": 0.4729
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6279,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.1151
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 5.0,
-        "lambda_total": 6.0,
-        "p_over_1_5": 0.9826,
-        "p_over_2_5": 0.938,
-        "p_over_3_5": 0.8488,
-        "p_btts_yes": 0.6279
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Machida Zelvia",
         "pred_winner_comment": null,
@@ -3023,18 +2373,18 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 65.71,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1554011",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -3055,38 +2405,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kawasaki Frontale",
         "pred_winner_comment": "Win or draw",
@@ -3099,18 +2420,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 7.22,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1554015",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -3133,15 +2454,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Sanfrecce Hiroshima",
         "pred_winner_comment": "Win or draw",
@@ -3154,9 +2467,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3165,7 +2478,7 @@
     {
       "fixture_id": "1554016",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -3188,15 +2501,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vissel Kobe",
         "pred_winner_comment": "Win or draw",
@@ -3209,9 +2514,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3220,7 +2525,7 @@
     {
       "fixture_id": "1554351",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -3243,15 +2548,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kanazawa",
         "pred_winner_comment": "Win or draw",
@@ -3264,9 +2561,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3275,7 +2572,7 @@
     {
       "fixture_id": "1554352",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -3298,15 +2595,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Roasso Kumamoto",
         "pred_winner_comment": "Win or draw",
@@ -3319,9 +2608,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3330,7 +2619,7 @@
     {
       "fixture_id": "1554353",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -3353,19 +2642,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3374,7 +2655,7 @@
     {
       "fixture_id": "1554356",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -3397,15 +2678,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Renofa Yamaguchi",
         "pred_winner_comment": "Win or draw",
@@ -3418,9 +2691,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3429,7 +2702,7 @@
     {
       "fixture_id": "1556022",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -3452,15 +2725,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cerezo Osaka",
         "pred_winner_comment": null,
@@ -3473,9 +2738,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3484,7 +2749,7 @@
     {
       "fixture_id": "1556418",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "1 Lyga",
       "country": "Lithuania",
@@ -3507,15 +2772,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.0,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.4911
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Tauras",
         "pred_winner_comment": "Win or draw",
@@ -3528,9 +2785,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.6,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3539,7 +2796,7 @@
     {
       "fixture_id": "1561620",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "II Liga - East",
       "country": "Poland",
@@ -3560,38 +2817,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.65,
-        "implied_probability": 0.6061,
-        "edge": 0.0731
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.65,
-          "implied_probability": 0.6061,
-          "edge": 0.0731
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.0634
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 1.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.5802
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Śląsk Wrocław II",
         "pred_winner_comment": null,
@@ -3604,18 +2832,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 12.91,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1565062",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -3638,7 +2866,7 @@
     {
       "fixture_id": "1565453",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -3659,45 +2887,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.735,
-        "odd": 3.25,
-        "implied_probability": 0.3077,
-        "edge": 0.4273
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.735,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.4273
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8753,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.3625
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6205,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.0425
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 4.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.6205
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kryvbas KR",
         "pred_winner_comment": null,
@@ -3710,18 +2902,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 49.83,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1566587",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "I Liga - Women",
       "country": "Slovakia",
@@ -3744,7 +2936,7 @@
     {
       "fixture_id": "1568739",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -3765,38 +2957,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6046,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.1602
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6046,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.1602
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7898,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.1529
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 3.0,
-        "lambda_total": 4.2,
-        "p_over_1_5": 0.922,
-        "p_over_2_5": 0.7898,
-        "p_over_3_5": 0.6046,
-        "p_btts_yes": 0.664
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Flota Świnoujście",
         "pred_winner_comment": "Win or draw",
@@ -3809,18 +2972,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 22.32,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1568742",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -3843,15 +3006,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 2.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.8216
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Gedania Gdansk",
         "pred_winner_comment": null,
@@ -3864,9 +3019,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.1,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3875,7 +3030,7 @@
     {
       "fixture_id": "1569052",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -3896,45 +3051,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6577,
-        "odd": 2.12,
-        "implied_probability": 0.4717,
-        "edge": 0.186
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 2.12,
-          "implied_probability": 0.4717,
-          "edge": 0.186
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.1597
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7382,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0239
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Widzew II",
         "pred_winner_comment": "Win or draw",
@@ -3947,18 +3066,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 25.2,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1581700",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraliga Women",
       "country": "Poland",
@@ -3981,7 +3100,7 @@
     {
       "fixture_id": "1581877",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -4002,45 +3121,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8488,
-        "odd": 3.28,
-        "implied_probability": 0.3049,
-        "edge": 0.5439
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8488,
-          "odd": 3.28,
-          "implied_probability": 0.3049,
-          "edge": 0.5439
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.938,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.4502
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.8902,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.3666
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.5,
-        "lambda_away": 2.5,
-        "lambda_total": 6.0,
-        "p_over_1_5": 0.9826,
-        "p_over_2_5": 0.938,
-        "p_over_3_5": 0.8488,
-        "p_btts_yes": 0.8902
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Metal Kharkiv",
         "pred_winner_comment": null,
@@ -4053,18 +3136,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 61.89,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1591980",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4087,7 +3170,7 @@
     {
       "fixture_id": "1597738",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -4110,15 +3193,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Mafra",
         "pred_winner_comment": null,
@@ -4131,9 +3206,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4142,7 +3217,7 @@
     {
       "fixture_id": "1599195",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -4165,7 +3240,7 @@
     {
       "fixture_id": "1605557",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group B",
       "country": "Portugal",
@@ -4209,7 +3284,7 @@
     {
       "fixture_id": "1606609",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -4232,19 +3307,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4253,7 +3320,7 @@
     {
       "fixture_id": "1606610",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -4276,15 +3343,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vegalta Sendai",
         "pred_winner_comment": "Win or draw",
@@ -4297,9 +3356,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4308,7 +3367,7 @@
     {
       "fixture_id": "1606611",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -4331,15 +3390,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Omiya Ardija",
         "pred_winner_comment": "Win or draw",
@@ -4352,9 +3403,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4363,7 +3414,7 @@
     {
       "fixture_id": "1606612",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -4386,15 +3437,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Tegevajaro Miyazaki",
         "pred_winner_comment": "Win or draw",
@@ -4407,9 +3450,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4418,7 +3461,7 @@
     {
       "fixture_id": "1606613",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -4441,15 +3484,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Montedio Yamagata",
         "pred_winner_comment": "Win or draw",
@@ -4462,9 +3497,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4473,7 +3508,7 @@
     {
       "fixture_id": "1621925",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -4496,7 +3531,7 @@
     {
       "fixture_id": "1621926",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -4519,7 +3554,7 @@
     {
       "fixture_id": "1621927",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -4542,7 +3577,7 @@
     {
       "fixture_id": "1621928",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -4565,7 +3600,7 @@
     {
       "fixture_id": "1621929",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - South",
       "country": "England",
@@ -4588,7 +3623,7 @@
     {
       "fixture_id": "1622167",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -4611,7 +3646,7 @@
     {
       "fixture_id": "1622168",
       "kickoff_dublin": "2026-08-15T11:00:00+01:00",
-      "minutes_to_kickoff": 11.6,
+      "minutes_to_kickoff": 10.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -4634,7 +3669,7 @@
     {
       "fixture_id": "1507028",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 1",
       "country": "South-Korea",
@@ -4655,45 +3690,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5064,
-        "odd": 2.4,
-        "implied_probability": 0.4167,
-        "edge": 0.0897
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5064,
-          "odd": 2.4,
-          "implied_probability": 0.4167,
-          "edge": 0.0897
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2859,
-          "odd": 4.5,
-          "implied_probability": 0.2222,
-          "edge": 0.0637
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.5166,
-          "odd": 2.1,
-          "implied_probability": 0.4762,
-          "edge": 0.0404
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.7,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5166
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Gwangju FC",
         "pred_winner_comment": "Win or draw",
@@ -4706,18 +3705,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 11.77,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1507029",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 1",
       "country": "South-Korea",
@@ -4740,15 +3739,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 1.4,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.5026
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Jeju United FC",
         "pred_winner_comment": "Win or draw",
@@ -4761,9 +3752,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.6,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4772,7 +3763,7 @@
     {
       "fixture_id": "1507030",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 1",
       "country": "South-Korea",
@@ -4795,15 +3786,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.2,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.4986
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -4816,9 +3799,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.05,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4827,7 +3810,7 @@
     {
       "fixture_id": "1510411",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -4850,15 +3833,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 1.4,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5767
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Hwaseong",
         "pred_winner_comment": "Win or draw",
@@ -4871,9 +3846,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.95,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4882,7 +3857,7 @@
     {
       "fixture_id": "1510412",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -4903,45 +3878,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.0751
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.0751
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.0563
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.612,
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "edge": 0.034
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.5,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.612
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Jeonnam Dragons",
         "pred_winner_comment": "Win or draw",
@@ -4954,18 +3893,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 10.66,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1510413",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -4986,38 +3925,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5185,
-        "odd": 2.05,
-        "implied_probability": 0.4878,
-        "edge": 0.0307
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5185,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.0307
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.297,
-          "odd": 3.5,
-          "implied_probability": 0.2857,
-          "edge": 0.0113
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 1.7,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5313
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Gyeongnam FC",
         "pred_winner_comment": "Win or draw",
@@ -5030,7 +3940,7 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "GG Special",
@@ -5040,7 +3950,7 @@
           "score": 1.165
         }
       ],
-      "rank_score": 19.92,
+      "rank_score": 15.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -5049,7 +3959,7 @@
     {
       "fixture_id": "1510414",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -5072,15 +3982,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.25,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5285
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Suwon City FC",
         "pred_winner_comment": "Win or draw",
@@ -5093,9 +3995,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.7,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -5104,7 +4006,7 @@
     {
       "fixture_id": "1577477",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",
@@ -5127,7 +4029,7 @@
     {
       "fixture_id": "1592983",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -5150,15 +4052,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Nyva Vinnytsya",
         "pred_winner_comment": "Win or draw",
@@ -5171,9 +4065,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5182,7 +4076,7 @@
     {
       "fixture_id": "1622172",
       "kickoff_dublin": "2026-08-15T11:30:00+01:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 40.1,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",

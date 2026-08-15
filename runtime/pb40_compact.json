@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-15T04:12:28.489590+01:00",
+  "generated_at_dublin": "2026-08-15T04:19:40.415215+01:00",
   "match_date": "2026-08-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-15T05:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1197,
   "fixtures_target_date_total": 1197,
-  "fixtures_in_next_75m": 7,
-  "relevant_fixtures_in_next_75m": 7,
+  "fixtures_in_next_75m": 12,
+  "relevant_fixtures_in_next_75m": 10,
   "fixtures_in_target_block": 13,
   "relevant_fixtures_in_target_block": 11,
   "excluded_in_target_block": 2,
@@ -23,16 +23,16 @@
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 11,
   "odds_coverage_count": 3,
-  "actionable_candidates_found": 1,
+  "actionable_candidates_found": 0,
   "matches_returned": 13,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 65267,
+    "daily_remaining": 65244,
     "minute_limit": 450,
-    "minute_remaining": 435
+    "minute_remaining": 442
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -47,82 +47,12 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [
-    {
-      "fixture_id": "1533066",
-      "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tasmania Southern Championship",
-      "country": "Australia",
-      "home": "New Town",
-      "away": "University of Tasmania",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.07,
-        "odd_draw": 11.0,
-        "odd_away": 17.0,
-        "odd_ou_1_5_over": 1.02,
-        "odd_ou_2_5_over": 1.11,
-        "odd_ou_2_5_under": 6.0,
-        "odd_ou_3_5_over": 1.29,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7701,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.1528
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7701,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.1528
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.35,
-        "lambda_away": 1.6,
-        "lambda_total": 4.95,
-        "p_over_1_5": 0.9579,
-        "p_over_2_5": 0.8711,
-        "p_over_3_5": 0.7279,
-        "p_btts_yes": 0.7701
-      },
-      "api_prediction": {
-        "pred_winner_name": "New Town",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+1.5",
-        "advice": "Combo Winner : New Town and +1.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-2.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 19.33,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "top_actionable": [],
   "technical_fallbacks": [
     {
       "fixture_id": "1522159",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL 2",
       "country": "Australia",
@@ -143,31 +73,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5466,
-        "odd": 1.85,
-        "implied_probability": 0.5405,
-        "edge": 0.0061
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5466,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0061
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 2.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Melbourne Knights",
         "pred_winner_comment": null,
@@ -180,18 +88,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.71,
+      "rank_score": 1.5,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1532612",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -214,15 +122,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.3,
-        "lambda_away": 1.6,
-        "lambda_total": 3.9,
-        "p_over_1_5": 0.9008,
-        "p_over_2_5": 0.7469,
-        "p_over_3_5": 0.5468,
-        "p_btts_yes": 0.7181
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "New Lambton",
         "pred_winner_comment": "Win or draw",
@@ -235,9 +135,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -246,7 +146,7 @@
     {
       "fixture_id": "1532613",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -269,15 +169,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 2.7,
-        "lambda_total": 4.1,
-        "p_over_1_5": 0.9155,
-        "p_over_2_5": 0.7762,
-        "p_over_3_5": 0.5858,
-        "p_btts_yes": 0.7028
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Lake Macquarie",
         "pred_winner_comment": null,
@@ -290,9 +182,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -301,7 +193,7 @@
     {
       "fixture_id": "1532614",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -324,15 +216,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.7,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5832
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "West Wallsend",
         "pred_winner_comment": "Win or draw",
@@ -345,9 +229,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.95,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -356,7 +240,7 @@
     {
       "fixture_id": "1532615",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -379,15 +263,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 2.3,
-        "lambda_total": 4.1,
-        "p_over_1_5": 0.9155,
-        "p_over_2_5": 0.7762,
-        "p_over_3_5": 0.5858,
-        "p_btts_yes": 0.751
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Wallsend Red Devils",
         "pred_winner_comment": null,
@@ -400,9 +276,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -411,7 +287,7 @@
     {
       "fixture_id": "1532616",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -434,15 +310,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.65,
-        "lambda_total": 3.3,
-        "p_over_1_5": 0.8414,
-        "p_over_2_5": 0.6406,
-        "p_over_3_5": 0.4197,
-        "p_btts_yes": 0.6528
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Singleton Strikers",
         "pred_winner_comment": "Win or draw",
@@ -455,9 +323,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.6,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -466,7 +334,7 @@
     {
       "fixture_id": "1541373",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -489,15 +357,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 2.4,
-        "lambda_total": 3.85,
-        "p_over_1_5": 0.8968,
-        "p_over_2_5": 0.7391,
-        "p_over_3_5": 0.5367,
-        "p_btts_yes": 0.696
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Box Hill",
         "pred_winner_comment": "Win or draw",
@@ -510,18 +370,65 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.05,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1533066",
+      "kickoff_dublin": "2026-08-15T05:30:00+01:00",
+      "minutes_to_kickoff": 70.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Tasmania Southern Championship",
+      "country": "Australia",
+      "home": "New Town",
+      "away": "University of Tasmania",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.07,
+        "odd_draw": 11.0,
+        "odd_away": 17.0,
+        "odd_ou_1_5_over": 1.02,
+        "odd_ou_2_5_over": 1.11,
+        "odd_ou_2_5_under": 6.0,
+        "odd_ou_3_5_over": 1.29,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "New Town",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : New Town and +1.5 goals",
+        "goals_home": "-4.5",
+        "goals_away": "-2.5",
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1533136",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -544,15 +451,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1,
-        "lambda_away": 3.1,
-        "lambda_total": 5.2,
-        "p_over_1_5": 0.9658,
-        "p_over_2_5": 0.8912,
-        "p_over_3_5": 0.7619,
-        "p_btts_yes": 0.838
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Northern Rangers",
         "pred_winner_comment": null,
@@ -565,9 +464,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.7,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -576,7 +475,7 @@
     {
       "fixture_id": "1620982",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania NPL",
       "country": "Australia",
@@ -597,38 +496,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5162,
-        "odd": 2.0,
-        "implied_probability": 0.5,
-        "edge": 0.0162
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5162,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.0162
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7229,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0086
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 2.05,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7121
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kingborough Lions",
         "pred_winner_comment": "Win or draw",
@@ -641,18 +511,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.47,
+      "rank_score": 0.5,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1533064",
       "kickoff_dublin": "2026-08-15T05:45:00+01:00",
-      "minutes_to_kickoff": 92.5,
+      "minutes_to_kickoff": 85.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Southern Championship",
       "country": "Australia",
@@ -675,15 +545,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.75,
-        "lambda_total": 4.75,
-        "p_over_1_5": 0.9503,
-        "p_over_2_5": 0.8527,
-        "p_over_3_5": 0.6981,
-        "p_btts_yes": 0.7851
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Olympia Warriors",
         "pred_winner_comment": "Win or draw",
@@ -696,9 +558,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.15,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -709,7 +571,7 @@
     {
       "fixture_id": "1533137",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -732,7 +594,7 @@
     {
       "fixture_id": "1533139",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -757,7 +619,7 @@
     {
       "fixture_id": "1522159",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL 2",
       "country": "Australia",
@@ -778,31 +640,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5466,
-        "odd": 1.85,
-        "implied_probability": 0.5405,
-        "edge": 0.0061
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5466,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0061
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 2.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Melbourne Knights",
         "pred_winner_comment": null,
@@ -815,18 +655,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.71,
+      "rank_score": 1.5,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1532612",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -849,15 +689,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.3,
-        "lambda_away": 1.6,
-        "lambda_total": 3.9,
-        "p_over_1_5": 0.9008,
-        "p_over_2_5": 0.7469,
-        "p_over_3_5": 0.5468,
-        "p_btts_yes": 0.7181
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "New Lambton",
         "pred_winner_comment": "Win or draw",
@@ -870,9 +702,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -881,7 +713,7 @@
     {
       "fixture_id": "1532613",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -904,15 +736,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 2.7,
-        "lambda_total": 4.1,
-        "p_over_1_5": 0.9155,
-        "p_over_2_5": 0.7762,
-        "p_over_3_5": 0.5858,
-        "p_btts_yes": 0.7028
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Lake Macquarie",
         "pred_winner_comment": null,
@@ -925,9 +749,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -936,7 +760,7 @@
     {
       "fixture_id": "1532614",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -959,15 +783,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.7,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5832
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "West Wallsend",
         "pred_winner_comment": "Win or draw",
@@ -980,9 +796,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.95,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -991,7 +807,7 @@
     {
       "fixture_id": "1532615",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -1014,15 +830,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 2.3,
-        "lambda_total": 4.1,
-        "p_over_1_5": 0.9155,
-        "p_over_2_5": 0.7762,
-        "p_over_3_5": 0.5858,
-        "p_btts_yes": 0.751
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Wallsend Red Devils",
         "pred_winner_comment": null,
@@ -1035,9 +843,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1046,7 +854,7 @@
     {
       "fixture_id": "1532616",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "NNSW League 1",
       "country": "Australia",
@@ -1069,15 +877,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.65,
-        "lambda_total": 3.3,
-        "p_over_1_5": 0.8414,
-        "p_over_2_5": 0.6406,
-        "p_over_3_5": 0.4197,
-        "p_btts_yes": 0.6528
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Singleton Strikers",
         "pred_winner_comment": "Win or draw",
@@ -1090,9 +890,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.6,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1101,7 +901,7 @@
     {
       "fixture_id": "1541373",
       "kickoff_dublin": "2026-08-15T05:00:00+01:00",
-      "minutes_to_kickoff": 47.5,
+      "minutes_to_kickoff": 40.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -1124,15 +924,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 2.4,
-        "lambda_total": 3.85,
-        "p_over_1_5": 0.8968,
-        "p_over_2_5": 0.7391,
-        "p_over_3_5": 0.5367,
-        "p_btts_yes": 0.696
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Box Hill",
         "pred_winner_comment": "Win or draw",
@@ -1145,9 +937,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.05,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1156,7 +948,7 @@
     {
       "fixture_id": "1533066",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Southern Championship",
       "country": "Australia",
@@ -1177,31 +969,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7701,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.1528
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7701,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.1528
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.35,
-        "lambda_away": 1.6,
-        "lambda_total": 4.95,
-        "p_over_1_5": 0.9579,
-        "p_over_2_5": 0.8711,
-        "p_over_3_5": 0.7279,
-        "p_btts_yes": 0.7701
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "New Town",
         "pred_winner_comment": null,
@@ -1214,18 +984,18 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 19.33,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1533136",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1248,15 +1018,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1,
-        "lambda_away": 3.1,
-        "lambda_total": 5.2,
-        "p_over_1_5": 0.9658,
-        "p_over_2_5": 0.8912,
-        "p_over_3_5": 0.7619,
-        "p_btts_yes": 0.838
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Northern Rangers",
         "pred_winner_comment": null,
@@ -1269,9 +1031,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.7,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1280,7 +1042,7 @@
     {
       "fixture_id": "1533137",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1303,7 +1065,7 @@
     {
       "fixture_id": "1533139",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1326,7 +1088,7 @@
     {
       "fixture_id": "1620982",
       "kickoff_dublin": "2026-08-15T05:30:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 70.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania NPL",
       "country": "Australia",
@@ -1347,38 +1109,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5162,
-        "odd": 2.0,
-        "implied_probability": 0.5,
-        "edge": 0.0162
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5162,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.0162
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7229,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0086
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 2.05,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7121
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Kingborough Lions",
         "pred_winner_comment": "Win or draw",
@@ -1391,18 +1124,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.47,
+      "rank_score": 0.5,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1533064",
       "kickoff_dublin": "2026-08-15T05:45:00+01:00",
-      "minutes_to_kickoff": 92.5,
+      "minutes_to_kickoff": 85.3,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Southern Championship",
       "country": "Australia",
@@ -1425,15 +1158,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.75,
-        "lambda_total": 4.75,
-        "p_over_1_5": 0.9503,
-        "p_over_2_5": 0.8527,
-        "p_over_3_5": 0.6981,
-        "p_btts_yes": 0.7851
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Olympia Warriors",
         "pred_winner_comment": "Win or draw",
@@ -1446,9 +1171,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.15,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",

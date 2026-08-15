@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-15T12:42:42.694228+01:00",
+  "generated_at_dublin": "2026-08-15T12:45:23.700223+01:00",
   "match_date": "2026-08-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-15T13:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1196,
   "fixtures_target_date_total": 1196,
-  "fixtures_in_next_75m": 106,
-  "relevant_fixtures_in_next_75m": 89,
+  "fixtures_in_next_75m": 179,
+  "relevant_fixtures_in_next_75m": 146,
   "fixtures_in_target_block": 106,
   "relevant_fixtures_in_target_block": 89,
   "excluded_in_target_block": 17,
@@ -25,18 +25,18 @@
   "fixtures_analyzed_before_ranking": 89,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 89,
+  "technical_coverage_count": 88,
   "odds_coverage_count": 36,
-  "actionable_candidates_found": 13,
+  "actionable_candidates_found": 14,
   "matches_returned": 106,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 61299,
+    "daily_remaining": 61256,
     "minute_limit": 450,
-    "minute_remaining": 368
+    "minute_remaining": 413
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -55,7 +55,7 @@
     {
       "fixture_id": "1495369",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -138,7 +138,7 @@
     {
       "fixture_id": "1495525",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Damallsvenskan",
       "country": "Sweden",
@@ -207,7 +207,7 @@
     {
       "fixture_id": "1496305",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division - Group 2",
       "country": "Norway",
@@ -268,9 +268,78 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1497398",
+      "kickoff_dublin": "2026-08-15T13:00:00+01:00",
+      "minutes_to_kickoff": 14.6,
+      "timing_priority": "fixed_target_block",
+      "league": "3. Division - Girone 6",
+      "country": "Norway",
+      "home": "Ørn Horten",
+      "away": "Gjøvik-Lyn",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.55,
+        "odd_draw": 4.0,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.12,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.25,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.45,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6603,
+        "odd": 1.57,
+        "implied_probability": 0.6369,
+        "edge": 0.0234
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6603,
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "edge": 0.0234
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.65,
+        "lambda_away": 1.75,
+        "lambda_total": 3.4,
+        "p_over_1_5": 0.8532,
+        "p_over_2_5": 0.6603,
+        "p_over_3_5": 0.4416,
+        "p_btts_yes": 0.6675
+      },
+      "api_prediction": {
+        "pred_winner_name": "Gjøvik-Lyn",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Gjøvik-Lyn",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 7.84,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1568743",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -353,7 +422,7 @@
     {
       "fixture_id": "1575769",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division",
       "country": "Denmark",
@@ -444,7 +513,7 @@
     {
       "fixture_id": "1577753",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division",
       "country": "Denmark",
@@ -527,7 +596,7 @@
     {
       "fixture_id": "1581502",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -603,7 +672,7 @@
     {
       "fixture_id": "1581879",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -686,7 +755,7 @@
     {
       "fixture_id": "1587423",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -777,7 +846,7 @@
     {
       "fixture_id": "1600991",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -853,7 +922,7 @@
     {
       "fixture_id": "1525948",
       "kickoff_dublin": "2026-08-15T13:10:00+01:00",
-      "minutes_to_kickoff": 27.3,
+      "minutes_to_kickoff": 24.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Belarus",
@@ -935,7 +1004,7 @@
           "score": 1.285
         }
       ],
-      "rank_score": 23.92,
+      "rank_score": 25.92,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -944,7 +1013,7 @@
     {
       "fixture_id": "1565454",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -1027,7 +1096,7 @@
     {
       "fixture_id": "1553136",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraklasa",
       "country": "Poland",
@@ -1094,7 +1163,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 9.78,
+      "rank_score": 10.78,
       "actionable_candidate": true,
       "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
@@ -1105,7 +1174,7 @@
     {
       "fixture_id": "1495367",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -1160,7 +1229,7 @@
     {
       "fixture_id": "1495371",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -1215,7 +1284,7 @@
     {
       "fixture_id": "1496120",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division - Group 1",
       "country": "Norway",
@@ -1270,7 +1339,7 @@
     {
       "fixture_id": "1496485",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 1",
       "country": "Norway",
@@ -1325,7 +1394,7 @@
     {
       "fixture_id": "1496850",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 3",
       "country": "Norway",
@@ -1380,7 +1449,7 @@
     {
       "fixture_id": "1496854",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 3",
       "country": "Norway",
@@ -1435,7 +1504,7 @@
     {
       "fixture_id": "1497218",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 5",
       "country": "Norway",
@@ -1490,7 +1559,7 @@
     {
       "fixture_id": "1497397",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 6",
       "country": "Norway",
@@ -1543,56 +1612,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1497398",
-      "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
-      "timing_priority": "fixed_target_block",
-      "league": "3. Division - Girone 6",
-      "country": "Norway",
-      "home": "Ørn Horten",
-      "away": "Gjøvik-Lyn",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.55,
-        "odd_draw": 4.0,
-        "odd_away": 2.1,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.25,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.45,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {
-        "pred_winner_name": "Gjøvik-Lyn",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Gjøvik-Lyn",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1501445",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Elitettan",
       "country": "Sweden",
@@ -1615,7 +1637,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 2.15,
+        "lambda_away": 1.0,
+        "lambda_total": 3.15,
+        "p_over_1_5": 0.8222,
+        "p_over_2_5": 0.6096,
+        "p_over_3_5": 0.3863,
+        "p_btts_yes": 0.5585
+      },
       "api_prediction": {
         "pred_winner_name": "Göteborg W",
         "pred_winner_comment": "Win or draw",
@@ -1628,9 +1658,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 0.25,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1639,7 +1669,7 @@
     {
       "fixture_id": "1506650",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -1662,7 +1692,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.4,
+        "lambda_away": 2.65,
+        "lambda_total": 4.05,
+        "p_over_1_5": 0.912,
+        "p_over_2_5": 0.7691,
+        "p_over_3_5": 0.5762,
+        "p_btts_yes": 0.7002
+      },
       "api_prediction": {
         "pred_winner_name": "B71",
         "pred_winner_comment": null,
@@ -1675,9 +1713,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 1.15,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1686,7 +1724,7 @@
     {
       "fixture_id": "1510636",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norra Götaland",
       "country": "Sweden",
@@ -1741,7 +1779,7 @@
     {
       "fixture_id": "1510983",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Götaland",
       "country": "Sweden",
@@ -1785,7 +1823,7 @@
     {
       "fixture_id": "1510984",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Götaland",
       "country": "Sweden",
@@ -1840,7 +1878,7 @@
     {
       "fixture_id": "1523241",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -1895,7 +1933,7 @@
     {
       "fixture_id": "1523242",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -1950,7 +1988,7 @@
     {
       "fixture_id": "1534405",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -1994,7 +2032,7 @@
     {
       "fixture_id": "1541550",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kakkonen - Lohko B",
       "country": "Finland",
@@ -2049,7 +2087,7 @@
     {
       "fixture_id": "1541661",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kakkonen - Lohko A",
       "country": "Finland",
@@ -2104,7 +2142,7 @@
     {
       "fixture_id": "1551314",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Denmark",
@@ -2159,7 +2197,7 @@
     {
       "fixture_id": "1562717",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - CFL B",
       "country": "Czech-Republic",
@@ -2214,7 +2252,7 @@
     {
       "fixture_id": "1566732",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Nord",
       "country": "Germany",
@@ -2269,7 +2307,7 @@
     {
       "fixture_id": "1566733",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Nord",
       "country": "Germany",
@@ -2324,7 +2362,7 @@
     {
       "fixture_id": "1567031",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Süd",
       "country": "Germany",
@@ -2379,7 +2417,7 @@
     {
       "fixture_id": "1577212",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Nordost-Süd",
       "country": "Germany",
@@ -2434,7 +2472,7 @@
     {
       "fixture_id": "1577754",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division",
       "country": "Denmark",
@@ -2489,7 +2527,7 @@
     {
       "fixture_id": "1580186",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -2544,7 +2582,7 @@
     {
       "fixture_id": "1580187",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -2599,7 +2637,7 @@
     {
       "fixture_id": "1580188",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -2654,7 +2692,7 @@
     {
       "fixture_id": "1581065",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -2709,7 +2747,7 @@
     {
       "fixture_id": "1581066",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -2764,7 +2802,7 @@
     {
       "fixture_id": "1581067",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -2819,7 +2857,7 @@
     {
       "fixture_id": "1582375",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Baden-Württemberg",
       "country": "Germany",
@@ -2874,7 +2912,7 @@
     {
       "fixture_id": "1583954",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -2929,7 +2967,7 @@
     {
       "fixture_id": "1583955",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -2984,7 +3022,7 @@
     {
       "fixture_id": "1583957",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -3039,7 +3077,7 @@
     {
       "fixture_id": "1583958",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -3094,7 +3132,7 @@
     {
       "fixture_id": "1583960",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -3149,7 +3187,7 @@
     {
       "fixture_id": "1586515",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nord",
       "country": "Germany",
@@ -3204,7 +3242,7 @@
     {
       "fixture_id": "1586826",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nordost",
       "country": "Germany",
@@ -3227,7 +3265,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.75,
+        "lambda_away": 2.5,
+        "lambda_total": 3.25,
+        "p_over_1_5": 0.8352,
+        "p_over_2_5": 0.6304,
+        "p_over_3_5": 0.4086,
+        "p_btts_yes": 0.4843
+      },
       "api_prediction": {
         "pred_winner_name": "Greifswalder FC",
         "pred_winner_comment": null,
@@ -3240,9 +3286,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 0.35,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3251,7 +3297,7 @@
     {
       "fixture_id": "1586829",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nordost",
       "country": "Germany",
@@ -3306,7 +3352,7 @@
     {
       "fixture_id": "1587103",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -3361,7 +3407,7 @@
     {
       "fixture_id": "1587104",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -3416,7 +3462,7 @@
     {
       "fixture_id": "1587106",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -3471,7 +3517,7 @@
     {
       "fixture_id": "1587108",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -3526,7 +3572,7 @@
     {
       "fixture_id": "1587111",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -3581,7 +3627,7 @@
     {
       "fixture_id": "1587418",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -3636,7 +3682,7 @@
     {
       "fixture_id": "1587419",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -3691,7 +3737,7 @@
     {
       "fixture_id": "1588926",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Niedersachsen",
       "country": "Germany",
@@ -3746,7 +3792,7 @@
     {
       "fixture_id": "1598862",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -3801,7 +3847,7 @@
     {
       "fixture_id": "1598863",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -3856,7 +3902,7 @@
     {
       "fixture_id": "1598864",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -3911,7 +3957,7 @@
     {
       "fixture_id": "1598865",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -3966,7 +4012,7 @@
     {
       "fixture_id": "1600989",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -4021,7 +4067,7 @@
     {
       "fixture_id": "1600990",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -4076,7 +4122,7 @@
     {
       "fixture_id": "1605049",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -4131,7 +4177,7 @@
     {
       "fixture_id": "1611329",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bhutan",
@@ -4186,7 +4232,7 @@
     {
       "fixture_id": "1612460",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kansallinen Liiga",
       "country": "Finland",
@@ -4241,7 +4287,7 @@
     {
       "fixture_id": "1618238",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4296,7 +4342,7 @@
     {
       "fixture_id": "1506648",
       "kickoff_dublin": "2026-08-15T13:15:00+01:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 29.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -4351,7 +4397,7 @@
     {
       "fixture_id": "1579421",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Tweede Divisie",
       "country": "Netherlands",
@@ -4395,7 +4441,7 @@
     {
       "fixture_id": "1582377",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Baden-Württemberg",
       "country": "Germany",
@@ -4450,7 +4496,7 @@
     {
       "fixture_id": "1605050",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -4505,7 +4551,7 @@
     {
       "fixture_id": "1618239",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4560,7 +4606,7 @@
     {
       "fixture_id": "1618240",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4615,7 +4661,7 @@
     {
       "fixture_id": "1618241",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4670,122 +4716,12 @@
     {
       "fixture_id": "1618242",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
       "home": "Harkemase Boys",
       "away": "Hollandia",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -3.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618243",
-      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "home": "Hoogeveen",
-      "away": "SVZW",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -3.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618244",
-      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "home": "FC Lisse",
-      "away": "Achilles Veen",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -4825,9 +4761,111 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1618243",
+      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
+      "minutes_to_kickoff": 44.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Derde Divisie",
+      "country": "Netherlands",
+      "home": "Hoogeveen",
+      "away": "SVZW",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1618244",
+      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
+      "minutes_to_kickoff": 44.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Derde Divisie",
+      "country": "Netherlands",
+      "home": "FC Lisse",
+      "away": "Achilles Veen",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1618245",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4850,7 +4888,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Noordwijk",
         "pred_winner_comment": "Win or draw",
@@ -4863,9 +4909,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4874,7 +4920,7 @@
     {
       "fixture_id": "1618246",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4897,19 +4943,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4918,7 +4956,7 @@
     {
       "fixture_id": "1618247",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -4941,15 +4979,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Dovo",
         "pred_winner_comment": "Win or draw",
@@ -4962,9 +4992,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4973,7 +5003,7 @@
     {
       "fixture_id": "1620632",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Ýokary Liga",
       "country": "Turkmenistan",
@@ -5028,7 +5058,7 @@
     {
       "fixture_id": "1506649",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -5074,7 +5104,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.15,
+      "rank_score": -0.15,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5083,7 +5113,7 @@
     {
       "fixture_id": "1618248",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -5129,7 +5159,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5138,7 +5168,7 @@
     {
       "fixture_id": "1620633",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Ýokary Liga",
       "country": "Turkmenistan",
@@ -5184,7 +5214,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -1.65,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5195,7 +5225,7 @@
     {
       "fixture_id": "1536658",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -5218,7 +5248,7 @@
     {
       "fixture_id": "1536661",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -5241,7 +5271,7 @@
     {
       "fixture_id": "1536663",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -5264,7 +5294,7 @@
     {
       "fixture_id": "1595534",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -5287,7 +5317,7 @@
     {
       "fixture_id": "1595535",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -5310,7 +5340,7 @@
     {
       "fixture_id": "1595536",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -5333,7 +5363,7 @@
     {
       "fixture_id": "1595540",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -5356,7 +5386,7 @@
     {
       "fixture_id": "1598610",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -5379,7 +5409,7 @@
     {
       "fixture_id": "1599191",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -5402,7 +5432,7 @@
     {
       "fixture_id": "1622176",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -5425,7 +5455,7 @@
     {
       "fixture_id": "1622177",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -5448,7 +5478,7 @@
     {
       "fixture_id": "1626997",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -5471,7 +5501,7 @@
     {
       "fixture_id": "1538670",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -5494,7 +5524,7 @@
     {
       "fixture_id": "1538671",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -5517,7 +5547,7 @@
     {
       "fixture_id": "1538672",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -5540,7 +5570,7 @@
     {
       "fixture_id": "1538673",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -5563,7 +5593,7 @@
     {
       "fixture_id": "1566588",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "I Liga - Women",
       "country": "Slovakia",
@@ -5588,7 +5618,7 @@
     {
       "fixture_id": "1495367",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -5643,7 +5673,7 @@
     {
       "fixture_id": "1495369",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -5726,7 +5756,7 @@
     {
       "fixture_id": "1495371",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -5781,7 +5811,7 @@
     {
       "fixture_id": "1495525",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Damallsvenskan",
       "country": "Sweden",
@@ -5850,7 +5880,7 @@
     {
       "fixture_id": "1496120",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division - Group 1",
       "country": "Norway",
@@ -5905,7 +5935,7 @@
     {
       "fixture_id": "1496305",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division - Group 2",
       "country": "Norway",
@@ -5968,7 +5998,7 @@
     {
       "fixture_id": "1496485",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 1",
       "country": "Norway",
@@ -6023,7 +6053,7 @@
     {
       "fixture_id": "1496850",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 3",
       "country": "Norway",
@@ -6078,7 +6108,7 @@
     {
       "fixture_id": "1496854",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 3",
       "country": "Norway",
@@ -6133,7 +6163,7 @@
     {
       "fixture_id": "1497218",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 5",
       "country": "Norway",
@@ -6188,7 +6218,7 @@
     {
       "fixture_id": "1497397",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 6",
       "country": "Norway",
@@ -6243,7 +6273,7 @@
     {
       "fixture_id": "1497398",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 6",
       "country": "Norway",
@@ -6264,9 +6294,31 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6603,
+        "odd": 1.57,
+        "implied_probability": 0.6369,
+        "edge": 0.0234
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6603,
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "edge": 0.0234
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.65,
+        "lambda_away": 1.75,
+        "lambda_total": 3.4,
+        "p_over_1_5": 0.8532,
+        "p_over_2_5": 0.6603,
+        "p_over_3_5": 0.4416,
+        "p_btts_yes": 0.6675
+      },
       "api_prediction": {
         "pred_winner_name": "Gjøvik-Lyn",
         "pred_winner_comment": "Win or draw",
@@ -6279,18 +6331,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 7.84,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1501445",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Elitettan",
       "country": "Sweden",
@@ -6313,7 +6365,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 2.15,
+        "lambda_away": 1.0,
+        "lambda_total": 3.15,
+        "p_over_1_5": 0.8222,
+        "p_over_2_5": 0.6096,
+        "p_over_3_5": 0.3863,
+        "p_btts_yes": 0.5585
+      },
       "api_prediction": {
         "pred_winner_name": "Göteborg W",
         "pred_winner_comment": "Win or draw",
@@ -6326,9 +6386,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 0.25,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6337,7 +6397,7 @@
     {
       "fixture_id": "1506650",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -6360,7 +6420,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.4,
+        "lambda_away": 2.65,
+        "lambda_total": 4.05,
+        "p_over_1_5": 0.912,
+        "p_over_2_5": 0.7691,
+        "p_over_3_5": 0.5762,
+        "p_btts_yes": 0.7002
+      },
       "api_prediction": {
         "pred_winner_name": "B71",
         "pred_winner_comment": null,
@@ -6373,9 +6441,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 1.15,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6384,7 +6452,7 @@
     {
       "fixture_id": "1510636",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norra Götaland",
       "country": "Sweden",
@@ -6439,7 +6507,7 @@
     {
       "fixture_id": "1510983",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Götaland",
       "country": "Sweden",
@@ -6483,7 +6551,7 @@
     {
       "fixture_id": "1510984",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Götaland",
       "country": "Sweden",
@@ -6538,7 +6606,7 @@
     {
       "fixture_id": "1523241",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -6593,7 +6661,7 @@
     {
       "fixture_id": "1523242",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -6648,7 +6716,7 @@
     {
       "fixture_id": "1534405",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -6692,7 +6760,7 @@
     {
       "fixture_id": "1536658",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -6715,7 +6783,7 @@
     {
       "fixture_id": "1536661",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -6738,7 +6806,7 @@
     {
       "fixture_id": "1536663",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -6761,7 +6829,7 @@
     {
       "fixture_id": "1541550",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kakkonen - Lohko B",
       "country": "Finland",
@@ -6816,7 +6884,7 @@
     {
       "fixture_id": "1541661",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kakkonen - Lohko A",
       "country": "Finland",
@@ -6871,7 +6939,7 @@
     {
       "fixture_id": "1551314",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Denmark",
@@ -6926,7 +6994,7 @@
     {
       "fixture_id": "1562717",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - CFL B",
       "country": "Czech-Republic",
@@ -6981,7 +7049,7 @@
     {
       "fixture_id": "1566732",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Nord",
       "country": "Germany",
@@ -7036,7 +7104,7 @@
     {
       "fixture_id": "1566733",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Nord",
       "country": "Germany",
@@ -7091,7 +7159,7 @@
     {
       "fixture_id": "1567031",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Bayern Süd",
       "country": "Germany",
@@ -7146,7 +7214,7 @@
     {
       "fixture_id": "1568743",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -7229,7 +7297,7 @@
     {
       "fixture_id": "1575769",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "2. Division",
       "country": "Denmark",
@@ -7320,7 +7388,7 @@
     {
       "fixture_id": "1577212",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Nordost-Süd",
       "country": "Germany",
@@ -7375,7 +7443,7 @@
     {
       "fixture_id": "1577753",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division",
       "country": "Denmark",
@@ -7458,7 +7526,7 @@
     {
       "fixture_id": "1577754",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Division",
       "country": "Denmark",
@@ -7513,7 +7581,7 @@
     {
       "fixture_id": "1580186",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -7568,7 +7636,7 @@
     {
       "fixture_id": "1580187",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -7623,7 +7691,7 @@
     {
       "fixture_id": "1580188",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Schleswig-Holstein",
       "country": "Germany",
@@ -7678,7 +7746,7 @@
     {
       "fixture_id": "1581065",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -7733,7 +7801,7 @@
     {
       "fixture_id": "1581066",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -7788,7 +7856,7 @@
     {
       "fixture_id": "1581067",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Hessen",
       "country": "Germany",
@@ -7843,7 +7911,7 @@
     {
       "fixture_id": "1581502",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -7919,7 +7987,7 @@
     {
       "fixture_id": "1581879",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -8002,7 +8070,7 @@
     {
       "fixture_id": "1582375",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Baden-Württemberg",
       "country": "Germany",
@@ -8057,7 +8125,7 @@
     {
       "fixture_id": "1583954",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -8112,7 +8180,7 @@
     {
       "fixture_id": "1583955",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -8167,7 +8235,7 @@
     {
       "fixture_id": "1583957",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -8222,7 +8290,7 @@
     {
       "fixture_id": "1583958",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -8277,7 +8345,7 @@
     {
       "fixture_id": "1583960",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "3. Liga",
       "country": "Germany",
@@ -8332,7 +8400,7 @@
     {
       "fixture_id": "1586515",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nord",
       "country": "Germany",
@@ -8387,7 +8455,7 @@
     {
       "fixture_id": "1586826",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nordost",
       "country": "Germany",
@@ -8410,7 +8478,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.75,
+        "lambda_away": 2.5,
+        "lambda_total": 3.25,
+        "p_over_1_5": 0.8352,
+        "p_over_2_5": 0.6304,
+        "p_over_3_5": 0.4086,
+        "p_btts_yes": 0.4843
+      },
       "api_prediction": {
         "pred_winner_name": "Greifswalder FC",
         "pred_winner_comment": null,
@@ -8423,9 +8499,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": 0.35,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8434,7 +8510,7 @@
     {
       "fixture_id": "1586829",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Nordost",
       "country": "Germany",
@@ -8489,7 +8565,7 @@
     {
       "fixture_id": "1587103",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -8544,7 +8620,7 @@
     {
       "fixture_id": "1587104",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -8599,7 +8675,7 @@
     {
       "fixture_id": "1587106",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -8654,7 +8730,7 @@
     {
       "fixture_id": "1587108",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -8709,7 +8785,7 @@
     {
       "fixture_id": "1587111",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - SudWest",
       "country": "Germany",
@@ -8764,7 +8840,7 @@
     {
       "fixture_id": "1587418",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -8819,7 +8895,7 @@
     {
       "fixture_id": "1587419",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -8874,7 +8950,7 @@
     {
       "fixture_id": "1587423",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Germany",
@@ -8965,7 +9041,7 @@
     {
       "fixture_id": "1588926",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Niedersachsen",
       "country": "Germany",
@@ -9020,7 +9096,7 @@
     {
       "fixture_id": "1595534",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -9043,7 +9119,7 @@
     {
       "fixture_id": "1595535",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -9066,7 +9142,7 @@
     {
       "fixture_id": "1595536",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -9089,7 +9165,7 @@
     {
       "fixture_id": "1595540",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -9112,7 +9188,7 @@
     {
       "fixture_id": "1598610",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -9135,7 +9211,7 @@
     {
       "fixture_id": "1598862",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -9190,7 +9266,7 @@
     {
       "fixture_id": "1598863",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -9245,7 +9321,7 @@
     {
       "fixture_id": "1598864",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -9300,7 +9376,7 @@
     {
       "fixture_id": "1598865",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
       "country": "Germany",
@@ -9355,7 +9431,7 @@
     {
       "fixture_id": "1599191",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -9378,7 +9454,7 @@
     {
       "fixture_id": "1600989",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -9433,7 +9509,7 @@
     {
       "fixture_id": "1600990",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -9488,7 +9564,7 @@
     {
       "fixture_id": "1600991",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Norrland",
       "country": "Sweden",
@@ -9564,7 +9640,7 @@
     {
       "fixture_id": "1605049",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -9619,7 +9695,7 @@
     {
       "fixture_id": "1611329",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bhutan",
@@ -9674,7 +9750,7 @@
     {
       "fixture_id": "1612460",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Kansallinen Liiga",
       "country": "Finland",
@@ -9729,7 +9805,7 @@
     {
       "fixture_id": "1618238",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -9784,7 +9860,7 @@
     {
       "fixture_id": "1622176",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -9807,7 +9883,7 @@
     {
       "fixture_id": "1622177",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "U18 Premier League - North",
       "country": "England",
@@ -9830,7 +9906,7 @@
     {
       "fixture_id": "1626997",
       "kickoff_dublin": "2026-08-15T13:00:00+01:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 14.6,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -9853,7 +9929,7 @@
     {
       "fixture_id": "1525948",
       "kickoff_dublin": "2026-08-15T13:10:00+01:00",
-      "minutes_to_kickoff": 27.3,
+      "minutes_to_kickoff": 24.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Belarus",
@@ -9935,7 +10011,7 @@
           "score": 1.285
         }
       ],
-      "rank_score": 23.92,
+      "rank_score": 25.92,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -9944,7 +10020,7 @@
     {
       "fixture_id": "1506648",
       "kickoff_dublin": "2026-08-15T13:15:00+01:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 29.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -9999,7 +10075,7 @@
     {
       "fixture_id": "1538670",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -10022,7 +10098,7 @@
     {
       "fixture_id": "1538671",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -10045,7 +10121,7 @@
     {
       "fixture_id": "1538672",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -10068,7 +10144,7 @@
     {
       "fixture_id": "1538673",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Malawi",
@@ -10091,7 +10167,7 @@
     {
       "fixture_id": "1565454",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -10174,7 +10250,7 @@
     {
       "fixture_id": "1566588",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "I Liga - Women",
       "country": "Slovakia",
@@ -10197,7 +10273,7 @@
     {
       "fixture_id": "1579421",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Tweede Divisie",
       "country": "Netherlands",
@@ -10241,7 +10317,7 @@
     {
       "fixture_id": "1582377",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Baden-Württemberg",
       "country": "Germany",
@@ -10296,7 +10372,7 @@
     {
       "fixture_id": "1605050",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -10351,7 +10427,7 @@
     {
       "fixture_id": "1618239",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10406,7 +10482,7 @@
     {
       "fixture_id": "1618240",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10461,7 +10537,7 @@
     {
       "fixture_id": "1618241",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10516,122 +10592,12 @@
     {
       "fixture_id": "1618242",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
       "home": "Harkemase Boys",
       "away": "Hollandia",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -3.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618243",
-      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "home": "Hoogeveen",
-      "away": "SVZW",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -3.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618244",
-      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "home": "FC Lisse",
-      "away": "Achilles Veen",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -10671,9 +10637,111 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1618243",
+      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
+      "minutes_to_kickoff": 44.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Derde Divisie",
+      "country": "Netherlands",
+      "home": "Hoogeveen",
+      "away": "SVZW",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1618244",
+      "kickoff_dublin": "2026-08-15T13:30:00+01:00",
+      "minutes_to_kickoff": 44.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Derde Divisie",
+      "country": "Netherlands",
+      "home": "FC Lisse",
+      "away": "Achilles Veen",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1618245",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10696,7 +10764,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Noordwijk",
         "pred_winner_comment": "Win or draw",
@@ -10709,9 +10785,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -2.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -10720,7 +10796,7 @@
     {
       "fixture_id": "1618246",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10743,19 +10819,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -10764,7 +10832,7 @@
     {
       "fixture_id": "1618247",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -10787,15 +10855,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Dovo",
         "pred_winner_comment": "Win or draw",
@@ -10808,9 +10868,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -10819,7 +10879,7 @@
     {
       "fixture_id": "1620632",
       "kickoff_dublin": "2026-08-15T13:30:00+01:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 44.6,
       "timing_priority": "fixed_target_block",
       "league": "Ýokary Liga",
       "country": "Turkmenistan",
@@ -10874,7 +10934,7 @@
     {
       "fixture_id": "1506649",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
@@ -10920,7 +10980,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.15,
+      "rank_score": -0.15,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -10929,7 +10989,7 @@
     {
       "fixture_id": "1553136",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraklasa",
       "country": "Poland",
@@ -10996,7 +11056,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 9.78,
+      "rank_score": 10.78,
       "actionable_candidate": true,
       "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
@@ -11005,7 +11065,7 @@
     {
       "fixture_id": "1618248",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -11051,7 +11111,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -11060,7 +11120,7 @@
     {
       "fixture_id": "1620633",
       "kickoff_dublin": "2026-08-15T13:45:00+01:00",
-      "minutes_to_kickoff": 62.3,
+      "minutes_to_kickoff": 59.6,
       "timing_priority": "fixed_target_block",
       "league": "Ýokary Liga",
       "country": "Turkmenistan",
@@ -11106,7 +11166,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -1.65,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",

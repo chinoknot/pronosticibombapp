@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-15T05:02:14.381948+01:00",
+  "generated_at_dublin": "2026-08-15T05:03:39.212934+01:00",
   "match_date": "2026-08-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-15T06:00:00+01:00",
@@ -24,16 +24,16 @@
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 5,
   "odds_coverage_count": 4,
-  "actionable_candidates_found": 0,
+  "actionable_candidates_found": 2,
   "matches_returned": 7,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 65090,
+    "daily_remaining": 65096,
     "minute_limit": 450,
-    "minute_remaining": 443
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -48,12 +48,151 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [],
+  "top_actionable": [
+    {
+      "fixture_id": "1537513",
+      "kickoff_dublin": "2026-08-15T06:00:00+01:00",
+      "minutes_to_kickoff": 56.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Capital Territory NPL",
+      "country": "Australia",
+      "home": "Brindabella",
+      "away": "Cooma Tigers FC",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 41.0,
+        "odd_draw": 21.0,
+        "odd_away": 1.02,
+        "odd_ou_1_5_over": 1.03,
+        "odd_ou_2_5_over": 1.14,
+        "odd_ou_2_5_under": 5.0,
+        "odd_ou_3_5_over": 1.33,
+        "odd_btts_yes": 4.6,
+        "odd_btts_no": 1.17,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.4865,
+        "odd": 4.6,
+        "implied_probability": 0.2174,
+        "edge": 0.2691
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.4865,
+          "odd": 4.6,
+          "implied_probability": 0.2174,
+          "edge": 0.2691
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 0.8,
+        "lambda_away": 2.15,
+        "lambda_total": 2.95,
+        "p_over_1_5": 0.7933,
+        "p_over_2_5": 0.5655,
+        "p_over_3_5": 0.3416,
+        "p_btts_yes": 0.4865
+      },
+      "api_prediction": {
+        "pred_winner_name": "Cooma Tigers FC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Cooma Tigers FC",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 29.96,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1537514",
+      "kickoff_dublin": "2026-08-15T06:00:00+01:00",
+      "minutes_to_kickoff": 56.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Capital Territory NPL",
+      "country": "Australia",
+      "home": "O'Connor Knights",
+      "away": "Canberra White Eagles",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 4.0,
+        "odd_away": 2.62,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 1.93,
+        "odd_btts_yes": 3.0,
+        "odd_btts_no": 1.33,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.6901,
+        "odd": 3.0,
+        "implied_probability": 0.3333,
+        "edge": 0.3568
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.6901,
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "edge": 0.3568
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 1.6,
+        "lambda_total": 3.6,
+        "p_over_1_5": 0.8743,
+        "p_over_2_5": 0.6973,
+        "p_over_3_5": 0.4848,
+        "p_btts_yes": 0.6901
+      },
+      "api_prediction": {
+        "pred_winner_name": "O'Connor Knights",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : O'Connor Knights or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 39.38,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    }
+  ],
   "technical_fallbacks": [
     {
       "fixture_id": "1521998",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL",
       "country": "Australia",
@@ -74,9 +213,38 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3975,
+        "odd": 2.62,
+        "implied_probability": 0.3817,
+        "edge": 0.0158
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3975,
+          "odd": 2.62,
+          "implied_probability": 0.3817,
+          "edge": 0.0158
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6201,
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "edge": 0.014
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.5,
+        "lambda_away": 1.7,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.6349
+      },
       "api_prediction": {
         "pred_winner_name": "Heidelberg United",
         "pred_winner_comment": "Win or draw",
@@ -89,18 +257,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.88,
       "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "selection_reason": "Positive edge below actionable threshold",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1522039",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL",
       "country": "Australia",
@@ -123,7 +291,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.65,
+        "lambda_total": 2.85,
+        "p_over_1_5": 0.7773,
+        "p_over_2_5": 0.5424,
+        "p_over_3_5": 0.3192,
+        "p_btts_yes": 0.5646
+      },
       "api_prediction": {
         "pred_winner_name": "South Melbourne",
         "pred_winner_comment": "Win or draw",
@@ -136,9 +312,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.95,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -147,7 +323,7 @@
     {
       "fixture_id": "1534826",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Kazakhstan",
@@ -170,7 +346,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.75,
+        "lambda_away": 1.15,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5646
+      },
       "api_prediction": {
         "pred_winner_name": "Khan Tengri",
         "pred_winner_comment": "Win or draw",
@@ -183,105 +367,11 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1537513",
-      "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Capital Territory NPL",
-      "country": "Australia",
-      "home": "Brindabella",
-      "away": "Cooma Tigers FC",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 41.0,
-        "odd_draw": 21.0,
-        "odd_away": 1.02,
-        "odd_ou_1_5_over": 1.03,
-        "odd_ou_2_5_over": 1.14,
-        "odd_ou_2_5_under": 5.0,
-        "odd_ou_3_5_over": 1.33,
-        "odd_btts_yes": 4.6,
-        "odd_btts_no": 1.17,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {
-        "pred_winner_name": "Cooma Tigers FC",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Cooma Tigers FC",
-        "goals_home": "-1.5",
-        "goals_away": "-3.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1537514",
-      "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Capital Territory NPL",
-      "country": "Australia",
-      "home": "O'Connor Knights",
-      "away": "Canberra White Eagles",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 4.0,
-        "odd_away": 2.62,
-        "odd_ou_1_5_over": 1.06,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 2.75,
-        "odd_ou_3_5_over": 1.93,
-        "odd_btts_yes": 3.0,
-        "odd_btts_no": 1.33,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {
-        "pred_winner_name": "O'Connor Knights",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : O'Connor Knights or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     }
@@ -290,7 +380,7 @@
     {
       "fixture_id": "1517626",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -313,7 +403,7 @@
     {
       "fixture_id": "1577481",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",
@@ -338,7 +428,7 @@
     {
       "fixture_id": "1517626",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -361,7 +451,7 @@
     {
       "fixture_id": "1521998",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL",
       "country": "Australia",
@@ -382,9 +472,38 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3975,
+        "odd": 2.62,
+        "implied_probability": 0.3817,
+        "edge": 0.0158
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3975,
+          "odd": 2.62,
+          "implied_probability": 0.3817,
+          "edge": 0.0158
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6201,
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "edge": 0.014
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.5,
+        "lambda_away": 1.7,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.6349
+      },
       "api_prediction": {
         "pred_winner_name": "Heidelberg United",
         "pred_winner_comment": "Win or draw",
@@ -397,18 +516,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 4.88,
       "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "selection_reason": "Positive edge below actionable threshold",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1522039",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL",
       "country": "Australia",
@@ -431,7 +550,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.65,
+        "lambda_total": 2.85,
+        "p_over_1_5": 0.7773,
+        "p_over_2_5": 0.5424,
+        "p_over_3_5": 0.3192,
+        "p_btts_yes": 0.5646
+      },
       "api_prediction": {
         "pred_winner_name": "South Melbourne",
         "pred_winner_comment": "Win or draw",
@@ -444,9 +571,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.95,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -455,7 +582,7 @@
     {
       "fixture_id": "1534826",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Kazakhstan",
@@ -478,7 +605,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.75,
+        "lambda_away": 1.15,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5646
+      },
       "api_prediction": {
         "pred_winner_name": "Khan Tengri",
         "pred_winner_comment": "Win or draw",
@@ -491,9 +626,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -502,7 +637,7 @@
     {
       "fixture_id": "1537513",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -523,9 +658,31 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.4865,
+        "odd": 4.6,
+        "implied_probability": 0.2174,
+        "edge": 0.2691
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.4865,
+          "odd": 4.6,
+          "implied_probability": 0.2174,
+          "edge": 0.2691
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 0.8,
+        "lambda_away": 2.15,
+        "lambda_total": 2.95,
+        "p_over_1_5": 0.7933,
+        "p_over_2_5": 0.5655,
+        "p_over_3_5": 0.3416,
+        "p_btts_yes": 0.4865
+      },
       "api_prediction": {
         "pred_winner_name": "Cooma Tigers FC",
         "pred_winner_comment": null,
@@ -538,18 +695,18 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 29.96,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1537514",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -570,9 +727,31 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.6901,
+        "odd": 3.0,
+        "implied_probability": 0.3333,
+        "edge": 0.3568
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.6901,
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "edge": 0.3568
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 1.6,
+        "lambda_total": 3.6,
+        "p_over_1_5": 0.8743,
+        "p_over_2_5": 0.6973,
+        "p_over_3_5": 0.4848,
+        "p_btts_yes": 0.6901
+      },
       "api_prediction": {
         "pred_winner_name": "O'Connor Knights",
         "pred_winner_comment": "Win or draw",
@@ -585,18 +764,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 39.38,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1577481",
       "kickoff_dublin": "2026-08-15T06:00:00+01:00",
-      "minutes_to_kickoff": 57.8,
+      "minutes_to_kickoff": 56.3,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",

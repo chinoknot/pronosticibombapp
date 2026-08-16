@@ -1,28 +1,28 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-16T23:39:51.361277+01:00",
+  "generated_at_dublin": "2026-08-16T23:57:29.260502+01:00",
   "match_date": "2026-08-17",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-17T00:00:00+01:00",
   "target_block_end_dublin": "2026-08-17T00:45:00+01:00",
-  "target_block_matches": 15,
+  "target_block_matches": 14,
   "block_verified": true,
   "fixtures_today_total": 748,
   "fixtures_target_date_total": 155,
-  "fixtures_in_next_75m": 16,
-  "relevant_fixtures_in_next_75m": 13,
-  "fixtures_in_target_block": 15,
-  "relevant_fixtures_in_target_block": 13,
+  "fixtures_in_next_75m": 20,
+  "relevant_fixtures_in_next_75m": 18,
+  "fixtures_in_target_block": 14,
+  "relevant_fixtures_in_target_block": 12,
   "excluded_in_target_block": 2,
   "excluded_breakdown": {
     "women": 2
   },
-  "fixtures_analyzed_before_ranking": 13,
+  "fixtures_analyzed_before_ranking": 12,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 8,
-  "odds_coverage_count": 12,
+  "odds_coverage_count": 10,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -55,431 +55,40 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 15,
+  "matches_returned": 14,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 425,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 405,
-  "live_odds_requested": 13,
-  "live_predictions_requested": 13,
+  "live_api_budget": 428,
+  "live_odds_requested": 12,
+  "live_predictions_requested": 12,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 4147,
+  "request_ms": 4771,
   "api_usage_this_request": {
-    "calls": 15,
+    "calls": 14,
     "by_endpoint": {
       "/fixtures": 2,
-      "/odds": 13
+      "/odds": 12
     },
-    "prediction_cache_hits": 13,
+    "prediction_cache_hits": 12,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 58243,
+    "daily_remaining": 58202,
     "minute_limit": 450,
-    "minute_remaining": 414
+    "minute_remaining": 442
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
-      "fixture_id": "1493949",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "USL League One",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Union Omaha",
-      "away": "Richmond Kickers",
-      "venue": "Werner Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Union Omaha",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Union Omaha",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.22,
-        "odd_draw": 5.25,
-        "odd_away": 9.5,
-        "odd_ou_1_5_over": 1.09,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.05,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1513290",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "MLS Next Pro",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Huntsville City",
-      "away": "Inter Miami II",
-      "venue": "Joe W. Davis Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Huntsville City",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Huntsville City",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.55,
-        "odd_draw": 4.1,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.18,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1513291",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "MLS Next Pro",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "New England II",
-      "away": "Philadelphia Union II",
-      "venue": "Gillette Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "New England II",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : New England II",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 3.7,
-        "odd_away": 3.5,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.36,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1559611",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Nacional",
-      "country": "Guatemala",
-      "round": "Regular Season - 4",
-      "home": "Suchitepéquez",
-      "away": "Marquense",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Marquense",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Marquense",
-        "goals_home": null,
-        "goals_away": "-1.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.75,
-        "odd_draw": 3.0,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.5,
-        "odd_ou_2_5_over": 2.5,
-        "odd_ou_2_5_under": 1.5,
-        "odd_ou_3_5_over": 5.25,
-        "odd_btts_yes": 2.25,
-        "odd_btts_no": 1.53,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1623109",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Venezuela",
-      "round": "Clausura - 4",
-      "home": "Carabobo FC",
-      "away": "Metropolitanos FC",
-      "venue": "Estadio Polideportivo Misael Delgado",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Carabobo FC",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Carabobo FC or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.57,
-        "odd_draw": 3.6,
-        "odd_away": 5.0,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.9,
-        "odd_ou_2_5_under": 1.9,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1550925",
-      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX",
-      "country": "Mexico",
-      "round": "Apertura - 4",
-      "home": "Club America",
-      "away": "Atletico San Luis",
-      "venue": "Estadio Banorte",
-      "referee": "M. Quintero",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.5,
-        "odd_draw": 4.2,
-        "odd_away": 7.0,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1493065",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -539,14 +148,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1592948",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -606,6 +215,397 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1493063",
+      "kickoff_dublin": "2026-08-17T00:15:00+01:00",
+      "minutes_to_kickoff": 17.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "round": "Clausura - 5",
+      "home": "Barracas Central",
+      "away": "Rosario Central",
+      "venue": "Claudio Fabian Tapia",
+      "referee": "P. Dovalo",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.62,
+        "odd_draw": 2.88,
+        "odd_away": 3.1,
+        "odd_ou_1_5_over": 1.62,
+        "odd_ou_2_5_over": 3.1,
+        "odd_ou_2_5_under": 1.36,
+        "odd_ou_3_5_over": 6.5,
+        "odd_btts_yes": 2.25,
+        "odd_btts_no": 1.57,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1493949",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
+      "timing_priority": "fixed_target_block",
+      "league": "USL League One",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Union Omaha",
+      "away": "Richmond Kickers",
+      "venue": "Werner Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Union Omaha",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Union Omaha",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.22,
+        "odd_draw": 5.25,
+        "odd_away": 9.5,
+        "odd_ou_1_5_over": 1.09,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.05,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513290",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Huntsville City",
+      "away": "Inter Miami II",
+      "venue": "Joe W. Davis Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Huntsville City",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Huntsville City",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.55,
+        "odd_draw": 4.1,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.18,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.3,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513291",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "New England II",
+      "away": "Philadelphia Union II",
+      "venue": "Gillette Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "New England II",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : New England II",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.8,
+        "odd_draw": 3.7,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.36,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.3,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1559611",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Nacional",
+      "country": "Guatemala",
+      "round": "Regular Season - 4",
+      "home": "Suchitepéquez",
+      "away": "Marquense",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Marquense",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Marquense",
+        "goals_home": null,
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.75,
+        "odd_draw": 3.0,
+        "odd_away": 4.75,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.5,
+        "odd_ou_2_5_under": 1.5,
+        "odd_ou_3_5_over": 5.25,
+        "odd_btts_yes": 2.25,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1623109",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Venezuela",
+      "round": "Clausura - 4",
+      "home": "Carabobo FC",
+      "away": "Metropolitanos FC",
+      "venue": "Estadio Polideportivo Misael Delgado",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Carabobo FC",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Carabobo FC or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.6,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
       "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
@@ -613,7 +613,7 @@
     {
       "fixture_id": "1549448",
       "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 32.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -678,142 +678,30 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1493063",
-      "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "fixture_id": "1550925",
+      "kickoff_dublin": "2026-08-17T00:00:00+01:00",
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
-      "league": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "round": "Clausura - 5",
-      "home": "Barracas Central",
-      "away": "Rosario Central",
-      "venue": "Claudio Fabian Tapia",
-      "referee": "P. Dovalo",
+      "league": "Liga MX",
+      "country": "Mexico",
+      "round": "Apertura - 4",
+      "home": "Club America",
+      "away": "Atletico San Luis",
+      "venue": "Estadio Banorte",
+      "referee": "M. Quintero",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.62,
-        "odd_draw": 2.88,
-        "odd_away": 3.1,
-        "odd_ou_1_5_over": 1.62,
-        "odd_ou_2_5_over": 3.1,
-        "odd_ou_2_5_under": 1.36,
-        "odd_ou_3_5_over": 6.5,
-        "odd_btts_yes": 2.25,
-        "odd_btts_no": 1.57,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618966",
-      "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Segunda División",
-      "country": "Uruguay",
-      "round": "2nd Phase - 14",
-      "home": "Colón",
-      "away": "La Luz",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.55,
-        "odd_draw": 2.88,
-        "odd_away": 2.62,
-        "odd_ou_1_5_over": 1.55,
-        "odd_ou_2_5_over": 2.62,
-        "odd_ou_2_5_under": 1.44,
-        "odd_ou_3_5_over": 5.5,
-        "odd_btts_yes": 2.1,
-        "odd_btts_no": 1.6,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618979",
-      "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Bolivia",
-      "round": "Apertura - 15",
-      "home": "Independiente Petrolero",
-      "away": "Gualberto Villarroel SJ",
-      "venue": "",
-      "referee": "C. Arteaga",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
+        "odd_home": 1.5,
+        "odd_draw": 4.2,
+        "odd_away": 7.0,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -848,7 +736,7 @@
     {
       "fixture_id": "1583739",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Panameña de Fútbol",
       "country": "Panama",
@@ -856,6 +744,62 @@
       "home": "Alianza FC",
       "away": "Plaza Amador",
       "venue": "Estadio Javier Cruz",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1618966",
+      "kickoff_dublin": "2026-08-17T00:30:00+01:00",
+      "minutes_to_kickoff": 32.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Uruguay",
+      "round": "2nd Phase - 14",
+      "home": "Colón",
+      "away": "La Luz",
+      "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
@@ -906,7 +850,7 @@
     {
       "fixture_id": "1493949",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -966,14 +910,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1508509",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -1013,7 +957,7 @@
     {
       "fixture_id": "1513290",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -1073,14 +1017,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1513291",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -1140,14 +1084,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1550925",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX",
       "country": "Mexico",
@@ -1196,14 +1140,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1559611",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -1263,14 +1207,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1603323",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -1310,7 +1254,7 @@
     {
       "fixture_id": "1623109",
       "kickoff_dublin": "2026-08-17T00:00:00+01:00",
-      "minutes_to_kickoff": 20.1,
+      "minutes_to_kickoff": 2.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Venezuela",
@@ -1370,14 +1314,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493063",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1426,14 +1370,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493065",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1493,14 +1437,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1583739",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Panameña de Fútbol",
       "country": "Panama",
@@ -1549,14 +1493,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1592948",
       "kickoff_dublin": "2026-08-17T00:15:00+01:00",
-      "minutes_to_kickoff": 35.1,
+      "minutes_to_kickoff": 17.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -1616,14 +1560,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549448",
       "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 32.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -1690,7 +1634,7 @@
     {
       "fixture_id": "1618966",
       "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
+      "minutes_to_kickoff": 32.5,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Uruguay",
@@ -1702,16 +1646,16 @@
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.55,
-        "odd_draw": 2.88,
-        "odd_away": 2.62,
-        "odd_ou_1_5_over": 1.55,
-        "odd_ou_2_5_over": 2.62,
-        "odd_ou_2_5_under": 1.44,
-        "odd_ou_3_5_over": 5.5,
-        "odd_btts_yes": 2.1,
-        "odd_btts_no": 1.6,
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1739,63 +1683,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618979",
-      "kickoff_dublin": "2026-08-17T00:30:00+01:00",
-      "minutes_to_kickoff": 50.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Bolivia",
-      "round": "Apertura - 15",
-      "home": "Independiente Petrolero",
-      "away": "Gualberto Villarroel SJ",
-      "venue": "",
-      "referee": "C. Arteaga",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-17T00:44:37.030312+01:00",
+  "generated_at_dublin": "2026-08-17T00:59:01.956399+01:00",
   "match_date": "2026-08-17",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-17T01:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 155,
   "fixtures_target_date_total": 155,
-  "fixtures_in_next_75m": 7,
-  "relevant_fixtures_in_next_75m": 7,
+  "fixtures_in_next_75m": 9,
+  "relevant_fixtures_in_next_75m": 8,
   "fixtures_in_target_block": 7,
   "relevant_fixtures_in_target_block": 7,
   "excluded_in_target_block": 0,
@@ -20,7 +20,7 @@
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 6,
-  "odds_coverage_count": 7,
+  "odds_coverage_count": 6,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,28 @@
   "live_predictions_requested": 7,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 4888,
+  "request_ms": 5090,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 8,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 7
     },
     "prediction_cache_hits": 7,
-    "odds_cache_hits": 7
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 58131,
+    "daily_remaining": 58103,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 445
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1511651",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -145,14 +146,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1519448",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -212,14 +213,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1586102",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -279,14 +280,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1600568",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "El-Salvador",
@@ -346,137 +347,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618979",
-      "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Bolivia",
-      "round": "Apertura - 15",
-      "home": "Independiente Petrolero",
-      "away": "Gualberto Villarroel SJ",
-      "venue": "",
-      "referee": "C. Arteaga",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gualberto Villarroel SJ",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Gualberto Villarroel SJ",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1601403",
-      "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Ascenso",
-      "country": "Costa-Rica",
-      "round": "Regular Season - 3",
-      "home": "AD Cofutpa",
-      "away": "ADR Jicaral",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 4.2,
-        "odd_draw": 3.6,
-        "odd_away": 1.67,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.88,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490383",
       "kickoff_dublin": "2026-08-17T01:30:00+01:00",
-      "minutes_to_kickoff": 45.4,
+      "minutes_to_kickoff": 31.0,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -539,13 +417,136 @@
       "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1601403",
+      "kickoff_dublin": "2026-08-17T01:00:00+01:00",
+      "minutes_to_kickoff": 1.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "round": "Regular Season - 3",
+      "home": "AD Cofutpa",
+      "away": "ADR Jicaral",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.2,
+        "odd_draw": 3.6,
+        "odd_away": 1.67,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1618979",
+      "kickoff_dublin": "2026-08-17T01:00:00+01:00",
+      "minutes_to_kickoff": 1.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Bolivia",
+      "round": "Apertura - 15",
+      "home": "Independiente Petrolero",
+      "away": "Gualberto Villarroel SJ",
+      "venue": "",
+      "referee": "C. Arteaga",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gualberto Villarroel SJ",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Gualberto Villarroel SJ",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
     }
   ],
   "matches": [
     {
       "fixture_id": "1511651",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -605,14 +606,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1519448",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -672,14 +673,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1586102",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -739,14 +740,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1600568",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "El-Salvador",
@@ -806,14 +807,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1601403",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Ascenso",
       "country": "Costa-Rica",
@@ -862,14 +863,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1618979",
       "kickoff_dublin": "2026-08-17T01:00:00+01:00",
-      "minutes_to_kickoff": 15.4,
+      "minutes_to_kickoff": 1.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -892,16 +893,16 @@
         "prob_away": "45%"
       },
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -929,14 +930,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490383",
       "kickoff_dublin": "2026-08-17T01:30:00+01:00",
-      "minutes_to_kickoff": 45.4,
+      "minutes_to_kickoff": 31.0,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",

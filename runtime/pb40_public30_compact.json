@@ -1,15 +1,15 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-16T05:10:26.210008+01:00",
+  "generated_at_dublin": "2026-08-16T05:50:30.469524+01:00",
   "match_date": "2026-08-16",
   "selection_window": "fixed_next_hour_00_45",
   "fixtures_today_total": 747,
-  "fixtures_in_next_75m": 6,
-  "relevant_fixtures_in_next_75m": 6,
+  "fixtures_in_next_75m": 5,
+  "relevant_fixtures_in_next_75m": 5,
   "fixtures_analyzed_before_ranking": 5,
   "analysis_truncated": false,
-  "actionable_candidates_found": 0,
+  "actionable_candidates_found": 1,
   "matches_returned": 5,
   "max_is_return_limit_only": true,
   "partial_api_errors": [],
@@ -19,12 +19,68 @@
     "source_url": "Render /pb40?max=30",
     "canonical": false
   },
-  "top_actionable": [],
+  "top_actionable": [
+    {
+      "fixture_id": "1522003",
+      "kickoff_dublin": "2026-08-16T06:00:00+01:00",
+      "minutes_to_kickoff": 9.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Victoria NPL",
+      "country": "Australia",
+      "home": "Preston Lions",
+      "away": "Dandenong Thunder",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.12,
+        "odd_draw": 7.5,
+        "odd_away": 15.0,
+        "odd_ou_1_5_over": 1.1,
+        "odd_ou_2_5_over": 1.36,
+        "odd_ou_2_5_under": 3.0,
+        "odd_ou_3_5_over": 1.83,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5507,
+        "odd": 2.1,
+        "implied_probability": 0.4762,
+        "edge": 0.0745
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5507,
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "edge": 0.0745
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 2.05,
+        "lambda_away": 1.0,
+        "lambda_total": 3.05,
+        "p_over_1_5": 0.8082,
+        "p_over_2_5": 0.5879,
+        "p_over_3_5": 0.364,
+        "p_btts_yes": 0.5507
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 12.6,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    }
+  ],
   "technical_fallbacks": [
     {
       "fixture_id": "1517630",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -58,14 +114,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.6,
+      "rank_score": 4.6,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517631",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -99,14 +155,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.2,
+      "rank_score": 4.2,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517673",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -115,9 +171,9 @@
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.15,
+        "odd_home": 2.3,
         "odd_draw": 3.5,
-        "odd_away": 2.75,
+        "odd_away": 2.55,
         "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.53,
         "odd_ou_2_5_under": 2.38,
@@ -140,14 +196,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.3,
+      "rank_score": 4.8,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517912",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -181,48 +237,7 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.15,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1522003",
-      "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
-      "timing_priority": "fixed_target_block",
-      "league": "Victoria NPL",
-      "country": "Australia",
-      "home": "Preston Lions",
-      "away": "Dandenong Thunder",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.05,
-        "lambda_away": 1.0,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.5507
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -2.35,
+      "rank_score": 0.85,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     }
@@ -231,7 +246,7 @@
     {
       "fixture_id": "1517630",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -265,14 +280,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.6,
+      "rank_score": 4.6,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517631",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -306,14 +321,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.2,
+      "rank_score": 4.2,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517673",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL",
       "country": "Australia",
@@ -322,9 +337,9 @@
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.15,
+        "odd_home": 2.3,
         "odd_draw": 3.5,
-        "odd_away": 2.75,
+        "odd_away": 2.55,
         "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.53,
         "odd_ou_2_5_under": 2.38,
@@ -347,14 +362,14 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 2.3,
+      "rank_score": 4.8,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1517912",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "New South Wales NPL 2",
       "country": "Australia",
@@ -388,36 +403,50 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.15,
+      "rank_score": 0.85,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1522003",
       "kickoff_dublin": "2026-08-16T06:00:00+01:00",
-      "minutes_to_kickoff": 49.6,
+      "minutes_to_kickoff": 9.5,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL",
       "country": "Australia",
       "home": "Preston Lions",
       "away": "Dandenong Thunder",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 1.12,
+        "odd_draw": 7.5,
+        "odd_away": 15.0,
+        "odd_ou_1_5_over": 1.1,
+        "odd_ou_2_5_over": 1.36,
+        "odd_ou_2_5_under": 3.0,
+        "odd_ou_3_5_over": 1.83,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5507,
+        "odd": 2.1,
+        "implied_probability": 0.4762,
+        "edge": 0.0745
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5507,
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "edge": 0.0745
+        }
+      ],
       "pb_metrics": {
         "lambda_home": 2.05,
         "lambda_away": 1.0,
@@ -429,9 +458,9 @@
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.35,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "rank_score": 12.6,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
     }
   ]
 }

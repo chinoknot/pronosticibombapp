@@ -1,22 +1,22 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-17T08:30:05.599305+01:00",
+  "generated_at_dublin": "2026-08-17T09:09:00.248317+01:00",
   "match_date": "2026-08-17",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-08-17T09:00:00+01:00",
-  "target_block_end_dublin": "2026-08-17T09:45:00+01:00",
-  "target_block_matches": 1,
+  "target_block_start_dublin": "2026-08-17T10:00:00+01:00",
+  "target_block_end_dublin": "2026-08-17T10:45:00+01:00",
+  "target_block_matches": 2,
   "block_verified": true,
   "fixtures_today_total": 154,
   "fixtures_target_date_total": 154,
   "fixtures_in_next_75m": 1,
   "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 1,
+  "fixtures_in_target_block": 2,
   "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 1,
+  "excluded_in_target_block": 2,
   "excluded_breakdown": {
-    "women": 1
+    "women": 2
   },
   "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
@@ -55,7 +55,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 1,
+  "matches_returned": 2,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -67,7 +67,7 @@
   "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5793,
+  "request_ms": 4754,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
@@ -78,7 +78,7 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73437,
+    "daily_remaining": 73378,
     "minute_limit": 450,
     "minute_remaining": 449
   },
@@ -86,16 +86,56 @@
   "ranked_matches": [],
   "matches": [
     {
-      "fixture_id": "1578028",
-      "kickoff_dublin": "2026-08-17T09:00:00+01:00",
-      "minutes_to_kickoff": 29.9,
+      "fixture_id": "1578023",
+      "kickoff_dublin": "2026-08-17T10:00:00+01:00",
+      "minutes_to_kickoff": 51.0,
       "timing_priority": "fixed_target_block",
       "league": "AFC Women's Champions League",
       "country": "World",
       "round": "Preliminary",
-      "home": "East Bengal W",
-      "away": "Rajshahi W",
-      "venue": "Likas Stadium",
+      "home": "April W",
+      "away": "Kharaatsai W",
+      "venue": "True BG Stadium",
+      "referee": "",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1578024",
+      "kickoff_dublin": "2026-08-17T10:30:00+01:00",
+      "minutes_to_kickoff": 81.0,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC Women's Champions League",
+      "country": "World",
+      "round": "Preliminary",
+      "home": "Ayeyawady W",
+      "away": "Jurong W",
+      "venue": "Thuwunna Stadium",
       "referee": "",
       "exclusion_reason": "women",
       "api_prediction": {},

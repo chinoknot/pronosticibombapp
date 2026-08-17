@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-17T22:36:42.295748+01:00",
+  "generated_at_dublin": "2026-08-17T22:57:40.117687+01:00",
   "match_date": "2026-08-17",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-17T23:00:00+01:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,28 @@
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 4,
   "fallback_used": false,
-  "request_ms": 301,
+  "request_ms": 5289,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 5,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 4
     },
     "prediction_cache_hits": 4,
-    "odds_cache_hits": 4
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71161,
+    "daily_remaining": 71144,
     "minute_limit": 450,
-    "minute_remaining": 448
+    "minute_remaining": 444
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1612428",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -246,14 +247,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 20.25,
+      "rank_score": 18.25,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1511650",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -396,14 +397,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 11.46,
+      "rank_score": 9.46,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1511649",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -416,9 +417,9 @@
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.4,
+        "odd_home": 2.5,
         "odd_draw": 3.1,
-        "odd_away": 2.62,
+        "odd_away": 2.5,
         "odd_ou_1_5_over": 1.34,
         "odd_ou_2_5_over": 2.0,
         "odd_ou_2_5_under": 1.8,
@@ -553,14 +554,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 9.9,
+      "rank_score": 7.9,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493076",
       "kickoff_dublin": "2026-08-17T23:15:00+01:00",
-      "minutes_to_kickoff": 38.3,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -682,7 +683,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.0,
+      "rank_score": 4.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -691,7 +692,7 @@
     {
       "fixture_id": "1511649",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -704,9 +705,9 @@
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.4,
+        "odd_home": 2.5,
         "odd_draw": 3.1,
-        "odd_away": 2.62,
+        "odd_away": 2.5,
         "odd_ou_1_5_over": 1.34,
         "odd_ou_2_5_over": 2.0,
         "odd_ou_2_5_under": 1.8,
@@ -841,14 +842,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 9.9,
+      "rank_score": 7.9,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1511650",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -991,14 +992,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 11.46,
+      "rank_score": 9.46,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1612428",
       "kickoff_dublin": "2026-08-17T23:00:00+01:00",
-      "minutes_to_kickoff": 23.3,
+      "minutes_to_kickoff": 2.3,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -1159,14 +1160,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 20.25,
+      "rank_score": 18.25,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493076",
       "kickoff_dublin": "2026-08-17T23:15:00+01:00",
-      "minutes_to_kickoff": 38.3,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1288,7 +1289,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.0,
+      "rank_score": 4.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

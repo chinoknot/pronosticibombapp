@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-18T23:18:04.465584+01:00",
+  "generated_at_dublin": "2026-08-18T23:44:57.247066+01:00",
   "match_date": "2026-08-19",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-19T00:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 203,
   "fixtures_target_date_total": 336,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 3,
+  "fixtures_in_next_75m": 2,
+  "relevant_fixtures_in_next_75m": 2,
   "fixtures_in_target_block": 1,
   "relevant_fixtures_in_target_block": 1,
   "excluded_in_target_block": 0,
@@ -58,36 +58,35 @@
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 448,
+  "live_api_minute_remaining_before_enrichment": 376,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 428,
+  "live_api_budget": 356,
   "live_odds_requested": 1,
   "live_predictions_requested": 1,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5579,
+  "request_ms": 4903,
   "api_usage_this_request": {
-    "calls": 4,
+    "calls": 3,
     "by_endpoint": {
       "/fixtures": 2,
-      "/odds": 1,
-      "/predictions": 1
+      "/odds": 1
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 1,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71720,
+    "daily_remaining": 70581,
     "minute_limit": 450,
-    "minute_remaining": 446
+    "minute_remaining": 445
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1546103",
       "kickoff_dublin": "2026-08-19T00:00:00+01:00",
-      "minutes_to_kickoff": 41.9,
+      "minutes_to_kickoff": 15.0,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paulista",
       "country": "Brazil",
@@ -147,7 +146,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -156,7 +155,7 @@
     {
       "fixture_id": "1546103",
       "kickoff_dublin": "2026-08-19T00:00:00+01:00",
-      "minutes_to_kickoff": 41.9,
+      "minutes_to_kickoff": 15.0,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paulista",
       "country": "Brazil",
@@ -216,7 +215,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

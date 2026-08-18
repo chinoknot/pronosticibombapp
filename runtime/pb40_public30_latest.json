@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-18T14:02:59.920123+01:00",
+  "generated_at_dublin": "2026-08-18T14:52:18.011606+01:00",
   "match_date": "2026-08-18",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-18T15:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 203,
   "fixtures_target_date_total": 203,
-  "fixtures_in_next_75m": 4,
-  "relevant_fixtures_in_next_75m": 4,
+  "fixtures_in_next_75m": 14,
+  "relevant_fixtures_in_next_75m": 14,
   "fixtures_in_target_block": 6,
   "relevant_fixtures_in_target_block": 6,
   "excluded_in_target_block": 0,
@@ -65,29 +65,28 @@
   "live_predictions_requested": 6,
   "pb_state_metrics_available": 6,
   "fallback_used": false,
-  "request_ms": 5419,
+  "request_ms": 5310,
   "api_usage_this_request": {
-    "calls": 13,
+    "calls": 7,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 6,
-      "/predictions": 6
+      "/odds": 6
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 6,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73211,
+    "daily_remaining": 73147,
     "minute_limit": 450,
-    "minute_remaining": 445
+    "minute_remaining": 444
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1516111",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -245,14 +244,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 28.96,
+      "rank_score": 30.96,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1627508",
       "kickoff_dublin": "2026-08-18T15:30:00+01:00",
-      "minutes_to_kickoff": 87.0,
+      "minutes_to_kickoff": 37.7,
       "timing_priority": "fixed_target_block",
       "league": "Cupa României",
       "country": "Romania",
@@ -276,15 +275,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 3.25,
-        "odd_draw": 3.25,
-        "odd_away": 2.0,
-        "odd_ou_1_5_over": 1.39,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
+        "odd_home": 4.75,
+        "odd_draw": 3.4,
+        "odd_away": 1.62,
+        "odd_ou_1_5_over": 1.37,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
         "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
+        "odd_btts_yes": 2.05,
+        "odd_btts_no": 1.7,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -301,6 +300,13 @@
       "pb_raw_available": true,
       "value_markets": [
         {
+          "market": "Over 2.5",
+          "probability": 0.5768,
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "edge": 0.1324
+        },
+        {
           "market": "Over 3.5",
           "probability": 0.3528,
           "odd": 4.0,
@@ -308,26 +314,19 @@
           "edge": 0.1028
         },
         {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.089
-        },
-        {
           "market": "BTTS YES",
           "probability": 0.5466,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0061
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "edge": 0.0588
         }
       ],
       "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.3528,
-        "odd": 4.0,
-        "implied_probability": 0.25,
-        "edge": 0.1028
+        "market": "Over 2.5",
+        "probability": 0.5768,
+        "odd": 2.25,
+        "implied_probability": 0.4444,
+        "edge": 0.1324
       },
       "oddalerts": {
         "enabled": true,
@@ -346,6 +345,22 @@
       },
       "consensus_markets": [
         {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "pb_edge": 0.1324,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1324,
+          "consensus_ev": 0.2978,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
           "market": "Over 3.5",
           "pb_probability": 0.3528,
           "oddalerts_probability": null,
@@ -362,34 +377,18 @@
           "recommended": false
         },
         {
-          "market": "Over 2.5",
-          "pb_probability": 0.5768,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5768,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "pb_edge": 0.089,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.089,
-          "consensus_ev": 0.1824,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
           "market": "Over 1.5",
           "pb_probability": 0.8009,
           "oddalerts_probability": null,
           "consensus_probability": 0.8009,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.39,
-          "implied_probability": 0.7194,
-          "pb_edge": 0.0815,
+          "odd": 1.37,
+          "implied_probability": 0.7299,
+          "pb_edge": 0.071,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0815,
-          "consensus_ev": 0.1133,
+          "consensus_edge": 0.071,
+          "consensus_ev": 0.0972,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -400,12 +399,12 @@
           "consensus_probability": 0.5466,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "pb_edge": 0.0061,
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "pb_edge": 0.0588,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0061,
-          "consensus_ev": 0.0112,
+          "consensus_edge": 0.0588,
+          "consensus_ev": 0.1205,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -413,14 +412,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 12.38,
+      "rank_score": 16.34,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1627507",
       "kickoff_dublin": "2026-08-18T15:30:00+01:00",
-      "minutes_to_kickoff": 87.0,
+      "minutes_to_kickoff": 37.7,
       "timing_priority": "fixed_target_block",
       "league": "Cupa României",
       "country": "Romania",
@@ -440,8 +439,8 @@
         "odd_ou_2_5_over": 2.0,
         "odd_ou_2_5_under": 1.8,
         "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.65,
-        "odd_btts_no": 2.1,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -529,12 +528,12 @@
           "consensus_probability": 0.4417,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.65,
-          "implied_probability": 0.6061,
-          "pb_edge": -0.1644,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": -0.1363,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1644,
-          "consensus_ev": -0.2712,
+          "consensus_edge": -0.1363,
+          "consensus_ev": -0.2359,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -542,14 +541,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1623354",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kyrgyzstan",
@@ -682,14 +681,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1609630",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 3",
       "country": "Switzerland",
@@ -822,14 +821,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1527723",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Vysshaya Liga",
       "country": "Tajikistan",
@@ -951,7 +950,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -960,7 +959,7 @@
     {
       "fixture_id": "1516111",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -1118,14 +1117,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 28.96,
+      "rank_score": 30.96,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1527723",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Vysshaya Liga",
       "country": "Tajikistan",
@@ -1247,14 +1246,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1609630",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 3",
       "country": "Switzerland",
@@ -1387,14 +1386,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1623354",
       "kickoff_dublin": "2026-08-18T15:00:00+01:00",
-      "minutes_to_kickoff": 57.0,
+      "minutes_to_kickoff": 7.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kyrgyzstan",
@@ -1527,14 +1526,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1627507",
       "kickoff_dublin": "2026-08-18T15:30:00+01:00",
-      "minutes_to_kickoff": 87.0,
+      "minutes_to_kickoff": 37.7,
       "timing_priority": "fixed_target_block",
       "league": "Cupa României",
       "country": "Romania",
@@ -1554,8 +1553,8 @@
         "odd_ou_2_5_over": 2.0,
         "odd_ou_2_5_under": 1.8,
         "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.65,
-        "odd_btts_no": 2.1,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1643,12 +1642,12 @@
           "consensus_probability": 0.4417,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.65,
-          "implied_probability": 0.6061,
-          "pb_edge": -0.1644,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": -0.1363,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1644,
-          "consensus_ev": -0.2712,
+          "consensus_edge": -0.1363,
+          "consensus_ev": -0.2359,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -1656,14 +1655,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1627508",
       "kickoff_dublin": "2026-08-18T15:30:00+01:00",
-      "minutes_to_kickoff": 87.0,
+      "minutes_to_kickoff": 37.7,
       "timing_priority": "fixed_target_block",
       "league": "Cupa României",
       "country": "Romania",
@@ -1687,15 +1686,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 3.25,
-        "odd_draw": 3.25,
-        "odd_away": 2.0,
-        "odd_ou_1_5_over": 1.39,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
+        "odd_home": 4.75,
+        "odd_draw": 3.4,
+        "odd_away": 1.62,
+        "odd_ou_1_5_over": 1.37,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
         "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
+        "odd_btts_yes": 2.05,
+        "odd_btts_no": 1.7,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1712,6 +1711,13 @@
       "pb_raw_available": true,
       "value_markets": [
         {
+          "market": "Over 2.5",
+          "probability": 0.5768,
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "edge": 0.1324
+        },
+        {
           "market": "Over 3.5",
           "probability": 0.3528,
           "odd": 4.0,
@@ -1719,26 +1725,19 @@
           "edge": 0.1028
         },
         {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "edge": 0.089
-        },
-        {
           "market": "BTTS YES",
           "probability": 0.5466,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0061
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "edge": 0.0588
         }
       ],
       "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.3528,
-        "odd": 4.0,
-        "implied_probability": 0.25,
-        "edge": 0.1028
+        "market": "Over 2.5",
+        "probability": 0.5768,
+        "odd": 2.25,
+        "implied_probability": 0.4444,
+        "edge": 0.1324
       },
       "oddalerts": {
         "enabled": true,
@@ -1757,6 +1756,22 @@
       },
       "consensus_markets": [
         {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "pb_edge": 0.1324,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1324,
+          "consensus_ev": 0.2978,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
           "market": "Over 3.5",
           "pb_probability": 0.3528,
           "oddalerts_probability": null,
@@ -1773,34 +1788,18 @@
           "recommended": false
         },
         {
-          "market": "Over 2.5",
-          "pb_probability": 0.5768,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5768,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.05,
-          "implied_probability": 0.4878,
-          "pb_edge": 0.089,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.089,
-          "consensus_ev": 0.1824,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
           "market": "Over 1.5",
           "pb_probability": 0.8009,
           "oddalerts_probability": null,
           "consensus_probability": 0.8009,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.39,
-          "implied_probability": 0.7194,
-          "pb_edge": 0.0815,
+          "odd": 1.37,
+          "implied_probability": 0.7299,
+          "pb_edge": 0.071,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0815,
-          "consensus_ev": 0.1133,
+          "consensus_edge": 0.071,
+          "consensus_ev": 0.0972,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -1811,12 +1810,12 @@
           "consensus_probability": 0.5466,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "pb_edge": 0.0061,
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "pb_edge": 0.0588,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0061,
-          "consensus_ev": 0.0112,
+          "consensus_edge": 0.0588,
+          "consensus_ev": 0.1205,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -1824,7 +1823,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 12.38,
+      "rank_score": 16.34,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     }

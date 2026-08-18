@@ -1,21 +1,23 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-18T07:18:29.310976+01:00",
+  "generated_at_dublin": "2026-08-18T08:10:14.725775+01:00",
   "match_date": "2026-08-18",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-08-18T08:00:00+01:00",
-  "target_block_end_dublin": "2026-08-18T08:45:00+01:00",
-  "target_block_matches": 0,
+  "target_block_start_dublin": "2026-08-18T09:00:00+01:00",
+  "target_block_end_dublin": "2026-08-18T09:45:00+01:00",
+  "target_block_matches": 1,
   "block_verified": true,
   "fixtures_today_total": 202,
   "fixtures_target_date_total": 202,
-  "fixtures_in_next_75m": 0,
+  "fixtures_in_next_75m": 1,
   "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 0,
+  "fixtures_in_target_block": 1,
   "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 0,
-  "excluded_breakdown": {},
+  "excluded_in_target_block": 1,
+  "excluded_breakdown": {
+    "friendly": 1
+  },
   "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
@@ -31,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -53,7 +55,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "matches_returned": 1,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -65,7 +67,7 @@
   "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5371,
+  "request_ms": 4468,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
@@ -76,13 +78,54 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73807,
+    "daily_remaining": 73521,
     "minute_limit": 450,
     "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [],
-  "matches": [],
+  "matches": [
+    {
+      "fixture_id": "1629009",
+      "kickoff_dublin": "2026-08-18T09:00:00+01:00",
+      "minutes_to_kickoff": 49.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies Clubs",
+      "country": "World",
+      "round": "Club Friendlies",
+      "home": "Illescas",
+      "away": "SS Reyes II",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    }
+  ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-18T12:11:21.034790+01:00",
+  "generated_at_dublin": "2026-08-18T12:41:50.123602+01:00",
   "match_date": "2026-08-18",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-18T13:00:00+01:00",
@@ -10,7 +10,7 @@
   "block_verified": true,
   "fixtures_today_total": 204,
   "fixtures_target_date_total": 204,
-  "fixtures_in_next_75m": 3,
+  "fixtures_in_next_75m": 4,
   "relevant_fixtures_in_next_75m": 1,
   "fixtures_in_target_block": 4,
   "relevant_fixtures_in_target_block": 1,
@@ -61,27 +61,26 @@
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
+  "live_api_budget": 428,
   "live_odds_requested": 1,
   "live_predictions_requested": 1,
   "pb_state_metrics_available": 1,
   "fallback_used": false,
-  "request_ms": 5468,
+  "request_ms": 5016,
   "api_usage_this_request": {
-    "calls": 3,
+    "calls": 2,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 1,
-      "/predictions": 1
+      "/odds": 1
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 1,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73326,
+    "daily_remaining": 73285,
     "minute_limit": 450,
     "minute_remaining": 447
   },
@@ -90,7 +89,7 @@
     {
       "fixture_id": "1605051",
       "kickoff_dublin": "2026-08-18T13:30:00+01:00",
-      "minutes_to_kickoff": 78.6,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -223,7 +222,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -0.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -232,7 +231,7 @@
     {
       "fixture_id": "1619112",
       "kickoff_dublin": "2026-08-18T13:00:00+01:00",
-      "minutes_to_kickoff": 48.6,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Professional Development League",
       "country": "England",
@@ -272,7 +271,7 @@
     {
       "fixture_id": "1619114",
       "kickoff_dublin": "2026-08-18T13:00:00+01:00",
-      "minutes_to_kickoff": 48.6,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Professional Development League",
       "country": "England",
@@ -312,7 +311,7 @@
     {
       "fixture_id": "1605051",
       "kickoff_dublin": "2026-08-18T13:30:00+01:00",
-      "minutes_to_kickoff": 78.6,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -445,14 +444,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -0.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1627007",
       "kickoff_dublin": "2026-08-18T13:30:00+01:00",
-      "minutes_to_kickoff": 78.6,
+      "minutes_to_kickoff": 48.2,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",

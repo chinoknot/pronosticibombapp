@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-19T20:40:48.308811+01:00",
+  "generated_at_dublin": "2026-08-19T20:59:35.061390+01:00",
   "match_date": "2026-08-19",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-19T21:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 335,
   "fixtures_target_date_total": 335,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 2,
+  "fixtures_in_next_75m": 7,
+  "relevant_fixtures_in_next_75m": 5,
   "fixtures_in_target_block": 3,
   "relevant_fixtures_in_target_block": 2,
   "excluded_in_target_block": 1,
@@ -67,28 +67,29 @@
   "live_predictions_requested": 2,
   "pb_state_metrics_available": 2,
   "fallback_used": false,
-  "request_ms": 4440,
+  "request_ms": 5128,
   "api_usage_this_request": {
-    "calls": 3,
+    "calls": 5,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 2
+      "/odds": 2,
+      "/predictions": 2
     },
-    "prediction_cache_hits": 2,
+    "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70506,
+    "daily_remaining": 70497,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1560805",
       "kickoff_dublin": "2026-08-19T21:00:00+01:00",
-      "minutes_to_kickoff": 19.2,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -221,14 +222,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1560812",
       "kickoff_dublin": "2026-08-19T21:00:00+01:00",
-      "minutes_to_kickoff": 19.2,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -361,7 +362,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -370,7 +371,7 @@
     {
       "fixture_id": "1543986",
       "kickoff_dublin": "2026-08-19T21:00:00+01:00",
-      "minutes_to_kickoff": 19.2,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Brasileiro U17",
       "country": "Brazil",
@@ -410,7 +411,7 @@
     {
       "fixture_id": "1560805",
       "kickoff_dublin": "2026-08-19T21:00:00+01:00",
-      "minutes_to_kickoff": 19.2,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -543,14 +544,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1560812",
       "kickoff_dublin": "2026-08-19T21:00:00+01:00",
-      "minutes_to_kickoff": 19.2,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -683,7 +684,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

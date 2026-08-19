@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: pb40-public-feed-100
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
@@ -242,15 +242,70 @@ jobs:
           set -euo pipefail
           git config user.name 'pb40-public-feed-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json runtime/archive
-          if git diff --cached --quiet; then
-            echo 'No canonical PB40 feed changes.'
-            exit 0
+
+          snapshot="${RUNNER_TEMP}/pb40-public-feed-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          rm -rf "$snapshot"
+          mkdir -p "$snapshot/runtime"
+          cp runtime/pb40_latest.json "$snapshot/runtime/pb40_latest.json"
+          cp runtime/pb40_compact.json "$snapshot/runtime/pb40_compact.json"
+          cp runtime/pb40_status.json "$snapshot/runtime/pb40_status.json"
+          newest_archive="$(find runtime/archive -maxdepth 1 -type f -name 'pb40-*.json' -printf '%T@ %p\n' | sort -nr | head -n 1 | cut -d' ' -f2-)"
+          if [ -z "$newest_archive" ]; then
+            echo 'Fresh archive file missing.' >&2
+            exit 1
           fi
-          git commit -m 'Refresh PB40 block-fresh feed'
-          for attempt in 1 2 3; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then exit 0; fi
-            if [ "$attempt" -lt 3 ]; then sleep 5; fi
+          archive_name="$(basename "$newest_archive")"
+          cp "$newest_archive" "$snapshot/$archive_name"
+          snapshot_generated="$(jq -r '.generated_at_dublin' "$snapshot/runtime/pb40_latest.json")"
+
+          for attempt in 1 2 3 4; do
+            echo "PB40 race-safe publish attempt ${attempt}/4"
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd
+
+            origin_generated=""
+            if [ -f runtime/pb40_latest.json ]; then
+              origin_generated="$(jq -r '.generated_at_dublin // empty' runtime/pb40_latest.json 2>/dev/null || true)"
+            fi
+
+            if [ -n "$origin_generated" ]; then
+              if python - "$origin_generated" "$snapshot_generated" <<'PY'
+          import sys
+          from datetime import datetime
+
+          origin = datetime.fromisoformat(sys.argv[1].replace('Z', '+00:00'))
+          candidate = datetime.fromisoformat(sys.argv[2].replace('Z', '+00:00'))
+          raise SystemExit(0 if origin >= candidate else 1)
+          PY
+              then
+                echo "Origin already has same/newer PB40 snapshot (${origin_generated}); nothing to publish."
+                exit 0
+              fi
+            fi
+
+            mkdir -p runtime/archive
+            cp "$snapshot/runtime/pb40_latest.json" runtime/pb40_latest.json
+            cp "$snapshot/runtime/pb40_compact.json" runtime/pb40_compact.json
+            cp "$snapshot/runtime/pb40_status.json" runtime/pb40_status.json
+            cp "$snapshot/$archive_name" "runtime/archive/$archive_name"
+
+            find runtime/archive -type f -name 'pb40-*.json' -printf '%T@ %p\n' | sort -nr | tail -n +49 | cut -d' ' -f2- | xargs -r rm -f
+
+            git add runtime/pb40_latest.json runtime/pb40_compact.json runtime/pb40_status.json runtime/archive
+            if git diff --cached --quiet; then
+              echo 'Canonical PB40 feed already current.'
+              exit 0
+            fi
+
+            git commit -m 'Refresh PB40 block-fresh feed'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push race on attempt ${attempt}/4; retrying from latest origin without rebase."
+            if [ "$attempt" -lt 4 ]; then sleep $((attempt * 3)); fi
           done
+
+          echo 'Unable to publish PB40 block-fresh feed after race-safe retries.' >&2
           exit 1

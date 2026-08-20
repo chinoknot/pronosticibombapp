@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-20T20:28:07.870520+01:00",
+  "generated_at_dublin": "2026-08-20T20:57:18.428176+01:00",
   "match_date": "2026-08-20",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-20T21:00:00+01:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,28 +67,27 @@
   "live_predictions_requested": 5,
   "pb_state_metrics_available": 5,
   "fallback_used": false,
-  "request_ms": 4733,
+  "request_ms": 438,
   "api_usage_this_request": {
-    "calls": 6,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 5
+      "/fixtures": 1
     },
     "prediction_cache_hits": 5,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 5
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71555,
+    "daily_remaining": 71387,
     "minute_limit": 450,
-    "minute_remaining": 445
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1547791",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Copa Ecuador",
       "country": "Ecuador",
@@ -113,8 +112,8 @@
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 4.75,
-        "odd_draw": 3.5,
-        "odd_away": 1.67,
+        "odd_draw": 3.6,
+        "odd_away": 1.65,
         "odd_ou_1_5_over": 1.44,
         "odd_ou_2_5_over": 2.25,
         "odd_ou_2_5_under": 1.62,
@@ -256,7 +255,7 @@
     {
       "fixture_id": "1611964",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -396,7 +395,7 @@
     {
       "fixture_id": "1549593",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -529,14 +528,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.65,
+      "rank_score": 2.65,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1526603",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -566,7 +565,7 @@
         "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.6,
         "odd_ou_2_5_under": 2.3,
-        "odd_ou_3_5_over": 2.55,
+        "odd_ou_3_5_over": 2.6,
         "odd_btts_yes": 1.85,
         "odd_btts_no": 1.85,
         "odd_ht_home_team_o05": null,
@@ -640,12 +639,12 @@
           "consensus_probability": 0.2318,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 2.55,
-          "implied_probability": 0.3922,
-          "pb_edge": -0.1604,
+          "odd": 2.6,
+          "implied_probability": 0.3846,
+          "pb_edge": -0.1528,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1604,
-          "consensus_ev": -0.4089,
+          "consensus_edge": -0.1528,
+          "consensus_ev": -0.3973,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -669,14 +668,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.55,
+      "rank_score": 2.55,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1526602",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -809,7 +808,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -818,7 +817,7 @@
     {
       "fixture_id": "1525756",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Femenina",
       "country": "Colombia",
@@ -858,7 +857,7 @@
     {
       "fixture_id": "1525758",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Femenina",
       "country": "Colombia",
@@ -898,7 +897,7 @@
     {
       "fixture_id": "1525762",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Femenina",
       "country": "Colombia",
@@ -938,7 +937,7 @@
     {
       "fixture_id": "1525763",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Femenina",
       "country": "Colombia",
@@ -978,7 +977,7 @@
     {
       "fixture_id": "1547791",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Copa Ecuador",
       "country": "Ecuador",
@@ -1003,8 +1002,8 @@
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 4.75,
-        "odd_draw": 3.5,
-        "odd_away": 1.67,
+        "odd_draw": 3.6,
+        "odd_away": 1.65,
         "odd_ou_1_5_over": 1.44,
         "odd_ou_2_5_over": 2.25,
         "odd_ou_2_5_under": 1.62,
@@ -1146,7 +1145,7 @@
     {
       "fixture_id": "1611964",
       "kickoff_dublin": "2026-08-20T21:00:00+01:00",
-      "minutes_to_kickoff": 31.9,
+      "minutes_to_kickoff": 2.7,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -1286,7 +1285,7 @@
     {
       "fixture_id": "1526602",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -1419,14 +1418,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1526603",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -1456,7 +1455,7 @@
         "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.6,
         "odd_ou_2_5_under": 2.3,
-        "odd_ou_3_5_over": 2.55,
+        "odd_ou_3_5_over": 2.6,
         "odd_btts_yes": 1.85,
         "odd_btts_no": 1.85,
         "odd_ht_home_team_o05": null,
@@ -1530,12 +1529,12 @@
           "consensus_probability": 0.2318,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 2.55,
-          "implied_probability": 0.3922,
-          "pb_edge": -0.1604,
+          "odd": 2.6,
+          "implied_probability": 0.3846,
+          "pb_edge": -0.1528,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1604,
-          "consensus_ev": -0.4089,
+          "consensus_edge": -0.1528,
+          "consensus_ev": -0.3973,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -1559,14 +1558,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.55,
+      "rank_score": 2.55,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549593",
       "kickoff_dublin": "2026-08-20T21:30:00+01:00",
-      "minutes_to_kickoff": 61.9,
+      "minutes_to_kickoff": 32.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -1699,7 +1698,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.65,
+      "rank_score": 2.65,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

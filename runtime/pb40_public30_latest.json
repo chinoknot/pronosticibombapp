@@ -1,19 +1,19 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-22T09:29:31.362021+01:00",
+  "generated_at_dublin": "2026-08-22T09:59:35.969914+01:00",
   "match_date": "2026-08-22",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-22T10:00:00+01:00",
   "target_block_end_dublin": "2026-08-22T10:45:00+01:00",
-  "target_block_matches": 40,
+  "target_block_matches": 39,
   "block_verified": true,
-  "fixtures_today_total": 1303,
-  "fixtures_target_date_total": 1303,
-  "fixtures_in_next_75m": 48,
-  "relevant_fixtures_in_next_75m": 28,
-  "fixtures_in_target_block": 40,
-  "relevant_fixtures_in_target_block": 23,
+  "fixtures_today_total": 1298,
+  "fixtures_target_date_total": 1298,
+  "fixtures_in_next_75m": 82,
+  "relevant_fixtures_in_next_75m": 53,
+  "fixtures_in_target_block": 39,
+  "relevant_fixtures_in_target_block": 22,
   "excluded_in_target_block": 17,
   "excluded_breakdown": {
     "youth": 10,
@@ -21,11 +21,11 @@
     "friendly": 2,
     "excluded_country": 1
   },
-  "fixtures_analyzed_before_ranking": 23,
+  "fixtures_analyzed_before_ranking": 22,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 15,
-  "odds_coverage_count": 4,
+  "technical_coverage_count": 22,
+  "odds_coverage_count": 9,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -36,19 +36,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -57,7 +57,7 @@
     "footystats": "disabled",
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
-  "actionable_candidates_found": 2,
+  "actionable_candidates_found": 4,
   "matches_returned": 30,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
@@ -66,33 +66,31 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 23,
-  "live_predictions_requested": 23,
-  "pb_state_metrics_available": 11,
+  "live_odds_requested": 22,
+  "live_predictions_requested": 22,
+  "pb_state_metrics_available": 22,
   "fallback_used": false,
-  "request_ms": 1961,
+  "request_ms": 628,
   "api_usage_this_request": {
-    "calls": 47,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 23,
-      "/predictions": 23
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 22,
+    "odds_cache_hits": 22
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62619,
+    "daily_remaining": 62448,
     "minute_limit": 450,
-    "minute_remaining": 434
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1606618",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -258,9 +256,327 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1555667",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Nara Club",
+      "away": "Renofa Yamaguchi",
+      "venue": "Konoike Athletic Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.4,
+        "odd_away": 1.9,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 2.9,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 3.0,
+        "lambda_total": 4.0,
+        "p_over_1_5": 0.9084,
+        "p_over_2_5": 0.7619,
+        "p_over_3_5": 0.5665,
+        "p_btts_yes": 0.6006
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.5665,
+          "odd": 2.9,
+          "implied_probability": 0.3448,
+          "edge": 0.2217
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.7619,
+          "odd": 1.85,
+          "implied_probability": 0.5405,
+          "edge": 0.2214
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.5665,
+        "odd": 2.9,
+        "implied_probability": 0.3448,
+        "edge": 0.2217
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5665,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5665,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.9,
+          "implied_probability": 0.3448,
+          "pb_edge": 0.2217,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.2217,
+          "consensus_ev": 0.6428,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7619,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7619,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.85,
+          "implied_probability": 0.5405,
+          "pb_edge": 0.2214,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.2214,
+          "consensus_ev": 0.4095,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9084,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9084,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.24,
+          "implied_probability": 0.8065,
+          "pb_edge": 0.1019,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1019,
+          "consensus_ev": 0.1264,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6006,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6006,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "pb_edge": -0.0363,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0363,
+          "consensus_ev": -0.0571,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 25.77,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520534",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "K3 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Yangpyeong",
+      "away": "Gyeongju HNP",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gyeongju HNP",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Gyeongju HNP",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.25,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.35,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.8,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.7,
+        "lambda_away": 1.7,
+        "lambda_total": 3.4,
+        "p_over_1_5": 0.8532,
+        "p_over_2_5": 0.6603,
+        "p_over_3_5": 0.4416,
+        "p_btts_yes": 0.668
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4416,
+          "odd": 3.8,
+          "implied_probability": 0.2632,
+          "edge": 0.1784
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6603,
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "edge": 0.1725
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.668,
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "edge": 0.0966
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4416,
+        "odd": 3.8,
+        "implied_probability": 0.2632,
+        "edge": 0.1784
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4416,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4416,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.8,
+          "implied_probability": 0.2632,
+          "pb_edge": 0.1784,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1784,
+          "consensus_ev": 0.6781,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6603,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6603,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "pb_edge": 0.1725,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1725,
+          "consensus_ev": 0.3536,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8532,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8532,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.35,
+          "implied_probability": 0.7407,
+          "pb_edge": 0.1125,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1125,
+          "consensus_ev": 0.1518,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.668,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.668,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": 0.0966,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0966,
+          "consensus_ev": 0.169,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 21.34,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1606619",
       "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
+      "minutes_to_kickoff": 30.4,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -403,14 +719,437 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 7.2,
+      "rank_score": 8.2,
       "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520533",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "K3 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Pocheon",
+      "away": "Mokpo City",
+      "venue": "Pocheon Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.4,
+        "odd_draw": 5.0,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.15,
+        "lambda_away": 0.85,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5059
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3528,
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "edge": 0.0195
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3528,
+        "odd": 3.0,
+        "implied_probability": 0.3333,
+        "edge": 0.0195
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3528,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3528,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": 0.0195,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0195,
+          "consensus_ev": 0.0584,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8009,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8009,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.24,
+          "implied_probability": 0.8065,
+          "pb_edge": -0.0056,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0056,
+          "consensus_ev": -0.0069,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.0114,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0114,
+          "consensus_ev": -0.0194,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5059,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5059,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": -0.0177,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0177,
+          "consensus_ev": -0.0337,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 4.55,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1568141",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "III Liga - Group 4",
+      "country": "Poland",
+      "round": "Group IV - 5",
+      "home": "Korona Kielce II",
+      "away": "Czarni Połaniec",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Korona Kielce II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Korona Kielce II or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.8,
+        "odd_away": 2.7,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.25,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.25,
+        "lambda_away": 1.25,
+        "lambda_total": 2.5,
+        "p_over_1_5": 0.7127,
+        "p_over_2_5": 0.4562,
+        "p_over_3_5": 0.2424,
+        "p_btts_yes": 0.5091
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7127,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7127,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.14,
+          "implied_probability": 0.8772,
+          "pb_edge": -0.1645,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1645,
+          "consensus_ev": -0.1875,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2424,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2424,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "pb_edge": -0.202,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.202,
+          "consensus_ev": -0.4546,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5091,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5091,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.4,
+          "implied_probability": 0.7143,
+          "pb_edge": -0.2052,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2052,
+          "consensus_ev": -0.2873,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4562,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4562,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.2382,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2382,
+          "consensus_ev": -0.3431,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.6,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1601117",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "Malaysia",
+      "round": "Regular Season - 1",
+      "home": "Negeri Sembilan",
+      "away": "Kuala Lumpur FA",
+      "venue": "Tuanku Abdul Rahman Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Kuala Lumpur FA",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Kuala Lumpur FA",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.5,
+        "odd_draw": 3.5,
+        "odd_away": 2.3,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.78,
+        "odd_btts_yes": 1.55,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.78,
+          "implied_probability": 0.3597,
+          "pb_edge": -0.1791,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1791,
+          "consensus_ev": -0.4979,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.2,
+          "implied_probability": 0.8333,
+          "pb_edge": -0.1879,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1879,
+          "consensus_ev": -0.2255,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.55,
+          "implied_probability": 0.6452,
+          "pb_edge": -0.2035,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2035,
+          "consensus_ev": -0.3154,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.2109,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2109,
+          "consensus_ev": -0.3586,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1611342",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Ukraine",
@@ -537,47 +1276,44 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1520534",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "fixture_id": "1556028",
+      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
+      "minutes_to_kickoff": 30.4,
       "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Yangpyeong",
-      "away": "Gyeongju HNP",
-      "venue": "",
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Fagiano Okayama",
+      "away": "Tokyo Verdy",
+      "venue": "City Light Stadium",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gyeongju HNP",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Gyeongju HNP",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 2.9,
-        "odd_draw": 3.25,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.35,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.8,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.91,
+        "odd_home": 2.0,
+        "odd_draw": 3.0,
+        "odd_away": 4.33,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.6,
+        "odd_ou_2_5_under": 1.48,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 1.0,
+        "lambda_total": 2.0,
+        "p_over_1_5": 0.594,
+        "p_over_2_5": 0.3233,
+        "p_over_3_5": 0.1429,
+        "p_btts_yes": 0.3996
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -595,18 +1331,352 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1429,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1429,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 5.0,
+          "implied_probability": 0.2,
+          "pb_edge": -0.0571,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0571,
+          "consensus_ev": -0.2855,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3233,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3233,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.6,
+          "implied_probability": 0.3846,
+          "pb_edge": -0.0613,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0613,
+          "consensus_ev": -0.1594,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.594,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.594,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "pb_edge": -0.0727,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0727,
+          "consensus_ev": -0.109,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3996,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3996,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "pb_edge": -0.0766,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0766,
+          "consensus_ev": -0.1608,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1555671",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Matsumoto Yamaga",
+      "away": "Ehime FC",
+      "venue": "Sunpro Alwin",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ehime FC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Ehime FC",
+        "goals_home": "-1.5",
+        "goals_away": "-4.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 3.0,
+        "lambda_total": 5.0,
+        "p_over_1_5": 0.9596,
+        "p_over_2_5": 0.8753,
+        "p_over_3_5": 0.735,
+        "p_btts_yes": 0.8216
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9596,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9596,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.8753,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8753,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.735,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.735,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.8216,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8216,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.1,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1555668",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Osaka",
+      "away": "FC Ryukyu",
+      "venue": "Hanazono Rugby Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.5,
+        "lambda_away": 2.0,
+        "lambda_total": 4.5,
+        "p_over_1_5": 0.9389,
+        "p_over_2_5": 0.8264,
+        "p_over_3_5": 0.6577,
+        "p_btts_yes": 0.7937
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9389,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9389,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.8264,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8264,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.6577,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6577,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.7937,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7937,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -0.9,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631488",
       "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
+      "minutes_to_kickoff": 30.4,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -728,29 +1798,674 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.25,
+      "rank_score": -1.25,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1601117",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "fixture_id": "1629047",
+      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
+      "minutes_to_kickoff": 30.4,
       "timing_priority": "fixed_target_block",
-      "league": "Super League",
-      "country": "Malaysia",
+      "league": "South Australia NPL",
+      "country": "Australia",
+      "round": "Quarter-finals",
+      "home": "MetroStars",
+      "away": "Croydon Kings",
+      "venue": "TK Shutter Reserve",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.05,
+        "lambda_away": 1.55,
+        "lambda_total": 3.6,
+        "p_over_1_5": 0.8743,
+        "p_over_2_5": 0.6973,
+        "p_over_3_5": 0.4848,
+        "p_btts_yes": 0.6863
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8743,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8743,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6973,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6973,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4848,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4848,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6863,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6863,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -1.8,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1631489",
+      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
+      "minutes_to_kickoff": 30.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Calcutta Premier Division",
+      "country": "India",
+      "round": "Regular season",
+      "home": "Kidderpore",
+      "away": "Patha Chakra",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.25,
+        "lambda_away": 1.15,
+        "lambda_total": 3.4,
+        "p_over_1_5": 0.8532,
+        "p_over_2_5": 0.6603,
+        "p_over_3_5": 0.4416,
+        "p_btts_yes": 0.6113
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8532,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8532,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6603,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6603,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4416,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4416,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6113,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6113,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1569824",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "K4 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Gijang United",
+      "away": "Jinju Citizen",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 2.1,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.5854
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8288,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8288,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6201,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6201,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3975,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3975,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.2,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1556026",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Kashima",
+      "away": "Avispa Fukuoka",
+      "venue": "Mercari Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 1.0,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5466
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8009,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8009,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3528,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3528,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5466,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5466,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1627688",
+      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
+      "minutes_to_kickoff": 30.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Calcutta Premier Division",
+      "country": "India",
+      "round": "Regular season",
+      "home": "United",
+      "away": "Mohammedan",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 2.0,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5466
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8009,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8009,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3528,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3528,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5466,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5466,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1560927",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "WE League",
+      "country": "Japan",
       "round": "Regular Season - 1",
-      "home": "Negeri Sembilan",
-      "away": "Kuala Lumpur FA",
-      "venue": "Tuanku Abdul Rahman Stadium",
+      "home": "INAC Kobe Leonessa W",
+      "away": "Sanfrecce Hiroshima W",
+      "venue": "Noevir Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Kuala Lumpur FA",
+        "pred_winner_name": "Sanfrecce Hiroshima W",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Kuala Lumpur FA",
+        "advice": "Double chance : draw or Sanfrecce Hiroshima W",
         "goals_home": null,
         "goals_away": null,
         "prob_home": "0%",
@@ -873,16 +2588,16 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1629047",
-      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
+      "fixture_id": "1560929",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
-      "league": "South Australia NPL",
-      "country": "Australia",
-      "round": "Quarter-finals",
-      "home": "MetroStars",
-      "away": "Croydon Kings",
-      "venue": "TK Shutter Reserve",
+      "league": "WE League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Nojima Stella W",
+      "away": "Elfen Saitama W",
+      "venue": "Sagamihara Gion Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
@@ -901,13 +2616,13 @@
         "odd_ht_away_team_o05": null
       },
       "pb_metrics": {
-        "lambda_home": 2.05,
-        "lambda_away": 1.55,
-        "lambda_total": 3.6,
-        "p_over_1_5": 0.8743,
-        "p_over_2_5": 0.6973,
-        "p_over_3_5": 0.4848,
-        "p_btts_yes": 0.6863
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
       },
       "pb_picks": [],
       "pb_raw_available": true,
@@ -931,9 +2646,9 @@
       "consensus_markets": [
         {
           "market": "Over 1.5",
-          "pb_probability": 0.8743,
+          "pb_probability": 0.6454,
           "oddalerts_probability": null,
-          "consensus_probability": 0.8743,
+          "consensus_probability": 0.6454,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -947,9 +2662,9 @@
         },
         {
           "market": "Over 2.5",
-          "pb_probability": 0.6973,
+          "pb_probability": 0.3773,
           "oddalerts_probability": null,
-          "consensus_probability": 0.6973,
+          "consensus_probability": 0.3773,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -963,9 +2678,9 @@
         },
         {
           "market": "Over 3.5",
-          "pb_probability": 0.4848,
+          "pb_probability": 0.1806,
           "oddalerts_probability": null,
-          "consensus_probability": 0.4848,
+          "consensus_probability": 0.1806,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -979,9 +2694,9 @@
         },
         {
           "market": "BTTS YES",
-          "pb_probability": 0.6863,
+          "pb_probability": 0.4417,
           "oddalerts_probability": null,
-          "consensus_probability": 0.6863,
+          "consensus_probability": 0.4417,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -997,14 +2712,143 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.8,
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1560930",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "WE League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Omiya Ardija Ventus W",
+      "away": "Urawa Reds W",
+      "venue": "NACK5 Stadium Omiya",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1611345",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Ukraine",
@@ -1133,7 +2977,7 @@
     {
       "fixture_id": "1612576",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Magyar Kupa",
       "country": "Hungary",
@@ -1269,18 +3113,481 @@
       "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1520533",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "K3 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Pocheon",
+      "away": "Mokpo City",
+      "venue": "Pocheon Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.4,
+        "odd_draw": 5.0,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.15,
+        "lambda_away": 0.85,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5059
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.3528,
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "edge": 0.0195
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.3528,
+        "odd": 3.0,
+        "implied_probability": 0.3333,
+        "edge": 0.0195
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3528,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3528,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": 0.0195,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0195,
+          "consensus_ev": 0.0584,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8009,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8009,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.24,
+          "implied_probability": 0.8065,
+          "pb_edge": -0.0056,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0056,
+          "consensus_ev": -0.0069,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.5768,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5768,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.0114,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0114,
+          "consensus_ev": -0.0194,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5059,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5059,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": -0.0177,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0177,
+          "consensus_ev": -0.0337,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 4.55,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1631489",
-      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
+      "fixture_id": "1520534",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
-      "league": "Calcutta Premier Division",
-      "country": "India",
-      "round": "Regular season",
-      "home": "Kidderpore",
-      "away": "Patha Chakra",
+      "league": "K3 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Yangpyeong",
+      "away": "Gyeongju HNP",
       "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gyeongju HNP",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Gyeongju HNP",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.25,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.35,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.8,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.7,
+        "lambda_away": 1.7,
+        "lambda_total": 3.4,
+        "p_over_1_5": 0.8532,
+        "p_over_2_5": 0.6603,
+        "p_over_3_5": 0.4416,
+        "p_btts_yes": 0.668
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.4416,
+          "odd": 3.8,
+          "implied_probability": 0.2632,
+          "edge": 0.1784
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.6603,
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "edge": 0.1725
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.668,
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "edge": 0.0966
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.4416,
+        "odd": 3.8,
+        "implied_probability": 0.2632,
+        "edge": 0.1784
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4416,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4416,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.8,
+          "implied_probability": 0.2632,
+          "pb_edge": 0.1784,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1784,
+          "consensus_ev": 0.6781,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6603,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6603,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.05,
+          "implied_probability": 0.4878,
+          "pb_edge": 0.1725,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1725,
+          "consensus_ev": 0.3536,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8532,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8532,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.35,
+          "implied_probability": 0.7407,
+          "pb_edge": 0.1125,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1125,
+          "consensus_ev": 0.1518,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.668,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.668,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": 0.0966,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0966,
+          "consensus_ev": 0.169,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 21.34,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1555667",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Nara Club",
+      "away": "Renofa Yamaguchi",
+      "venue": "Konoike Athletic Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.4,
+        "odd_away": 1.9,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 2.9,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 3.0,
+        "lambda_total": 4.0,
+        "p_over_1_5": 0.9084,
+        "p_over_2_5": 0.7619,
+        "p_over_3_5": 0.5665,
+        "p_btts_yes": 0.6006
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.5665,
+          "odd": 2.9,
+          "implied_probability": 0.3448,
+          "edge": 0.2217
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.7619,
+          "odd": 1.85,
+          "implied_probability": 0.5405,
+          "edge": 0.2214
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.5665,
+        "odd": 2.9,
+        "implied_probability": 0.3448,
+        "edge": 0.2217
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5665,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5665,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.9,
+          "implied_probability": 0.3448,
+          "pb_edge": 0.2217,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.2217,
+          "consensus_ev": 0.6428,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7619,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7619,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.85,
+          "implied_probability": 0.5405,
+          "pb_edge": 0.2214,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.2214,
+          "consensus_ev": 0.4095,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9084,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9084,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.24,
+          "implied_probability": 0.8065,
+          "pb_edge": 0.1019,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1019,
+          "consensus_ev": 0.1264,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6006,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6006,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "pb_edge": -0.0363,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0363,
+          "consensus_ev": -0.0571,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 25.77,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1555668",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Osaka",
+      "away": "FC Ryukyu",
+      "venue": "Hanazono Rugby Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
@@ -1299,13 +3606,13 @@
         "odd_ht_away_team_o05": null
       },
       "pb_metrics": {
-        "lambda_home": 2.25,
-        "lambda_away": 1.15,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.6113
+        "lambda_home": 2.5,
+        "lambda_away": 2.0,
+        "lambda_total": 4.5,
+        "p_over_1_5": 0.9389,
+        "p_over_2_5": 0.8264,
+        "p_over_3_5": 0.6577,
+        "p_btts_yes": 0.7937
       },
       "pb_picks": [],
       "pb_raw_available": true,
@@ -1329,9 +3636,9 @@
       "consensus_markets": [
         {
           "market": "Over 1.5",
-          "pb_probability": 0.8532,
+          "pb_probability": 0.9389,
           "oddalerts_probability": null,
-          "consensus_probability": 0.8532,
+          "consensus_probability": 0.9389,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1345,9 +3652,9 @@
         },
         {
           "market": "Over 2.5",
-          "pb_probability": 0.6603,
+          "pb_probability": 0.8264,
           "oddalerts_probability": null,
-          "consensus_probability": 0.6603,
+          "consensus_probability": 0.8264,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1361,9 +3668,9 @@
         },
         {
           "market": "Over 3.5",
-          "pb_probability": 0.4416,
+          "pb_probability": 0.6577,
           "oddalerts_probability": null,
-          "consensus_probability": 0.4416,
+          "consensus_probability": 0.6577,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1377,9 +3684,9 @@
         },
         {
           "market": "BTTS YES",
-          "pb_probability": 0.6113,
+          "pb_probability": 0.7937,
           "oddalerts_probability": null,
-          "consensus_probability": 0.6113,
+          "consensus_probability": 0.7937,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1395,21 +3702,161 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
+      "rank_score": -0.9,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1627688",
-      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
+      "fixture_id": "1555671",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
-      "league": "Calcutta Premier Division",
-      "country": "India",
-      "round": "Regular season",
-      "home": "United",
-      "away": "Mohammedan",
-      "venue": "",
+      "league": "J3 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Matsumoto Yamaga",
+      "away": "Ehime FC",
+      "venue": "Sunpro Alwin",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ehime FC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Ehime FC",
+        "goals_home": "-1.5",
+        "goals_away": "-4.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 3.0,
+        "lambda_total": 5.0,
+        "p_over_1_5": 0.9596,
+        "p_over_2_5": 0.8753,
+        "p_over_3_5": 0.735,
+        "p_btts_yes": 0.8216
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9596,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9596,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.8753,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8753,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.735,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.735,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.8216,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8216,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.1,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1556026",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Kashima",
+      "away": "Avispa Fukuoka",
+      "venue": "Mercari Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
@@ -1428,8 +3875,8 @@
         "odd_ht_away_team_o05": null
       },
       "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 2.0,
+        "lambda_home": 2.0,
+        "lambda_away": 1.0,
         "lambda_total": 3.0,
         "p_over_1_5": 0.8009,
         "p_over_2_5": 0.5768,
@@ -1524,81 +3971,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.4,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555671",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Matsumoto Yamaga",
-      "away": "Ehime FC",
-      "venue": "Sunpro Alwin",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Ehime FC",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Ehime FC",
-        "goals_home": "-1.5",
-        "goals_away": "-4.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
+      "rank_score": -2.4,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1560927",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "WE League",
       "country": "Japan",
@@ -1614,1755 +3994,6 @@
         "win_or_draw": true,
         "under_over": null,
         "advice": "Double chance : draw or Sanfrecce Hiroshima W",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1568141",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 4",
-      "country": "Poland",
-      "round": "Group IV - 5",
-      "home": "Korona Kielce II",
-      "away": "Czarni Połaniec",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Korona Kielce II",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Korona Kielce II or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1520532",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Dangjin Citizen",
-      "away": "Yeoju Sejong",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1520533",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Pocheon",
-      "away": "Mokpo City",
-      "venue": "Pocheon Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555667",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Nara Club",
-      "away": "Renofa Yamaguchi",
-      "venue": "Konoike Athletic Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555668",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Osaka",
-      "away": "FC Ryukyu",
-      "venue": "Hanazono Rugby Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1556026",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J1 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Kashima",
-      "away": "Avispa Fukuoka",
-      "venue": "Mercari Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1560929",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "WE League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Nojima Stella W",
-      "away": "Elfen Saitama W",
-      "venue": "Sagamihara Gion Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1560930",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "WE League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Omiya Ardija Ventus W",
-      "away": "Urawa Reds W",
-      "venue": "NACK5 Stadium Omiya",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1569824",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K4 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Gijang United",
-      "away": "Jinju Citizen",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1556028",
-      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
-      "minutes_to_kickoff": 60.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J1 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Fagiano Okayama",
-      "away": "Tokyo Verdy",
-      "venue": "City Light Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.594,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.594,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.3233,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3233,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.1429,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.1429,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.3996,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3996,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
-    {
-      "fixture_id": "1520532",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Dangjin Citizen",
-      "away": "Yeoju Sejong",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1520533",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Pocheon",
-      "away": "Mokpo City",
-      "venue": "Pocheon Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1520534",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K3 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Yangpyeong",
-      "away": "Gyeongju HNP",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gyeongju HNP",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Gyeongju HNP",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.9,
-        "odd_draw": 3.25,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.35,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.8,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555667",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Nara Club",
-      "away": "Renofa Yamaguchi",
-      "venue": "Konoike Athletic Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555668",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Osaka",
-      "away": "FC Ryukyu",
-      "venue": "Hanazono Rugby Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1555671",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J3 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Matsumoto Yamaga",
-      "away": "Ehime FC",
-      "venue": "Sunpro Alwin",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Ehime FC",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Ehime FC",
-        "goals_home": "-1.5",
-        "goals_away": "-4.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1556026",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "J1 League",
-      "country": "Japan",
-      "round": "Regular Season - 3",
-      "home": "Kashima",
-      "away": "Avispa Fukuoka",
-      "venue": "Mercari Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1560927",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "WE League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "INAC Kobe Leonessa W",
-      "away": "Sanfrecce Hiroshima W",
-      "venue": "Noevir Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Sanfrecce Hiroshima W",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Sanfrecce Hiroshima W",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1560929",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "WE League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Nojima Stella W",
-      "away": "Elfen Saitama W",
-      "venue": "Sagamihara Gion Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1560930",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "WE League",
-      "country": "Japan",
-      "round": "Regular Season - 1",
-      "home": "Omiya Ardija Ventus W",
-      "away": "Urawa Reds W",
-      "venue": "NACK5 Stadium Omiya",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1565072",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "1. Liga U19",
-      "country": "Czech-Republic",
-      "round": "Regular Season - 3",
-      "home": "Pardubice U19",
-      "away": "Sigma Olomouc U19",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1566590",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "I Liga - Women",
-      "country": "Slovakia",
-      "round": "Regular Season - 2",
-      "home": "Spartak Trnava W",
-      "away": "Petržalka W",
-      "venue": "City Arena Trnava",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1568141",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 4",
-      "country": "Poland",
-      "round": "Group IV - 5",
-      "home": "Korona Kielce II",
-      "away": "Czarni Połaniec",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Korona Kielce II",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Korona Kielce II or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1569336",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Campionato Primavera - 1",
-      "country": "Italy",
-      "round": "Regular Season - 1",
-      "home": "Roma U20",
-      "away": "Monza U20",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1569341",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Campionato Primavera - 1",
-      "country": "Italy",
-      "round": "Regular Season - 1",
-      "home": "Lecce U20",
-      "away": "Lazio U20",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1569824",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "K4 League",
-      "country": "South-Korea",
-      "round": "Regular Season - 19",
-      "home": "Gijang United",
-      "away": "Jinju Citizen",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581702",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Ekstraliga Women",
-      "country": "Poland",
-      "round": "Regular Season - 4",
-      "home": "Lech Poznan W",
-      "away": "Górnik Łęczna W",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1590022",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Coppa Italia Primavera",
-      "country": "Italy",
-      "round": "1/128-finals",
-      "home": "Monopoli U19",
-      "away": "Brescia U19",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1590024",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Coppa Italia Primavera",
-      "country": "Italy",
-      "round": "1/128-finals",
-      "home": "Udinese U19",
-      "away": "Salernitana U19",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1599203",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Central Youth League",
-      "country": "Poland",
-      "round": "Regular Season - 3",
-      "home": "Stal Rzeszów U19",
-      "away": "Arkonia U19",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1601117",
-      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Super League",
-      "country": "Malaysia",
-      "round": "Regular Season - 1",
-      "home": "Negeri Sembilan",
-      "away": "Kuala Lumpur FA",
-      "venue": "Tuanku Abdul Rahman Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Kuala Lumpur FA",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Kuala Lumpur FA",
         "goals_home": null,
         "goals_away": null,
         "prob_home": "0%",
@@ -3485,9 +4116,996 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1560929",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "WE League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Nojima Stella W",
+      "away": "Elfen Saitama W",
+      "venue": "Sagamihara Gion Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1560930",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "WE League",
+      "country": "Japan",
+      "round": "Regular Season - 1",
+      "home": "Omiya Ardija Ventus W",
+      "away": "Urawa Reds W",
+      "venue": "NACK5 Stadium Omiya",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1565072",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "1. Liga U19",
+      "country": "Czech-Republic",
+      "round": "Regular Season - 3",
+      "home": "Pardubice U19",
+      "away": "Sigma Olomouc U19",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1566590",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "I Liga - Women",
+      "country": "Slovakia",
+      "round": "Regular Season - 2",
+      "home": "Spartak Trnava W",
+      "away": "Petržalka W",
+      "venue": "City Arena Trnava",
+      "referee": "",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1568141",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "III Liga - Group 4",
+      "country": "Poland",
+      "round": "Group IV - 5",
+      "home": "Korona Kielce II",
+      "away": "Czarni Połaniec",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Korona Kielce II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Korona Kielce II or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.8,
+        "odd_away": 2.7,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.25,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.25,
+        "lambda_away": 1.25,
+        "lambda_total": 2.5,
+        "p_over_1_5": 0.7127,
+        "p_over_2_5": 0.4562,
+        "p_over_3_5": 0.2424,
+        "p_btts_yes": 0.5091
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7127,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7127,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.14,
+          "implied_probability": 0.8772,
+          "pb_edge": -0.1645,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1645,
+          "consensus_ev": -0.1875,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2424,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2424,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.25,
+          "implied_probability": 0.4444,
+          "pb_edge": -0.202,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.202,
+          "consensus_ev": -0.4546,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5091,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5091,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.4,
+          "implied_probability": 0.7143,
+          "pb_edge": -0.2052,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2052,
+          "consensus_ev": -0.2873,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4562,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4562,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.2382,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2382,
+          "consensus_ev": -0.3431,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.6,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1569336",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Campionato Primavera - 1",
+      "country": "Italy",
+      "round": "Regular Season - 1",
+      "home": "Roma U20",
+      "away": "Monza U20",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1569341",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Campionato Primavera - 1",
+      "country": "Italy",
+      "round": "Regular Season - 1",
+      "home": "Lecce U20",
+      "away": "Lazio U20",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1569824",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "K4 League",
+      "country": "South-Korea",
+      "round": "Regular Season - 19",
+      "home": "Gijang United",
+      "away": "Jinju Citizen",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 2.1,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.5854
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8288,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8288,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6201,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6201,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3975,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3975,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.2,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581702",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Ekstraliga Women",
+      "country": "Poland",
+      "round": "Regular Season - 4",
+      "home": "Lech Poznan W",
+      "away": "Górnik Łęczna W",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1590022",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Coppa Italia Primavera",
+      "country": "Italy",
+      "round": "1/128-finals",
+      "home": "Monopoli U19",
+      "away": "Brescia U19",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1590024",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Coppa Italia Primavera",
+      "country": "Italy",
+      "round": "1/128-finals",
+      "home": "Udinese U19",
+      "away": "Salernitana U19",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1599203",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Central Youth League",
+      "country": "Poland",
+      "round": "Regular Season - 3",
+      "home": "Stal Rzeszów U19",
+      "away": "Arkonia U19",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1601117",
+      "kickoff_dublin": "2026-08-22T10:00:00+01:00",
+      "minutes_to_kickoff": 0.4,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "Malaysia",
+      "round": "Regular Season - 1",
+      "home": "Negeri Sembilan",
+      "away": "Kuala Lumpur FA",
+      "venue": "Tuanku Abdul Rahman Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Kuala Lumpur FA",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Kuala Lumpur FA",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.5,
+        "odd_draw": 3.5,
+        "odd_away": 2.3,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.78,
+        "odd_btts_yes": 1.55,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.78,
+          "implied_probability": 0.3597,
+          "pb_edge": -0.1791,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1791,
+          "consensus_ev": -0.4979,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.2,
+          "implied_probability": 0.8333,
+          "pb_edge": -0.1879,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1879,
+          "consensus_ev": -0.2255,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.55,
+          "implied_probability": 0.6452,
+          "pb_edge": -0.2035,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2035,
+          "consensus_ev": -0.3154,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.2109,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.2109,
+          "consensus_ev": -0.3586,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1606618",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "J2 League",
       "country": "Japan",
@@ -3655,7 +5273,7 @@
     {
       "fixture_id": "1611342",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Ukraine",
@@ -3784,7 +5402,7 @@
     {
       "fixture_id": "1611345",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Ukraine",
@@ -3913,7 +5531,7 @@
     {
       "fixture_id": "1612576",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Magyar Kupa",
       "country": "Hungary",
@@ -4053,7 +5671,7 @@
     {
       "fixture_id": "1618952",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -4093,7 +5711,7 @@
     {
       "fixture_id": "1627627",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Women",
       "country": "Czech-Republic",
@@ -4133,7 +5751,7 @@
     {
       "fixture_id": "1627628",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Women",
       "country": "Czech-Republic",
@@ -4173,7 +5791,7 @@
     {
       "fixture_id": "1630048",
       "kickoff_dublin": "2026-08-22T10:00:00+01:00",
-      "minutes_to_kickoff": 30.5,
+      "minutes_to_kickoff": 0.4,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Serbia",
@@ -4213,7 +5831,7 @@
     {
       "fixture_id": "1549376",
       "kickoff_dublin": "2026-08-22T10:15:00+01:00",
-      "minutes_to_kickoff": 45.5,
+      "minutes_to_kickoff": 15.4,
       "timing_priority": "fixed_target_block",
       "league": "Npl Nsw U20",
       "country": "Australia",
@@ -4249,6 +5867,135 @@
       "rank_score": 0.0,
       "actionable_candidate": false,
       "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1556028",
+      "kickoff_dublin": "2026-08-22T10:30:00+01:00",
+      "minutes_to_kickoff": 30.4,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 3",
+      "home": "Fagiano Okayama",
+      "away": "Tokyo Verdy",
+      "venue": "City Light Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.0,
+        "odd_away": 4.33,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.6,
+        "odd_ou_2_5_under": 1.48,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 1.0,
+        "lambda_total": 2.0,
+        "p_over_1_5": 0.594,
+        "p_over_2_5": 0.3233,
+        "p_over_3_5": 0.1429,
+        "p_btts_yes": 0.3996
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1429,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1429,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 5.0,
+          "implied_probability": 0.2,
+          "pb_edge": -0.0571,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0571,
+          "consensus_ev": -0.2855,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3233,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3233,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.6,
+          "implied_probability": 0.3846,
+          "pb_edge": -0.0613,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0613,
+          "consensus_ev": -0.1594,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.594,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.594,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "pb_edge": -0.0727,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0727,
+          "consensus_ev": -0.109,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3996,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3996,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "pb_edge": -0.0766,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0766,
+          "consensus_ev": -0.1608,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
     }
   ],
   "public_feed": {

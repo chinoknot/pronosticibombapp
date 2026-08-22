@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-23T00:00:07.663947+01:00",
+  "generated_at_dublin": "2026-08-23T00:28:46.109326+01:00",
   "match_date": "2026-08-23",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-23T01:00:00+01:00",
@@ -60,36 +60,35 @@
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 443,
+  "live_api_minute_remaining_before_enrichment": 347,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 423,
+  "live_api_budget": 327,
   "live_odds_requested": 14,
   "live_predictions_requested": 14,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5894,
+  "request_ms": 5094,
   "api_usage_this_request": {
-    "calls": 29,
+    "calls": 15,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 14,
-      "/predictions": 14
+      "/odds": 14
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 14,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 48645,
+    "daily_remaining": 45858,
     "minute_limit": 450,
-    "minute_remaining": 420
+    "minute_remaining": 327
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1493086",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -154,76 +153,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1493956",
-      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
-      "timing_priority": "fixed_target_block",
-      "league": "USL League One",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Forward Madison",
-      "away": "Charlotte Independence",
-      "venue": "Breese Stevens Field",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Forward Madison",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Forward Madison or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.95,
-        "odd_draw": 3.6,
-        "odd_away": 3.1,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1519456",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -247,13 +179,13 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.3,
-        "odd_away": 4.1,
+        "odd_home": 1.91,
+        "odd_draw": 3.25,
+        "odd_away": 4.0,
         "odd_ou_1_5_over": 1.36,
         "odd_ou_2_5_over": 2.15,
         "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 3.75,
+        "odd_ou_3_5_over": 4.0,
         "odd_btts_yes": 1.91,
         "odd_btts_no": 1.8,
         "odd_ht_home_team_o05": null,
@@ -290,7 +222,7 @@
     {
       "fixture_id": "1549457",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -355,76 +287,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1600572",
-      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 6",
-      "home": "Isidro Metapán",
-      "away": "Alianza",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Isidro Metapán",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Isidro Metapán or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.1,
-        "odd_away": 3.25,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.25,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.33,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1493083",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -480,7 +345,7 @@
     {
       "fixture_id": "1493640",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -536,7 +401,7 @@
     {
       "fixture_id": "1505505",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -592,7 +457,7 @@
     {
       "fixture_id": "1559613",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -646,9 +511,76 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1490412",
+      "kickoff_dublin": "2026-08-23T01:30:00+01:00",
+      "minutes_to_kickoff": 61.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Major League Soccer",
+      "country": "USA",
+      "round": "Regular Season - 21",
+      "home": "Nashville SC",
+      "away": "Columbus Crew",
+      "venue": "Geodis Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nashville SC",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Nashville SC or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.7,
+        "odd_draw": 3.9,
+        "odd_away": 4.75,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1493955",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -715,7 +647,7 @@
     {
       "fixture_id": "1557191",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "USL Super League",
       "country": "USA",
@@ -780,9 +712,76 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1513306",
+      "kickoff_dublin": "2026-08-23T01:45:00+01:00",
+      "minutes_to_kickoff": 76.2,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "North Texas",
+      "away": "Minnesota United II",
+      "venue": "Choctaw Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "North Texas",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : North Texas or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.6,
+        "odd_draw": 3.75,
+        "odd_away": 2.2,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.17,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1490414",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -836,24 +835,24 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1490412",
-      "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "fixture_id": "1493956",
+      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
+      "league": "USL League One",
       "country": "USA",
-      "round": "Regular Season - 21",
-      "home": "Nashville SC",
-      "away": "Columbus Crew",
-      "venue": "Geodis Park",
+      "round": "Group Stage",
+      "home": "Forward Madison",
+      "away": "Charlotte Independence",
+      "venue": "Breese Stevens Field",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Nashville SC",
+        "pred_winner_name": "Forward Madison",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : Nashville SC or draw",
+        "advice": "Double chance : Forward Madison or draw",
         "goals_home": "-3.5",
         "goals_away": "-2.5",
         "prob_home": "45%",
@@ -898,31 +897,31 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1513306",
-      "kickoff_dublin": "2026-08-23T01:45:00+01:00",
-      "minutes_to_kickoff": 104.9,
+      "fixture_id": "1600572",
+      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
-      "league": "MLS Next Pro",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "North Texas",
-      "away": "Minnesota United II",
-      "venue": "Choctaw Stadium",
+      "league": "Primera Division",
+      "country": "El-Salvador",
+      "round": "Apertura - 6",
+      "home": "Isidro Metapán",
+      "away": "Alianza",
+      "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "North Texas",
+        "pred_winner_name": "Isidro Metapán",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : North Texas or draw",
+        "advice": "Double chance : Isidro Metapán or draw",
         "goals_home": "-2.5",
-        "goals_away": "-2.5",
+        "goals_away": "-1.5",
         "prob_home": "45%",
         "prob_draw": "45%",
         "prob_away": "10%"
@@ -965,7 +964,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -974,7 +973,7 @@
     {
       "fixture_id": "1493083",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1030,7 +1029,7 @@
     {
       "fixture_id": "1493086",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1097,7 +1096,7 @@
     {
       "fixture_id": "1493640",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1153,7 +1152,7 @@
     {
       "fixture_id": "1493956",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -1176,16 +1175,16 @@
         "prob_away": "10%"
       },
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.95,
-        "odd_draw": 3.6,
-        "odd_away": 3.1,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.62,
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1213,14 +1212,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1505505",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -1276,7 +1275,7 @@
     {
       "fixture_id": "1519456",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -1300,13 +1299,13 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.9,
-        "odd_draw": 3.3,
-        "odd_away": 4.1,
+        "odd_home": 1.91,
+        "odd_draw": 3.25,
+        "odd_away": 4.0,
         "odd_ou_1_5_over": 1.36,
         "odd_ou_2_5_over": 2.15,
         "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 3.75,
+        "odd_ou_3_5_over": 4.0,
         "odd_btts_yes": 1.91,
         "odd_btts_no": 1.8,
         "odd_ht_home_team_o05": null,
@@ -1343,7 +1342,7 @@
     {
       "fixture_id": "1549457",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -1410,7 +1409,7 @@
     {
       "fixture_id": "1559613",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -1466,7 +1465,7 @@
     {
       "fixture_id": "1600572",
       "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
+      "minutes_to_kickoff": 31.2,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "El-Salvador",
@@ -1484,113 +1483,6 @@
         "advice": "Double chance : Isidro Metapán or draw",
         "goals_home": "-2.5",
         "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.1,
-        "odd_away": 3.25,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.25,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.33,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1603330",
-      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
-      "minutes_to_kickoff": 59.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX Femenil",
-      "country": "Mexico",
-      "round": "Regular Season - 4",
-      "home": "Cruz Azul W",
-      "away": "Tigres UANL W",
-      "venue": "Estadio Centenario",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1490412",
-      "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 21",
-      "home": "Nashville SC",
-      "away": "Columbus Crew",
-      "venue": "Geodis Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Nashville SC",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Nashville SC or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
         "prob_home": "45%",
         "prob_draw": "45%",
         "prob_away": "10%"
@@ -1633,14 +1525,121 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.5,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1603330",
+      "kickoff_dublin": "2026-08-23T01:00:00+01:00",
+      "minutes_to_kickoff": 31.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga MX Femenil",
+      "country": "Mexico",
+      "round": "Regular Season - 4",
+      "home": "Cruz Azul W",
+      "away": "Tigres UANL W",
+      "venue": "Estadio Centenario",
+      "referee": "",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1490412",
+      "kickoff_dublin": "2026-08-23T01:30:00+01:00",
+      "minutes_to_kickoff": 61.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Major League Soccer",
+      "country": "USA",
+      "round": "Regular Season - 21",
+      "home": "Nashville SC",
+      "away": "Columbus Crew",
+      "venue": "Geodis Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nashville SC",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Nashville SC or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.7,
+        "odd_draw": 3.9,
+        "odd_away": 4.75,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490414",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1696,7 +1695,7 @@
     {
       "fixture_id": "1493955",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -1763,7 +1762,7 @@
     {
       "fixture_id": "1557191",
       "kickoff_dublin": "2026-08-23T01:30:00+01:00",
-      "minutes_to_kickoff": 89.9,
+      "minutes_to_kickoff": 61.2,
       "timing_priority": "fixed_target_block",
       "league": "USL Super League",
       "country": "USA",
@@ -1830,7 +1829,7 @@
     {
       "fixture_id": "1508516",
       "kickoff_dublin": "2026-08-23T01:45:00+01:00",
-      "minutes_to_kickoff": 104.9,
+      "minutes_to_kickoff": 76.2,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -1870,7 +1869,7 @@
     {
       "fixture_id": "1513306",
       "kickoff_dublin": "2026-08-23T01:45:00+01:00",
-      "minutes_to_kickoff": 104.9,
+      "minutes_to_kickoff": 76.2,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -1893,16 +1892,16 @@
         "prob_away": "10%"
       },
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 2.6,
+        "odd_draw": 3.75,
+        "odd_away": 2.2,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.17,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.62,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1930,7 +1929,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

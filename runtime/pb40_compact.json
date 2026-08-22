@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-22T16:43:52.495684+01:00",
+  "generated_at_dublin": "2026-08-22T16:46:15.051457+01:00",
   "match_date": "2026-08-22",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-22T17:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1297,
   "fixtures_target_date_total": 1297,
-  "fixtures_in_next_75m": 93,
-  "relevant_fixtures_in_next_75m": 82,
+  "fixtures_in_next_75m": 124,
+  "relevant_fixtures_in_next_75m": 109,
   "fixtures_in_target_block": 92,
   "relevant_fixtures_in_target_block": 81,
   "excluded_in_target_block": 11,
@@ -24,18 +24,18 @@
   "fixtures_analyzed_before_ranking": 81,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 78,
+  "technical_coverage_count": 66,
   "odds_coverage_count": 31,
-  "actionable_candidates_found": 9,
+  "actionable_candidates_found": 5,
   "matches_returned": 92,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 57996,
+    "daily_remaining": 57982,
     "minute_limit": 450,
-    "minute_remaining": 413
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -54,7 +54,7 @@
     {
       "fixture_id": "1514272",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -130,7 +130,7 @@
     {
       "fixture_id": "1551539",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -202,7 +202,7 @@
     {
       "fixture_id": "1551542",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -274,7 +274,7 @@
     {
       "fixture_id": "1555035",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Switzerland",
@@ -346,7 +346,7 @@
     {
       "fixture_id": "1568148",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -418,316 +418,13 @@
       "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1558601",
-      "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Jupiler Pro League",
-      "country": "Belgium",
-      "home": "Charleroi",
-      "away": "KV Mechelen",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.62,
-        "odd_draw": 3.75,
-        "odd_away": 5.0,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.1078
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.1078
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0998
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 1.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.5802
-      },
-      "api_prediction": {
-        "pred_winner_name": "Charleroi",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Charleroi or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 14.38,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1548516",
-      "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
-      "timing_priority": "fixed_target_block",
-      "league": "HNL",
-      "country": "Croatia",
-      "home": "NK Slaven Belupo",
-      "away": "HNK Gorica",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.6,
-        "odd_draw": 3.1,
-        "odd_away": 2.45,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.0,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6577,
-        "odd": 3.0,
-        "implied_probability": 0.3333,
-        "edge": 0.3244
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.3244
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.2859
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7937,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1949
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 2.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7937
-      },
-      "api_prediction": {
-        "pred_winner_name": "NK Slaven Belupo",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : NK Slaven Belupo or draw",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 37.04,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1582252",
-      "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Malta",
-      "home": "Birkirkara",
-      "away": "Hamrun Spartans",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.6,
-        "odd_draw": 3.2,
-        "odd_away": 1.91,
-        "odd_ou_1_5_over": 1.45,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.75,
-        "odd_btts_yes": 2.0,
-        "odd_btts_no": 1.7,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.735,
-        "odd": 4.75,
-        "implied_probability": 0.2105,
-        "edge": 0.5245
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.735,
-          "odd": 4.75,
-          "implied_probability": 0.2105,
-          "edge": 0.5245
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8753,
-          "odd": 2.35,
-          "implied_probability": 0.4255,
-          "edge": 0.4498
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6205,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.1205
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.0,
-        "lambda_away": 1.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.6205
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 57.05,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1601878",
-      "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Premyer Liqa",
-      "country": "Azerbaijan",
-      "home": "Zira",
-      "away": "Imisli FK",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.48,
-        "odd_draw": 3.6,
-        "odd_away": 6.0,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.2,
-        "odd_ou_2_5_under": 1.65,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 2.38,
-        "odd_btts_no": 1.53,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5466,
-        "odd": 2.38,
-        "implied_probability": 0.4202,
-        "edge": 0.1264
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5466,
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "edge": 0.1264
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1223
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.1028
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 14.24,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
     }
   ],
   "technical_fallbacks": [
     {
       "fixture_id": "1504291",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Ykkösliiga",
       "country": "Finland",
@@ -782,7 +479,7 @@
     {
       "fixture_id": "1507202",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga 2",
       "country": "Georgia",
@@ -847,7 +544,7 @@
     {
       "fixture_id": "1507203",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga 2",
       "country": "Georgia",
@@ -891,7 +588,7 @@
     {
       "fixture_id": "1513610",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -946,7 +643,7 @@
     {
       "fixture_id": "1549462",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -990,7 +687,7 @@
     {
       "fixture_id": "1550002",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Promocional Amateur",
       "country": "Argentina",
@@ -1034,7 +731,7 @@
     {
       "fixture_id": "1550681",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -1089,7 +786,7 @@
     {
       "fixture_id": "1550683",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -1133,7 +830,7 @@
     {
       "fixture_id": "1550692",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -1177,7 +874,7 @@
     {
       "fixture_id": "1551087",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Bulgaria",
@@ -1232,7 +929,7 @@
     {
       "fixture_id": "1551541",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -1276,7 +973,7 @@
     {
       "fixture_id": "1555365",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Switzerland",
@@ -1331,7 +1028,7 @@
     {
       "fixture_id": "1561107",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "2. liga",
       "country": "Slovakia",
@@ -1396,7 +1093,7 @@
     {
       "fixture_id": "1562364",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "4. liga - Divizie B",
       "country": "Czech-Republic",
@@ -1440,7 +1137,7 @@
     {
       "fixture_id": "1568401",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -1509,7 +1206,7 @@
     {
       "fixture_id": "1568458",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 3",
       "country": "Poland",
@@ -1564,7 +1261,7 @@
     {
       "fixture_id": "1573827",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Austria",
@@ -1619,7 +1316,7 @@
     {
       "fixture_id": "1574073",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Ost",
       "country": "Austria",
@@ -1663,7 +1360,7 @@
     {
       "fixture_id": "1584377",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -1707,7 +1404,7 @@
     {
       "fixture_id": "1584383",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -1751,7 +1448,7 @@
     {
       "fixture_id": "1585713",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -1795,7 +1492,7 @@
     {
       "fixture_id": "1585717",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -1850,7 +1547,7 @@
     {
       "fixture_id": "1597752",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -1894,7 +1591,7 @@
     {
       "fixture_id": "1597757",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -1949,7 +1646,7 @@
     {
       "fixture_id": "1599460",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -2004,7 +1701,7 @@
     {
       "fixture_id": "1599461",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -2048,7 +1745,7 @@
     {
       "fixture_id": "1599463",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -2092,7 +1789,7 @@
     {
       "fixture_id": "1599464",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -2147,7 +1844,7 @@
     {
       "fixture_id": "1599699",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2170,7 +1867,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2183,9 +1888,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2194,7 +1899,7 @@
     {
       "fixture_id": "1599700",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2217,11 +1922,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2230,7 +1943,7 @@
     {
       "fixture_id": "1599702",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2253,7 +1966,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2266,9 +1987,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2277,7 +1998,7 @@
     {
       "fixture_id": "1599703",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2300,11 +2021,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2313,7 +2042,7 @@
     {
       "fixture_id": "1599704",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2336,7 +2065,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2349,9 +2086,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2360,7 +2097,7 @@
     {
       "fixture_id": "1599706",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -2383,7 +2120,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Les Herbiers",
         "pred_winner_comment": "Win or draw",
@@ -2396,9 +2141,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2407,7 +2152,7 @@
     {
       "fixture_id": "1599939",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -2430,7 +2175,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Andrézieux",
         "pred_winner_comment": "Win or draw",
@@ -2443,9 +2196,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2454,7 +2207,7 @@
     {
       "fixture_id": "1599941",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -2477,7 +2230,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Fréjus St-Raphaël",
         "pred_winner_comment": "Win or draw",
@@ -2490,9 +2251,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2501,7 +2262,7 @@
     {
       "fixture_id": "1599942",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -2524,11 +2285,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2537,7 +2306,7 @@
     {
       "fixture_id": "1599943",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -2560,7 +2329,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2573,9 +2350,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2584,7 +2361,7 @@
     {
       "fixture_id": "1599945",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -2607,7 +2384,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Rumilly Vallières",
         "pred_winner_comment": "Win or draw",
@@ -2620,9 +2405,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2631,7 +2416,7 @@
     {
       "fixture_id": "1604822",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -2675,7 +2460,7 @@
     {
       "fixture_id": "1604823",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -2719,7 +2504,7 @@
     {
       "fixture_id": "1604824",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -2763,7 +2548,7 @@
     {
       "fixture_id": "1605569",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group B",
       "country": "Portugal",
@@ -2818,7 +2603,7 @@
     {
       "fixture_id": "1605928",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group D",
       "country": "Portugal",
@@ -2873,7 +2658,7 @@
     {
       "fixture_id": "1608047",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - North",
       "country": "Austria",
@@ -2917,7 +2702,7 @@
     {
       "fixture_id": "1608233",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -2972,7 +2757,7 @@
     {
       "fixture_id": "1608238",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -3027,7 +2812,7 @@
     {
       "fixture_id": "1608613",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -3071,7 +2856,7 @@
     {
       "fixture_id": "1609637",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 3",
       "country": "Switzerland",
@@ -3115,7 +2900,7 @@
     {
       "fixture_id": "1610065",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 2",
       "country": "Switzerland",
@@ -3170,7 +2955,7 @@
     {
       "fixture_id": "1611035",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1st League - FBiH",
       "country": "Bosnia",
@@ -3193,15 +2978,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Posušje",
         "pred_winner_comment": null,
@@ -3214,9 +2991,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3225,7 +3002,7 @@
     {
       "fixture_id": "1618269",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -3248,15 +3025,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vvsb",
         "pred_winner_comment": "Win or draw",
@@ -3269,9 +3038,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3280,7 +3049,7 @@
     {
       "fixture_id": "1619727",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier Division",
       "country": "Gibraltar",
@@ -3303,15 +3072,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -3324,9 +3085,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3335,7 +3096,7 @@
     {
       "fixture_id": "1627542",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Uruguay",
@@ -3358,15 +3119,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 0.75,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cerrito",
         "pred_winner_comment": "Win or draw",
@@ -3379,9 +3132,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3390,7 +3143,7 @@
     {
       "fixture_id": "1629872",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -3413,19 +3166,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3434,7 +3179,7 @@
     {
       "fixture_id": "1629873",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -3457,19 +3202,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3478,7 +3215,7 @@
     {
       "fixture_id": "1629874",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -3501,19 +3238,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3522,7 +3251,7 @@
     {
       "fixture_id": "1629879",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -3545,15 +3274,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -3566,9 +3287,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3577,7 +3298,7 @@
     {
       "fixture_id": "1602987",
       "kickoff_dublin": "2026-08-22T17:10:00+01:00",
-      "minutes_to_kickoff": 26.1,
+      "minutes_to_kickoff": 23.7,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -3600,19 +3321,58 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1558601",
+      "kickoff_dublin": "2026-08-22T17:15:00+01:00",
+      "minutes_to_kickoff": 28.7,
+      "timing_priority": "fixed_target_block",
+      "league": "Jupiler Pro League",
+      "country": "Belgium",
+      "home": "Charleroi",
+      "away": "KV Mechelen",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.62,
+        "odd_draw": 3.75,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Charleroi",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Charleroi or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3621,7 +3381,7 @@
     {
       "fixture_id": "1603967",
       "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
+      "minutes_to_kickoff": 28.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -3644,15 +3404,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Najma",
         "pred_winner_comment": "Win or draw",
@@ -3665,9 +3417,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3676,7 +3428,7 @@
     {
       "fixture_id": "1603968",
       "kickoff_dublin": "2026-08-22T17:20:00+01:00",
-      "minutes_to_kickoff": 36.1,
+      "minutes_to_kickoff": 33.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -3699,15 +3451,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Okhdood",
         "pred_winner_comment": "Win or draw",
@@ -3720,9 +3464,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3731,7 +3475,7 @@
     {
       "fixture_id": "1511662",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -3754,28 +3498,67 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6,
-        "lambda_away": 1.35,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5912
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.45,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1548516",
+      "kickoff_dublin": "2026-08-22T17:30:00+01:00",
+      "minutes_to_kickoff": 43.7,
+      "timing_priority": "fixed_target_block",
+      "league": "HNL",
+      "country": "Croatia",
+      "home": "NK Slaven Belupo",
+      "away": "HNK Gorica",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.6,
+        "odd_draw": 3.1,
+        "odd_away": 2.45,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "NK Slaven Belupo",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : NK Slaven Belupo or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1550092",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -3798,19 +3581,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3819,7 +3594,7 @@
     {
       "fixture_id": "1550095",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -3842,19 +3617,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3863,7 +3630,7 @@
     {
       "fixture_id": "1551321",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Denmark",
@@ -3886,19 +3653,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.25,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.451
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3907,7 +3666,7 @@
     {
       "fixture_id": "1557372",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "England",
@@ -3930,19 +3689,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3951,7 +3702,7 @@
     {
       "fixture_id": "1565875",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - East",
       "country": "Slovakia",
@@ -3974,28 +3725,56 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1582252",
+      "kickoff_dublin": "2026-08-22T17:30:00+01:00",
+      "minutes_to_kickoff": 43.7,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Malta",
+      "home": "Birkirkara",
+      "away": "Hamrun Spartans",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.6,
+        "odd_draw": 3.2,
+        "odd_away": 1.91,
+        "odd_ou_1_5_over": 1.45,
+        "odd_ou_2_5_over": 2.35,
+        "odd_ou_2_5_under": 1.57,
+        "odd_ou_3_5_over": 4.75,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1597913",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Stars League",
       "country": "Qatar",
@@ -4018,15 +3797,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Sadd",
         "pred_winner_comment": "Win or draw",
@@ -4039,9 +3810,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4050,7 +3821,7 @@
     {
       "fixture_id": "1612497",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Kansallinen Liiga",
       "country": "Finland",
@@ -4073,19 +3844,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4094,7 +3857,7 @@
     {
       "fixture_id": "1599435",
       "kickoff_dublin": "2026-08-22T17:35:00+01:00",
-      "minutes_to_kickoff": 51.1,
+      "minutes_to_kickoff": 48.7,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "United-Arab-Emirates",
@@ -4117,19 +3880,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4138,7 +3893,7 @@
     {
       "fixture_id": "1552137",
       "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
+      "minutes_to_kickoff": 58.7,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -4161,19 +3916,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.6,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4182,7 +3929,7 @@
     {
       "fixture_id": "1556640",
       "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
+      "minutes_to_kickoff": 58.7,
       "timing_priority": "fixed_target_block",
       "league": "Premiership",
       "country": "Scotland",
@@ -4205,15 +3952,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Dundee",
         "pred_winner_comment": "Win or draw",
@@ -4226,9 +3965,45 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
       "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1601878",
+      "kickoff_dublin": "2026-08-22T17:45:00+01:00",
+      "minutes_to_kickoff": 58.7,
+      "timing_priority": "fixed_target_block",
+      "league": "Premyer Liqa",
+      "country": "Azerbaijan",
+      "home": "Zira",
+      "away": "Imisli FK",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.48,
+        "odd_draw": 3.6,
+        "odd_away": 6.0,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4239,7 +4014,7 @@
     {
       "fixture_id": "1582316",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A Cup Women",
       "country": "Italy",
@@ -4262,7 +4037,7 @@
     {
       "fixture_id": "1591983",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4285,7 +4060,7 @@
     {
       "fixture_id": "1591986",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4308,7 +4083,7 @@
     {
       "fixture_id": "1591987",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4331,7 +4106,7 @@
     {
       "fixture_id": "1591988",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4354,7 +4129,7 @@
     {
       "fixture_id": "1592069",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -4377,7 +4152,7 @@
     {
       "fixture_id": "1608236",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -4400,7 +4175,7 @@
     {
       "fixture_id": "1630050",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Serbia",
@@ -4423,7 +4198,7 @@
     {
       "fixture_id": "1604801",
       "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
+      "minutes_to_kickoff": 28.7,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -4446,7 +4221,7 @@
     {
       "fixture_id": "1553844",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Serbia",
@@ -4469,7 +4244,7 @@
     {
       "fixture_id": "1627021",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -4494,7 +4269,7 @@
     {
       "fixture_id": "1504291",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Ykkösliiga",
       "country": "Finland",
@@ -4549,7 +4324,7 @@
     {
       "fixture_id": "1507202",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga 2",
       "country": "Georgia",
@@ -4614,7 +4389,7 @@
     {
       "fixture_id": "1507203",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga 2",
       "country": "Georgia",
@@ -4658,7 +4433,7 @@
     {
       "fixture_id": "1513610",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -4713,7 +4488,7 @@
     {
       "fixture_id": "1514272",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -4789,7 +4564,7 @@
     {
       "fixture_id": "1549462",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -4833,7 +4608,7 @@
     {
       "fixture_id": "1550002",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Promocional Amateur",
       "country": "Argentina",
@@ -4877,7 +4652,7 @@
     {
       "fixture_id": "1550681",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -4932,7 +4707,7 @@
     {
       "fixture_id": "1550683",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -4976,7 +4751,7 @@
     {
       "fixture_id": "1550692",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "DFB Pokal",
       "country": "Germany",
@@ -5020,7 +4795,7 @@
     {
       "fixture_id": "1551087",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Bulgaria",
@@ -5075,7 +4850,7 @@
     {
       "fixture_id": "1551539",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -5147,7 +4922,7 @@
     {
       "fixture_id": "1551541",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -5191,7 +4966,7 @@
     {
       "fixture_id": "1551542",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Slovakia",
@@ -5263,7 +5038,7 @@
     {
       "fixture_id": "1555035",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Switzerland",
@@ -5335,7 +5110,7 @@
     {
       "fixture_id": "1555365",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Switzerland",
@@ -5390,7 +5165,7 @@
     {
       "fixture_id": "1561107",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "2. liga",
       "country": "Slovakia",
@@ -5455,7 +5230,7 @@
     {
       "fixture_id": "1562364",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "4. liga - Divizie B",
       "country": "Czech-Republic",
@@ -5499,7 +5274,7 @@
     {
       "fixture_id": "1568148",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -5575,7 +5350,7 @@
     {
       "fixture_id": "1568401",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 4",
       "country": "Poland",
@@ -5644,7 +5419,7 @@
     {
       "fixture_id": "1568458",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 3",
       "country": "Poland",
@@ -5699,7 +5474,7 @@
     {
       "fixture_id": "1573827",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - West",
       "country": "Austria",
@@ -5754,7 +5529,7 @@
     {
       "fixture_id": "1574073",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - Ost",
       "country": "Austria",
@@ -5798,7 +5573,7 @@
     {
       "fixture_id": "1582316",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A Cup Women",
       "country": "Italy",
@@ -5821,7 +5596,7 @@
     {
       "fixture_id": "1584377",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -5865,7 +5640,7 @@
     {
       "fixture_id": "1584383",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -5909,7 +5684,7 @@
     {
       "fixture_id": "1585713",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -5953,7 +5728,7 @@
     {
       "fixture_id": "1585717",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -6008,7 +5783,7 @@
     {
       "fixture_id": "1591983",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -6031,7 +5806,7 @@
     {
       "fixture_id": "1591986",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -6054,7 +5829,7 @@
     {
       "fixture_id": "1591987",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -6077,7 +5852,7 @@
     {
       "fixture_id": "1591988",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -6100,7 +5875,7 @@
     {
       "fixture_id": "1592069",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Júniores U19",
       "country": "Portugal",
@@ -6123,7 +5898,7 @@
     {
       "fixture_id": "1597752",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -6167,7 +5942,7 @@
     {
       "fixture_id": "1597757",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Portugal",
@@ -6222,7 +5997,7 @@
     {
       "fixture_id": "1599460",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -6277,7 +6052,7 @@
     {
       "fixture_id": "1599461",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -6321,7 +6096,7 @@
     {
       "fixture_id": "1599463",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -6365,7 +6140,7 @@
     {
       "fixture_id": "1599464",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group A",
       "country": "France",
@@ -6420,7 +6195,7 @@
     {
       "fixture_id": "1599699",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6443,7 +6218,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -6456,9 +6239,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6467,7 +6250,7 @@
     {
       "fixture_id": "1599700",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6490,11 +6273,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6503,7 +6294,7 @@
     {
       "fixture_id": "1599702",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6526,7 +6317,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -6539,9 +6338,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6550,7 +6349,7 @@
     {
       "fixture_id": "1599703",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6573,11 +6372,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6586,7 +6393,7 @@
     {
       "fixture_id": "1599704",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6609,7 +6416,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -6622,9 +6437,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6633,7 +6448,7 @@
     {
       "fixture_id": "1599706",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group B",
       "country": "France",
@@ -6656,7 +6471,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Les Herbiers",
         "pred_winner_comment": "Win or draw",
@@ -6669,9 +6492,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6680,7 +6503,7 @@
     {
       "fixture_id": "1599939",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -6703,7 +6526,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Andrézieux",
         "pred_winner_comment": "Win or draw",
@@ -6716,9 +6547,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6727,7 +6558,7 @@
     {
       "fixture_id": "1599941",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -6750,7 +6581,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Fréjus St-Raphaël",
         "pred_winner_comment": "Win or draw",
@@ -6763,9 +6602,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6774,7 +6613,7 @@
     {
       "fixture_id": "1599942",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -6797,11 +6636,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6810,7 +6657,7 @@
     {
       "fixture_id": "1599943",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -6833,7 +6680,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -6846,9 +6701,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -2.0,
+      "rank_score": -1.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6857,7 +6712,7 @@
     {
       "fixture_id": "1599945",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "National 2 - Group C",
       "country": "France",
@@ -6880,7 +6735,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": "Rumilly Vallières",
         "pred_winner_comment": "Win or draw",
@@ -6893,9 +6756,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6904,7 +6767,7 @@
     {
       "fixture_id": "1604822",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -6948,7 +6811,7 @@
     {
       "fixture_id": "1604823",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -6992,7 +6855,7 @@
     {
       "fixture_id": "1604824",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 1",
       "country": "Switzerland",
@@ -7036,7 +6899,7 @@
     {
       "fixture_id": "1605569",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group B",
       "country": "Portugal",
@@ -7091,7 +6954,7 @@
     {
       "fixture_id": "1605928",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Campeonato de Portugal Prio - Group D",
       "country": "Portugal",
@@ -7146,7 +7009,7 @@
     {
       "fixture_id": "1608047",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Regionalliga - North",
       "country": "Austria",
@@ -7190,7 +7053,7 @@
     {
       "fixture_id": "1608233",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -7245,7 +7108,7 @@
     {
       "fixture_id": "1608236",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -7268,7 +7131,7 @@
     {
       "fixture_id": "1608238",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -7323,7 +7186,7 @@
     {
       "fixture_id": "1608613",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -7367,7 +7230,7 @@
     {
       "fixture_id": "1609637",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 3",
       "country": "Switzerland",
@@ -7411,7 +7274,7 @@
     {
       "fixture_id": "1610065",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga Classic - Group 2",
       "country": "Switzerland",
@@ -7466,7 +7329,7 @@
     {
       "fixture_id": "1611035",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "1st League - FBiH",
       "country": "Bosnia",
@@ -7489,15 +7352,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Posušje",
         "pred_winner_comment": null,
@@ -7510,9 +7365,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7521,7 +7376,7 @@
     {
       "fixture_id": "1618269",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Derde Divisie",
       "country": "Netherlands",
@@ -7544,15 +7399,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vvsb",
         "pred_winner_comment": "Win or draw",
@@ -7565,9 +7412,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7576,7 +7423,7 @@
     {
       "fixture_id": "1619727",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier Division",
       "country": "Gibraltar",
@@ -7599,15 +7446,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -7620,9 +7459,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7631,7 +7470,7 @@
     {
       "fixture_id": "1627542",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Uruguay",
@@ -7654,15 +7493,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 0.75,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cerrito",
         "pred_winner_comment": "Win or draw",
@@ -7675,9 +7506,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7686,7 +7517,7 @@
     {
       "fixture_id": "1629872",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -7709,19 +7540,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7730,7 +7553,7 @@
     {
       "fixture_id": "1629873",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -7753,19 +7576,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7774,7 +7589,7 @@
     {
       "fixture_id": "1629874",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -7797,19 +7612,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7818,7 +7625,7 @@
     {
       "fixture_id": "1629879",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "NM Cupen",
       "country": "Norway",
@@ -7841,15 +7648,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -7862,9 +7661,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7873,7 +7672,7 @@
     {
       "fixture_id": "1630050",
       "kickoff_dublin": "2026-08-22T17:00:00+01:00",
-      "minutes_to_kickoff": 16.1,
+      "minutes_to_kickoff": 13.7,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Serbia",
@@ -7896,7 +7695,7 @@
     {
       "fixture_id": "1602987",
       "kickoff_dublin": "2026-08-22T17:10:00+01:00",
-      "minutes_to_kickoff": 26.1,
+      "minutes_to_kickoff": 23.7,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -7919,19 +7718,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -7940,7 +7731,7 @@
     {
       "fixture_id": "1558601",
       "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
+      "minutes_to_kickoff": 28.7,
       "timing_priority": "fixed_target_block",
       "league": "Jupiler Pro League",
       "country": "Belgium",
@@ -7961,38 +7752,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.1078
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.1078
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0998
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.5,
-        "lambda_away": 1.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.5802
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Charleroi",
         "pred_winner_comment": "Win or draw",
@@ -8005,18 +7767,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 14.38,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1603967",
       "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
+      "minutes_to_kickoff": 28.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -8039,15 +7801,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Najma",
         "pred_winner_comment": "Win or draw",
@@ -8060,9 +7814,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8071,7 +7825,7 @@
     {
       "fixture_id": "1604801",
       "kickoff_dublin": "2026-08-22T17:15:00+01:00",
-      "minutes_to_kickoff": 31.1,
+      "minutes_to_kickoff": 28.7,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -8094,7 +7848,7 @@
     {
       "fixture_id": "1603968",
       "kickoff_dublin": "2026-08-22T17:20:00+01:00",
-      "minutes_to_kickoff": 36.1,
+      "minutes_to_kickoff": 33.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -8117,15 +7871,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Okhdood",
         "pred_winner_comment": "Win or draw",
@@ -8138,9 +7884,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -8149,7 +7895,7 @@
     {
       "fixture_id": "1511662",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -8172,19 +7918,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6,
-        "lambda_away": 1.35,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5912
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.45,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8193,7 +7931,7 @@
     {
       "fixture_id": "1548516",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "HNL",
       "country": "Croatia",
@@ -8214,45 +7952,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6577,
-        "odd": 3.0,
-        "implied_probability": 0.3333,
-        "edge": 0.3244
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.3244
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.2859
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7937,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1949
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 2.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7937
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "NK Slaven Belupo",
         "pred_winner_comment": "Win or draw",
@@ -8265,18 +7967,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 37.04,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1550092",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -8299,19 +8001,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8320,7 +8014,7 @@
     {
       "fixture_id": "1550095",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -8343,19 +8037,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8364,7 +8050,7 @@
     {
       "fixture_id": "1551321",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Denmark",
@@ -8387,19 +8073,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.25,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.451
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -8408,7 +8086,7 @@
     {
       "fixture_id": "1553844",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Super Liga",
       "country": "Serbia",
@@ -8431,7 +8109,7 @@
     {
       "fixture_id": "1557372",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "England",
@@ -8454,19 +8132,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -8475,7 +8145,7 @@
     {
       "fixture_id": "1565875",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - East",
       "country": "Slovakia",
@@ -8498,19 +8168,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8519,7 +8181,7 @@
     {
       "fixture_id": "1582252",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -8540,58 +8202,22 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.735,
-        "odd": 4.75,
-        "implied_probability": 0.2105,
-        "edge": 0.5245
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.735,
-          "odd": 4.75,
-          "implied_probability": 0.2105,
-          "edge": 0.5245
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8753,
-          "odd": 2.35,
-          "implied_probability": 0.4255,
-          "edge": 0.4498
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6205,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.1205
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.0,
-        "lambda_away": 1.0,
-        "lambda_total": 5.0,
-        "p_over_1_5": 0.9596,
-        "p_over_2_5": 0.8753,
-        "p_over_3_5": 0.735,
-        "p_btts_yes": 0.6205
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 57.05,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1597913",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Stars League",
       "country": "Qatar",
@@ -8614,15 +8240,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Al Sadd",
         "pred_winner_comment": "Win or draw",
@@ -8635,9 +8253,9 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8646,7 +8264,7 @@
     {
       "fixture_id": "1612497",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Kansallinen Liiga",
       "country": "Finland",
@@ -8669,19 +8287,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -8690,7 +8300,7 @@
     {
       "fixture_id": "1627021",
       "kickoff_dublin": "2026-08-22T17:30:00+01:00",
-      "minutes_to_kickoff": 46.1,
+      "minutes_to_kickoff": 43.7,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies Clubs",
       "country": "World",
@@ -8713,7 +8323,7 @@
     {
       "fixture_id": "1599435",
       "kickoff_dublin": "2026-08-22T17:35:00+01:00",
-      "minutes_to_kickoff": 51.1,
+      "minutes_to_kickoff": 48.7,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "United-Arab-Emirates",
@@ -8736,19 +8346,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -8757,7 +8359,7 @@
     {
       "fixture_id": "1552137",
       "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
+      "minutes_to_kickoff": 58.7,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -8780,19 +8382,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.6,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -8801,7 +8395,7 @@
     {
       "fixture_id": "1556640",
       "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
+      "minutes_to_kickoff": 58.7,
       "timing_priority": "fixed_target_block",
       "league": "Premiership",
       "country": "Scotland",
@@ -8824,15 +8418,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Dundee",
         "pred_winner_comment": "Win or draw",
@@ -8845,7 +8431,7 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
       "rank_score": 1.5,
       "actionable_candidate": false,
@@ -8856,7 +8442,7 @@
     {
       "fixture_id": "1601878",
       "kickoff_dublin": "2026-08-22T17:45:00+01:00",
-      "minutes_to_kickoff": 61.1,
+      "minutes_to_kickoff": 58.7,
       "timing_priority": "fixed_target_block",
       "league": "Premyer Liqa",
       "country": "Azerbaijan",
@@ -8877,51 +8463,15 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5466,
-        "odd": 2.38,
-        "implied_probability": 0.4202,
-        "edge": 0.1264
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5466,
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "edge": 0.1264
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1223
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.1028
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 14.24,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     }

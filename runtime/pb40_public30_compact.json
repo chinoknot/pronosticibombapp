@@ -1,1267 +1,67 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-22T14:04:53.747543+01:00",
+  "generated_at_dublin": "2026-08-22T14:40:44.600628+01:00",
   "match_date": "2026-08-22",
   "selection_window": "fixed_next_hour_00_45",
   "fixtures_today_total": 1297,
-  "fixtures_in_next_75m": 270,
-  "relevant_fixtures_in_next_75m": 251,
+  "fixtures_in_next_75m": 311,
+  "relevant_fixtures_in_next_75m": 291,
   "fixtures_analyzed_before_ranking": 291,
   "analysis_truncated": false,
-  "actionable_candidates_found": 37,
+  "actionable_candidates_found": 21,
   "matches_returned": 30,
   "max_is_return_limit_only": true,
   "partial_api_errors": [
     {
-      "fixture_id": "1563105",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563105"
-    },
-    {
-      "fixture_id": "1629842",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629842"
-    },
-    {
-      "fixture_id": "1564257",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564257"
-    },
-    {
-      "fixture_id": "1564253",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564253"
-    },
-    {
-      "fixture_id": "1619398",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1619398"
-    },
-    {
-      "fixture_id": "1556559",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1556559"
-    },
-    {
-      "fixture_id": "1563705",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563705"
-    },
-    {
-      "fixture_id": "1553615",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553615"
-    },
-    {
-      "fixture_id": "1563700",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563700"
-    },
-    {
-      "fixture_id": "1612561",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612561"
-    },
-    {
-      "fixture_id": "1564256",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564256"
-    },
-    {
-      "fixture_id": "1564250",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564250"
-    },
-    {
-      "fixture_id": "1564252",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564252"
-    },
-    {
-      "fixture_id": "1563697",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563697"
-    },
-    {
-      "fixture_id": "1564248",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564248"
-    },
-    {
-      "fixture_id": "1563701",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563701"
-    },
-    {
-      "fixture_id": "1564247",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564247"
-    },
-    {
-      "fixture_id": "1563704",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563704"
-    },
-    {
-      "fixture_id": "1629815",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629815"
-    },
-    {
-      "fixture_id": "1590042",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1590042"
-    },
-    {
-      "fixture_id": "1563103",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563103"
-    },
-    {
-      "fixture_id": "1629844",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629844"
-    },
-    {
-      "fixture_id": "1618268",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1618268"
-    },
-    {
-      "fixture_id": "1563102",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563102"
-    },
-    {
-      "fixture_id": "1599433",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1599433"
-    },
-    {
-      "fixture_id": "1590043",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1590043"
-    },
-    {
-      "fixture_id": "1610061",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1610061"
-    },
-    {
       "fixture_id": "1629845",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629845"
-    },
-    {
-      "fixture_id": "1610064",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1610064"
-    },
-    {
-      "fixture_id": "1564255",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564255"
-    },
-    {
-      "fixture_id": "1563696",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563696"
-    },
-    {
-      "fixture_id": "1597912",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1597912"
-    },
-    {
-      "fixture_id": "1563106",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1563106"
-    },
-    {
-      "fixture_id": "1553616",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553616"
-    },
-    {
-      "fixture_id": "1612559",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612559"
-    },
-    {
-      "fixture_id": "1629843",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629843"
-    },
-    {
-      "fixture_id": "1612558",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612558"
-    },
-    {
-      "fixture_id": "1564258",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1564258"
-    },
-    {
-      "fixture_id": "1619396",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1619396"
-    },
-    {
-      "fixture_id": "1588298",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1588298"
-    },
-    {
-      "fixture_id": "1553614",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553614"
-    },
-    {
-      "fixture_id": "1612583",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612583"
-    },
-    {
-      "fixture_id": "1546948",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1546948"
-    },
-    {
-      "fixture_id": "1599434",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1599434"
-    },
-    {
-      "fixture_id": "1587749",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1587749"
-    },
-    {
-      "fixture_id": "1525956",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1525956"
-    },
-    {
-      "fixture_id": "1629814",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629814"
-    },
-    {
-      "fixture_id": "1557025",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1557025"
-    },
-    {
-      "fixture_id": "1553612",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553612"
-    },
-    {
-      "fixture_id": "1587746",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1587746"
-    },
-    {
-      "fixture_id": "1629846",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629846"
-    },
-    {
-      "fixture_id": "1629840",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629840"
-    },
-    {
-      "fixture_id": "1557021",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1557021"
-    },
-    {
-      "fixture_id": "1596387",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596387"
-    },
-    {
-      "fixture_id": "1602068",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1602068"
-    },
-    {
-      "fixture_id": "1610062",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1610062"
-    },
-    {
-      "fixture_id": "1596838",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596838"
-    },
-    {
-      "fixture_id": "1596840",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596840"
-    },
-    {
-      "fixture_id": "1629848",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629848"
-    },
-    {
-      "fixture_id": "1629857",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629857"
-    },
-    {
-      "fixture_id": "1565874",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1565874"
-    },
-    {
-      "fixture_id": "1596837",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596837"
-    },
-    {
-      "fixture_id": "1579083",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1579083"
-    },
-    {
-      "fixture_id": "1578634",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1578634"
-    },
-    {
-      "fixture_id": "1629847",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629847"
-    },
-    {
-      "fixture_id": "1629864",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629864"
-    },
-    {
-      "fixture_id": "1629856",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629856"
-    },
-    {
-      "fixture_id": "1612566",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612566"
-    },
-    {
-      "fixture_id": "1629868",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629868"
-    },
-    {
-      "fixture_id": "1629885",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629885"
-    },
-    {
-      "fixture_id": "1629869",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629869"
-    },
-    {
-      "fixture_id": "1612560",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612560"
-    },
-    {
-      "fixture_id": "1556840",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1556840"
-    },
-    {
-      "fixture_id": "1619394",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1619394"
-    },
-    {
-      "fixture_id": "1629849",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629849"
-    },
-    {
-      "fixture_id": "1629887",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629887"
-    },
-    {
-      "fixture_id": "1629860",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629860"
-    },
-    {
-      "fixture_id": "1629862",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629862"
-    },
-    {
-      "fixture_id": "1629888",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629888"
-    },
-    {
-      "fixture_id": "1629855",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629855"
-    },
-    {
-      "fixture_id": "1629865",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629865"
-    },
-    {
-      "fixture_id": "1629867",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629867"
-    },
-    {
-      "fixture_id": "1629861",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629861"
-    },
-    {
-      "fixture_id": "1629852",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629852"
-    },
-    {
-      "fixture_id": "1629870",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629870"
-    },
-    {
-      "fixture_id": "1546955",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1546955"
-    },
-    {
-      "fixture_id": "1612574",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612574"
-    },
-    {
-      "fixture_id": "1629850",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629850"
-    },
-    {
-      "fixture_id": "1596394",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596394"
-    },
-    {
-      "fixture_id": "1612562",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612562"
-    },
-    {
-      "fixture_id": "1596392",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1596392"
-    },
-    {
-      "fixture_id": "1612573",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612573"
-    },
-    {
-      "fixture_id": "1612568",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612568"
-    },
-    {
-      "fixture_id": "1629857",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629857"
-    },
-    {
-      "fixture_id": "1612569",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612569"
-    },
-    {
-      "fixture_id": "1629853",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629853"
-    },
-    {
-      "fixture_id": "1612579",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612579"
-    },
-    {
-      "fixture_id": "1612567",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612567"
-    },
-    {
-      "fixture_id": "1629859",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629859"
-    },
-    {
-      "fixture_id": "1629858",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629858"
-    },
-    {
-      "fixture_id": "1629878",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629878"
-    },
-    {
-      "fixture_id": "1629854",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629854"
-    },
-    {
-      "fixture_id": "1612563",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612563"
-    },
-    {
-      "fixture_id": "1553613",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553613"
-    },
-    {
-      "fixture_id": "1629889",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629889"
-    },
-    {
-      "fixture_id": "1612580",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612580"
-    },
-    {
-      "fixture_id": "1629858",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629858"
-    },
-    {
-      "fixture_id": "1629866",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629866"
-    },
-    {
-      "fixture_id": "1612566",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612566"
-    },
-    {
-      "fixture_id": "1629869",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629869"
-    },
-    {
-      "fixture_id": "1629847",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629847"
-    },
-    {
-      "fixture_id": "1629846",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629846"
-    },
-    {
-      "fixture_id": "1629851",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629851"
-    },
-    {
-      "fixture_id": "1629860",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629860"
-    },
-    {
-      "fixture_id": "1629856",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629856"
-    },
-    {
-      "fixture_id": "1629851",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629851"
-    },
-    {
-      "fixture_id": "1612571",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612571"
-    },
-    {
-      "fixture_id": "1629864",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629864"
-    },
-    {
-      "fixture_id": "1629852",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629852"
-    },
-    {
-      "fixture_id": "1629889",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629889"
-    },
-    {
-      "fixture_id": "1612579",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612579"
-    },
-    {
-      "fixture_id": "1629868",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629868"
-    },
-    {
-      "fixture_id": "1629885",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629885"
-    },
-    {
-      "fixture_id": "1629878",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629878"
-    },
-    {
-      "fixture_id": "1612567",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612567"
-    },
-    {
-      "fixture_id": "1612565",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612565"
-    },
-    {
-      "fixture_id": "1612569",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612569"
-    },
-    {
-      "fixture_id": "1629855",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629855"
-    },
-    {
-      "fixture_id": "1629870",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629870"
-    },
-    {
-      "fixture_id": "1629854",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629854"
-    },
-    {
-      "fixture_id": "1629862",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629862"
-    },
-    {
-      "fixture_id": "1629867",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629867"
-    },
-    {
-      "fixture_id": "1629866",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629866"
-    },
-    {
-      "fixture_id": "1629849",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629849"
-    },
-    {
-      "fixture_id": "1612564",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612564"
-    },
-    {
-      "fixture_id": "1629886",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629886"
-    },
-    {
-      "fixture_id": "1629863",
-      "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629863"
-    },
-    {
-      "fixture_id": "1629865",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629865"
-    },
-    {
-      "fixture_id": "1629886",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629886"
-    },
-    {
-      "fixture_id": "1612560",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612560"
-    },
-    {
-      "fixture_id": "1629859",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629859"
-    },
-    {
-      "fixture_id": "1612580",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612580"
-    },
-    {
-      "fixture_id": "1588294",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588294"
-    },
-    {
-      "fixture_id": "1629848",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629848"
-    },
-    {
-      "fixture_id": "1565692",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565692"
-    },
-    {
-      "fixture_id": "1629887",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629887"
-    },
-    {
-      "fixture_id": "1564830",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564830"
-    },
-    {
-      "fixture_id": "1629888",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629888"
-    },
-    {
-      "fixture_id": "1612563",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612563"
-    },
-    {
-      "fixture_id": "1557024",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557024"
-    },
-    {
-      "fixture_id": "1612571",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612571"
-    },
-    {
-      "fixture_id": "1629850",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629850"
-    },
-    {
-      "fixture_id": "1587741",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1587741"
-    },
-    {
-      "fixture_id": "1557768",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557768"
-    },
-    {
-      "fixture_id": "1598874",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1598874"
-    },
-    {
-      "fixture_id": "1577898",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1577898"
-    },
-    {
-      "fixture_id": "1565691",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565691"
-    },
-    {
-      "fixture_id": "1612562",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612562"
-    },
-    {
-      "fixture_id": "1597304",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597304"
-    },
-    {
-      "fixture_id": "1612568",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612568"
-    },
-    {
-      "fixture_id": "1629853",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629853"
-    },
-    {
-      "fixture_id": "1565876",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565876"
-    },
-    {
-      "fixture_id": "1564834",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564834"
-    },
-    {
-      "fixture_id": "1609635",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1609635"
-    },
-    {
-      "fixture_id": "1495923",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1495923"
-    },
-    {
-      "fixture_id": "1612564",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612564"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629845"
     },
     {
-      "fixture_id": "1595928",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595928"
-    },
-    {
-      "fixture_id": "1629861",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629861"
-    },
-    {
-      "fixture_id": "1578636",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578636"
-    },
-    {
-      "fixture_id": "1597306",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597306"
-    },
-    {
-      "fixture_id": "1588302",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588302"
-    },
-    {
-      "fixture_id": "1578628",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578628"
-    },
-    {
-      "fixture_id": "1612565",
+      "fixture_id": "1587751",
       "call": "odds",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1612565"
-    },
-    {
-      "fixture_id": "1546951",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546951"
-    },
-    {
-      "fixture_id": "1557023",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557023"
-    },
-    {
-      "fixture_id": "1612573",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612573"
-    },
-    {
-      "fixture_id": "1574311",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1574311"
-    },
-    {
-      "fixture_id": "1546954",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546954"
-    },
-    {
-      "fixture_id": "1587744",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1587744"
-    },
-    {
-      "fixture_id": "1578624",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578624"
-    },
-    {
-      "fixture_id": "1588300",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588300"
-    },
-    {
-      "fixture_id": "1579084",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1579084"
-    },
-    {
-      "fixture_id": "1504508",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1504508"
-    },
-    {
-      "fixture_id": "1595932",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595932"
-    },
-    {
-      "fixture_id": "1565872",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565872"
-    },
-    {
-      "fixture_id": "1579204",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1579204"
-    },
-    {
-      "fixture_id": "1578626",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578626"
-    },
-    {
-      "fixture_id": "1561103",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1561103"
-    },
-    {
-      "fixture_id": "1596839",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1596839"
-    },
-    {
-      "fixture_id": "1578622",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578622"
-    },
-    {
-      "fixture_id": "1595929",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595929"
-    },
-    {
-      "fixture_id": "1546947",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546947"
-    },
-    {
-      "fixture_id": "1557765",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557765"
-    },
-    {
-      "fixture_id": "1595924",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595924"
-    },
-    {
-      "fixture_id": "1597309",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597309"
-    },
-    {
-      "fixture_id": "1581507",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1581507"
-    },
-    {
-      "fixture_id": "1515906",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1515906"
-    },
-    {
-      "fixture_id": "1601001",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1601001"
-    },
-    {
-      "fixture_id": "1557766",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557766"
-    },
-    {
-      "fixture_id": "1608046",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608046"
-    },
-    {
-      "fixture_id": "1612574",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612574"
-    },
-    {
-      "fixture_id": "1629863",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629863"
-    },
-    {
-      "fixture_id": "1597299",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597299"
-    },
-    {
-      "fixture_id": "1579085",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1579085"
-    },
-    {
-      "fixture_id": "1565873",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565873"
-    },
-    {
-      "fixture_id": "1552135",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1552135"
-    },
-    {
-      "fixture_id": "1587743",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1587743"
-    },
-    {
-      "fixture_id": "1588299",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588299"
-    },
-    {
-      "fixture_id": "1578627",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578627"
-    },
-    {
-      "fixture_id": "1578632",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578632"
-    },
-    {
-      "fixture_id": "1511194",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1511194"
-    },
-    {
-      "fixture_id": "1579202",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1579202"
-    },
-    {
-      "fixture_id": "1579326",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1579326"
-    },
-    {
-      "fixture_id": "1566754",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1566754"
-    },
-    {
-      "fixture_id": "1595933",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595933"
-    },
-    {
-      "fixture_id": "1578623",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578623"
-    },
-    {
-      "fixture_id": "1597301",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597301"
-    },
-    {
-      "fixture_id": "1565690",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1565690"
-    },
-    {
-      "fixture_id": "1566056",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1566056"
-    },
-    {
-      "fixture_id": "1546950",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546950"
-    },
-    {
-      "fixture_id": "1596843",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1596843"
-    },
-    {
-      "fixture_id": "1587745",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1587745"
-    },
-    {
-      "fixture_id": "1596841",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1596841"
-    },
-    {
-      "fixture_id": "1566058",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1566058"
-    },
-    {
-      "fixture_id": "1557767",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1557767"
-    },
-    {
-      "fixture_id": "1612464",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1612464"
-    },
-    {
-      "fixture_id": "1562040",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1562040"
-    },
-    {
-      "fixture_id": "1562042",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1562042"
-    },
-    {
-      "fixture_id": "1546953",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546953"
-    },
-    {
-      "fixture_id": "1597305",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597305"
-    },
-    {
-      "fixture_id": "1506655",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1506655"
-    },
-    {
-      "fixture_id": "1564832",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564832"
-    },
-    {
-      "fixture_id": "1595926",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595926"
-    },
-    {
-      "fixture_id": "1578635",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578635"
-    },
-    {
-      "fixture_id": "1546949",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1546949"
-    },
-    {
-      "fixture_id": "1514270",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1514270"
-    },
-    {
-      "fixture_id": "1596390",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1596390"
-    },
-    {
-      "fixture_id": "1578625",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578625"
-    },
-    {
-      "fixture_id": "1495376",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1495376"
-    },
-    {
-      "fixture_id": "1534417",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1534417"
-    },
-    {
-      "fixture_id": "1578631",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578631"
-    },
-    {
-      "fixture_id": "1595931",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595931"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1587751"
     },
     {
       "fixture_id": "1588304",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588304"
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1588304"
     },
     {
-      "fixture_id": "1595927",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1595927"
+      "fixture_id": "1588295",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1588295"
     },
     {
-      "fixture_id": "1588933",
+      "fixture_id": "1629844",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1588933"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629844"
     },
     {
-      "fixture_id": "1578630",
+      "fixture_id": "1587749",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1578630"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1587749"
     },
     {
-      "fixture_id": "1543463",
+      "fixture_id": "1564252",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1543463"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564252"
     },
     {
-      "fixture_id": "1597303",
-      "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597303"
+      "fixture_id": "1597306",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1597306"
     },
     {
-      "fixture_id": "1564833",
+      "fixture_id": "1564248",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564833"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1564248"
     },
     {
-      "fixture_id": "1597300",
+      "fixture_id": "1574310",
       "call": "prediction",
-      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597300"
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1574310"
     }
   ],
   "public_feed": {
@@ -1274,7 +74,7 @@
     {
       "fixture_id": "1495923",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Norway",
@@ -1295,46 +95,10 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6096,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.0382
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6096,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0382
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3863,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0227
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6277,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0104
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.5,
-        "lambda_total": 3.15,
-        "p_over_1_5": 0.8222,
-        "p_over_2_5": 0.6096,
-        "p_over_3_5": 0.3863,
-        "p_btts_yes": 0.6277
-      },
-      "pb_raw_available": true,
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -1344,14 +108,14 @@
           "score": 0.648
         }
       ],
-      "rank_score": 20.57,
+      "rank_score": 17.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1504508",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
@@ -1374,16 +138,8 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 1.35,
-        "lambda_total": 3.2,
-        "p_over_1_5": 0.8288,
-        "p_over_2_5": 0.6201,
-        "p_over_3_5": 0.3975,
-        "p_btts_yes": 0.6243
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -1393,14 +149,14 @@
           "score": 0.535
         }
       ],
-      "rank_score": 11.8,
+      "rank_score": 12.0,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1515906",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Virsliga",
       "country": "Latvia",
@@ -1423,16 +179,8 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 1.5,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5946
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -1442,78 +190,16 @@
           "score": 0.557
         }
       ],
-      "rank_score": 11.55,
+      "rank_score": 12.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1556837",
-      "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Championship",
-      "country": "Scotland",
-      "home": "Livingston",
-      "away": "Dunfermline",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.75,
-        "odd_draw": 3.6,
-        "odd_away": 3.9,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 3.0,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.72,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
     }
   ],
   "technical_fallbacks": [
     {
       "fixture_id": "1495376",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -1536,25 +222,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 0.75,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.5014
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.65,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1495765",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Veikkausliiga",
       "country": "Finland",
@@ -1577,148 +255,116 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 0.95,
-        "lambda_total": 2.4,
-        "p_over_1_5": 0.6916,
-        "p_over_2_5": 0.4303,
-        "p_over_3_5": 0.2213,
-        "p_btts_yes": 0.4694
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1495766",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Veikkausliiga",
       "country": "Finland",
       "home": "FF Jaro",
       "away": "AC Oulu",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.7,
+        "odd_away": 1.91,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.35,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.55,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1504510",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
       "home": "Jonkopings Sodra",
       "away": "Rosengård",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 2.4,
+        "odd_draw": 3.4,
+        "odd_away": 2.45,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6,
-        "lambda_away": 1.1,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5324
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.7,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1504513",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
       "home": "Trollhättan",
       "away": "Trelleborg",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 3.8,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.85,
-        "lambda_away": 2.05,
-        "lambda_total": 2.9,
-        "p_over_1_5": 0.7854,
-        "p_over_2_5": 0.554,
-        "p_over_3_5": 0.3304,
-        "p_btts_yes": 0.4989
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1505231",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Norra",
       "country": "Sweden",
@@ -1741,66 +387,50 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 1.7,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.4501
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.1,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1506655",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
       "home": "ÍF II",
       "away": "B36 II",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.9,
+        "odd_away": 2.7,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 1.9,
+        "odd_btts_yes": 1.33,
+        "odd_btts_no": 3.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.75,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6897
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.85,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1511194",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Svealand",
       "country": "Sweden",
@@ -1823,25 +453,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.5,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.6908
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.7,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1513611",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -1864,25 +486,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.1,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5183
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.2,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1514268",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -1905,25 +519,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.25,
-        "lambda_total": 3.45,
-        "p_over_1_5": 0.8587,
-        "p_over_2_5": 0.6698,
-        "p_over_3_5": 0.4525,
-        "p_btts_yes": 0.6344
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.05,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1514270",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -1946,25 +552,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1,
-        "lambda_away": 1.6,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.7004
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.7,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1534416",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -1987,25 +585,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.4,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5581
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1536023",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 1",
       "country": "Russia",
@@ -2025,7 +615,7 @@
     {
       "fixture_id": "1536257",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 1",
       "country": "Russia",
@@ -2045,7 +635,7 @@
     {
       "fixture_id": "1536669",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -2065,7 +655,7 @@
     {
       "fixture_id": "1536670",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -2085,7 +675,7 @@
     {
       "fixture_id": "1543463",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "2. Deild",
       "country": "Iceland",
@@ -2108,25 +698,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 2.1,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6913
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.25,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1546947",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2149,25 +731,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.15,
-        "lambda_away": 1.0,
-        "lambda_total": 4.15,
-        "p_over_1_5": 0.9188,
-        "p_over_2_5": 0.7831,
-        "p_over_3_5": 0.5953,
-        "p_btts_yes": 0.605
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.25,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546948",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2190,25 +764,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 0.5,
-        "lambda_total": 1.85,
-        "p_over_1_5": 0.5519,
-        "p_over_2_5": 0.2828,
-        "p_over_3_5": 0.1169,
-        "p_btts_yes": 0.2915
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546949",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2231,66 +797,50 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.5,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546950",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
       "home": "Formartine United",
       "away": "Keith",
-      "bookmaker": "",
+      "bookmaker": "Marathonbet",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Marathonbet",
+        "odd_home": 1.39,
+        "odd_draw": 4.25,
+        "odd_away": 6.3,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.6,
+        "odd_ou_2_5_under": 2.17,
+        "odd_ou_3_5_over": 2.46,
+        "odd_btts_yes": 1.74,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.9,
-        "lambda_away": 1.85,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7167
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.65,
+      "rank_score": 3.5,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1546951",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2313,25 +863,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.6,
-        "lambda_away": 2.0,
-        "lambda_total": 5.6,
-        "p_over_1_5": 0.9756,
-        "p_over_2_5": 0.9176,
-        "p_over_3_5": 0.8094,
-        "p_btts_yes": 0.841
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546952",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2354,25 +896,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 1.65,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.539
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546953",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2395,25 +929,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 2.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546954",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2436,25 +962,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.65,
-        "lambda_away": 5.5,
-        "lambda_total": 8.15,
-        "p_over_1_5": 0.9974,
-        "p_over_2_5": 0.9878,
-        "p_over_3_5": 0.9617,
-        "p_btts_yes": 0.9256
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546955",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -2477,27 +995,52 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.25,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1556837",
+      "kickoff_dublin": "2026-08-22T15:00:00+01:00",
+      "minutes_to_kickoff": 19.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Championship",
+      "country": "Scotland",
+      "home": "Livingston",
+      "away": "Dunfermline",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.75,
+        "odd_draw": 3.6,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market"
     }
   ],
   "all_ranked": [
     {
       "fixture_id": "1495376",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Toppserien",
       "country": "Norway",
@@ -2520,25 +1063,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 0.75,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.5014
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.65,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1495765",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Veikkausliiga",
       "country": "Finland",
@@ -2561,66 +1096,50 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 0.95,
-        "lambda_total": 2.4,
-        "p_over_1_5": 0.6916,
-        "p_over_2_5": 0.4303,
-        "p_over_3_5": 0.2213,
-        "p_btts_yes": 0.4694
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1495766",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Veikkausliiga",
       "country": "Finland",
       "home": "FF Jaro",
       "away": "AC Oulu",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.7,
+        "odd_away": 1.91,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.35,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.55,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1495923",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Norway",
@@ -2641,46 +1160,10 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6096,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.0382
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6096,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0382
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3863,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0227
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6277,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0104
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.5,
-        "lambda_total": 3.15,
-        "p_over_1_5": 0.8222,
-        "p_over_2_5": 0.6096,
-        "p_over_3_5": 0.3863,
-        "p_btts_yes": 0.6277
-      },
-      "pb_raw_available": true,
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -2690,14 +1173,14 @@
           "score": 0.648
         }
       ],
-      "rank_score": 20.57,
+      "rank_score": 17.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1504508",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
@@ -2720,16 +1203,8 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 1.35,
-        "lambda_total": 3.2,
-        "p_over_1_5": 0.8288,
-        "p_over_2_5": 0.6201,
-        "p_over_3_5": 0.3975,
-        "p_btts_yes": 0.6243
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -2739,96 +1214,80 @@
           "score": 0.535
         }
       ],
-      "rank_score": 11.8,
+      "rank_score": 12.0,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1504510",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
       "home": "Jonkopings Sodra",
       "away": "Rosengård",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 2.4,
+        "odd_draw": 3.4,
+        "odd_away": 2.45,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6,
-        "lambda_away": 1.1,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5324
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.7,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1504513",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Södra",
       "country": "Sweden",
       "home": "Trollhättan",
       "away": "Trelleborg",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 3.8,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.85,
-        "lambda_away": 2.05,
-        "lambda_total": 2.9,
-        "p_over_1_5": 0.7854,
-        "p_over_2_5": 0.554,
-        "p_over_3_5": 0.3304,
-        "p_btts_yes": 0.4989
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1505231",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Ettan - Norra",
       "country": "Sweden",
@@ -2851,66 +1310,50 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.8,
-        "lambda_away": 1.7,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.4501
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.1,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1506655",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Faroe-Islands",
       "home": "ÍF II",
       "away": "B36 II",
-      "bookmaker": "",
+      "bookmaker": "Bet365",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.9,
+        "odd_away": 2.7,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 1.9,
+        "odd_btts_yes": 1.33,
+        "odd_btts_no": 3.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.75,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6897
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.85,
+      "rank_score": 3.0,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1511194",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Division 2 - Södra Svealand",
       "country": "Sweden",
@@ -2933,25 +1376,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.5,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.6908
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.7,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1513611",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Meistriliiga",
       "country": "Estonia",
@@ -2974,25 +1409,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.1,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5183
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.2,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1514268",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -3015,25 +1442,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.25,
-        "lambda_total": 3.45,
-        "p_over_1_5": 0.8587,
-        "p_over_2_5": 0.6698,
-        "p_over_3_5": 0.4525,
-        "p_btts_yes": 0.6344
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.05,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1514270",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Deild",
       "country": "Iceland",
@@ -3056,25 +1475,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1,
-        "lambda_away": 1.6,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.7004
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.7,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1515906",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Virsliga",
       "country": "Latvia",
@@ -3097,16 +1508,8 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.45,
-        "lambda_away": 1.5,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5946
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "OVER25 PATTERNS",
@@ -3116,14 +1519,14 @@
           "score": 0.557
         }
       ],
-      "rank_score": 11.55,
+      "rank_score": 12.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
     },
     {
       "fixture_id": "1534416",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -3146,25 +1549,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.4,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5581
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1536023",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 1",
       "country": "Russia",
@@ -3184,7 +1579,7 @@
     {
       "fixture_id": "1536257",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 1",
       "country": "Russia",
@@ -3204,7 +1599,7 @@
     {
       "fixture_id": "1536669",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -3224,7 +1619,7 @@
     {
       "fixture_id": "1536670",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 3",
       "country": "Russia",
@@ -3244,7 +1639,7 @@
     {
       "fixture_id": "1543463",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "2. Deild",
       "country": "Iceland",
@@ -3267,25 +1662,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 2.1,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6913
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.25,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1546947",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3308,25 +1695,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.15,
-        "lambda_away": 1.0,
-        "lambda_total": 4.15,
-        "p_over_1_5": 0.9188,
-        "p_over_2_5": 0.7831,
-        "p_over_3_5": 0.5953,
-        "p_btts_yes": 0.605
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.25,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546948",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3349,25 +1728,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 0.5,
-        "lambda_total": 1.85,
-        "p_over_1_5": 0.5519,
-        "p_over_2_5": 0.2828,
-        "p_over_3_5": 0.1169,
-        "p_btts_yes": 0.2915
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546949",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3390,66 +1761,50 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.5,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546950",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
       "home": "Formartine United",
       "away": "Keith",
-      "bookmaker": "",
+      "bookmaker": "Marathonbet",
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Marathonbet",
+        "odd_home": 1.39,
+        "odd_draw": 4.25,
+        "odd_away": 6.3,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.6,
+        "odd_ou_2_5_under": 2.17,
+        "odd_ou_3_5_over": 2.46,
+        "odd_btts_yes": 1.74,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.9,
-        "lambda_away": 1.85,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7167
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.65,
+      "rank_score": 3.5,
       "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
+      "selection_reason": "No positive value market"
     },
     {
       "fixture_id": "1546951",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3472,25 +1827,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 3.6,
-        "lambda_away": 2.0,
-        "lambda_total": 5.6,
-        "p_over_1_5": 0.9756,
-        "p_over_2_5": 0.9176,
-        "p_over_3_5": 0.8094,
-        "p_btts_yes": 0.841
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546952",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3513,25 +1860,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.1,
-        "lambda_away": 1.65,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.539
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.65,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546953",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3554,25 +1893,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 2.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546954",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3595,25 +1926,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.65,
-        "lambda_away": 5.5,
-        "lambda_total": 8.15,
-        "p_over_1_5": 0.9974,
-        "p_over_2_5": 0.9878,
-        "p_over_3_5": 0.9617,
-        "p_btts_yes": 0.9256
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1546955",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Football League - Highland League",
       "country": "Scotland",
@@ -3636,25 +1959,17 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.25,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
-      "pb_raw_available": true,
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
       "fixture_id": "1556837",
       "kickoff_dublin": "2026-08-22T15:00:00+01:00",
-      "minutes_to_kickoff": 55.1,
+      "minutes_to_kickoff": 19.3,
       "timing_priority": "fixed_target_block",
       "league": "Championship",
       "country": "Scotland",
@@ -3675,43 +1990,14 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
-      "pb_raw_available": true,
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.72,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market"
     }
   ]
 }

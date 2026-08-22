@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-22T04:11:06.660208+01:00",
+  "generated_at_dublin": "2026-08-22T04:56:49.425746+01:00",
   "match_date": "2026-08-22",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-22T05:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1301,
   "fixtures_target_date_total": 1301,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 3,
+  "fixtures_in_next_75m": 15,
+  "relevant_fixtures_in_next_75m": 11,
   "fixtures_in_target_block": 8,
   "relevant_fixtures_in_target_block": 4,
   "excluded_in_target_block": 4,
@@ -67,29 +67,28 @@
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 4,
   "fallback_used": false,
-  "request_ms": 5961,
+  "request_ms": 6213,
   "api_usage_this_request": {
-    "calls": 9,
+    "calls": 5,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 4,
-      "/predictions": 4
+      "/odds": 4
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 4,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 63761,
+    "daily_remaining": 63637,
     "minute_limit": 450,
-    "minute_remaining": 442
+    "minute_remaining": 445
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1537518",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -243,14 +242,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 48.06,
+      "rank_score": 49.06,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1522221",
       "kickoff_dublin": "2026-08-22T05:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
+      "minutes_to_kickoff": 3.2,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL 2",
       "country": "Australia",
@@ -404,7 +403,7 @@
     {
       "fixture_id": "1533068",
       "kickoff_dublin": "2026-08-22T05:15:00+01:00",
-      "minutes_to_kickoff": 63.9,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Southern Championship",
       "country": "Australia",
@@ -537,14 +536,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631484",
       "kickoff_dublin": "2026-08-22T05:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
+      "minutes_to_kickoff": 3.2,
       "timing_priority": "fixed_target_block",
       "league": "Northern NSW NPL",
       "country": "Australia",
@@ -686,7 +685,7 @@
     {
       "fixture_id": "1522221",
       "kickoff_dublin": "2026-08-22T05:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
+      "minutes_to_kickoff": 3.2,
       "timing_priority": "fixed_target_block",
       "league": "Victoria NPL 2",
       "country": "Australia",
@@ -840,7 +839,7 @@
     {
       "fixture_id": "1631484",
       "kickoff_dublin": "2026-08-22T05:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
+      "minutes_to_kickoff": 3.2,
       "timing_priority": "fixed_target_block",
       "league": "Northern NSW NPL",
       "country": "Australia",
@@ -980,7 +979,7 @@
     {
       "fixture_id": "1533068",
       "kickoff_dublin": "2026-08-22T05:15:00+01:00",
-      "minutes_to_kickoff": 63.9,
+      "minutes_to_kickoff": 18.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Southern Championship",
       "country": "Australia",
@@ -1113,14 +1112,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1533140",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1160,7 +1159,7 @@
     {
       "fixture_id": "1533141",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1200,7 +1199,7 @@
     {
       "fixture_id": "1533142",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1240,7 +1239,7 @@
     {
       "fixture_id": "1533143",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Tasmania Northern Championship",
       "country": "Australia",
@@ -1280,7 +1279,7 @@
     {
       "fixture_id": "1537518",
       "kickoff_dublin": "2026-08-22T05:30:00+01:00",
-      "minutes_to_kickoff": 78.9,
+      "minutes_to_kickoff": 33.2,
       "timing_priority": "fixed_target_block",
       "league": "Capital Territory NPL",
       "country": "Australia",
@@ -1434,7 +1433,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 48.06,
+      "rank_score": 49.06,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     }

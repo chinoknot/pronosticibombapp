@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-25T00:30:09.987545+01:00",
+  "generated_at_dublin": "2026-08-25T00:50:51.052839+01:00",
   "match_date": "2026-08-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-25T01:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 206,
   "fixtures_target_date_total": 206,
-  "fixtures_in_next_75m": 4,
-  "relevant_fixtures_in_next_75m": 4,
+  "fixtures_in_next_75m": 7,
+  "relevant_fixtures_in_next_75m": 6,
   "fixtures_in_target_block": 4,
   "relevant_fixtures_in_target_block": 4,
   "excluded_in_target_block": 0,
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -58,35 +58,34 @@
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 444,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
+  "live_api_budget": 424,
   "live_odds_requested": 4,
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5313,
+  "request_ms": 179,
   "api_usage_this_request": {
-    "calls": 5,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 4
+      "/fixtures": 1
     },
     "prediction_cache_hits": 4,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 4
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71038,
+    "daily_remaining": 71009,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 444
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1519461",
       "kickoff_dublin": "2026-08-25T01:00:00+01:00",
-      "minutes_to_kickoff": 29.8,
+      "minutes_to_kickoff": 9.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -146,14 +145,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493085",
       "kickoff_dublin": "2026-08-25T01:15:00+01:00",
-      "minutes_to_kickoff": 44.8,
+      "minutes_to_kickoff": 24.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -213,14 +212,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493090",
       "kickoff_dublin": "2026-08-25T01:15:00+01:00",
-      "minutes_to_kickoff": 44.8,
+      "minutes_to_kickoff": 24.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -280,14 +279,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549604",
       "kickoff_dublin": "2026-08-25T01:45:00+01:00",
-      "minutes_to_kickoff": 74.8,
+      "minutes_to_kickoff": 54.1,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -347,7 +346,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -356,7 +355,7 @@
     {
       "fixture_id": "1519461",
       "kickoff_dublin": "2026-08-25T01:00:00+01:00",
-      "minutes_to_kickoff": 29.8,
+      "minutes_to_kickoff": 9.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -416,14 +415,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493085",
       "kickoff_dublin": "2026-08-25T01:15:00+01:00",
-      "minutes_to_kickoff": 44.8,
+      "minutes_to_kickoff": 24.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -483,14 +482,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493090",
       "kickoff_dublin": "2026-08-25T01:15:00+01:00",
-      "minutes_to_kickoff": 44.8,
+      "minutes_to_kickoff": 24.1,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -550,14 +549,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549604",
       "kickoff_dublin": "2026-08-25T01:45:00+01:00",
-      "minutes_to_kickoff": 74.8,
+      "minutes_to_kickoff": 54.1,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -617,7 +616,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

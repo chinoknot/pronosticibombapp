@@ -1,17 +1,17 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-25T09:09:44.280286+01:00",
+  "generated_at_dublin": "2026-08-25T09:59:19.760013+01:00",
   "match_date": "2026-08-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-25T10:00:00+01:00",
   "target_block_end_dublin": "2026-08-25T10:45:00+01:00",
   "target_block_matches": 4,
   "block_verified": true,
-  "fixtures_today_total": 206,
-  "fixtures_target_date_total": 206,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_today_total": 205,
+  "fixtures_target_date_total": 205,
+  "fixtures_in_next_75m": 6,
+  "relevant_fixtures_in_next_75m": 4,
   "fixtures_in_target_block": 4,
   "relevant_fixtures_in_target_block": 4,
   "excluded_in_target_block": 0,
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,28 @@
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 4,
   "fallback_used": false,
-  "request_ms": 430,
+  "request_ms": 5371,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 5,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 4
     },
     "prediction_cache_hits": 4,
-    "odds_cache_hits": 4
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73465,
+    "daily_remaining": 73420,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 445
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1623385",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Australia Cup",
       "country": "Australia",
@@ -109,15 +110,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.3,
-        "odd_draw": 5.0,
-        "odd_away": 9.5,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
+        "odd_home": 1.25,
+        "odd_draw": 5.5,
+        "odd_away": 11.0,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.2,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.8,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -136,31 +137,31 @@
         {
           "market": "BTTS YES",
           "probability": 0.6826,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.1362
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "edge": 0.0432
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "edge": 0.159
         },
         {
           "market": "Over 2.5",
           "probability": 0.6792,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0423
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "edge": 0.0125
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.4634,
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "edge": 0.0089
         }
       ],
       "best_value_market": {
         "market": "BTTS YES",
         "probability": 0.6826,
-        "odd": 1.83,
-        "implied_probability": 0.5464,
-        "edge": 0.1362
+        "odd": 1.91,
+        "implied_probability": 0.5236,
+        "edge": 0.159
       },
       "oddalerts": {
         "enabled": true,
@@ -185,28 +186,12 @@
           "consensus_probability": 0.6826,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "pb_edge": 0.1362,
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": 0.159,
           "oddalerts_edge": null,
-          "consensus_edge": 0.1362,
-          "consensus_ev": 0.2492,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.4634,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4634,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "pb_edge": 0.0432,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0432,
-          "consensus_ev": 0.1029,
+          "consensus_edge": 0.159,
+          "consensus_ev": 0.3038,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -217,12 +202,28 @@
           "consensus_probability": 0.6792,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "pb_edge": 0.0423,
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "pb_edge": 0.0125,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0423,
-          "consensus_ev": 0.0663,
+          "consensus_edge": 0.0125,
+          "consensus_ev": 0.0188,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4634,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4634,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "pb_edge": 0.0089,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0089,
+          "consensus_ev": 0.0195,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -233,12 +234,12 @@
           "consensus_probability": 0.8641,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.17,
-          "implied_probability": 0.8547,
-          "pb_edge": 0.0094,
+          "odd": 1.14,
+          "implied_probability": 0.8772,
+          "pb_edge": -0.0131,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0094,
-          "consensus_ev": 0.011,
+          "consensus_edge": -0.0131,
+          "consensus_ev": -0.0149,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -246,14 +247,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 16.22,
+      "rank_score": 19.5,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631497",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -386,14 +387,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1541317",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -526,14 +527,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.05,
+      "rank_score": -1.05,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631496",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -666,7 +667,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -675,7 +676,7 @@
     {
       "fixture_id": "1541317",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Victoria Premier League 2",
       "country": "Australia",
@@ -808,14 +809,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.05,
+      "rank_score": -1.05,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1623385",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Australia Cup",
       "country": "Australia",
@@ -839,15 +840,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.3,
-        "odd_draw": 5.0,
-        "odd_away": 9.5,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
+        "odd_home": 1.25,
+        "odd_draw": 5.5,
+        "odd_away": 11.0,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.2,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.8,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -866,31 +867,31 @@
         {
           "market": "BTTS YES",
           "probability": 0.6826,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.1362
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "edge": 0.0432
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "edge": 0.159
         },
         {
           "market": "Over 2.5",
           "probability": 0.6792,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0423
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "edge": 0.0125
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.4634,
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "edge": 0.0089
         }
       ],
       "best_value_market": {
         "market": "BTTS YES",
         "probability": 0.6826,
-        "odd": 1.83,
-        "implied_probability": 0.5464,
-        "edge": 0.1362
+        "odd": 1.91,
+        "implied_probability": 0.5236,
+        "edge": 0.159
       },
       "oddalerts": {
         "enabled": true,
@@ -915,28 +916,12 @@
           "consensus_probability": 0.6826,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "pb_edge": 0.1362,
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": 0.159,
           "oddalerts_edge": null,
-          "consensus_edge": 0.1362,
-          "consensus_ev": 0.2492,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.4634,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4634,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.38,
-          "implied_probability": 0.4202,
-          "pb_edge": 0.0432,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0432,
-          "consensus_ev": 0.1029,
+          "consensus_edge": 0.159,
+          "consensus_ev": 0.3038,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -947,12 +932,28 @@
           "consensus_probability": 0.6792,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "pb_edge": 0.0423,
+          "odd": 1.5,
+          "implied_probability": 0.6667,
+          "pb_edge": 0.0125,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0423,
-          "consensus_ev": 0.0663,
+          "consensus_edge": 0.0125,
+          "consensus_ev": 0.0188,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4634,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4634,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "pb_edge": 0.0089,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0089,
+          "consensus_ev": 0.0195,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -963,12 +964,12 @@
           "consensus_probability": 0.8641,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.17,
-          "implied_probability": 0.8547,
-          "pb_edge": 0.0094,
+          "odd": 1.14,
+          "implied_probability": 0.8772,
+          "pb_edge": -0.0131,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0094,
-          "consensus_ev": 0.011,
+          "consensus_edge": -0.0131,
+          "consensus_ev": -0.0149,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -976,14 +977,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 16.22,
+      "rank_score": 19.5,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631496",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -1116,14 +1117,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1631497",
       "kickoff_dublin": "2026-08-25T10:30:00+01:00",
-      "minutes_to_kickoff": 80.3,
+      "minutes_to_kickoff": 30.7,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -1256,7 +1257,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

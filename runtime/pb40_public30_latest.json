@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-25T20:02:47.812966+01:00",
+  "generated_at_dublin": "2026-08-25T20:40:31.627750+01:00",
   "match_date": "2026-08-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-25T21:00:00+01:00",
@@ -65,29 +65,28 @@
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 3,
   "fallback_used": false,
-  "request_ms": 5265,
+  "request_ms": 5049,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 4,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/odds": 3
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 3,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71951,
+    "daily_remaining": 71796,
     "minute_limit": 450,
-    "minute_remaining": 443
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1589394",
       "kickoff_dublin": "2026-08-25T21:00:00+01:00",
-      "minutes_to_kickoff": 57.2,
+      "minutes_to_kickoff": 19.5,
       "timing_priority": "fixed_target_block",
       "league": "Copa De La Liga",
       "country": "Peru",
@@ -248,14 +247,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 24.86,
+      "rank_score": 26.86,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549603",
       "kickoff_dublin": "2026-08-25T21:30:00+01:00",
-      "minutes_to_kickoff": 87.2,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -285,7 +284,7 @@
         "odd_ou_1_5_over": 1.5,
         "odd_ou_2_5_over": 2.5,
         "odd_ou_2_5_under": 1.5,
-        "odd_ou_3_5_over": 5.0,
+        "odd_ou_3_5_over": 5.2,
         "odd_btts_yes": 2.05,
         "odd_btts_no": 1.65,
         "odd_ht_home_team_o05": null,
@@ -327,12 +326,12 @@
           "consensus_probability": 0.0932,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 5.0,
-          "implied_probability": 0.2,
-          "pb_edge": -0.1068,
+          "odd": 5.2,
+          "implied_probability": 0.1923,
+          "pb_edge": -0.0991,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1068,
-          "consensus_ev": -0.534,
+          "consensus_edge": -0.0991,
+          "consensus_ev": -0.5154,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -388,14 +387,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1605341",
       "kickoff_dublin": "2026-08-25T21:00:00+01:00",
-      "minutes_to_kickoff": 57.2,
+      "minutes_to_kickoff": 19.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Mayor",
       "country": "Dominican-Republic",
@@ -528,7 +527,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.7,
+      "rank_score": 0.3,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -537,7 +536,7 @@
     {
       "fixture_id": "1589394",
       "kickoff_dublin": "2026-08-25T21:00:00+01:00",
-      "minutes_to_kickoff": 57.2,
+      "minutes_to_kickoff": 19.5,
       "timing_priority": "fixed_target_block",
       "league": "Copa De La Liga",
       "country": "Peru",
@@ -698,14 +697,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 24.86,
+      "rank_score": 26.86,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1605341",
       "kickoff_dublin": "2026-08-25T21:00:00+01:00",
-      "minutes_to_kickoff": 57.2,
+      "minutes_to_kickoff": 19.5,
       "timing_priority": "fixed_target_block",
       "league": "Liga Mayor",
       "country": "Dominican-Republic",
@@ -838,14 +837,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.7,
+      "rank_score": 0.3,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549603",
       "kickoff_dublin": "2026-08-25T21:30:00+01:00",
-      "minutes_to_kickoff": 87.2,
+      "minutes_to_kickoff": 49.5,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Colombia",
@@ -875,7 +874,7 @@
         "odd_ou_1_5_over": 1.5,
         "odd_ou_2_5_over": 2.5,
         "odd_ou_2_5_under": 1.5,
-        "odd_ou_3_5_over": 5.0,
+        "odd_ou_3_5_over": 5.2,
         "odd_btts_yes": 2.05,
         "odd_btts_no": 1.65,
         "odd_ht_home_team_o05": null,
@@ -917,12 +916,12 @@
           "consensus_probability": 0.0932,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 5.0,
-          "implied_probability": 0.2,
-          "pb_edge": -0.1068,
+          "odd": 5.2,
+          "implied_probability": 0.1923,
+          "pb_edge": -0.0991,
           "oddalerts_edge": null,
-          "consensus_edge": -0.1068,
-          "consensus_ev": -0.534,
+          "consensus_edge": -0.0991,
+          "consensus_ev": -0.5154,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -978,7 +977,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

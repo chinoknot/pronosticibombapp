@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-25T22:37:57.493401+01:00",
+  "generated_at_dublin": "2026-08-25T22:58:41.595542+01:00",
   "match_date": "2026-08-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-08-25T23:00:00+01:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,29 @@
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 3,
   "fallback_used": false,
-  "request_ms": 548,
+  "request_ms": 1688,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 7,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 3,
+      "/predictions": 3
     },
-    "prediction_cache_hits": 3,
-    "odds_cache_hits": 3
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71361,
+    "daily_remaining": 71343,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1498659",
       "kickoff_dublin": "2026-08-25T23:00:00+01:00",
-      "minutes_to_kickoff": 22.0,
+      "minutes_to_kickoff": 1.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -95,18 +97,7 @@
       "venue": "Estadio Abel Sastre",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Deportivo Madryn",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Deportivo Madryn or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.05,
@@ -218,14 +209,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1520831",
       "kickoff_dublin": "2026-08-25T23:30:00+01:00",
-      "minutes_to_kickoff": 52.0,
+      "minutes_to_kickoff": 31.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -235,18 +226,7 @@
       "venue": "",
       "referee": "W. do Nascimento",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Botafogo SP",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : draw or Botafogo SP and -3.5 goals",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.15,
@@ -358,14 +338,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1520835",
       "kickoff_dublin": "2026-08-25T23:30:00+01:00",
-      "minutes_to_kickoff": 52.0,
+      "minutes_to_kickoff": 31.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -375,18 +355,7 @@
       "venue": "Estadio Alfredo Jaconi",
       "referee": "D. C. Muniz dos Santos",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Juventude",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : Juventude or draw and -3.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.0,
@@ -498,7 +467,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -507,7 +476,7 @@
     {
       "fixture_id": "1498659",
       "kickoff_dublin": "2026-08-25T23:00:00+01:00",
-      "minutes_to_kickoff": 22.0,
+      "minutes_to_kickoff": 1.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -517,18 +486,7 @@
       "venue": "Estadio Abel Sastre",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Deportivo Madryn",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Deportivo Madryn or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.05,
@@ -640,14 +598,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 4.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1520831",
       "kickoff_dublin": "2026-08-25T23:30:00+01:00",
-      "minutes_to_kickoff": 52.0,
+      "minutes_to_kickoff": 31.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -657,18 +615,7 @@
       "venue": "",
       "referee": "W. do Nascimento",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Botafogo SP",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : draw or Botafogo SP and -3.5 goals",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.15,
@@ -780,14 +727,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1520835",
       "kickoff_dublin": "2026-08-25T23:30:00+01:00",
-      "minutes_to_kickoff": 52.0,
+      "minutes_to_kickoff": 31.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -797,18 +744,7 @@
       "venue": "Estadio Alfredo Jaconi",
       "referee": "D. C. Muniz dos Santos",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Juventude",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : Juventude or draw and -3.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.0,
@@ -920,7 +856,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

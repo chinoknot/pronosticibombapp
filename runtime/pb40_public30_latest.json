@@ -1,26 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-08-28T13:09:38.066814+01:00",
-  "match_date": "2026-08-28",
+  "generated_at_dublin": "2026-08-28T23:18:57.951423+01:00",
+  "match_date": "2026-08-29",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-08-28T14:00:00+01:00",
-  "target_block_end_dublin": "2026-08-28T14:45:00+01:00",
-  "target_block_matches": 0,
+  "target_block_start_dublin": "2026-08-29T00:00:00+01:00",
+  "target_block_end_dublin": "2026-08-29T00:45:00+01:00",
+  "target_block_matches": 8,
   "block_verified": true,
-  "fixtures_today_total": 0,
-  "fixtures_target_date_total": 0,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 0,
-  "relevant_fixtures_in_target_block": 0,
+  "fixtures_today_total": 438,
+  "fixtures_target_date_total": 1388,
+  "fixtures_in_next_75m": 12,
+  "relevant_fixtures_in_next_75m": 11,
+  "fixtures_in_target_block": 8,
+  "relevant_fixtures_in_target_block": 8,
   "excluded_in_target_block": 0,
   "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 0,
+  "fixtures_analyzed_before_ranking": 8,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 0,
-  "odds_coverage_count": 0,
+  "technical_coverage_count": 4,
+  "odds_coverage_count": 5,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -53,36 +53,1024 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "matches_returned": 8,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
-  "live_api_minute_limit_seen": 10,
-  "live_api_minute_remaining_before_enrichment": 9,
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 0,
-  "live_odds_requested": 0,
-  "live_predictions_requested": 0,
+  "live_api_budget": 428,
+  "live_odds_requested": 8,
+  "live_predictions_requested": 8,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5177,
+  "request_ms": 4656,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 18,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 2,
+      "/odds": 8,
+      "/predictions": 8
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
-    "daily_limit": 100,
-    "daily_remaining": 99,
-    "minute_limit": 10,
-    "minute_remaining": 9
+    "daily_limit": 75000,
+    "daily_remaining": 69433,
+    "minute_limit": 450,
+    "minute_remaining": 441
   },
   "partial_api_errors": [],
-  "ranked_matches": [],
-  "matches": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1513318",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Inter Miami II",
+      "away": "Atlanta United II",
+      "venue": "Chase Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atlanta United II",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Atlanta United II",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.9,
+        "odd_draw": 4.75,
+        "odd_away": 1.55,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.25,
+        "odd_ou_3_5_over": 1.86,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513319",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Toronto II",
+      "away": "New York City II",
+      "venue": "York Lions Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Toronto II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Toronto II or draw and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-3.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.4,
+        "odd_draw": 3.7,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.11,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1517335",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Canadian Premier League",
+      "country": "Canada",
+      "round": "Group Stage",
+      "home": "Atlético Ottawa",
+      "away": "York United",
+      "venue": "TD Place Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atlético Ottawa",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atlético Ottawa or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.62,
+        "odd_draw": 3.9,
+        "odd_away": 4.2,
+        "odd_ou_1_5_over": 1.12,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.1,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1493963",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL League One",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Charlotte Independence",
+      "away": "Alta",
+      "venue": "American Legion Memorial Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.48,
+        "odd_draw": 4.33,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 2.06,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.4,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520848",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 25",
+      "home": "Novorizontino",
+      "away": "Sport Recife",
+      "venue": "Estadio Dr. Jorge Ismael de Biasi",
+      "referee": "M. Lima Barbosa",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Sport Recife",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Sport Recife",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.62,
+        "odd_draw": 3.6,
+        "odd_away": 6.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1517336",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Canadian Premier League",
+      "country": "Canada",
+      "round": "Group Stage",
+      "home": "Supra du Quebec",
+      "away": "Forge",
+      "venue": "CEPSUM Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520847",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 25",
+      "home": "Nautico Recife",
+      "away": "Athletic Club",
+      "venue": "",
+      "referee": "Y. Ferreira",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557193",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Fort Lauderdale United W",
+      "away": "Brooklyn W",
+      "venue": "FTL UTD Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1493963",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL League One",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Charlotte Independence",
+      "away": "Alta",
+      "venue": "American Legion Memorial Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.48,
+        "odd_draw": 4.33,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 2.06,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.4,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513318",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Inter Miami II",
+      "away": "Atlanta United II",
+      "venue": "Chase Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atlanta United II",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Atlanta United II",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.9,
+        "odd_draw": 4.75,
+        "odd_away": 1.55,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.25,
+        "odd_ou_3_5_over": 1.86,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513319",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Toronto II",
+      "away": "New York City II",
+      "venue": "York Lions Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Toronto II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Toronto II or draw and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-3.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.4,
+        "odd_draw": 3.7,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.11,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1517335",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Canadian Premier League",
+      "country": "Canada",
+      "round": "Group Stage",
+      "home": "Atlético Ottawa",
+      "away": "York United",
+      "venue": "TD Place Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atlético Ottawa",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atlético Ottawa or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.62,
+        "odd_draw": 3.9,
+        "odd_away": 4.2,
+        "odd_ou_1_5_over": 1.12,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.1,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1517336",
+      "kickoff_dublin": "2026-08-29T00:00:00+01:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Canadian Premier League",
+      "country": "Canada",
+      "round": "Group Stage",
+      "home": "Supra du Quebec",
+      "away": "Forge",
+      "venue": "CEPSUM Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520847",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 25",
+      "home": "Nautico Recife",
+      "away": "Athletic Club",
+      "venue": "",
+      "referee": "Y. Ferreira",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520848",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 25",
+      "home": "Novorizontino",
+      "away": "Sport Recife",
+      "venue": "Estadio Dr. Jorge Ismael de Biasi",
+      "referee": "M. Lima Barbosa",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Sport Recife",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Sport Recife",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.62,
+        "odd_draw": 3.6,
+        "odd_away": 6.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557193",
+      "kickoff_dublin": "2026-08-29T00:30:00+01:00",
+      "minutes_to_kickoff": 71.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Fort Lauderdale United W",
+      "away": "Brooklyn W",
+      "venue": "FTL UTD Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",

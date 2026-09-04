@@ -1,28 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-04T21:52:09.976353+01:00",
-  "match_date": "2026-09-04",
+  "generated_at_dublin": "2026-09-04T23:38:59.899532+01:00",
+  "match_date": "2026-09-05",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-09-04T22:00:00+01:00",
-  "target_block_end_dublin": "2026-09-04T22:45:00+01:00",
-  "target_block_matches": 4,
+  "target_block_start_dublin": "2026-09-05T00:00:00+01:00",
+  "target_block_end_dublin": "2026-09-05T00:45:00+01:00",
+  "target_block_matches": 11,
   "block_verified": true,
   "fixtures_today_total": 452,
-  "fixtures_target_date_total": 452,
-  "fixtures_in_next_75m": 15,
-  "relevant_fixtures_in_next_75m": 12,
-  "fixtures_in_target_block": 4,
-  "relevant_fixtures_in_target_block": 3,
-  "excluded_in_target_block": 1,
-  "excluded_breakdown": {
-    "women": 1
-  },
-  "fixtures_analyzed_before_ranking": 3,
+  "fixtures_target_date_total": 1518,
+  "fixtures_in_next_75m": 11,
+  "relevant_fixtures_in_next_75m": 11,
+  "fixtures_in_target_block": 11,
+  "relevant_fixtures_in_target_block": 11,
+  "excluded_in_target_block": 0,
+  "excluded_breakdown": {},
+  "fixtures_analyzed_before_ranking": 11,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 3,
-  "odds_coverage_count": 2,
+  "technical_coverage_count": 6,
+  "odds_coverage_count": 10,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -54,8 +52,8 @@
     "footystats": "disabled",
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
-  "actionable_candidates_found": 1,
-  "matches_returned": 4,
+  "actionable_candidates_found": 0,
+  "matches_returned": 11,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -63,48 +61,48 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 3,
-  "live_predictions_requested": 3,
-  "pb_state_metrics_available": 3,
+  "live_odds_requested": 11,
+  "live_predictions_requested": 11,
+  "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5386,
+  "request_ms": 664,
   "api_usage_this_request": {
-    "calls": 4,
+    "calls": 13,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3
+      "/fixtures": 2,
+      "/odds": 11
     },
-    "prediction_cache_hits": 3,
+    "prediction_cache_hits": 11,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70779,
+    "daily_remaining": 70288,
     "minute_limit": 450,
-    "minute_remaining": 447
+    "minute_remaining": 443
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
-      "fixture_id": "1618997",
-      "kickoff_dublin": "2026-09-04T22:15:00+01:00",
-      "minutes_to_kickoff": 22.8,
+      "fixture_id": "1493667",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Bolivia",
-      "round": "Apertura - 18",
-      "home": "ABB",
-      "away": "Universitario de Vinto",
-      "venue": "",
+      "league": "USL Championship",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Loudoun United",
+      "away": "Colorado Springs",
+      "venue": "Segra Field",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Universitario de Vinto",
+        "pred_winner_name": "Colorado Springs",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Universitario de Vinto",
-        "goals_home": "-3.5",
+        "advice": "Double chance : draw or Colorado Springs",
+        "goals_home": "-1.5",
         "goals_away": "-2.5",
         "prob_home": "10%",
         "prob_draw": "45%",
@@ -112,550 +110,24 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.18,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
+        "odd_home": 2.8,
+        "odd_draw": 3.5,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {
-        "lambda_home": 2.4,
-        "lambda_away": 1.3,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.6615
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5058,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.1058
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7146,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0973
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6615,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0246
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5058,
-        "odd": 2.5,
-        "implied_probability": 0.4,
-        "edge": 0.1058
-      },
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.5058,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5058,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "pb_edge": 0.1058,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.1058,
-          "consensus_ev": 0.2645,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7146,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7146,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "pb_edge": 0.0973,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0973,
-          "consensus_ev": 0.1577,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.8838,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.8838,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.18,
-          "implied_probability": 0.8475,
-          "pb_edge": 0.0363,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0363,
-          "consensus_ev": 0.0429,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.6615,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6615,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "pb_edge": 0.0246,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0246,
-          "consensus_ev": 0.0386,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 16.38,
-      "actionable_candidate": true,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1513333",
-      "kickoff_dublin": "2026-09-04T22:30:00+01:00",
-      "minutes_to_kickoff": 37.8,
-      "timing_priority": "fixed_target_block",
-      "league": "MLS Next Pro",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Crown Legacy",
-      "away": "Chicago Fire II",
-      "venue": "Sportsplex at Matthews",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Crown Legacy",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Crown Legacy or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 4.0,
-        "odd_away": 3.3,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.36,
-        "odd_btts_no": 2.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.35,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6587
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.6883,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6883,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "pb_edge": -0.047,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.047,
-          "consensus_ev": -0.0639,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.4741,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4741,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "pb_edge": -0.0495,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0495,
-          "consensus_ev": -0.0945,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.8693,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.8693,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.07,
-          "implied_probability": 0.9346,
-          "pb_edge": -0.0653,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0653,
-          "consensus_ev": -0.0698,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.6587,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6587,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "pb_edge": -0.0766,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0766,
-          "consensus_ev": -0.1042,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.65,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1631611",
-      "kickoff_dublin": "2026-09-04T22:30:00+01:00",
-      "minutes_to_kickoff": 37.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Premier Serie B",
-      "country": "Mexico",
-      "round": "Apertura - 2",
-      "home": "Huracanes Izcalli",
-      "away": "Racing de Veracruz 2",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.6454,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6454,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.3773,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3773,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.1806,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.1806,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.4417,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4417,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
-    {
-      "fixture_id": "1637609",
-      "kickoff_dublin": "2026-09-04T22:00:00+01:00",
-      "minutes_to_kickoff": 7.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Femenina",
-      "country": "Colombia",
-      "round": "Promotion Group - 4",
-      "home": "Deportivo Cali W",
-      "away": "Orsomarso W",
-      "venue": "Estadio Deportivo Cali",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
       "pb_metrics": {},
       "pb_picks": [],
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1618997",
-      "kickoff_dublin": "2026-09-04T22:15:00+01:00",
-      "minutes_to_kickoff": 22.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Bolivia",
-      "round": "Apertura - 18",
-      "home": "ABB",
-      "away": "Universitario de Vinto",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Universitario de Vinto",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Universitario de Vinto",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.6,
-        "odd_away": 3.6,
-        "odd_ou_1_5_over": 1.18,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 2.4,
-        "lambda_away": 1.3,
-        "lambda_total": 3.7,
-        "p_over_1_5": 0.8838,
-        "p_over_2_5": 0.7146,
-        "p_over_3_5": 0.5058,
-        "p_btts_yes": 0.6615
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5058,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.1058
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7146,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0973
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6615,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0246
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5058,
-        "odd": 2.5,
-        "implied_probability": 0.4,
-        "edge": 0.1058
-      },
-      "oddalerts": {
         "enabled": true,
         "ai": {
           "matched": false,
@@ -670,129 +142,56 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.5058,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5058,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "pb_edge": 0.1058,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.1058,
-          "consensus_ev": 0.2645,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7146,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7146,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "pb_edge": 0.0973,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0973,
-          "consensus_ev": 0.1577,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.8838,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.8838,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.18,
-          "implied_probability": 0.8475,
-          "pb_edge": 0.0363,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0363,
-          "consensus_ev": 0.0429,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.6615,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6615,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "pb_edge": 0.0246,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0246,
-          "consensus_ev": 0.0386,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
+      "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 16.38,
-      "actionable_candidate": true,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1513333",
-      "kickoff_dublin": "2026-09-04T22:30:00+01:00",
-      "minutes_to_kickoff": 37.8,
+      "fixture_id": "1513335",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
       "round": "Group Stage",
-      "home": "Crown Legacy",
-      "away": "Chicago Fire II",
-      "venue": "Sportsplex at Matthews",
+      "home": "Inter Miami II",
+      "away": "Orlando City II",
+      "venue": "Chase Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Crown Legacy",
+        "pred_winner_name": "Inter Miami II",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Crown Legacy or draw",
-        "goals_home": "-3.5",
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Inter Miami II or draw and +1.5 goals",
+        "goals_home": "-2.5",
         "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 4.0,
-        "odd_away": 3.3,
-        "odd_ou_1_5_over": 1.07,
+        "odd_home": 2.3,
+        "odd_draw": 3.9,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.06,
         "odd_ou_2_5_over": 1.36,
         "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.36,
-        "odd_btts_no": 2.8,
+        "odd_ou_3_5_over": 1.86,
+        "odd_btts_yes": 1.3,
+        "odd_btts_no": 3.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.35,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6587
-      },
+      "pb_metrics": {},
       "pb_picks": [],
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -810,103 +209,519 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.6883,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6883,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "pb_edge": -0.047,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.047,
-          "consensus_ev": -0.0639,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.4741,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4741,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "pb_edge": -0.0495,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0495,
-          "consensus_ev": -0.0945,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.8693,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.8693,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.07,
-          "implied_probability": 0.9346,
-          "pb_edge": -0.0653,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0653,
-          "consensus_ev": -0.0698,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.6587,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6587,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "pb_edge": -0.0766,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0766,
-          "consensus_ev": -0.1042,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
+      "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.65,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1631611",
-      "kickoff_dublin": "2026-09-04T22:30:00+01:00",
-      "minutes_to_kickoff": 37.8,
+      "fixture_id": "1513336",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
       "timing_priority": "fixed_target_block",
-      "league": "Liga Premier Serie B",
-      "country": "Mexico",
-      "round": "Apertura - 2",
-      "home": "Huracanes Izcalli",
-      "away": "Racing de Veracruz 2",
-      "venue": "",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Philadelphia Union II",
+      "away": "Columbus Crew II",
+      "venue": "Subaru Park",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": null,
+        "pred_winner_name": "Philadelphia Union II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Philadelphia Union II or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.8,
+        "odd_away": 2.6,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 1.96,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1635074",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Paulista",
+      "country": "Brazil",
+      "round": "Round of 16",
+      "home": "Bandeirante SP",
+      "away": "União São João",
+      "venue": "Estadio Municipal Pedro Marin Berbel",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "União São João",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or União São João and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.7,
+        "odd_draw": 3.2,
+        "odd_away": 2.25,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.85,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1498786",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 28",
+      "home": "Ferro Carril Oeste",
+      "away": "Atletico Mitre",
+      "venue": "Estadio Arquitecto Ricardo Etcheverry",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.3,
+        "odd_away": 6.5,
+        "odd_ou_1_5_over": 1.53,
+        "odd_ou_2_5_over": 2.7,
+        "odd_ou_2_5_under": 1.44,
+        "odd_ou_3_5_over": 5.5,
+        "odd_btts_yes": 2.62,
+        "odd_btts_no": 1.44,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513334",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Houston Dynamo FC II",
+      "away": "Austin II",
+      "venue": "SaberCats Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.3,
+        "odd_draw": 3.6,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513337",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Toronto II",
+      "away": "FC Cincinnati II",
+      "venue": "York Lions Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.73,
+        "odd_draw": 3.9,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.13,
+        "odd_ou_2_5_over": 1.53,
+        "odd_ou_2_5_under": 2.38,
+        "odd_ou_3_5_over": 2.28,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.4,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557197",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "DC Power W",
+      "away": "Sporting JAX W",
+      "venue": "Audi Field",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.25,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520850",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 26",
+      "home": "Athletic Club",
+      "away": "Vila Nova",
+      "venue": "Estadio Joaquim Portugal",
+      "referee": "Rafael Rodrigo Klein",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Vila Nova",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Vila Nova",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.62,
+        "odd_draw": 3.0,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.6,
+        "odd_ou_2_5_under": 1.48,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513332",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Carolina Core",
+      "away": "New England II",
+      "venue": "Truist Point",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.75,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.13,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.29,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1490436",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Major League Soccer",
+      "country": "USA",
+      "round": "Regular Season - 23",
+      "home": "New York City FC",
+      "away": "Nashville SC",
+      "venue": "Yankee Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nashville SC",
         "pred_winner_comment": null,
         "win_or_draw": false,
         "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
+        "advice": "Winner : Nashville SC",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
       },
       "live_odds": {
         "bookmaker": "",
@@ -922,17 +737,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "pb_picks": [],
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -950,76 +757,695 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.6454,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6454,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.3773,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3773,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.1806,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.1806,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.4417,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4417,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
+      "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1493667",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Championship",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Loudoun United",
+      "away": "Colorado Springs",
+      "venue": "Segra Field",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Colorado Springs",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Colorado Springs",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.8,
+        "odd_draw": 3.5,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1498786",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 28",
+      "home": "Ferro Carril Oeste",
+      "away": "Atletico Mitre",
+      "venue": "Estadio Arquitecto Ricardo Etcheverry",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.3,
+        "odd_away": 6.5,
+        "odd_ou_1_5_over": 1.53,
+        "odd_ou_2_5_over": 2.7,
+        "odd_ou_2_5_under": 1.44,
+        "odd_ou_3_5_over": 5.5,
+        "odd_btts_yes": 2.62,
+        "odd_btts_no": 1.44,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513334",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Houston Dynamo FC II",
+      "away": "Austin II",
+      "venue": "SaberCats Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.3,
+        "odd_draw": 3.6,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513335",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Inter Miami II",
+      "away": "Orlando City II",
+      "venue": "Chase Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Inter Miami II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Inter Miami II or draw and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.3,
+        "odd_draw": 3.9,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.36,
+        "odd_ou_2_5_under": 3.0,
+        "odd_ou_3_5_over": 1.86,
+        "odd_btts_yes": 1.3,
+        "odd_btts_no": 3.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513336",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Philadelphia Union II",
+      "away": "Columbus Crew II",
+      "venue": "Subaru Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Philadelphia Union II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Philadelphia Union II or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.8,
+        "odd_away": 2.6,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.75,
+        "odd_ou_3_5_over": 1.96,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513337",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Toronto II",
+      "away": "FC Cincinnati II",
+      "venue": "York Lions Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.73,
+        "odd_draw": 3.9,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.13,
+        "odd_ou_2_5_over": 1.53,
+        "odd_ou_2_5_under": 2.38,
+        "odd_ou_3_5_over": 2.28,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.4,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557197",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "DC Power W",
+      "away": "Sporting JAX W",
+      "venue": "Audi Field",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.25,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1635074",
+      "kickoff_dublin": "2026-09-05T00:00:00+01:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Paulista",
+      "country": "Brazil",
+      "round": "Round of 16",
+      "home": "Bandeirante SP",
+      "away": "União São João",
+      "venue": "Estadio Municipal Pedro Marin Berbel",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "União São João",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or União São João and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.7,
+        "odd_draw": 3.2,
+        "odd_away": 2.25,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.85,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1490436",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Major League Soccer",
+      "country": "USA",
+      "round": "Regular Season - 23",
+      "home": "New York City FC",
+      "away": "Nashville SC",
+      "venue": "Yankee Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nashville SC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Nashville SC",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1513332",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Carolina Core",
+      "away": "New England II",
+      "venue": "Truist Point",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.75,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.13,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.29,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1520850",
+      "kickoff_dublin": "2026-09-05T00:30:00+01:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie B",
+      "country": "Brazil",
+      "round": "Regular Season - 26",
+      "home": "Athletic Club",
+      "away": "Vila Nova",
+      "venue": "Estadio Joaquim Portugal",
+      "referee": "Rafael Rodrigo Klein",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Vila Nova",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Vila Nova",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.62,
+        "odd_draw": 3.0,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.6,
+        "odd_ou_2_5_under": 1.48,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

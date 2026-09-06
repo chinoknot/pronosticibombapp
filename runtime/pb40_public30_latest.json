@@ -1,29 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-06T01:41:54.847178+01:00",
+  "generated_at_dublin": "2026-09-06T06:06:54.433856+01:00",
   "match_date": "2026-09-06",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-09-06T02:00:00+01:00",
-  "target_block_end_dublin": "2026-09-06T02:45:00+01:00",
-  "target_block_matches": 20,
+  "target_block_start_dublin": "2026-09-06T07:00:00+01:00",
+  "target_block_end_dublin": "2026-09-06T07:45:00+01:00",
+  "target_block_matches": 1,
   "block_verified": true,
-  "fixtures_today_total": 1195,
-  "fixtures_target_date_total": 1195,
-  "fixtures_in_next_75m": 20,
-  "relevant_fixtures_in_next_75m": 17,
-  "fixtures_in_target_block": 20,
-  "relevant_fixtures_in_target_block": 17,
-  "excluded_in_target_block": 3,
-  "excluded_breakdown": {
-    "women": 2,
-    "youth": 1
-  },
-  "fixtures_analyzed_before_ranking": 17,
+  "fixtures_today_total": 1194,
+  "fixtures_target_date_total": 1194,
+  "fixtures_in_next_75m": 1,
+  "relevant_fixtures_in_next_75m": 1,
+  "fixtures_in_target_block": 1,
+  "relevant_fixtures_in_target_block": 1,
+  "excluded_in_target_block": 0,
+  "excluded_breakdown": {},
+  "fixtures_analyzed_before_ranking": 1,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 6,
-  "odds_coverage_count": 7,
+  "technical_coverage_count": 1,
+  "odds_coverage_count": 1,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -56,247 +53,86 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 20,
+  "matches_returned": 1,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
-  "live_odds_requested": 17,
-  "live_predictions_requested": 17,
-  "pb_state_metrics_available": 0,
+  "live_api_budget": 428,
+  "live_odds_requested": 1,
+  "live_predictions_requested": 1,
+  "pb_state_metrics_available": 1,
   "fallback_used": false,
-  "request_ms": 5950,
+  "request_ms": 5801,
   "api_usage_this_request": {
-    "calls": 19,
+    "calls": 2,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 17,
-      "/predictions": 1
+      "/odds": 1
     },
-    "prediction_cache_hits": 16,
+    "prediction_cache_hits": 1,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74897,
+    "daily_remaining": 68999,
     "minute_limit": 450,
-    "minute_remaining": 442
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
-      "fixture_id": "1493673",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
+      "fixture_id": "1638071",
+      "kickoff_dublin": "2026-09-06T07:00:00+01:00",
+      "minutes_to_kickoff": 53.1,
       "timing_priority": "fixed_target_block",
-      "league": "USL Championship",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Orange County SC",
-      "away": "Sacramento Republic",
-      "venue": "Championship Soccer Stadium",
-      "referee": "S. Berna Rico",
+      "league": "New South Wales NPL",
+      "country": "Australia",
+      "round": "Semi-finals",
+      "home": "APIA Leichhardt Tigers",
+      "away": "NWS Spirit",
+      "venue": "Lambert Park",
+      "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Sacramento Republic",
+        "pred_winner_name": "APIA Leichhardt Tigers",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Sacramento Republic",
-        "goals_home": "-1.5",
-        "goals_away": "-1.5",
-        "prob_home": "10%",
+        "advice": "Double chance : APIA Leichhardt Tigers or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
         "prob_draw": "45%",
-        "prob_away": "45%"
+        "prob_away": "10%"
       },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.2,
-        "odd_draw": 3.3,
-        "odd_away": 2.05,
-        "odd_ou_1_5_over": 1.3,
-        "odd_ou_2_5_over": 2.0,
-        "odd_ou_2_5_under": 1.8,
-        "odd_ou_3_5_over": 3.4,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1550953",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Tigres UANL",
-      "away": "Necaxa",
-      "venue": "Estadio Universitario",
-      "referee": "K. Hernandez Andrade",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 3.5,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1559628",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Nacional",
-      "country": "Guatemala",
-      "round": "Regular Season - 7",
-      "home": "Malacateco",
-      "away": "Suchitepéquez",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 1.5,
-        "odd_draw": 3.6,
-        "odd_away": 6.0,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.9,
-        "odd_btts_yes": 2.05,
-        "odd_btts_no": 1.67,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1637955",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "Nicaragua",
-      "round": "Apertura - 9",
-      "home": "Rancho Santana",
-      "away": "Real Estelí",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 9.0,
-        "odd_draw": 5.0,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.14,
+        "odd_draw": 4.0,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.2,
         "odd_ou_2_5_over": 1.62,
         "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.37,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.83,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.8,
+        "lambda_away": 1.1,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5569
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -314,1485 +150,131 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5569,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5569,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": -0.0211,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0211,
+          "consensus_ev": -0.0366,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.2,
+          "implied_probability": 0.8333,
+          "pb_edge": -0.0479,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0479,
+          "consensus_ev": -0.0575,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.554,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.554,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "pb_edge": -0.0633,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0633,
+          "consensus_ev": -0.1025,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3304,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3304,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "pb_edge": -0.0696,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0696,
+          "consensus_ev": -0.174,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
       "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1549769",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera A",
-      "country": "Colombia",
-      "round": "Clausura - 9",
-      "home": "Junior",
-      "away": "Jaguares",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Junior",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Junior or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.4,
-        "odd_draw": 4.33,
-        "odd_away": 8.5,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 2.1,
-        "odd_btts_no": 1.67,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490448",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 23",
-      "home": "Los Angeles Galaxy",
-      "away": "New England Revolution",
-      "venue": "Dignity Health Sports Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.6,
-        "odd_draw": 3.8,
-        "odd_away": 2.5,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.48,
-        "odd_ou_2_5_under": 2.6,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1549481",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Peru",
-      "round": "Clausura - 8",
-      "home": "Universitario",
-      "away": "Comerciantes Unidos",
-      "venue": "Estadio Monumental",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.33,
-        "odd_away": 7.5,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 2.2,
-        "odd_btts_no": 1.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581409",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Monarcas",
-      "away": "Alebrijes de Oaxaca",
-      "venue": "Estadio Morelos",
-      "referee": "J. C. Ortiz Leon",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Monarcas",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Monarcas or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581411",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "CDS Tampico Madero",
-      "away": "Venados FC",
-      "venue": "Estadio Tamaulipas",
-      "referee": "E. Miranda",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "CDS Tampico Madero",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : CDS Tampico Madero or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1600584",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 8",
-      "home": "Isidro Metapán",
-      "away": "Inca Aruba",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Isidro Metapán",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Isidro Metapán",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635955",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Premier",
-      "country": "Mexico",
-      "round": "Regular Season - 2",
-      "home": "Los Cabos United",
-      "away": "Tigres de Alica",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Tigres de Alica",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Tigres de Alica",
-        "goals_home": "-1.5",
-        "goals_away": "-3.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581410",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Cancún",
-      "away": "Cruz Azul Hidalgo",
-      "venue": "",
-      "referee": "E. L. Sanchez M.",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581476",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Piratas",
-      "away": "Correcaminos Uat",
-      "venue": "",
-      "referee": "E. H. Armenta J.",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635954",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Premier",
-      "country": "Mexico",
-      "round": "Regular Season - 2",
-      "home": "Celaya",
-      "away": "Tapachula",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490447",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 23",
-      "home": "Real Salt Lake",
-      "away": "Los Angeles FC",
-      "venue": "America First Field",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1583755",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Panameña de Fútbol",
-      "country": "Panama",
-      "round": "Apertura - 7",
-      "home": "Plaza Amador",
-      "away": "Herrera",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1636800",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Nacional",
-      "country": "Honduras",
-      "round": "Apertura - 6",
-      "home": "CD Marathon",
-      "away": "Estrella Roja",
-      "venue": "Estadio Yankel Rosenthal",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
   ],
   "matches": [
     {
-      "fixture_id": "1493673",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
+      "fixture_id": "1638071",
+      "kickoff_dublin": "2026-09-06T07:00:00+01:00",
+      "minutes_to_kickoff": 53.1,
       "timing_priority": "fixed_target_block",
-      "league": "USL Championship",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Orange County SC",
-      "away": "Sacramento Republic",
-      "venue": "Championship Soccer Stadium",
-      "referee": "S. Berna Rico",
+      "league": "New South Wales NPL",
+      "country": "Australia",
+      "round": "Semi-finals",
+      "home": "APIA Leichhardt Tigers",
+      "away": "NWS Spirit",
+      "venue": "Lambert Park",
+      "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Sacramento Republic",
+        "pred_winner_name": "APIA Leichhardt Tigers",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Sacramento Republic",
-        "goals_home": "-1.5",
-        "goals_away": "-1.5",
-        "prob_home": "10%",
+        "advice": "Double chance : APIA Leichhardt Tigers or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
         "prob_draw": "45%",
-        "prob_away": "45%"
+        "prob_away": "10%"
       },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.2,
-        "odd_draw": 3.3,
-        "odd_away": 2.05,
-        "odd_ou_1_5_over": 1.3,
-        "odd_ou_2_5_over": 2.0,
-        "odd_ou_2_5_under": 1.8,
-        "odd_ou_3_5_over": 3.4,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1550953",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Tigres UANL",
-      "away": "Necaxa",
-      "venue": "Estadio Universitario",
-      "referee": "K. Hernandez Andrade",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 3.5,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1559628",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Nacional",
-      "country": "Guatemala",
-      "round": "Regular Season - 7",
-      "home": "Malacateco",
-      "away": "Suchitepéquez",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 1.5,
-        "odd_draw": 3.6,
-        "odd_away": 6.0,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.9,
-        "odd_btts_yes": 2.05,
-        "odd_btts_no": 1.67,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581409",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Monarcas",
-      "away": "Alebrijes de Oaxaca",
-      "venue": "Estadio Morelos",
-      "referee": "J. C. Ortiz Leon",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Monarcas",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Monarcas or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581410",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Cancún",
-      "away": "Cruz Azul Hidalgo",
-      "venue": "",
-      "referee": "E. L. Sanchez M.",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581411",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "CDS Tampico Madero",
-      "away": "Venados FC",
-      "venue": "Estadio Tamaulipas",
-      "referee": "E. Miranda",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "CDS Tampico Madero",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : CDS Tampico Madero or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581476",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 7",
-      "home": "Piratas",
-      "away": "Correcaminos Uat",
-      "venue": "",
-      "referee": "E. H. Armenta J.",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1600584",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 8",
-      "home": "Isidro Metapán",
-      "away": "Inca Aruba",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Isidro Metapán",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Isidro Metapán",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1603348",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX Femenil",
-      "country": "Mexico",
-      "round": "Regular Season - 6",
-      "home": "Monterrey W",
-      "away": "Toluca W",
-      "venue": "Cancha El Barrial",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1635954",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Premier",
-      "country": "Mexico",
-      "round": "Regular Season - 2",
-      "home": "Celaya",
-      "away": "Tapachula",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635955",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Premier",
-      "country": "Mexico",
-      "round": "Regular Season - 2",
-      "home": "Los Cabos United",
-      "away": "Tigres de Alica",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Tigres de Alica",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Tigres de Alica",
-        "goals_home": "-1.5",
-        "goals_away": "-3.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1637955",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "Nicaragua",
-      "round": "Apertura - 9",
-      "home": "Rancho Santana",
-      "away": "Real Estelí",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 9.0,
-        "odd_draw": 5.0,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.14,
+        "odd_draw": 4.0,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.2,
         "odd_ou_2_5_over": 1.62,
         "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.37,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.83,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.8,
+        "lambda_away": 1.1,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5569
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -1810,438 +292,76 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5569,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5569,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": -0.0211,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0211,
+          "consensus_ev": -0.0366,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.2,
+          "implied_probability": 0.8333,
+          "pb_edge": -0.0479,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0479,
+          "consensus_ev": -0.0575,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.554,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.554,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "pb_edge": -0.0633,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0633,
+          "consensus_ev": -0.1025,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3304,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3304,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "pb_edge": -0.0696,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0696,
+          "consensus_ev": -0.174,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
       "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1638199",
-      "kickoff_dublin": "2026-09-06T02:00:00+01:00",
-      "minutes_to_kickoff": 18.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Npl Nsw U20",
-      "country": "Australia",
-      "round": "Semi-finals",
-      "home": "Sydney Utd U20",
-      "away": "Manly Utd U20",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "youth",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1603349",
-      "kickoff_dublin": "2026-09-06T02:06:00+01:00",
-      "minutes_to_kickoff": 24.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX Femenil",
-      "country": "Mexico",
-      "round": "Regular Season - 6",
-      "home": "Tijuana W",
-      "away": "Pachuca W",
-      "venue": "Estadio Caliente",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1490447",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 23",
-      "home": "Real Salt Lake",
-      "away": "Los Angeles FC",
-      "venue": "America First Field",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490448",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 23",
-      "home": "Los Angeles Galaxy",
-      "away": "New England Revolution",
-      "venue": "Dignity Health Sports Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.6,
-        "odd_draw": 3.8,
-        "odd_away": 2.5,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.48,
-        "odd_ou_2_5_under": 2.6,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1549481",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Peru",
-      "round": "Clausura - 8",
-      "home": "Universitario",
-      "away": "Comerciantes Unidos",
-      "venue": "Estadio Monumental",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.33,
-        "odd_away": 7.5,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 2.2,
-        "odd_btts_no": 1.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1549769",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera A",
-      "country": "Colombia",
-      "round": "Clausura - 9",
-      "home": "Junior",
-      "away": "Jaguares",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Junior",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Junior or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.4,
-        "odd_draw": 4.33,
-        "odd_away": 8.5,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 2.1,
-        "odd_btts_no": 1.67,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1583755",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Panameña de Fútbol",
-      "country": "Panama",
-      "round": "Apertura - 7",
-      "home": "Plaza Amador",
-      "away": "Herrera",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1636800",
-      "kickoff_dublin": "2026-09-06T02:30:00+01:00",
-      "minutes_to_kickoff": 48.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Nacional",
-      "country": "Honduras",
-      "round": "Apertura - 6",
-      "home": "CD Marathon",
-      "away": "Estrella Roja",
-      "venue": "Estadio Yankel Rosenthal",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

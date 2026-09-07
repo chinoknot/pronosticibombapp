@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-07T11:36:32.913536+01:00",
+  "generated_at_dublin": "2026-09-07T11:40:12.471230+01:00",
   "match_date": "2026-09-07",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-09-07T12:00:00+01:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -60,34 +60,35 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 448,
+  "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 428,
+  "live_api_budget": 429,
   "live_odds_requested": 4,
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 4,
   "fallback_used": false,
-  "request_ms": 2230,
+  "request_ms": 2216,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 5,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 4
     },
     "prediction_cache_hits": 4,
-    "odds_cache_hits": 4
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73811,
+    "daily_remaining": 73806,
     "minute_limit": 450,
-    "minute_remaining": 448
+    "minute_remaining": 445
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1530995",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -227,7 +228,7 @@
     {
       "fixture_id": "1605065",
       "kickoff_dublin": "2026-09-07T12:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 49.8,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -367,7 +368,7 @@
     {
       "fixture_id": "1531092",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -496,7 +497,7 @@
     {
       "fixture_id": "1638253",
       "kickoff_dublin": "2026-09-07T12:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 49.8,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",
@@ -627,7 +628,7 @@
     {
       "fixture_id": "1530995",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -767,7 +768,7 @@
     {
       "fixture_id": "1531092",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -896,7 +897,7 @@
     {
       "fixture_id": "1536463",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 2",
       "country": "Russia",
@@ -936,7 +937,7 @@
     {
       "fixture_id": "1633989",
       "kickoff_dublin": "2026-09-07T12:00:00+01:00",
-      "minutes_to_kickoff": 23.5,
+      "minutes_to_kickoff": 19.8,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 4",
       "country": "Russia",
@@ -976,7 +977,7 @@
     {
       "fixture_id": "1605065",
       "kickoff_dublin": "2026-09-07T12:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 49.8,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Armenia",
@@ -1116,7 +1117,7 @@
     {
       "fixture_id": "1638253",
       "kickoff_dublin": "2026-09-07T12:30:00+01:00",
-      "minutes_to_kickoff": 53.5,
+      "minutes_to_kickoff": 49.8,
       "timing_priority": "fixed_target_block",
       "league": "Calcutta Premier Division",
       "country": "India",

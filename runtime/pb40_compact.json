@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-13T18:01:13.792806+01:00",
+  "generated_at_dublin": "2026-09-13T18:02:11.183431+01:00",
   "match_date": "2026-09-13",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-09-13T19:00:00+01:00",
@@ -23,18 +23,18 @@
   "fixtures_analyzed_before_ranking": 54,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 54,
+  "technical_coverage_count": 37,
   "odds_coverage_count": 26,
-  "actionable_candidates_found": 10,
+  "actionable_candidates_found": 6,
   "matches_returned": 60,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62990,
+    "daily_remaining": 63030,
     "minute_limit": 450,
-    "minute_remaining": 409
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -53,7 +53,7 @@
     {
       "fixture_id": "1496691",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 2",
       "country": "Norway",
@@ -136,7 +136,7 @@
     {
       "fixture_id": "1552169",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -194,7 +194,7 @@
     {
       "fixture_id": "1593313",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -266,7 +266,7 @@
     {
       "fixture_id": "1593316",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -346,7 +346,7 @@
     {
       "fixture_id": "1597985",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Copa Santa Catarina",
       "country": "Brazil",
@@ -427,150 +427,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1627977",
-      "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Iraqi League",
-      "country": "Iraq",
-      "home": "Naft Maysan",
-      "away": "Al Talaba",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.1,
-        "odd_draw": 3.1,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.3,
-        "odd_ou_2_5_over": 2.2,
-        "odd_ou_2_5_under": 1.65,
-        "odd_ou_3_5_over": 3.34,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5064,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.0519
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5064,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.0519
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.0,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5166
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 7.49,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1571118",
-      "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División RFEF - Group 2",
-      "country": "Spain",
-      "home": "Atlético Madrid II",
-      "away": "Real Murcia",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.25,
-        "odd_draw": 3.1,
-        "odd_away": 2.88,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.1664
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.1664
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.1557
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6717,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.1253
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 2.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
-      "api_prediction": {
-        "pred_winner_name": "Real Murcia",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+1.5",
-        "advice": "Combo Winner : Real Murcia and +1.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-4.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 19.24,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1593315",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -591,45 +450,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7382,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.2837
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7382,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.2837
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.2577
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.6,
-          "implied_probability": 0.625,
-          "edge": 0.2014
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Panathinaikos",
         "pred_winner_comment": "Win or draw",
@@ -642,7 +465,7 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "SAFE_GOALS",
@@ -652,157 +475,9 @@
           "score": 2.098
         }
       ],
-      "rank_score": 45.97,
+      "rank_score": 14.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1638795",
-      "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Segunda División",
-      "country": "Uruguay",
-      "home": "Atenas",
-      "away": "Cerrito",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.1,
-        "odd_away": 3.25,
-        "odd_ou_1_5_over": 1.38,
-        "odd_ou_2_5_over": 2.2,
-        "odd_ou_2_5_under": 1.65,
-        "odd_ou_3_5_over": 4.1,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.1334
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1334
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 4.1,
-          "implied_probability": 0.2439,
-          "edge": 0.1201
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.5889,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0484
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 1.2,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.5889
-      },
-      "api_prediction": {
-        "pred_winner_name": "Atenas",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Atenas or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 15.49,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1550124",
-      "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Serie A",
-      "country": "Italy",
-      "home": "Sassuolo",
-      "away": "Juventus",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 5.0,
-        "odd_draw": 4.0,
-        "odd_away": 1.62,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 3.0,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 3.72,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     }
@@ -811,7 +486,7 @@
     {
       "fixture_id": "1498805",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -855,7 +530,7 @@
     {
       "fixture_id": "1499629",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -899,7 +574,7 @@
     {
       "fixture_id": "1499635",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -943,7 +618,7 @@
     {
       "fixture_id": "1500100",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -987,7 +662,7 @@
     {
       "fixture_id": "1500103",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -1045,7 +720,7 @@
     {
       "fixture_id": "1500107",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -1100,7 +775,7 @@
     {
       "fixture_id": "1505526",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -1144,7 +819,7 @@
     {
       "fixture_id": "1511695",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -1188,7 +863,7 @@
     {
       "fixture_id": "1519491",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -1243,7 +918,7 @@
     {
       "fixture_id": "1548528",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "HNL",
       "country": "Croatia",
@@ -1287,7 +962,7 @@
     {
       "fixture_id": "1549490",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -1331,7 +1006,7 @@
     {
       "fixture_id": "1572961",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -1375,7 +1050,7 @@
     {
       "fixture_id": "1581420",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -1419,7 +1094,7 @@
     {
       "fixture_id": "1603027",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -1474,7 +1149,7 @@
     {
       "fixture_id": "1603031",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -1529,7 +1204,7 @@
     {
       "fixture_id": "1606416",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -1584,7 +1259,7 @@
     {
       "fixture_id": "1606498",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -1628,7 +1303,7 @@
     {
       "fixture_id": "1610824",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -1672,7 +1347,7 @@
     {
       "fixture_id": "1610825",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -1727,7 +1402,7 @@
     {
       "fixture_id": "1615168",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -1782,7 +1457,7 @@
     {
       "fixture_id": "1623134",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "1a Divisió",
       "country": "Andorra",
@@ -1837,7 +1512,7 @@
     {
       "fixture_id": "1627971",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -1879,9 +1554,45 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1627977",
+      "kickoff_dublin": "2026-09-13T19:00:00+01:00",
+      "minutes_to_kickoff": 57.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Iraqi League",
+      "country": "Iraq",
+      "home": "Naft Maysan",
+      "away": "Al Talaba",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.1,
+        "odd_draw": 3.1,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 3.34,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1630304",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -1925,7 +1636,7 @@
     {
       "fixture_id": "1630305",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -1980,7 +1691,7 @@
     {
       "fixture_id": "1630308",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -2003,15 +1714,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "São Paulo RS",
         "pred_winner_comment": "Win or draw",
@@ -2024,9 +1727,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2035,7 +1738,7 @@
     {
       "fixture_id": "1632303",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Peru",
@@ -2058,19 +1761,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 0.6,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3728
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2079,7 +1774,7 @@
     {
       "fixture_id": "1558013",
       "kickoff_dublin": "2026-09-13T19:15:00+01:00",
-      "minutes_to_kickoff": 73.8,
+      "minutes_to_kickoff": 72.8,
       "timing_priority": "fixed_target_block",
       "league": "1. SNL",
       "country": "Slovenia",
@@ -2102,19 +1797,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.55,
-        "lambda_total": 2.3,
-        "p_over_1_5": 0.6691,
-        "p_over_2_5": 0.404,
-        "p_over_3_5": 0.2007,
-        "p_btts_yes": 0.4156
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2123,7 +1810,7 @@
     {
       "fixture_id": "1498795",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -2146,15 +1833,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.85,
-        "lambda_total": 1.85,
-        "p_over_1_5": 0.5519,
-        "p_over_2_5": 0.2828,
-        "p_over_3_5": 0.1169,
-        "p_btts_yes": 0.3619
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2167,9 +1846,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2178,7 +1857,7 @@
     {
       "fixture_id": "1498797",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -2201,19 +1880,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 0.75,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2222,7 +1893,7 @@
     {
       "fixture_id": "1498807",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -2245,19 +1916,58 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.85,
-        "lambda_away": 0.85,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3279
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1571118",
+      "kickoff_dublin": "2026-09-13T19:30:00+01:00",
+      "minutes_to_kickoff": 87.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División RFEF - Group 2",
+      "country": "Spain",
+      "home": "Atlético Madrid II",
+      "away": "Real Murcia",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.25,
+        "odd_draw": 3.1,
+        "odd_away": 2.88,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Real Murcia",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Real Murcia and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-4.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2266,7 +1976,7 @@
     {
       "fixture_id": "1582272",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -2289,15 +1999,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 0.75,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.4099
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Mosta",
         "pred_winner_comment": "Win or draw",
@@ -2310,9 +2012,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2321,7 +2023,7 @@
     {
       "fixture_id": "1602089",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -2344,19 +2046,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2365,7 +2059,7 @@
     {
       "fixture_id": "1605354",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Malta",
@@ -2388,19 +2082,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2409,7 +2095,7 @@
     {
       "fixture_id": "1605359",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Malta",
@@ -2432,19 +2118,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2453,7 +2131,7 @@
     {
       "fixture_id": "1606305",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -2476,19 +2154,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.9,
-        "lambda_away": 0.8,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3268
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2497,7 +2167,7 @@
     {
       "fixture_id": "1606308",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -2520,19 +2190,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.5,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.55,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2541,7 +2203,7 @@
     {
       "fixture_id": "1606415",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -2564,19 +2226,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 0.65,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3107
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2585,7 +2239,7 @@
     {
       "fixture_id": "1606490",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -2608,19 +2262,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 0.9,
-        "lambda_total": 2.3,
-        "p_over_1_5": 0.6691,
-        "p_over_2_5": 0.404,
-        "p_over_3_5": 0.2007,
-        "p_btts_yes": 0.4471
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2629,7 +2275,7 @@
     {
       "fixture_id": "1606493",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -2652,19 +2298,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 0.4,
-        "lambda_total": 1.55,
-        "p_over_1_5": 0.4588,
-        "p_over_2_5": 0.2038,
-        "p_over_3_5": 0.0721,
-        "p_btts_yes": 0.2253
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2673,7 +2311,7 @@
     {
       "fixture_id": "1606494",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -2696,19 +2334,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 0.65,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3906
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2717,7 +2347,7 @@
     {
       "fixture_id": "1638354",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraense A3",
       "country": "Brazil",
@@ -2740,28 +2370,103 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1638795",
+      "kickoff_dublin": "2026-09-13T19:30:00+01:00",
+      "minutes_to_kickoff": 87.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Uruguay",
+      "home": "Atenas",
+      "away": "Cerrito",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.1,
+        "odd_away": 3.25,
+        "odd_ou_1_5_over": 1.38,
+        "odd_ou_2_5_over": 2.2,
+        "odd_ou_2_5_under": 1.65,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.85,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Atenas",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atenas or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1550124",
+      "kickoff_dublin": "2026-09-13T19:45:00+01:00",
+      "minutes_to_kickoff": 102.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie A",
+      "country": "Italy",
+      "home": "Sassuolo",
+      "away": "Juventus",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 5.0,
+        "odd_draw": 4.0,
+        "odd_away": 1.62,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.95,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1552757",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "France",
@@ -2784,15 +2489,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 2.0,
-        "lambda_total": 4.0,
-        "p_over_1_5": 0.9084,
-        "p_over_2_5": 0.7619,
-        "p_over_3_5": 0.5665,
-        "p_btts_yes": 0.7476
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Paris Saint Germain",
         "pred_winner_comment": "Win or draw",
@@ -2805,9 +2502,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2816,7 +2513,7 @@
     {
       "fixture_id": "1582799",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Premijer Liga",
       "country": "Bosnia",
@@ -2839,19 +2536,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 0.75,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.4099
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2860,7 +2549,7 @@
     {
       "fixture_id": "1606412",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -2883,15 +2572,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.95,
-        "lambda_away": 0.5,
-        "lambda_total": 1.45,
-        "p_over_1_5": 0.4253,
-        "p_over_2_5": 0.1787,
-        "p_over_3_5": 0.0595,
-        "p_btts_yes": 0.2413
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Argentino Monte Maíz",
         "pred_winner_comment": "Win or draw",
@@ -2904,9 +2585,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -2917,7 +2598,7 @@
     {
       "fixture_id": "1603358",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -2940,7 +2621,7 @@
     {
       "fixture_id": "1610740",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "1a Divisão - Women",
       "country": "Portugal",
@@ -2963,7 +2644,7 @@
     {
       "fixture_id": "1624954",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie D - Girone I",
       "country": "Italy",
@@ -2986,7 +2667,7 @@
     {
       "fixture_id": "1627210",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3009,7 +2690,7 @@
     {
       "fixture_id": "1627214",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3032,7 +2713,7 @@
     {
       "fixture_id": "1632249",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Women",
       "country": "Peru",
@@ -3057,7 +2738,7 @@
     {
       "fixture_id": "1496691",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "3. Division - Girone 2",
       "country": "Norway",
@@ -3140,7 +2821,7 @@
     {
       "fixture_id": "1498805",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -3184,7 +2865,7 @@
     {
       "fixture_id": "1499629",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3228,7 +2909,7 @@
     {
       "fixture_id": "1499635",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3272,7 +2953,7 @@
     {
       "fixture_id": "1500100",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -3316,7 +2997,7 @@
     {
       "fixture_id": "1500103",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -3374,7 +3055,7 @@
     {
       "fixture_id": "1500107",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -3429,7 +3110,7 @@
     {
       "fixture_id": "1505526",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -3473,7 +3154,7 @@
     {
       "fixture_id": "1511695",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -3517,7 +3198,7 @@
     {
       "fixture_id": "1519491",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro",
       "country": "Ecuador",
@@ -3572,7 +3253,7 @@
     {
       "fixture_id": "1548528",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "HNL",
       "country": "Croatia",
@@ -3616,7 +3297,7 @@
     {
       "fixture_id": "1549490",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -3660,7 +3341,7 @@
     {
       "fixture_id": "1552169",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -3718,7 +3399,7 @@
     {
       "fixture_id": "1572961",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -3762,7 +3443,7 @@
     {
       "fixture_id": "1581420",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -3806,7 +3487,7 @@
     {
       "fixture_id": "1593313",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -3878,7 +3559,7 @@
     {
       "fixture_id": "1593316",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -3958,7 +3639,7 @@
     {
       "fixture_id": "1597985",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Copa Santa Catarina",
       "country": "Brazil",
@@ -4041,7 +3722,7 @@
     {
       "fixture_id": "1603027",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -4096,7 +3777,7 @@
     {
       "fixture_id": "1603031",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -4151,7 +3832,7 @@
     {
       "fixture_id": "1603358",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -4174,7 +3855,7 @@
     {
       "fixture_id": "1606416",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -4229,7 +3910,7 @@
     {
       "fixture_id": "1606498",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -4273,7 +3954,7 @@
     {
       "fixture_id": "1610740",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "1a Divisão - Women",
       "country": "Portugal",
@@ -4296,7 +3977,7 @@
     {
       "fixture_id": "1610824",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -4340,7 +4021,7 @@
     {
       "fixture_id": "1610825",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -4395,7 +4076,7 @@
     {
       "fixture_id": "1615168",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -4450,7 +4131,7 @@
     {
       "fixture_id": "1623134",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "1a Divisió",
       "country": "Andorra",
@@ -4505,7 +4186,7 @@
     {
       "fixture_id": "1624954",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie D - Girone I",
       "country": "Italy",
@@ -4528,7 +4209,7 @@
     {
       "fixture_id": "1627210",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -4551,7 +4232,7 @@
     {
       "fixture_id": "1627214",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -4574,7 +4255,7 @@
     {
       "fixture_id": "1627971",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -4618,7 +4299,7 @@
     {
       "fixture_id": "1627977",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -4639,44 +4320,22 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5064,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.0519
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5064,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.0519
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.0,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5166
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 7.49,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1630304",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -4720,7 +4379,7 @@
     {
       "fixture_id": "1630305",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -4775,7 +4434,7 @@
     {
       "fixture_id": "1630308",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -4798,15 +4457,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "São Paulo RS",
         "pred_winner_comment": "Win or draw",
@@ -4819,9 +4470,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4830,7 +4481,7 @@
     {
       "fixture_id": "1632249",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Liga Women",
       "country": "Peru",
@@ -4853,7 +4504,7 @@
     {
       "fixture_id": "1632303",
       "kickoff_dublin": "2026-09-13T19:00:00+01:00",
-      "minutes_to_kickoff": 58.8,
+      "minutes_to_kickoff": 57.8,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Peru",
@@ -4876,19 +4527,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 0.6,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3728
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4897,7 +4540,7 @@
     {
       "fixture_id": "1558013",
       "kickoff_dublin": "2026-09-13T19:15:00+01:00",
-      "minutes_to_kickoff": 73.8,
+      "minutes_to_kickoff": 72.8,
       "timing_priority": "fixed_target_block",
       "league": "1. SNL",
       "country": "Slovenia",
@@ -4920,19 +4563,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.55,
-        "lambda_total": 2.3,
-        "p_over_1_5": 0.6691,
-        "p_over_2_5": 0.404,
-        "p_over_3_5": 0.2007,
-        "p_btts_yes": 0.4156
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -4941,7 +4576,7 @@
     {
       "fixture_id": "1498795",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -4964,15 +4599,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.85,
-        "lambda_total": 1.85,
-        "p_over_1_5": 0.5519,
-        "p_over_2_5": 0.2828,
-        "p_over_3_5": 0.1169,
-        "p_btts_yes": 0.3619
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -4985,9 +4612,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -4996,7 +4623,7 @@
     {
       "fixture_id": "1498797",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -5019,19 +4646,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 0.75,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3765
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5040,7 +4659,7 @@
     {
       "fixture_id": "1498807",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -5063,19 +4682,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.85,
-        "lambda_away": 0.85,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3279
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -5084,7 +4695,7 @@
     {
       "fixture_id": "1571118",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 2",
       "country": "Spain",
@@ -5105,45 +4716,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6792,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.1664
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6792,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.1664
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4634,
-          "odd": 3.25,
-          "implied_probability": 0.3077,
-          "edge": 0.1557
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6717,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.1253
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 2.0,
-        "lambda_total": 3.5,
-        "p_over_1_5": 0.8641,
-        "p_over_2_5": 0.6792,
-        "p_over_3_5": 0.4634,
-        "p_btts_yes": 0.6717
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Real Murcia",
         "pred_winner_comment": null,
@@ -5156,18 +4731,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 19.24,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1582272",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -5190,15 +4765,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 0.75,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.4099
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Mosta",
         "pred_winner_comment": "Win or draw",
@@ -5211,9 +4778,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5222,7 +4789,7 @@
     {
       "fixture_id": "1593315",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League 1",
       "country": "Greece",
@@ -5243,45 +4810,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7382,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.2837
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7382,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.2837
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.6577,
-          "odd": 2.5,
-          "implied_probability": 0.4,
-          "edge": 0.2577
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8264,
-          "odd": 1.6,
-          "implied_probability": 0.625,
-          "edge": 0.2014
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.0,
-        "lambda_away": 1.5,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Panathinaikos",
         "pred_winner_comment": "Win or draw",
@@ -5294,7 +4825,7 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [
         {
           "category": "SAFE_GOALS",
@@ -5304,7 +4835,7 @@
           "score": 2.098
         }
       ],
-      "rank_score": 45.97,
+      "rank_score": 14.5,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -5313,7 +4844,7 @@
     {
       "fixture_id": "1602089",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -5336,19 +4867,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.0,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3996
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5357,7 +4880,7 @@
     {
       "fixture_id": "1605354",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Malta",
@@ -5380,19 +4903,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5401,7 +4916,7 @@
     {
       "fixture_id": "1605359",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Challenge League",
       "country": "Malta",
@@ -5424,19 +4939,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5445,7 +4952,7 @@
     {
       "fixture_id": "1606305",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -5468,19 +4975,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.9,
-        "lambda_away": 0.8,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3268
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5489,7 +4988,7 @@
     {
       "fixture_id": "1606308",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -5512,19 +5011,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.5,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.55,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5533,7 +5024,7 @@
     {
       "fixture_id": "1606415",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -5556,19 +5047,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 0.65,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3107
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -5577,7 +5060,7 @@
     {
       "fixture_id": "1606490",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -5600,19 +5083,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.4,
-        "lambda_away": 0.9,
-        "lambda_total": 2.3,
-        "p_over_1_5": 0.6691,
-        "p_over_2_5": 0.404,
-        "p_over_3_5": 0.2007,
-        "p_btts_yes": 0.4471
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5621,7 +5096,7 @@
     {
       "fixture_id": "1606493",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -5644,19 +5119,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 0.4,
-        "lambda_total": 1.55,
-        "p_over_1_5": 0.4588,
-        "p_over_2_5": 0.2038,
-        "p_over_3_5": 0.0721,
-        "p_btts_yes": 0.2253
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5665,7 +5132,7 @@
     {
       "fixture_id": "1606494",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -5688,19 +5155,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 0.65,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3906
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5709,7 +5168,7 @@
     {
       "fixture_id": "1638354",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Paraense A3",
       "country": "Brazil",
@@ -5732,19 +5191,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5753,7 +5204,7 @@
     {
       "fixture_id": "1638795",
       "kickoff_dublin": "2026-09-13T19:30:00+01:00",
-      "minutes_to_kickoff": 88.8,
+      "minutes_to_kickoff": 87.8,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Uruguay",
@@ -5774,45 +5225,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.1334
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1334
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 4.1,
-          "implied_probability": 0.2439,
-          "edge": 0.1201
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.5889,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0484
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 1.2,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.5889
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Atenas",
         "pred_winner_comment": "Win or draw",
@@ -5825,18 +5240,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 15.49,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1550124",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -5857,51 +5272,22 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5768,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0212
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5768,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0212
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.3528,
-          "odd": 3.0,
-          "implied_probability": 0.3333,
-          "edge": 0.0195
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.0,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5466
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.72,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1552757",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "France",
@@ -5924,15 +5310,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 2.0,
-        "lambda_total": 4.0,
-        "p_over_1_5": 0.9084,
-        "p_over_2_5": 0.7619,
-        "p_over_3_5": 0.5665,
-        "p_btts_yes": 0.7476
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Paris Saint Germain",
         "pred_winner_comment": "Win or draw",
@@ -5945,9 +5323,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.9,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5956,7 +5334,7 @@
     {
       "fixture_id": "1582799",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Premijer Liga",
       "country": "Bosnia",
@@ -5979,19 +5357,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 0.75,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.4099
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -6000,7 +5370,7 @@
     {
       "fixture_id": "1606412",
       "kickoff_dublin": "2026-09-13T19:45:00+01:00",
-      "minutes_to_kickoff": 103.8,
+      "minutes_to_kickoff": 102.8,
       "timing_priority": "fixed_target_block",
       "league": "Torneo Federal A",
       "country": "Argentina",
@@ -6023,15 +5393,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.95,
-        "lambda_away": 0.5,
-        "lambda_total": 1.45,
-        "p_over_1_5": 0.4253,
-        "p_over_2_5": 0.1787,
-        "p_over_3_5": 0.0595,
-        "p_btts_yes": 0.2413
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Argentino Monte Maíz",
         "pred_winner_comment": "Win or draw",
@@ -6044,9 +5406,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",

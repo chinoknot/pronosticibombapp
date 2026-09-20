@@ -1,18 +1,654 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-20T14:43:19.608716+01:00",
+  "generated_at_dublin": "2026-09-20T18:00:55.517914+01:00",
   "match_date": "2026-09-20",
   "selection_window": "fixed_next_hour_00_45",
   "fixtures_today_total": 1162,
-  "fixtures_in_next_75m": 153,
-  "relevant_fixtures_in_next_75m": 136,
-  "fixtures_analyzed_before_ranking": 134,
+  "fixtures_in_next_75m": 72,
+  "relevant_fixtures_in_next_75m": 67,
+  "fixtures_analyzed_before_ranking": 64,
   "analysis_truncated": false,
-  "actionable_candidates_found": 20,
+  "actionable_candidates_found": 2,
   "matches_returned": 30,
   "max_is_return_limit_only": true,
-  "partial_api_errors": [],
+  "partial_api_errors": [
+    {
+      "fixture_id": "1513367",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513367"
+    },
+    {
+      "fixture_id": "1513367",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513367"
+    },
+    {
+      "fixture_id": "1639718",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1639718"
+    },
+    {
+      "fixture_id": "1558015",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1558015"
+    },
+    {
+      "fixture_id": "1639718",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1639718"
+    },
+    {
+      "fixture_id": "1623139",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1623139"
+    },
+    {
+      "fixture_id": "1548532",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1548532"
+    },
+    {
+      "fixture_id": "1626789",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1626789"
+    },
+    {
+      "fixture_id": "1597989",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1597989"
+    },
+    {
+      "fixture_id": "1513363",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513363"
+    },
+    {
+      "fixture_id": "1626790",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1626790"
+    },
+    {
+      "fixture_id": "1549498",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1549498"
+    },
+    {
+      "fixture_id": "1639820",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1639820"
+    },
+    {
+      "fixture_id": "1513365",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513365"
+    },
+    {
+      "fixture_id": "1550127",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1550127"
+    },
+    {
+      "fixture_id": "1553176",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1553176"
+    },
+    {
+      "fixture_id": "1513366",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513366"
+    },
+    {
+      "fixture_id": "1570749",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1570749"
+    },
+    {
+      "fixture_id": "1632783",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1632783"
+    },
+    {
+      "fixture_id": "1549498",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549498"
+    },
+    {
+      "fixture_id": "1608665",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608665"
+    },
+    {
+      "fixture_id": "1606422",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606422"
+    },
+    {
+      "fixture_id": "1615477",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1615477"
+    },
+    {
+      "fixture_id": "1606505",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606505"
+    },
+    {
+      "fixture_id": "1606501",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606501"
+    },
+    {
+      "fixture_id": "1608284",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1608284"
+    },
+    {
+      "fixture_id": "1513364",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513364"
+    },
+    {
+      "fixture_id": "1582801",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1582801"
+    },
+    {
+      "fixture_id": "1606419",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606419"
+    },
+    {
+      "fixture_id": "1498815",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1498815"
+    },
+    {
+      "fixture_id": "1630310",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1630310"
+    },
+    {
+      "fixture_id": "1513364",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513364"
+    },
+    {
+      "fixture_id": "1552773",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1552773"
+    },
+    {
+      "fixture_id": "1582280",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1582280"
+    },
+    {
+      "fixture_id": "1608281",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1608281"
+    },
+    {
+      "fixture_id": "1602090",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1602090"
+    },
+    {
+      "fixture_id": "1513369",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513369"
+    },
+    {
+      "fixture_id": "1606425",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606425"
+    },
+    {
+      "fixture_id": "1632783",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1632783"
+    },
+    {
+      "fixture_id": "1606502",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606502"
+    },
+    {
+      "fixture_id": "1571128",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1571128"
+    },
+    {
+      "fixture_id": "1593322",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1593322"
+    },
+    {
+      "fixture_id": "1500190",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1500190"
+    },
+    {
+      "fixture_id": "1640541",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1640541"
+    },
+    {
+      "fixture_id": "1513366",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513366"
+    },
+    {
+      "fixture_id": "1571135",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1571135"
+    },
+    {
+      "fixture_id": "1632784",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1632784"
+    },
+    {
+      "fixture_id": "1499649",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1499649"
+    },
+    {
+      "fixture_id": "1498812",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1498812"
+    },
+    {
+      "fixture_id": "1513368",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513368"
+    },
+    {
+      "fixture_id": "1640541",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1640541"
+    },
+    {
+      "fixture_id": "1606310",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606310"
+    },
+    {
+      "fixture_id": "1558015",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1558015"
+    },
+    {
+      "fixture_id": "1608665",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1608665"
+    },
+    {
+      "fixture_id": "1610835",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1610835"
+    },
+    {
+      "fixture_id": "1606424",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606424"
+    },
+    {
+      "fixture_id": "1513363",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513363"
+    },
+    {
+      "fixture_id": "1513370",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513370"
+    },
+    {
+      "fixture_id": "1500120",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1500120"
+    },
+    {
+      "fixture_id": "1513365",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513365"
+    },
+    {
+      "fixture_id": "1606420",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606420"
+    },
+    {
+      "fixture_id": "1629696",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1629696"
+    },
+    {
+      "fixture_id": "1548532",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1548532"
+    },
+    {
+      "fixture_id": "1606503",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606503"
+    },
+    {
+      "fixture_id": "1610834",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1610834"
+    },
+    {
+      "fixture_id": "1615477",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1615477"
+    },
+    {
+      "fixture_id": "1500119",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1500119"
+    },
+    {
+      "fixture_id": "1606421",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606421"
+    },
+    {
+      "fixture_id": "1606500",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606500"
+    },
+    {
+      "fixture_id": "1500118",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1500118"
+    },
+    {
+      "fixture_id": "1608664",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608664"
+    },
+    {
+      "fixture_id": "1513370",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513370"
+    },
+    {
+      "fixture_id": "1571135",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1571135"
+    },
+    {
+      "fixture_id": "1513368",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1513368"
+    },
+    {
+      "fixture_id": "1499643",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1499643"
+    },
+    {
+      "fixture_id": "1582280",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1582280"
+    },
+    {
+      "fixture_id": "1608284",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608284"
+    },
+    {
+      "fixture_id": "1499642",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1499642"
+    },
+    {
+      "fixture_id": "1608664",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1608664"
+    },
+    {
+      "fixture_id": "1632784",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1632784"
+    },
+    {
+      "fixture_id": "1552773",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1552773"
+    },
+    {
+      "fixture_id": "1608286",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1608286"
+    },
+    {
+      "fixture_id": "1606426",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1606426"
+    },
+    {
+      "fixture_id": "1613641",
+      "call": "odds",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/odds?fixture=1613641"
+    },
+    {
+      "fixture_id": "1606425",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606425"
+    },
+    {
+      "fixture_id": "1623139",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1623139"
+    },
+    {
+      "fixture_id": "1597989",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1597989"
+    },
+    {
+      "fixture_id": "1630310",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1630310"
+    },
+    {
+      "fixture_id": "1513369",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1513369"
+    },
+    {
+      "fixture_id": "1593322",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1593322"
+    },
+    {
+      "fixture_id": "1608281",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608281"
+    },
+    {
+      "fixture_id": "1571128",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1571128"
+    },
+    {
+      "fixture_id": "1613641",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1613641"
+    },
+    {
+      "fixture_id": "1606421",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606421"
+    },
+    {
+      "fixture_id": "1498821",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1498821"
+    },
+    {
+      "fixture_id": "1610834",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1610834"
+    },
+    {
+      "fixture_id": "1500120",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1500120"
+    },
+    {
+      "fixture_id": "1610835",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1610835"
+    },
+    {
+      "fixture_id": "1550127",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1550127"
+    },
+    {
+      "fixture_id": "1500118",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1500118"
+    },
+    {
+      "fixture_id": "1639820",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1639820"
+    },
+    {
+      "fixture_id": "1606500",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606500"
+    },
+    {
+      "fixture_id": "1626789",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1626789"
+    },
+    {
+      "fixture_id": "1602090",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1602090"
+    },
+    {
+      "fixture_id": "1606503",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606503"
+    },
+    {
+      "fixture_id": "1606424",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606424"
+    },
+    {
+      "fixture_id": "1606419",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606419"
+    },
+    {
+      "fixture_id": "1500119",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1500119"
+    },
+    {
+      "fixture_id": "1498812",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1498812"
+    },
+    {
+      "fixture_id": "1629696",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1629696"
+    },
+    {
+      "fixture_id": "1606505",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606505"
+    },
+    {
+      "fixture_id": "1553176",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1553176"
+    },
+    {
+      "fixture_id": "1499649",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1499649"
+    },
+    {
+      "fixture_id": "1606422",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606422"
+    },
+    {
+      "fixture_id": "1500190",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1500190"
+    },
+    {
+      "fixture_id": "1626790",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1626790"
+    },
+    {
+      "fixture_id": "1498815",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1498815"
+    },
+    {
+      "fixture_id": "1606426",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606426"
+    },
+    {
+      "fixture_id": "1606501",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606501"
+    },
+    {
+      "fixture_id": "1499643",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1499643"
+    },
+    {
+      "fixture_id": "1606310",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606310"
+    },
+    {
+      "fixture_id": "1570749",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1570749"
+    },
+    {
+      "fixture_id": "1499642",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1499642"
+    },
+    {
+      "fixture_id": "1582801",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1582801"
+    },
+    {
+      "fixture_id": "1606502",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606502"
+    },
+    {
+      "fixture_id": "1608286",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1608286"
+    },
+    {
+      "fixture_id": "1606420",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1606420"
+    }
+  ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",
@@ -21,53 +657,101 @@
   },
   "top_actionable": [
     {
-      "fixture_id": "1496148",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498821",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Bjarg",
-      "away": "Træff",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Deportivo Moron",
+      "away": "Godoy Cruz",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.33,
-        "odd_away": 5.75,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.2,
+        "odd_home": 2.15,
+        "odd_draw": 2.75,
+        "odd_away": 4.1,
+        "odd_ou_1_5_over": 1.57,
+        "odd_ou_2_5_over": 2.88,
+        "odd_ou_2_5_under": 1.4,
+        "odd_ou_3_5_over": 6.0,
+        "odd_btts_yes": 2.25,
+        "odd_btts_no": 1.57,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6419,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.0246
+        "market": "Over 2.5",
+        "probability": 0.3773,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0301
       },
       "value_markets": [
         {
-          "market": "BTTS YES",
-          "probability": 0.6419,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0246
+          "market": "Over 2.5",
+          "probability": 0.3773,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0301
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.1806,
+          "odd": 6.0,
+          "implied_probability": 0.1667,
+          "edge": 0.0139
         }
       ],
       "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.5,
-        "lambda_total": 3.25,
-        "p_over_1_5": 0.8352,
-        "p_over_2_5": 0.6304,
-        "p_over_3_5": 0.4086,
-        "p_btts_yes": 0.6419
+        "lambda_home": 1.55,
+        "lambda_away": 0.65,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.3765
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 5.01,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    },
+    {
+      "fixture_id": "1513370",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Toronto II",
+      "away": "New England II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.9,
+        "lambda_away": 1.75,
+        "lambda_total": 3.65,
+        "p_over_1_5": 0.8791,
+        "p_over_2_5": 0.706,
+        "p_over_3_5": 0.4954,
+        "p_btts_yes": 0.7026
       },
       "pb_raw_available": true,
       "pb_picks": [
@@ -75,554 +759,25 @@
           "category": "GG Special",
           "model": "GG_BALANCED",
           "pick": "Both teams to score YES",
-          "odd": 1.62,
-          "score": 1.088
-        }
-      ],
-      "rank_score": 21.81,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1504550",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Södra",
-      "country": "Sweden",
-      "home": "Hässleholms IF",
-      "away": "Trollhättan",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.15,
-        "odd_draw": 3.4,
-        "odd_away": 2.8,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.25,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5832
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.65,
-          "score": 0.437
-        }
-      ],
-      "rank_score": 19.05,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1505271",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Norra",
-      "country": "Sweden",
-      "home": "Karlberg",
-      "away": "Stockholm Internazionale",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 5.5,
-        "odd_draw": 4.33,
-        "odd_away": 1.42,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5576,
-        "odd": 1.83,
-        "implied_probability": 0.5464,
-        "edge": 0.0112
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5576,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.0112
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 1.95,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5576
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.67,
-          "score": 0.696
-        }
-      ],
-      "rank_score": 19.72,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1513638",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Meistriliiga",
-      "country": "Estonia",
-      "home": "Trans Narva",
-      "away": "FC Levadia Tallinn",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 9.5,
-        "odd_draw": 6.25,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5507,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.0271
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5507,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.0271
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 2.05,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.5507
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 7.36,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
-      "fixture_id": "1516142",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Super League",
-      "country": "Uzbekistan",
-      "home": "Sogdiana",
-      "away": "Olmaliq",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.75,
-        "odd_draw": 3.4,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4954,
-        "odd": 2.75,
-        "implied_probability": 0.3636,
-        "edge": 0.1318
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4954,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.1318
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1072
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7035,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0499
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.85,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.7035
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.66,
-          "score": 0.735
-        }
-      ],
-      "rank_score": 32.43,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1558641",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Jupiler Pro League",
-      "country": "Belgium",
-      "home": "St. Truiden",
-      "away": "KVC Westerlo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.9,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.7,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6986,
-        "odd": 1.5,
-        "implied_probability": 0.6667,
-        "edge": 0.0319
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6986,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0319
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
           "odd": 1.44,
-          "implied_probability": 0.6944,
-          "edge": 0.0116
+          "score": 1.197
         }
       ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.65,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6986
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.0,
-          "score": 1.651
-        }
-      ],
-      "rank_score": 22.44,
+      "rank_score": 12.25,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1559167",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Challenger Pro League",
-      "country": "Belgium",
-      "home": "Lokeren-Temse",
-      "away": "Excelsior Virton",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.25,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.7229,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.086
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.7229,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.086
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.5162,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.0718
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7144,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0477
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.75,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7144
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_BALANCED",
-          "pick": "Over 3.5 goals",
-          "odd": 2.38,
-          "score": 1.524
-        }
-      ],
-      "rank_score": 27.95,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1571569",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "home": "Nesebar",
-      "away": "Beroe",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.62,
-        "odd_draw": 3.0,
-        "odd_away": 2.5,
-        "odd_ou_1_5_over": 1.37,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.05,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6603,
-        "odd": 2.35,
-        "implied_probability": 0.4255,
-        "edge": 0.2348
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6603,
-          "odd": 2.35,
-          "implied_probability": 0.4255,
-          "edge": 0.2348
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4416,
-          "odd": 4.05,
-          "implied_probability": 0.2469,
-          "edge": 0.1947
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6214,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0809
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.2,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.6214
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 28.98,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
-      "fixture_id": "1571848",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "home": "Karcag SE",
-      "away": "Kozarmisleny FC",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 3.5,
-        "odd_away": 3.75,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.14,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4954,
-        "odd": 3.14,
-        "implied_probability": 0.3185,
-        "edge": 0.1769
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4954,
-          "odd": 3.14,
-          "implied_probability": 0.3185,
-          "edge": 0.1769
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.1655
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6385,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0671
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.45,
-        "lambda_away": 1.2,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6385
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 23.44,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
     }
   ],
   "technical_fallbacks": [
     {
-      "fixture_id": "1492384",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498812",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Serie A",
-      "country": "Brazil",
-      "home": "Gremio",
-      "away": "Palmeiras",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Agropecuario",
+      "away": "Gimnasia Y Tiro",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -641,275 +796,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.3,
-        "lambda_away": 1.45,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5568
+        "lambda_home": 1.15,
+        "lambda_away": 0.85,
+        "lambda_total": 2.0,
+        "p_over_1_5": 0.594,
+        "p_over_2_5": 0.3233,
+        "p_over_3_5": 0.1429,
+        "p_btts_yes": 0.3913
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.15,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1496152",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498815",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Notodden",
-      "away": "Arendal",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.05,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5121
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.8,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1496153",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Pors Grenland",
-      "away": "Lysekloster",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.35,
-        "lambda_total": 3.1,
-        "p_over_1_5": 0.8153,
-        "p_over_2_5": 0.5988,
-        "p_over_3_5": 0.3752,
-        "p_btts_yes": 0.612
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.2,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1496336",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 2",
-      "country": "Norway",
-      "home": "Ull/Kisa",
-      "away": "Junkeren",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.75,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6897
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.65,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1505267",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Norra",
-      "country": "Sweden",
-      "home": "AFC Eskilstuna",
-      "away": "Gefle IF",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.8,
-        "odd_away": 4.1,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.05,
-        "lambda_total": 2.55,
-        "p_over_1_5": 0.7228,
-        "p_over_2_5": 0.4689,
-        "p_over_3_5": 0.2532,
-        "p_btts_yes": 0.505
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.15,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
-      "fixture_id": "1507225",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Erovnuli Liga 2",
-      "country": "Georgia",
-      "home": "Gori",
-      "away": "Kolkheti Poti",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.15,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5383
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.7,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1510675",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Division 2 - Norra Götaland",
-      "country": "Sweden",
-      "home": "IF Karlstad II",
-      "away": "Stenungsund",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.3,
-        "lambda_away": 1.7,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5946
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.4,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1520886",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Serie B",
-      "country": "Brazil",
-      "home": "Ponte Preta",
-      "away": "CRB",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Chacarita Juniors",
+      "away": "Quilmes",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -929,28 +838,28 @@
       "value_markets": [],
       "pb_metrics": {
         "lambda_home": 1.1,
-        "lambda_away": 1.4,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.5026
+        "lambda_away": 0.8,
+        "lambda_total": 1.9,
+        "p_over_1_5": 0.5663,
+        "p_over_2_5": 0.2963,
+        "p_over_3_5": 0.1253,
+        "p_btts_yes": 0.3674
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.4,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1525986",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499642",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Belarus",
-      "home": "Dinamo Brest",
-      "away": "FC Dnepr Mogilev",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Dock Sud",
+      "away": "Argentino Quilmes",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -969,138 +878,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 0.9,
-        "lambda_total": 2.65,
-        "p_over_1_5": 0.7421,
-        "p_over_2_5": 0.494,
-        "p_over_3_5": 0.2749,
-        "p_btts_yes": 0.4903
+        "lambda_home": 1.25,
+        "lambda_away": 0.85,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4085
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.75,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1535657",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499643",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "1. Division Women",
-      "country": "Norway",
-      "home": "Kolbotn W",
-      "away": "Åsane W",
-      "bookmaker": "",
-      "live_odds": {},
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1536464",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Second League - Group 2",
-      "country": "Russia",
-      "home": "Baltika II",
-      "away": "Cherepovets",
-      "bookmaker": "",
-      "live_odds": {},
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1549023",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Superliga",
-      "country": "Denmark",
-      "home": "AC Horsens",
-      "away": "Aarhus",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.9,
-        "odd_draw": 3.75,
-        "odd_away": 1.83,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.0165
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0165
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6087,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.0099
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0004
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.4,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.6087
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 6.3,
-      "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold"
-    },
-    {
-      "fixture_id": "1558530",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "First League",
-      "country": "Montenegro",
-      "home": "Otrant-Olympic",
-      "away": "Jezero",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Liniers",
+      "away": "Argentino de Merlo",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1119,29 +919,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 0.65,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3906
+        "lambda_home": 0.95,
+        "lambda_away": 0.85,
+        "lambda_total": 1.8,
+        "p_over_1_5": 0.5372,
+        "p_over_2_5": 0.2694,
+        "p_over_3_5": 0.1087,
+        "p_btts_yes": 0.3511
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1559367",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499649",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Montenegro",
-      "home": "Grbalj",
-      "away": "Berane",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Villa San Carlos",
+      "away": "Talleres Remedios",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1160,29 +960,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.7,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3182
+        "lambda_home": 0.6,
+        "lambda_away": 1.15,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.3083
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1559370",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500118",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Montenegro",
-      "home": "Rudar",
-      "away": "Kom",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Leandro N. Alem",
+      "away": "Mercedes",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1201,29 +1001,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.6,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5045
+        "lambda_home": 1.05,
+        "lambda_away": 1.05,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4226
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1568176",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500119",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 4",
-      "country": "Poland",
-      "home": "Sokół Kolb.",
-      "away": "Wiślanie Jaśkowice",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Lugano",
+      "away": "Estrella Del Sur",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1242,29 +1042,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 0.9,
-        "lambda_away": 1.1,
+        "lambda_home": 1.2,
+        "lambda_away": 0.8,
         "lambda_total": 2.0,
         "p_over_1_5": 0.594,
         "p_over_2_5": 0.3233,
         "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3959
+        "p_btts_yes": 0.3848
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1571127",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500120",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División RFEF - Group 2",
-      "country": "Spain",
-      "home": "Algeciras",
-      "away": "Águilas",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Puerto Nuevo",
+      "away": "Deportivo Paraguayo",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1283,70 +1083,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 3.0,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
+        "lambda_home": 1.15,
+        "lambda_away": 0.95,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4191
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.6,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1571567",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500190",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "home": "Marek",
-      "away": "Rilski Sportist",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 0.6,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.3802
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.95,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1571853",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "home": "Szentlőrinc SE",
-      "away": "BVSC",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "General Lamadrid",
+      "away": "Leones de Rosario",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1366,112 +1125,767 @@
       "value_markets": [],
       "pb_metrics": {
         "lambda_home": 0.75,
+        "lambda_away": 0.65,
+        "lambda_total": 1.4,
+        "p_over_1_5": 0.4082,
+        "p_over_2_5": 0.1665,
+        "p_over_3_5": 0.0537,
+        "p_btts_yes": 0.2522
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513363",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Chicago Fire II",
+      "away": "Chattanooga",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.25,
+        "lambda_away": 1.7,
+        "lambda_total": 3.95,
+        "p_over_1_5": 0.9047,
+        "p_over_2_5": 0.7545,
+        "p_over_3_5": 0.5567,
+        "p_btts_yes": 0.7312
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513364",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "FC Cincinnati II",
+      "away": "Crown Legacy",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.75,
+        "lambda_away": 2.2,
+        "lambda_total": 3.95,
+        "p_over_1_5": 0.9047,
+        "p_over_2_5": 0.7545,
+        "p_over_3_5": 0.5567,
+        "p_btts_yes": 0.7347
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513365",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Columbus Crew II",
+      "away": "Carolina Core",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.4,
+        "lambda_away": 1.35,
+        "lambda_total": 3.75,
+        "p_over_1_5": 0.8883,
+        "p_over_2_5": 0.7229,
+        "p_over_3_5": 0.5162,
+        "p_btts_yes": 0.6736
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.65,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513366",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Connecticut FC",
+      "away": "Inter Miami II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.35,
+        "lambda_away": 1.3,
+        "lambda_total": 3.65,
+        "p_over_1_5": 0.8791,
+        "p_over_2_5": 0.706,
+        "p_over_3_5": 0.4954,
+        "p_btts_yes": 0.6581
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.75,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513367",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "New York RB II",
+      "away": "Huntsville City",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.4,
+        "lambda_away": 1.65,
+        "lambda_total": 4.05,
+        "p_over_1_5": 0.912,
+        "p_over_2_5": 0.7691,
+        "p_over_3_5": 0.5762,
+        "p_btts_yes": 0.7347
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.35,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513368",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Orlando City II",
+      "away": "Atlanta United II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.2,
+        "lambda_away": 1.8,
+        "lambda_total": 4.0,
+        "p_over_1_5": 0.9084,
+        "p_over_2_5": 0.7619,
+        "p_over_3_5": 0.5665,
+        "p_btts_yes": 0.7422
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513369",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Philadelphia Union II",
+      "away": "New York City II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.65,
+        "lambda_away": 1.35,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5985
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1548532",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "HNL",
+      "country": "Croatia",
+      "home": "Dinamo Zagreb",
+      "away": "NK Lokomotiva Zagreb",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.35,
+        "lambda_away": 0.65,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.4324
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1549498",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Peru",
+      "home": "Sport Huancayo",
+      "away": "UTC Cajamarca",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.8,
+        "lambda_away": 1.15,
+        "lambda_total": 2.95,
+        "p_over_1_5": 0.7933,
+        "p_over_2_5": 0.5655,
+        "p_over_3_5": 0.3416,
+        "p_btts_yes": 0.5704
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1553877",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Super Liga",
+      "country": "Serbia",
+      "home": "Železničar Pančevo",
+      "away": "Cukaricki",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1570749",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División RFEF - Group 1",
+      "country": "Spain",
+      "home": "Extremadura 1924",
+      "away": "Cultural Leonesa",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.75,
+        "lambda_away": 1.0,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.3335
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1582801",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premijer Liga",
+      "country": "Bosnia",
+      "home": "FK Sarajevo",
+      "away": "Sloga Doboj",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.65,
+        "lambda_away": 0.55,
+        "lambda_total": 1.2,
+        "p_over_1_5": 0.3374,
+        "p_over_2_5": 0.1205,
+        "p_over_3_5": 0.0338,
+        "p_btts_yes": 0.2022
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1593322",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League 1",
+      "country": "Greece",
+      "home": "Panetolikos",
+      "away": "PAOK",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.25,
+        "lambda_away": 1.0,
+        "lambda_total": 3.25,
+        "p_over_1_5": 0.8352,
+        "p_over_2_5": 0.6304,
+        "p_over_3_5": 0.4086,
+        "p_btts_yes": 0.5655
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.15,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1597989",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Santa Catarina",
+      "country": "Brazil",
+      "home": "Santa Catarina",
+      "away": "Figueirense",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 1.0,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5466
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1603365",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga MX Femenil",
+      "country": "Mexico",
+      "home": "Pumas UNAM W",
+      "away": "Puebla W",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606419",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Alvarado",
+      "away": "Olimpo Bahia Blanca",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 0.55,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.2956
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606420",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Bartolomé Mitre",
+      "away": "San Martin Formosa",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 0.95,
+        "lambda_total": 2.05,
+        "p_over_1_5": 0.6074,
+        "p_over_2_5": 0.3369,
+        "p_over_3_5": 0.152,
+        "p_btts_yes": 0.4091
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606421",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Douglas Haig",
+      "away": "Gimnasia Chivilcoy",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.3,
         "lambda_away": 0.9,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4317
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606422",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Huracan Las Heras",
+      "away": "Atenas",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 0.65,
         "lambda_total": 1.65,
         "p_over_1_5": 0.4911,
         "p_over_2_5": 0.2296,
         "p_over_3_5": 0.0859,
-        "p_btts_yes": 0.3131
+        "p_btts_yes": 0.3021
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.5,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1581532",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Armenia",
-      "home": "Shirak",
-      "away": "Ararat-Armenia",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.85,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6888
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.65,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1584415",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Süper Lig",
-      "country": "Turkey",
-      "home": "Erzurumspor FK",
-      "away": "Samsunspor",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.5,
-        "lambda_away": 1.5,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3057
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     }
   ],
   "all_ranked": [
     {
-      "fixture_id": "1492384",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498812",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Serie A",
-      "country": "Brazil",
-      "home": "Gremio",
-      "away": "Palmeiras",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Agropecuario",
+      "away": "Gimnasia Y Tiro",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -1490,582 +1904,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.3,
-        "lambda_away": 1.45,
-        "lambda_total": 2.75,
-        "p_over_1_5": 0.7603,
-        "p_over_2_5": 0.5185,
-        "p_over_3_5": 0.297,
-        "p_btts_yes": 0.5568
+        "lambda_home": 1.15,
+        "lambda_away": 0.85,
+        "lambda_total": 2.0,
+        "p_over_1_5": 0.594,
+        "p_over_2_5": 0.3233,
+        "p_over_3_5": 0.1429,
+        "p_btts_yes": 0.3913
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.15,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1496148",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498815",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Bjarg",
-      "away": "Træff",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.33,
-        "odd_away": 5.75,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.2,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6419,
-        "odd": 1.62,
-        "implied_probability": 0.6173,
-        "edge": 0.0246
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6419,
-          "odd": 1.62,
-          "implied_probability": 0.6173,
-          "edge": 0.0246
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.5,
-        "lambda_total": 3.25,
-        "p_over_1_5": 0.8352,
-        "p_over_2_5": 0.6304,
-        "p_over_3_5": 0.4086,
-        "p_btts_yes": 0.6419
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "GG Special",
-          "model": "GG_BALANCED",
-          "pick": "Both teams to score YES",
-          "odd": 1.62,
-          "score": 1.088
-        }
-      ],
-      "rank_score": 21.81,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1496152",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Notodden",
-      "away": "Arendal",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.05,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5121
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.8,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1496153",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 1",
-      "country": "Norway",
-      "home": "Pors Grenland",
-      "away": "Lysekloster",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.35,
-        "lambda_total": 3.1,
-        "p_over_1_5": 0.8153,
-        "p_over_2_5": 0.5988,
-        "p_over_3_5": 0.3752,
-        "p_btts_yes": 0.612
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.2,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1496336",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "2. Division - Group 2",
-      "country": "Norway",
-      "home": "Ull/Kisa",
-      "away": "Junkeren",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.75,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6897
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.65,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1504550",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Södra",
-      "country": "Sweden",
-      "home": "Hässleholms IF",
-      "away": "Trollhättan",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.15,
-        "odd_draw": 3.4,
-        "odd_away": 2.8,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.38,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.25,
-        "lambda_total": 2.95,
-        "p_over_1_5": 0.7933,
-        "p_over_2_5": 0.5655,
-        "p_over_3_5": 0.3416,
-        "p_btts_yes": 0.5832
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.65,
-          "score": 0.437
-        }
-      ],
-      "rank_score": 19.05,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1505267",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Norra",
-      "country": "Sweden",
-      "home": "AFC Eskilstuna",
-      "away": "Gefle IF",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.8,
-        "odd_away": 4.1,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 1.05,
-        "lambda_total": 2.55,
-        "p_over_1_5": 0.7228,
-        "p_over_2_5": 0.4689,
-        "p_over_3_5": 0.2532,
-        "p_btts_yes": 0.505
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.15,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market"
-    },
-    {
-      "fixture_id": "1505271",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Ettan - Norra",
-      "country": "Sweden",
-      "home": "Karlberg",
-      "away": "Stockholm Internazionale",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 5.5,
-        "odd_draw": 4.33,
-        "odd_away": 1.42,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5576,
-        "odd": 1.83,
-        "implied_probability": 0.5464,
-        "edge": 0.0112
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5576,
-          "odd": 1.83,
-          "implied_probability": 0.5464,
-          "edge": 0.0112
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.05,
-        "lambda_away": 1.95,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5576
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.67,
-          "score": 0.696
-        }
-      ],
-      "rank_score": 19.72,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1507225",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Erovnuli Liga 2",
-      "country": "Georgia",
-      "home": "Gori",
-      "away": "Kolkheti Poti",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.55,
-        "lambda_away": 1.15,
-        "lambda_total": 2.7,
-        "p_over_1_5": 0.7513,
-        "p_over_2_5": 0.5064,
-        "p_over_3_5": 0.2859,
-        "p_btts_yes": 0.5383
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.7,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1510675",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Division 2 - Norra Götaland",
-      "country": "Sweden",
-      "home": "IF Karlstad II",
-      "away": "Stenungsund",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.3,
-        "lambda_away": 1.7,
-        "lambda_total": 3.0,
-        "p_over_1_5": 0.8009,
-        "p_over_2_5": 0.5768,
-        "p_over_3_5": 0.3528,
-        "p_btts_yes": 0.5946
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.4,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1513638",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Meistriliiga",
-      "country": "Estonia",
-      "home": "Trans Narva",
-      "away": "FC Levadia Tallinn",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 9.5,
-        "odd_draw": 6.25,
-        "odd_away": 1.25,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.62,
-        "odd_ou_3_5_over": 2.1,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5507,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.0271
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5507,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.0271
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 2.05,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.5507
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 7.36,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
-      "fixture_id": "1516142",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Super League",
-      "country": "Uzbekistan",
-      "home": "Sogdiana",
-      "away": "Olmaliq",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.75,
-        "odd_draw": 3.4,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.53,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4954,
-        "odd": 2.75,
-        "implied_probability": 0.3636,
-        "edge": 0.1318
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4954,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.1318
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1072
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7035,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.0499
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.8,
-        "lambda_away": 1.85,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.7035
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER25 PATTERNS",
-          "model": "O25_PATTERN_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.66,
-          "score": 0.735
-        }
-      ],
-      "rank_score": 32.43,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1520886",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Serie B",
-      "country": "Brazil",
-      "home": "Ponte Preta",
-      "away": "CRB",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Chacarita Juniors",
+      "away": "Quilmes",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2085,366 +1946,90 @@
       "value_markets": [],
       "pb_metrics": {
         "lambda_home": 1.1,
-        "lambda_away": 1.4,
-        "lambda_total": 2.5,
-        "p_over_1_5": 0.7127,
-        "p_over_2_5": 0.4562,
-        "p_over_3_5": 0.2424,
-        "p_btts_yes": 0.5026
+        "lambda_away": 0.8,
+        "lambda_total": 1.9,
+        "p_over_1_5": 0.5663,
+        "p_over_2_5": 0.2963,
+        "p_over_3_5": 0.1253,
+        "p_btts_yes": 0.3674
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.4,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1525986",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1498821",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Belarus",
-      "home": "Dinamo Brest",
-      "away": "FC Dnepr Mogilev",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 0.9,
-        "lambda_total": 2.65,
-        "p_over_1_5": 0.7421,
-        "p_over_2_5": 0.494,
-        "p_over_3_5": 0.2749,
-        "p_btts_yes": 0.4903
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.75,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1535657",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "1. Division Women",
-      "country": "Norway",
-      "home": "Kolbotn W",
-      "away": "Åsane W",
-      "bookmaker": "",
-      "live_odds": {},
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1536464",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Second League - Group 2",
-      "country": "Russia",
-      "home": "Baltika II",
-      "away": "Cherepovets",
-      "bookmaker": "",
-      "live_odds": {},
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1549023",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Superliga",
-      "country": "Denmark",
-      "home": "AC Horsens",
-      "away": "Aarhus",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "home": "Deportivo Moron",
+      "away": "Godoy Cruz",
       "bookmaker": "Bet365",
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 3.9,
-        "odd_draw": 3.75,
-        "odd_away": 1.83,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.75,
-        "odd_ou_2_5_under": 2.05,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
+        "odd_home": 2.15,
+        "odd_draw": 2.75,
+        "odd_away": 4.1,
+        "odd_ou_1_5_over": 1.57,
+        "odd_ou_2_5_over": 2.88,
+        "odd_ou_2_5_under": 1.4,
+        "odd_ou_3_5_over": 6.0,
+        "odd_btts_yes": 2.25,
+        "odd_btts_no": 1.57,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": {
         "market": "Over 2.5",
-        "probability": 0.5879,
-        "odd": 1.75,
-        "implied_probability": 0.5714,
-        "edge": 0.0165
+        "probability": 0.3773,
+        "odd": 2.88,
+        "implied_probability": 0.3472,
+        "edge": 0.0301
       },
       "value_markets": [
         {
           "market": "Over 2.5",
-          "probability": 0.5879,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0165
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6087,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.0099
+          "probability": 0.3773,
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "edge": 0.0301
         },
         {
           "market": "Over 3.5",
-          "probability": 0.364,
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "edge": 0.0004
+          "probability": 0.1806,
+          "odd": 6.0,
+          "implied_probability": 0.1667,
+          "edge": 0.0139
         }
       ],
       "pb_metrics": {
-        "lambda_home": 1.65,
-        "lambda_away": 1.4,
-        "lambda_total": 3.05,
-        "p_over_1_5": 0.8082,
-        "p_over_2_5": 0.5879,
-        "p_over_3_5": 0.364,
-        "p_btts_yes": 0.6087
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 6.3,
-      "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold"
-    },
-    {
-      "fixture_id": "1558530",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "First League",
-      "country": "Montenegro",
-      "home": "Otrant-Olympic",
-      "away": "Jezero",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
+        "lambda_home": 1.55,
         "lambda_away": 0.65,
-        "lambda_total": 2.35,
-        "p_over_1_5": 0.6805,
-        "p_over_2_5": 0.4172,
-        "p_over_3_5": 0.2109,
-        "p_btts_yes": 0.3906
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.3765
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1558641",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Jupiler Pro League",
-      "country": "Belgium",
-      "home": "St. Truiden",
-      "away": "KVC Westerlo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 3.9,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.7,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6986,
-        "odd": 1.5,
-        "implied_probability": 0.6667,
-        "edge": 0.0319
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6986,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0319
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
-          "odd": 1.44,
-          "implied_probability": 0.6944,
-          "edge": 0.0116
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.65,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6986
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.0,
-          "score": 1.651
-        }
-      ],
-      "rank_score": 22.44,
+      "rank_score": 5.01,
       "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
+      "selection_reason": "Positive model edge >= 2%"
     },
     {
-      "fixture_id": "1559167",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499642",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Challenger Pro League",
-      "country": "Belgium",
-      "home": "Lokeren-Temse",
-      "away": "Excelsior Virton",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.25,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.7229,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.086
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.7229,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.086
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.5162,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.0718
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7144,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0477
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.0,
-        "lambda_away": 1.75,
-        "lambda_total": 3.75,
-        "p_over_1_5": 0.8883,
-        "p_over_2_5": 0.7229,
-        "p_over_3_5": 0.5162,
-        "p_btts_yes": 0.7144
-      },
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_BALANCED",
-          "pick": "Over 3.5 goals",
-          "odd": 2.38,
-          "score": 1.524
-        }
-      ],
-      "rank_score": 27.95,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick"
-    },
-    {
-      "fixture_id": "1559367",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Montenegro",
-      "home": "Grbalj",
-      "away": "Berane",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Dock Sud",
+      "away": "Argentino Quilmes",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2463,29 +2048,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.7,
-        "lambda_total": 1.7,
-        "p_over_1_5": 0.5068,
-        "p_over_2_5": 0.2428,
-        "p_over_3_5": 0.0932,
-        "p_btts_yes": 0.3182
+        "lambda_home": 1.25,
+        "lambda_away": 0.85,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4085
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1559370",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499643",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Montenegro",
-      "home": "Rudar",
-      "away": "Kom",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Liniers",
+      "away": "Argentino de Merlo",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2504,29 +2089,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 1.6,
-        "lambda_total": 2.6,
-        "p_over_1_5": 0.7326,
-        "p_over_2_5": 0.4816,
-        "p_over_3_5": 0.264,
-        "p_btts_yes": 0.5045
+        "lambda_home": 0.95,
+        "lambda_away": 0.85,
+        "lambda_total": 1.8,
+        "p_over_1_5": 0.5372,
+        "p_over_2_5": 0.2694,
+        "p_over_3_5": 0.1087,
+        "p_btts_yes": 0.3511
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.8,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1568176",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1499649",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 4",
-      "country": "Poland",
-      "home": "Sokół Kolb.",
-      "away": "Wiślanie Jaśkowice",
+      "league": "Primera B Metropolitana",
+      "country": "Argentina",
+      "home": "Villa San Carlos",
+      "away": "Talleres Remedios",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2545,29 +2130,111 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 0.9,
-        "lambda_away": 1.1,
+        "lambda_home": 0.6,
+        "lambda_away": 1.15,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.3083
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1500118",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Leandro N. Alem",
+      "away": "Mercedes",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.05,
+        "lambda_away": 1.05,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4226
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1500119",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Lugano",
+      "away": "Estrella Del Sur",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 0.8,
         "lambda_total": 2.0,
         "p_over_1_5": 0.594,
         "p_over_2_5": 0.3233,
         "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3959
+        "p_btts_yes": 0.3848
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -1.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1571127",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500120",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División RFEF - Group 2",
-      "country": "Spain",
-      "home": "Algeciras",
-      "away": "Águilas",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "Puerto Nuevo",
+      "away": "Deportivo Paraguayo",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2586,208 +2253,29 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.5,
-        "lambda_away": 3.0,
-        "lambda_total": 4.5,
-        "p_over_1_5": 0.9389,
-        "p_over_2_5": 0.8264,
-        "p_over_3_5": 0.6577,
-        "p_btts_yes": 0.7382
+        "lambda_home": 1.15,
+        "lambda_away": 0.95,
+        "lambda_total": 2.1,
+        "p_over_1_5": 0.6204,
+        "p_over_2_5": 0.3504,
+        "p_over_3_5": 0.1614,
+        "p_btts_yes": 0.4191
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.6,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     },
     {
-      "fixture_id": "1571567",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
+      "fixture_id": "1500190",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
       "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "home": "Marek",
-      "away": "Rilski Sportist",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.85,
-        "lambda_away": 0.6,
-        "lambda_total": 2.45,
-        "p_over_1_5": 0.7023,
-        "p_over_2_5": 0.4433,
-        "p_over_3_5": 0.2318,
-        "p_btts_yes": 0.3802
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.95,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1571569",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Second League",
-      "country": "Bulgaria",
-      "home": "Nesebar",
-      "away": "Beroe",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.62,
-        "odd_draw": 3.0,
-        "odd_away": 2.5,
-        "odd_ou_1_5_over": 1.37,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.05,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6603,
-        "odd": 2.35,
-        "implied_probability": 0.4255,
-        "edge": 0.2348
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6603,
-          "odd": 2.35,
-          "implied_probability": 0.4255,
-          "edge": 0.2348
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4416,
-          "odd": 4.05,
-          "implied_probability": 0.2469,
-          "edge": 0.1947
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6214,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0809
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.2,
-        "lambda_away": 1.2,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.6214
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 28.98,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
-      "fixture_id": "1571848",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "home": "Karcag SE",
-      "away": "Kozarmisleny FC",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.8,
-        "odd_draw": 3.5,
-        "odd_away": 3.75,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.14,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4954,
-        "odd": 3.14,
-        "implied_probability": 0.3185,
-        "edge": 0.1769
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4954,
-          "odd": 3.14,
-          "implied_probability": 0.3185,
-          "edge": 0.1769
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.706,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.1655
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6385,
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "edge": 0.0671
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.45,
-        "lambda_away": 1.2,
-        "lambda_total": 3.65,
-        "p_over_1_5": 0.8791,
-        "p_over_2_5": 0.706,
-        "p_over_3_5": 0.4954,
-        "p_btts_yes": 0.6385
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 23.44,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%"
-    },
-    {
-      "fixture_id": "1571853",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "home": "Szentlőrinc SE",
-      "away": "BVSC",
+      "league": "Primera C",
+      "country": "Argentina",
+      "home": "General Lamadrid",
+      "away": "Leones de Rosario",
       "bookmaker": "",
       "live_odds": {
         "bookmaker": "",
@@ -2807,98 +2295,802 @@
       "value_markets": [],
       "pb_metrics": {
         "lambda_home": 0.75,
+        "lambda_away": 0.65,
+        "lambda_total": 1.4,
+        "p_over_1_5": 0.4082,
+        "p_over_2_5": 0.1665,
+        "p_over_3_5": 0.0537,
+        "p_btts_yes": 0.2522
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513363",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Chicago Fire II",
+      "away": "Chattanooga",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.25,
+        "lambda_away": 1.7,
+        "lambda_total": 3.95,
+        "p_over_1_5": 0.9047,
+        "p_over_2_5": 0.7545,
+        "p_over_3_5": 0.5567,
+        "p_btts_yes": 0.7312
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513364",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "FC Cincinnati II",
+      "away": "Crown Legacy",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.75,
+        "lambda_away": 2.2,
+        "lambda_total": 3.95,
+        "p_over_1_5": 0.9047,
+        "p_over_2_5": 0.7545,
+        "p_over_3_5": 0.5567,
+        "p_btts_yes": 0.7347
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513365",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Columbus Crew II",
+      "away": "Carolina Core",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.4,
+        "lambda_away": 1.35,
+        "lambda_total": 3.75,
+        "p_over_1_5": 0.8883,
+        "p_over_2_5": 0.7229,
+        "p_over_3_5": 0.5162,
+        "p_btts_yes": 0.6736
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.65,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513366",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Connecticut FC",
+      "away": "Inter Miami II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.35,
+        "lambda_away": 1.3,
+        "lambda_total": 3.65,
+        "p_over_1_5": 0.8791,
+        "p_over_2_5": 0.706,
+        "p_over_3_5": 0.4954,
+        "p_btts_yes": 0.6581
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.75,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513367",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "New York RB II",
+      "away": "Huntsville City",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.4,
+        "lambda_away": 1.65,
+        "lambda_total": 4.05,
+        "p_over_1_5": 0.912,
+        "p_over_2_5": 0.7691,
+        "p_over_3_5": 0.5762,
+        "p_btts_yes": 0.7347
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.35,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513368",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Orlando City II",
+      "away": "Atlanta United II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.2,
+        "lambda_away": 1.8,
+        "lambda_total": 4.0,
+        "p_over_1_5": 0.9084,
+        "p_over_2_5": 0.7619,
+        "p_over_3_5": 0.5665,
+        "p_btts_yes": 0.7422
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -1.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513369",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Philadelphia Union II",
+      "away": "New York City II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.65,
+        "lambda_away": 1.35,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5985
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1513370",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "home": "Toronto II",
+      "away": "New England II",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.9,
+        "lambda_away": 1.75,
+        "lambda_total": 3.65,
+        "p_over_1_5": 0.8791,
+        "p_over_2_5": 0.706,
+        "p_over_3_5": 0.4954,
+        "p_btts_yes": 0.7026
+      },
+      "pb_raw_available": true,
+      "pb_picks": [
+        {
+          "category": "GG Special",
+          "model": "GG_BALANCED",
+          "pick": "Both teams to score YES",
+          "odd": 1.44,
+          "score": 1.197
+        }
+      ],
+      "rank_score": 12.25,
+      "actionable_candidate": true,
+      "selection_reason": "PB editorial pick"
+    },
+    {
+      "fixture_id": "1548532",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "HNL",
+      "country": "Croatia",
+      "home": "Dinamo Zagreb",
+      "away": "NK Lokomotiva Zagreb",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.35,
+        "lambda_away": 0.65,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.4324
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1549498",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Peru",
+      "home": "Sport Huancayo",
+      "away": "UTC Cajamarca",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.8,
+        "lambda_away": 1.15,
+        "lambda_total": 2.95,
+        "p_over_1_5": 0.7933,
+        "p_over_2_5": 0.5655,
+        "p_over_3_5": 0.3416,
+        "p_btts_yes": 0.5704
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.45,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1553877",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Super Liga",
+      "country": "Serbia",
+      "home": "Železničar Pančevo",
+      "away": "Cukaricki",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1570749",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División RFEF - Group 1",
+      "country": "Spain",
+      "home": "Extremadura 1924",
+      "away": "Cultural Leonesa",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.75,
+        "lambda_away": 1.0,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.3335
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1582801",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premijer Liga",
+      "country": "Bosnia",
+      "home": "FK Sarajevo",
+      "away": "Sloga Doboj",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.65,
+        "lambda_away": 0.55,
+        "lambda_total": 1.2,
+        "p_over_1_5": 0.3374,
+        "p_over_2_5": 0.1205,
+        "p_over_3_5": 0.0338,
+        "p_btts_yes": 0.2022
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1593322",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League 1",
+      "country": "Greece",
+      "home": "Panetolikos",
+      "away": "PAOK",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.25,
+        "lambda_away": 1.0,
+        "lambda_total": 3.25,
+        "p_over_1_5": 0.8352,
+        "p_over_2_5": 0.6304,
+        "p_over_3_5": 0.4086,
+        "p_btts_yes": 0.5655
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.15,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1597989",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Santa Catarina",
+      "country": "Brazil",
+      "home": "Santa Catarina",
+      "away": "Figueirense",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.0,
+        "lambda_away": 1.0,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5466
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -2.4,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1603365",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga MX Femenil",
+      "country": "Mexico",
+      "home": "Pumas UNAM W",
+      "away": "Puebla W",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606419",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Alvarado",
+      "away": "Olimpo Bahia Blanca",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 0.55,
+        "lambda_total": 1.75,
+        "p_over_1_5": 0.5221,
+        "p_over_2_5": 0.256,
+        "p_over_3_5": 0.1008,
+        "p_btts_yes": 0.2956
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606420",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Bartolomé Mitre",
+      "away": "San Martin Formosa",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.1,
+        "lambda_away": 0.95,
+        "lambda_total": 2.05,
+        "p_over_1_5": 0.6074,
+        "p_over_2_5": 0.3369,
+        "p_over_3_5": 0.152,
+        "p_btts_yes": 0.4091
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606421",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Douglas Haig",
+      "away": "Gimnasia Chivilcoy",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.3,
         "lambda_away": 0.9,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4317
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1606422",
+      "kickoff_dublin": "2026-09-20T19:00:00+01:00",
+      "minutes_to_kickoff": 59.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "home": "Huracan Las Heras",
+      "away": "Atenas",
+      "bookmaker": "",
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.0,
+        "lambda_away": 0.65,
         "lambda_total": 1.65,
         "p_over_1_5": 0.4911,
         "p_over_2_5": 0.2296,
         "p_over_3_5": 0.0859,
-        "p_btts_yes": 0.3131
+        "p_btts_yes": 0.3021
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": -0.5,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1581532",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Armenia",
-      "home": "Shirak",
-      "away": "Ararat-Armenia",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.85,
-        "lambda_total": 3.55,
-        "p_over_1_5": 0.8693,
-        "p_over_2_5": 0.6883,
-        "p_over_3_5": 0.4741,
-        "p_btts_yes": 0.6888
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 0.65,
-      "actionable_candidate": false,
-      "selection_reason": "No bookmaker odds"
-    },
-    {
-      "fixture_id": "1584415",
-      "kickoff_dublin": "2026-09-20T15:00:00+01:00",
-      "minutes_to_kickoff": 16.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Süper Lig",
-      "country": "Turkey",
-      "home": "Erzurumspor FK",
-      "away": "Samsunspor",
-      "bookmaker": "",
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.5,
-        "lambda_away": 1.5,
-        "lambda_total": 2.0,
-        "p_over_1_5": 0.594,
-        "p_over_2_5": 0.3233,
-        "p_over_3_5": 0.1429,
-        "p_btts_yes": 0.3057
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": -0.5,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds"
     }

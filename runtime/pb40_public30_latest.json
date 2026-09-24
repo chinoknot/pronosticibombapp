@@ -1,26 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-24T01:10:44.019892+01:00",
+  "generated_at_dublin": "2026-09-24T05:51:40.514442+01:00",
   "match_date": "2026-09-24",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-09-24T02:00:00+01:00",
-  "target_block_end_dublin": "2026-09-24T02:45:00+01:00",
-  "target_block_matches": 3,
+  "target_block_start_dublin": "2026-09-24T06:00:00+01:00",
+  "target_block_end_dublin": "2026-09-24T06:45:00+01:00",
+  "target_block_matches": 0,
   "block_verified": true,
   "fixtures_today_total": 98,
   "fixtures_target_date_total": 98,
-  "fixtures_in_next_75m": 3,
-  "relevant_fixtures_in_next_75m": 3,
-  "fixtures_in_target_block": 3,
-  "relevant_fixtures_in_target_block": 3,
+  "fixtures_in_next_75m": 0,
+  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_in_target_block": 0,
+  "relevant_fixtures_in_target_block": 0,
   "excluded_in_target_block": 0,
   "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 3,
+  "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 3,
-  "odds_coverage_count": 3,
+  "technical_coverage_count": 0,
+  "odds_coverage_count": 0,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -53,7 +53,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 3,
+  "matches_returned": 0,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -61,434 +61,28 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 3,
-  "live_predictions_requested": 3,
+  "live_odds_requested": 0,
+  "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5176,
+  "request_ms": 6406,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/fixtures": 1
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74996,
+    "daily_remaining": 74420,
     "minute_limit": 450,
-    "minute_remaining": 446
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
-  "ranked_matches": [
-    {
-      "fixture_id": "1600591",
-      "kickoff_dublin": "2026-09-24T02:00:00+01:00",
-      "minutes_to_kickoff": 49.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 9",
-      "home": "Firpo",
-      "away": "Cacahuatique",
-      "venue": "Sergio Torres Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Firpo",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Firpo or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.48,
-        "odd_draw": 3.8,
-        "odd_away": 5.5,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.1,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1600593",
-      "kickoff_dublin": "2026-09-24T02:00:00+01:00",
-      "minutes_to_kickoff": 49.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 9",
-      "home": "Alianza",
-      "away": "Fuerte San Francisco",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Alianza",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Alianza",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.45,
-        "odd_draw": 4.0,
-        "odd_away": 5.25,
-        "odd_ou_1_5_over": 1.32,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.3,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490209",
-      "kickoff_dublin": "2026-09-24T02:30:00+01:00",
-      "minutes_to_kickoff": 79.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 7",
-      "home": "Seattle Sounders",
-      "away": "Real Salt Lake",
-      "venue": "Lumen Field",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Seattle Sounders",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Seattle Sounders or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.75,
-        "odd_draw": 4.1,
-        "odd_away": 4.1,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
-    {
-      "fixture_id": "1600591",
-      "kickoff_dublin": "2026-09-24T02:00:00+01:00",
-      "minutes_to_kickoff": 49.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 9",
-      "home": "Firpo",
-      "away": "Cacahuatique",
-      "venue": "Sergio Torres Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Firpo",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Firpo or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.48,
-        "odd_draw": 3.8,
-        "odd_away": 5.5,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.85,
-        "odd_ou_2_5_under": 1.95,
-        "odd_ou_3_5_over": 3.1,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1600593",
-      "kickoff_dublin": "2026-09-24T02:00:00+01:00",
-      "minutes_to_kickoff": 49.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "El-Salvador",
-      "round": "Apertura - 9",
-      "home": "Alianza",
-      "away": "Fuerte San Francisco",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Alianza",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Alianza",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.45,
-        "odd_draw": 4.0,
-        "odd_away": 5.25,
-        "odd_ou_1_5_over": 1.32,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.3,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490209",
-      "kickoff_dublin": "2026-09-24T02:30:00+01:00",
-      "minutes_to_kickoff": 79.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 7",
-      "home": "Seattle Sounders",
-      "away": "Real Salt Lake",
-      "venue": "Lumen Field",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Seattle Sounders",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Seattle Sounders or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.75,
-        "odd_draw": 4.1,
-        "odd_away": 4.1,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.5,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.5,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "ranked_matches": [],
+  "matches": [],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",

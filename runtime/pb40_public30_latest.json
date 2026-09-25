@@ -1,26 +1,28 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-25T01:03:10.851554+01:00",
+  "generated_at_dublin": "2026-09-25T05:47:50.437771+01:00",
   "match_date": "2026-09-25",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-09-25T02:00:00+01:00",
-  "target_block_end_dublin": "2026-09-25T02:45:00+01:00",
-  "target_block_matches": 2,
+  "target_block_start_dublin": "2026-09-25T06:00:00+01:00",
+  "target_block_end_dublin": "2026-09-25T06:45:00+01:00",
+  "target_block_matches": 1,
   "block_verified": true,
   "fixtures_today_total": 256,
   "fixtures_target_date_total": 256,
-  "fixtures_in_next_75m": 5,
-  "relevant_fixtures_in_next_75m": 5,
-  "fixtures_in_target_block": 2,
-  "relevant_fixtures_in_target_block": 2,
-  "excluded_in_target_block": 0,
-  "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 2,
+  "fixtures_in_next_75m": 3,
+  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_in_target_block": 1,
+  "relevant_fixtures_in_target_block": 0,
+  "excluded_in_target_block": 1,
+  "excluded_breakdown": {
+    "youth": 1
+  },
+  "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 2,
-  "odds_coverage_count": 2,
+  "technical_coverage_count": 0,
+  "odds_coverage_count": 0,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -53,306 +55,75 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 2,
+  "matches_returned": 1,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
-  "live_odds_requested": 2,
-  "live_predictions_requested": 2,
+  "live_api_budget": 428,
+  "live_odds_requested": 0,
+  "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 6256,
+  "request_ms": 5822,
   "api_usage_this_request": {
-    "calls": 5,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 2,
-      "/predictions": 2
+      "/fixtures": 1
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74995,
+    "daily_remaining": 74879,
     "minute_limit": 450,
-    "minute_remaining": 445
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
-  "ranked_matches": [
-    {
-      "fixture_id": "1581432",
-      "kickoff_dublin": "2026-09-25T02:00:00+01:00",
-      "minutes_to_kickoff": 56.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 10",
-      "home": "Alebrijes de Oaxaca",
-      "away": "CA La Paz",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "CA La Paz",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or CA La Paz",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.25,
-        "odd_draw": 3.6,
-        "odd_away": 2.1,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.6,
-        "odd_btts_yes": 1.55,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581479",
-      "kickoff_dublin": "2026-09-25T02:00:00+01:00",
-      "minutes_to_kickoff": 56.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 10",
-      "home": "Mineros de Zacatecas",
-      "away": "Piratas",
-      "venue": "Estadio Carlos Vega Villalba",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Piratas",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Piratas",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.88,
-        "odd_draw": 3.3,
-        "odd_away": 2.4,
-        "odd_ou_1_5_over": 1.32,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.6,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "ranked_matches": [],
   "matches": [
     {
-      "fixture_id": "1581432",
-      "kickoff_dublin": "2026-09-25T02:00:00+01:00",
-      "minutes_to_kickoff": 56.8,
+      "fixture_id": "1641614",
+      "kickoff_dublin": "2026-09-25T06:00:00+01:00",
+      "minutes_to_kickoff": 12.2,
       "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 10",
-      "home": "Alebrijes de Oaxaca",
-      "away": "CA La Paz",
-      "venue": "",
+      "league": "Asian Games",
+      "country": "World",
+      "round": "Quarter-finals",
+      "home": "Uzbekistan U23",
+      "away": "Saudi Arabia U23",
+      "venue": "Paloma Mizuho Stadium",
       "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "CA La Paz",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or CA La Paz",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "0%",
-        "prob_draw": "50%",
-        "prob_away": "50%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.25,
-        "odd_draw": 3.6,
-        "odd_away": 2.1,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.6,
-        "odd_btts_yes": 1.55,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
       "pb_metrics": {},
       "pb_picks": [],
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
-        "enabled": true,
+        "enabled": false,
         "ai": {
-          "matched": false,
-          "match_confidence": 0.0
+          "matched": false
         },
         "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
+          "matched": false
         },
         "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
+          "matched": false
         }
       },
       "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 0.0,
       "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581479",
-      "kickoff_dublin": "2026-09-25T02:00:00+01:00",
-      "minutes_to_kickoff": 56.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga de Expansión MX",
-      "country": "Mexico",
-      "round": "Apertura - 10",
-      "home": "Mineros de Zacatecas",
-      "away": "Piratas",
-      "venue": "Estadio Carlos Vega Villalba",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Piratas",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Piratas",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.88,
-        "odd_draw": 3.3,
-        "odd_away": 2.4,
-        "odd_ou_1_5_over": 1.32,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.6,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
+      "live_enrichment": "not_requested"
     }
   ],
   "public_feed": {

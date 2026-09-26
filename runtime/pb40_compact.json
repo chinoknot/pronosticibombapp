@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-26T18:19:19.659616+01:00",
+  "generated_at_dublin": "2026-09-26T18:20:26.778677+01:00",
   "match_date": "2026-09-26",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-09-26T19:00:00+01:00",
@@ -23,18 +23,18 @@
   "fixtures_analyzed_before_ranking": 67,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 67,
+  "technical_coverage_count": 56,
   "odds_coverage_count": 18,
-  "actionable_candidates_found": 6,
+  "actionable_candidates_found": 5,
   "matches_returned": 82,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 65042,
+    "daily_remaining": 65037,
     "minute_limit": 450,
-    "minute_remaining": 410
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -53,7 +53,7 @@
     {
       "fixture_id": "1499652",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -122,7 +122,7 @@
     {
       "fixture_id": "1551812",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -187,7 +187,7 @@
     {
       "fixture_id": "1551814",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -245,7 +245,7 @@
     {
       "fixture_id": "1641136",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Uruguay",
@@ -303,7 +303,7 @@
     {
       "fixture_id": "1608678",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -371,85 +371,13 @@
       "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1609055",
-      "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Serie C - Girone C",
-      "country": "Italy",
-      "home": "Cavese",
-      "away": "Savoia",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.1,
-        "odd_away": 3.4,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.25,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6603,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.2159
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6603,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.2159
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4416,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.1916
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6675,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.1439
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.65,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.6675
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 23.59,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
     }
   ],
   "technical_fallbacks": [
     {
       "fixture_id": "1494009",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -514,7 +442,7 @@
     {
       "fixture_id": "1499650",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -558,7 +486,7 @@
     {
       "fixture_id": "1499653",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -602,7 +530,7 @@
     {
       "fixture_id": "1499659",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -646,7 +574,7 @@
     {
       "fixture_id": "1500126",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -690,7 +618,7 @@
     {
       "fixture_id": "1500128",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -734,7 +662,7 @@
     {
       "fixture_id": "1500130",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -778,7 +706,7 @@
     {
       "fixture_id": "1500131",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -833,7 +761,7 @@
     {
       "fixture_id": "1500134",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -877,7 +805,7 @@
     {
       "fixture_id": "1500135",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -921,7 +849,7 @@
     {
       "fixture_id": "1511690",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -965,7 +893,7 @@
     {
       "fixture_id": "1534095",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Northern Super League",
       "country": "Canada",
@@ -1020,7 +948,7 @@
     {
       "fixture_id": "1551811",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -1064,7 +992,7 @@
     {
       "fixture_id": "1551813",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -1108,7 +1036,7 @@
     {
       "fixture_id": "1551815",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -1163,7 +1091,7 @@
     {
       "fixture_id": "1578333",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -1218,7 +1146,7 @@
     {
       "fixture_id": "1578335",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -1262,7 +1190,7 @@
     {
       "fixture_id": "1579819",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "First Amateur Division",
       "country": "Belgium",
@@ -1317,7 +1245,7 @@
     {
       "fixture_id": "1579821",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "First Amateur Division",
       "country": "Belgium",
@@ -1361,7 +1289,7 @@
     {
       "fixture_id": "1581428",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -1405,7 +1333,7 @@
     {
       "fixture_id": "1582336",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro - 3",
       "country": "Brazil",
@@ -1449,7 +1377,7 @@
     {
       "fixture_id": "1582865",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - ACFF",
       "country": "Belgium",
@@ -1504,7 +1432,7 @@
     {
       "fixture_id": "1582866",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - ACFF",
       "country": "Belgium",
@@ -1559,7 +1487,7 @@
     {
       "fixture_id": "1597992",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Santa Catarina",
       "country": "Brazil",
@@ -1603,7 +1531,7 @@
     {
       "fixture_id": "1610844",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -1647,7 +1575,7 @@
     {
       "fixture_id": "1613962",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -1691,7 +1619,7 @@
     {
       "fixture_id": "1630316",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -1735,7 +1663,7 @@
     {
       "fixture_id": "1631736",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Premier Serie A",
       "country": "Mexico",
@@ -1790,7 +1718,7 @@
     {
       "fixture_id": "1632434",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -1834,7 +1762,7 @@
     {
       "fixture_id": "1635521",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -1878,7 +1806,7 @@
     {
       "fixture_id": "1635522",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -1922,7 +1850,7 @@
     {
       "fixture_id": "1635523",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -1966,7 +1894,7 @@
     {
       "fixture_id": "1635524",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -1989,19 +1917,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2010,7 +1930,7 @@
     {
       "fixture_id": "1635527",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -2033,15 +1953,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2054,9 +1966,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2065,7 +1977,7 @@
     {
       "fixture_id": "1635529",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -2088,19 +2000,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2109,7 +2013,7 @@
     {
       "fixture_id": "1635530",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -2153,7 +2057,7 @@
     {
       "fixture_id": "1635534",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -2197,7 +2101,7 @@
     {
       "fixture_id": "1637933",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Gulf Cup of Nations",
       "country": "World",
@@ -2241,7 +2145,7 @@
     {
       "fixture_id": "1639180",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa del Rey",
       "country": "Spain",
@@ -2296,7 +2200,7 @@
     {
       "fixture_id": "1640814",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Ivory-Coast",
@@ -2340,7 +2244,7 @@
     {
       "fixture_id": "1578336",
       "kickoff_dublin": "2026-09-26T19:15:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 54.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -2384,7 +2288,7 @@
     {
       "fixture_id": "1492984",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "First Division",
       "country": "Ireland",
@@ -2428,7 +2332,7 @@
     {
       "fixture_id": "1498833",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -2483,7 +2387,7 @@
     {
       "fixture_id": "1499654",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -2527,7 +2431,7 @@
     {
       "fixture_id": "1602093",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -2571,7 +2475,7 @@
     {
       "fixture_id": "1602094",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -2615,7 +2519,7 @@
     {
       "fixture_id": "1606320",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -2659,7 +2563,7 @@
     {
       "fixture_id": "1608294",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -2701,9 +2605,45 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1609055",
+      "kickoff_dublin": "2026-09-26T19:30:00+01:00",
+      "minutes_to_kickoff": 69.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie C - Girone C",
+      "country": "Italy",
+      "home": "Cavese",
+      "away": "Savoia",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.1,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.8,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1528891",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -2726,15 +2666,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Spain",
         "pred_winner_comment": "Win or draw",
@@ -2747,9 +2679,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2758,7 +2690,7 @@
     {
       "fixture_id": "1528892",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -2781,19 +2713,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2802,7 +2726,7 @@
     {
       "fixture_id": "1528893",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -2825,19 +2749,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2846,7 +2762,7 @@
     {
       "fixture_id": "1528894",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -2901,7 +2817,7 @@
     {
       "fixture_id": "1545656",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -2924,15 +2840,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -2945,9 +2853,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -2956,7 +2864,7 @@
     {
       "fixture_id": "1574741",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -2979,15 +2887,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.0,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.451
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Fleury 91",
         "pred_winner_comment": "Win or draw",
@@ -3000,9 +2900,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3011,7 +2911,7 @@
     {
       "fixture_id": "1574742",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3034,19 +2934,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.4,
-        "lambda_total": 2.15,
-        "p_over_1_5": 0.6331,
-        "p_over_2_5": 0.3639,
-        "p_over_3_5": 0.1709,
-        "p_btts_yes": 0.3975
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3055,7 +2947,7 @@
     {
       "fixture_id": "1574744",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3078,19 +2970,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.4,
-        "lambda_away": 1.8,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.2752
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3099,7 +2983,7 @@
     {
       "fixture_id": "1574745",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3122,19 +3006,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.75,
-        "lambda_total": 1.75,
-        "p_over_1_5": 0.5221,
-        "p_over_2_5": 0.256,
-        "p_over_3_5": 0.1008,
-        "p_btts_yes": 0.3335
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3143,7 +3019,7 @@
     {
       "fixture_id": "1574746",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3166,19 +3042,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.9,
-        "lambda_total": 1.9,
-        "p_over_1_5": 0.5663,
-        "p_over_2_5": 0.2963,
-        "p_over_3_5": 0.1253,
-        "p_btts_yes": 0.3751
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -3187,7 +3055,7 @@
     {
       "fixture_id": "1574747",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3210,15 +3078,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.7,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.668
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "La Roche VF",
         "pred_winner_comment": "Win or draw",
@@ -3231,9 +3091,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3242,7 +3102,7 @@
     {
       "fixture_id": "1574748",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3265,19 +3125,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 0.75,
-        "lambda_total": 1.9,
-        "p_over_1_5": 0.5663,
-        "p_over_2_5": 0.2963,
-        "p_over_3_5": 0.1253,
-        "p_btts_yes": 0.3606
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3286,7 +3138,7 @@
     {
       "fixture_id": "1574749",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -3309,19 +3161,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.5,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.55,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -3332,7 +3176,7 @@
     {
       "fixture_id": "1557298",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League Women",
       "country": "Belgium",
@@ -3355,7 +3199,7 @@
     {
       "fixture_id": "1575028",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Carioca U20",
       "country": "Brazil",
@@ -3378,7 +3222,7 @@
     {
       "fixture_id": "1575030",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Carioca U20",
       "country": "Brazil",
@@ -3401,7 +3245,7 @@
     {
       "fixture_id": "1627232",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3424,7 +3268,7 @@
     {
       "fixture_id": "1627233",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3447,7 +3291,7 @@
     {
       "fixture_id": "1627234",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3470,7 +3314,7 @@
     {
       "fixture_id": "1627235",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -3493,7 +3337,7 @@
     {
       "fixture_id": "1636663",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Botola Pro",
       "country": "Morocco",
@@ -3516,7 +3360,7 @@
     {
       "fixture_id": "1640216",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -3539,7 +3383,7 @@
     {
       "fixture_id": "1640217",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -3562,7 +3406,7 @@
     {
       "fixture_id": "1640218",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -3585,7 +3429,7 @@
     {
       "fixture_id": "1640462",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Women",
       "country": "Peru",
@@ -3608,7 +3452,7 @@
     {
       "fixture_id": "1641158",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Botola 2",
       "country": "Morocco",
@@ -3631,7 +3475,7 @@
     {
       "fixture_id": "1641275",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro U20",
       "country": "Brazil",
@@ -3654,7 +3498,7 @@
     {
       "fixture_id": "1603373",
       "kickoff_dublin": "2026-09-26T19:06:00+01:00",
-      "minutes_to_kickoff": 46.7,
+      "minutes_to_kickoff": 45.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -3679,7 +3523,7 @@
     {
       "fixture_id": "1494009",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -3744,7 +3588,7 @@
     {
       "fixture_id": "1499650",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3788,7 +3632,7 @@
     {
       "fixture_id": "1499652",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3857,7 +3701,7 @@
     {
       "fixture_id": "1499653",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3901,7 +3745,7 @@
     {
       "fixture_id": "1499659",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -3945,7 +3789,7 @@
     {
       "fixture_id": "1500126",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -3989,7 +3833,7 @@
     {
       "fixture_id": "1500128",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -4033,7 +3877,7 @@
     {
       "fixture_id": "1500130",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -4077,7 +3921,7 @@
     {
       "fixture_id": "1500131",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -4132,7 +3976,7 @@
     {
       "fixture_id": "1500134",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -4176,7 +4020,7 @@
     {
       "fixture_id": "1500135",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera C",
       "country": "Argentina",
@@ -4220,7 +4064,7 @@
     {
       "fixture_id": "1511690",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B",
       "country": "Chile",
@@ -4264,7 +4108,7 @@
     {
       "fixture_id": "1534095",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Northern Super League",
       "country": "Canada",
@@ -4319,7 +4163,7 @@
     {
       "fixture_id": "1551811",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -4363,7 +4207,7 @@
     {
       "fixture_id": "1551812",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -4428,7 +4272,7 @@
     {
       "fixture_id": "1551813",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -4472,7 +4316,7 @@
     {
       "fixture_id": "1551814",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -4530,7 +4374,7 @@
     {
       "fixture_id": "1551815",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -4585,7 +4429,7 @@
     {
       "fixture_id": "1557298",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Super League Women",
       "country": "Belgium",
@@ -4608,7 +4452,7 @@
     {
       "fixture_id": "1575028",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Carioca U20",
       "country": "Brazil",
@@ -4631,7 +4475,7 @@
     {
       "fixture_id": "1575030",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Carioca U20",
       "country": "Brazil",
@@ -4654,7 +4498,7 @@
     {
       "fixture_id": "1578333",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -4709,7 +4553,7 @@
     {
       "fixture_id": "1578335",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -4753,7 +4597,7 @@
     {
       "fixture_id": "1579819",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "First Amateur Division",
       "country": "Belgium",
@@ -4808,7 +4652,7 @@
     {
       "fixture_id": "1579821",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "First Amateur Division",
       "country": "Belgium",
@@ -4852,7 +4696,7 @@
     {
       "fixture_id": "1581428",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -4896,7 +4740,7 @@
     {
       "fixture_id": "1582336",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro - 3",
       "country": "Brazil",
@@ -4940,7 +4784,7 @@
     {
       "fixture_id": "1582865",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - ACFF",
       "country": "Belgium",
@@ -4995,7 +4839,7 @@
     {
       "fixture_id": "1582866",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - ACFF",
       "country": "Belgium",
@@ -5050,7 +4894,7 @@
     {
       "fixture_id": "1597992",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Santa Catarina",
       "country": "Brazil",
@@ -5094,7 +4938,7 @@
     {
       "fixture_id": "1610844",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -5138,7 +4982,7 @@
     {
       "fixture_id": "1613962",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -5182,7 +5026,7 @@
     {
       "fixture_id": "1627232",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -5205,7 +5049,7 @@
     {
       "fixture_id": "1627233",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -5228,7 +5072,7 @@
     {
       "fixture_id": "1627234",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -5251,7 +5095,7 @@
     {
       "fixture_id": "1627235",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Pernambucano - U20",
       "country": "Brazil",
@@ -5274,7 +5118,7 @@
     {
       "fixture_id": "1630316",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Gaúcho - 3",
       "country": "Brazil",
@@ -5318,7 +5162,7 @@
     {
       "fixture_id": "1631736",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Premier Serie A",
       "country": "Mexico",
@@ -5373,7 +5217,7 @@
     {
       "fixture_id": "1632434",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Pro Serie B",
       "country": "Ecuador",
@@ -5417,7 +5261,7 @@
     {
       "fixture_id": "1635521",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5461,7 +5305,7 @@
     {
       "fixture_id": "1635522",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5505,7 +5349,7 @@
     {
       "fixture_id": "1635523",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5549,7 +5393,7 @@
     {
       "fixture_id": "1635524",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5572,19 +5416,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5593,7 +5429,7 @@
     {
       "fixture_id": "1635527",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5616,15 +5452,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -5637,9 +5465,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5648,7 +5476,7 @@
     {
       "fixture_id": "1635529",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5671,19 +5499,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.0,
+      "rank_score": -4.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -5692,7 +5512,7 @@
     {
       "fixture_id": "1635530",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5736,7 +5556,7 @@
     {
       "fixture_id": "1635534",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Belgium",
@@ -5780,7 +5600,7 @@
     {
       "fixture_id": "1636663",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Botola Pro",
       "country": "Morocco",
@@ -5803,7 +5623,7 @@
     {
       "fixture_id": "1637933",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Gulf Cup of Nations",
       "country": "World",
@@ -5847,7 +5667,7 @@
     {
       "fixture_id": "1639180",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa del Rey",
       "country": "Spain",
@@ -5902,7 +5722,7 @@
     {
       "fixture_id": "1640216",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -5925,7 +5745,7 @@
     {
       "fixture_id": "1640217",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -5948,7 +5768,7 @@
     {
       "fixture_id": "1640218",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Paulista - U20",
       "country": "Brazil",
@@ -5971,7 +5791,7 @@
     {
       "fixture_id": "1640462",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Women",
       "country": "Peru",
@@ -5994,7 +5814,7 @@
     {
       "fixture_id": "1640814",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Ivory-Coast",
@@ -6038,7 +5858,7 @@
     {
       "fixture_id": "1641136",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Uruguay",
@@ -6096,7 +5916,7 @@
     {
       "fixture_id": "1641158",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Botola 2",
       "country": "Morocco",
@@ -6119,7 +5939,7 @@
     {
       "fixture_id": "1641275",
       "kickoff_dublin": "2026-09-26T19:00:00+01:00",
-      "minutes_to_kickoff": 40.7,
+      "minutes_to_kickoff": 39.6,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro U20",
       "country": "Brazil",
@@ -6142,7 +5962,7 @@
     {
       "fixture_id": "1603373",
       "kickoff_dublin": "2026-09-26T19:06:00+01:00",
-      "minutes_to_kickoff": 46.7,
+      "minutes_to_kickoff": 45.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",
@@ -6165,7 +5985,7 @@
     {
       "fixture_id": "1578336",
       "kickoff_dublin": "2026-09-26T19:15:00+01:00",
-      "minutes_to_kickoff": 55.7,
+      "minutes_to_kickoff": 54.6,
       "timing_priority": "fixed_target_block",
       "league": "Second Amateur Division - VFV B",
       "country": "Belgium",
@@ -6209,7 +6029,7 @@
     {
       "fixture_id": "1492984",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "First Division",
       "country": "Ireland",
@@ -6253,7 +6073,7 @@
     {
       "fixture_id": "1498833",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera Nacional",
       "country": "Argentina",
@@ -6308,7 +6128,7 @@
     {
       "fixture_id": "1499654",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Primera B Metropolitana",
       "country": "Argentina",
@@ -6352,7 +6172,7 @@
     {
       "fixture_id": "1602093",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -6396,7 +6216,7 @@
     {
       "fixture_id": "1602094",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Brasiliense B",
       "country": "Brazil",
@@ -6440,7 +6260,7 @@
     {
       "fixture_id": "1606320",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Goiano - 2",
       "country": "Brazil",
@@ -6484,7 +6304,7 @@
     {
       "fixture_id": "1608294",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone A",
       "country": "Italy",
@@ -6528,7 +6348,7 @@
     {
       "fixture_id": "1608678",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -6600,7 +6420,7 @@
     {
       "fixture_id": "1609055",
       "kickoff_dublin": "2026-09-26T19:30:00+01:00",
-      "minutes_to_kickoff": 70.7,
+      "minutes_to_kickoff": 69.6,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone C",
       "country": "Italy",
@@ -6621,58 +6441,22 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.6603,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.2159
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.6603,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.2159
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.4416,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.1916
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6675,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.1439
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.75,
-        "lambda_away": 1.65,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.6675
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 23.59,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1528891",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -6695,15 +6479,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Spain",
         "pred_winner_comment": "Win or draw",
@@ -6716,9 +6492,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6727,7 +6503,7 @@
     {
       "fixture_id": "1528892",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -6750,19 +6526,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6771,7 +6539,7 @@
     {
       "fixture_id": "1528893",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -6794,19 +6562,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6815,7 +6575,7 @@
     {
       "fixture_id": "1528894",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -6870,7 +6630,7 @@
     {
       "fixture_id": "1545656",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Nations League",
       "country": "World",
@@ -6893,15 +6653,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.2,
-        "lambda_away": 1.0,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.4417
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -6914,9 +6666,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -6925,7 +6677,7 @@
     {
       "fixture_id": "1574741",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -6948,15 +6700,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.25,
-        "lambda_away": 1.0,
-        "lambda_total": 2.25,
-        "p_over_1_5": 0.6575,
-        "p_over_2_5": 0.3907,
-        "p_over_3_5": 0.1906,
-        "p_btts_yes": 0.451
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Fleury 91",
         "pred_winner_comment": "Win or draw",
@@ -6969,9 +6713,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -6980,7 +6724,7 @@
     {
       "fixture_id": "1574742",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7003,19 +6747,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.75,
-        "lambda_away": 1.4,
-        "lambda_total": 2.15,
-        "p_over_1_5": 0.6331,
-        "p_over_2_5": 0.3639,
-        "p_over_3_5": 0.1709,
-        "p_btts_yes": 0.3975
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7024,7 +6760,7 @@
     {
       "fixture_id": "1574744",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7047,19 +6783,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 0.4,
-        "lambda_away": 1.8,
-        "lambda_total": 2.2,
-        "p_over_1_5": 0.6454,
-        "p_over_2_5": 0.3773,
-        "p_over_3_5": 0.1806,
-        "p_btts_yes": 0.2752
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -7068,7 +6796,7 @@
     {
       "fixture_id": "1574745",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7091,19 +6819,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.75,
-        "lambda_total": 1.75,
-        "p_over_1_5": 0.5221,
-        "p_over_2_5": 0.256,
-        "p_over_3_5": 0.1008,
-        "p_btts_yes": 0.3335
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7112,7 +6832,7 @@
     {
       "fixture_id": "1574746",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7135,19 +6855,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.0,
-        "lambda_away": 0.9,
-        "lambda_total": 1.9,
-        "p_over_1_5": 0.5663,
-        "p_over_2_5": 0.2963,
-        "p_over_3_5": 0.1253,
-        "p_btts_yes": 0.3751
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -7156,7 +6868,7 @@
     {
       "fixture_id": "1574747",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7179,15 +6891,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.7,
-        "lambda_away": 1.7,
-        "lambda_total": 3.4,
-        "p_over_1_5": 0.8532,
-        "p_over_2_5": 0.6603,
-        "p_over_3_5": 0.4416,
-        "p_btts_yes": 0.668
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "La Roche VF",
         "pred_winner_comment": "Win or draw",
@@ -7200,9 +6904,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.5,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7211,7 +6915,7 @@
     {
       "fixture_id": "1574748",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7234,19 +6938,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.15,
-        "lambda_away": 0.75,
-        "lambda_total": 1.9,
-        "p_over_1_5": 0.5663,
-        "p_over_2_5": 0.2963,
-        "p_over_3_5": 0.1253,
-        "p_btts_yes": 0.3606
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -4.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -7255,7 +6951,7 @@
     {
       "fixture_id": "1574749",
       "kickoff_dublin": "2026-09-26T19:45:00+01:00",
-      "minutes_to_kickoff": 85.7,
+      "minutes_to_kickoff": 84.6,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -7278,19 +6974,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.35,
-        "lambda_away": 1.5,
-        "lambda_total": 2.85,
-        "p_over_1_5": 0.7773,
-        "p_over_2_5": 0.5424,
-        "p_over_3_5": 0.3192,
-        "p_btts_yes": 0.5755
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -3.55,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",

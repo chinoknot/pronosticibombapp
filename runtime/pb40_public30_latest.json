@@ -1,28 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-09-28T00:11:04.753771+01:00",
+  "generated_at_dublin": "2026-09-28T02:40:13.576171+01:00",
   "match_date": "2026-09-28",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-09-28T01:00:00+01:00",
-  "target_block_end_dublin": "2026-09-28T01:45:00+01:00",
-  "target_block_matches": 4,
+  "target_block_start_dublin": "2026-09-28T03:00:00+01:00",
+  "target_block_end_dublin": "2026-09-28T03:45:00+01:00",
+  "target_block_matches": 0,
   "block_verified": true,
   "fixtures_today_total": 92,
   "fixtures_target_date_total": 92,
-  "fixtures_in_next_75m": 7,
-  "relevant_fixtures_in_next_75m": 6,
-  "fixtures_in_target_block": 4,
-  "relevant_fixtures_in_target_block": 3,
-  "excluded_in_target_block": 1,
-  "excluded_breakdown": {
-    "women": 1
-  },
-  "fixtures_analyzed_before_ranking": 3,
+  "fixtures_in_next_75m": 0,
+  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_in_target_block": 0,
+  "relevant_fixtures_in_target_block": 0,
+  "excluded_in_target_block": 0,
+  "excluded_breakdown": {},
+  "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 3,
-  "odds_coverage_count": 3,
+  "technical_coverage_count": 0,
+  "odds_coverage_count": 0,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -55,7 +53,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 4,
+  "matches_returned": 0,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -63,474 +61,28 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 3,
-  "live_predictions_requested": 3,
+  "live_odds_requested": 0,
+  "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 6540,
+  "request_ms": 5145,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/fixtures": 1
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62380,
+    "daily_remaining": 74941,
     "minute_limit": 450,
-    "minute_remaining": 446
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
-  "ranked_matches": [
-    {
-      "fixture_id": "1498840",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Nacional",
-      "country": "Argentina",
-      "round": "Regular Season - 31",
-      "home": "Gimnasia Jujuy",
-      "away": "San Martin Tucuman",
-      "venue": "Estadio 23 de Agosto",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gimnasia Jujuy",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Gimnasia Jujuy or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.1,
-        "odd_draw": 3.1,
-        "odd_away": 3.8,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639952",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "CONCACAF Nations League",
-      "country": "World",
-      "round": "League A - 1",
-      "home": "Curaçao",
-      "away": "Nicaragua",
-      "venue": "Ergilio Hato Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Curaçao",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+2.5",
-        "advice": "Combo Winner : Curaçao and +2.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.5,
-        "odd_away": 6.25,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639953",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "CONCACAF Nations League",
-      "country": "World",
-      "round": "League B - 1",
-      "home": "Dominica",
-      "away": "Puerto Rico",
-      "venue": "Windsor Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Dominica",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-2.5",
-        "advice": "Combo Double chance : Dominica or draw and -2.5 goals",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.5,
-        "odd_draw": 3.9,
-        "odd_away": 1.75,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.0,
-        "odd_ou_2_5_under": 1.8,
-        "odd_ou_3_5_over": 3.5,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
-    {
-      "fixture_id": "1498840",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Nacional",
-      "country": "Argentina",
-      "round": "Regular Season - 31",
-      "home": "Gimnasia Jujuy",
-      "away": "San Martin Tucuman",
-      "venue": "Estadio 23 de Agosto",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gimnasia Jujuy",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Gimnasia Jujuy or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.1,
-        "odd_draw": 3.1,
-        "odd_away": 3.8,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639952",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "CONCACAF Nations League",
-      "country": "World",
-      "round": "League A - 1",
-      "home": "Curaçao",
-      "away": "Nicaragua",
-      "venue": "Ergilio Hato Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Curaçao",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+2.5",
-        "advice": "Combo Winner : Curaçao and +2.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.38,
-        "odd_draw": 4.5,
-        "odd_away": 6.25,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639953",
-      "kickoff_dublin": "2026-09-28T01:00:00+01:00",
-      "minutes_to_kickoff": 48.9,
-      "timing_priority": "fixed_target_block",
-      "league": "CONCACAF Nations League",
-      "country": "World",
-      "round": "League B - 1",
-      "home": "Dominica",
-      "away": "Puerto Rico",
-      "venue": "Windsor Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Dominica",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-2.5",
-        "advice": "Combo Double chance : Dominica or draw and -2.5 goals",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.5,
-        "odd_draw": 3.9,
-        "odd_away": 1.75,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.0,
-        "odd_ou_2_5_under": 1.8,
-        "odd_ou_3_5_over": 3.5,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1603377",
-      "kickoff_dublin": "2026-09-28T01:06:00+01:00",
-      "minutes_to_kickoff": 54.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga MX Femenil",
-      "country": "Mexico",
-      "round": "Regular Season - 9",
-      "home": "Tigres UANL W",
-      "away": "Atlético San Luis W",
-      "venue": "Estadio Universitario",
-      "referee": "E. Nevarez",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    }
-  ],
+  "ranked_matches": [],
+  "matches": [],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",

@@ -1,25 +1,25 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-05T23:51:06.093608+01:00",
+  "generated_at_dublin": "2026-10-06T03:34:07.709771+01:00",
   "match_date": "2026-10-06",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-10-06T00:00:00+01:00",
-  "target_block_end_dublin": "2026-10-06T00:45:00+01:00",
-  "target_block_matches": 3,
+  "target_block_start_dublin": "2026-10-06T04:00:00+01:00",
+  "target_block_end_dublin": "2026-10-06T04:45:00+01:00",
+  "target_block_matches": 0,
   "block_verified": true,
-  "fixtures_today_total": 107,
+  "fixtures_today_total": 195,
   "fixtures_target_date_total": 195,
-  "fixtures_in_next_75m": 7,
-  "relevant_fixtures_in_next_75m": 7,
-  "fixtures_in_target_block": 3,
-  "relevant_fixtures_in_target_block": 3,
+  "fixtures_in_next_75m": 0,
+  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_in_target_block": 0,
+  "relevant_fixtures_in_target_block": 0,
   "excluded_in_target_block": 0,
   "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 3,
+  "fixtures_analyzed_before_ranking": 0,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 3,
+  "technical_coverage_count": 0,
   "odds_coverage_count": 0,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
@@ -53,440 +53,36 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 3,
+  "matches_returned": 0,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 448,
+  "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 428,
-  "live_odds_requested": 3,
-  "live_predictions_requested": 3,
+  "live_api_budget": 429,
+  "live_odds_requested": 0,
+  "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5876,
+  "request_ms": 4984,
   "api_usage_this_request": {
-    "calls": 2,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 2
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 3,
-    "odds_cache_hits": 3
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72706,
+    "daily_remaining": 74083,
     "minute_limit": 450,
-    "minute_remaining": 448
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
-  "ranked_matches": [
-    {
-      "fixture_id": "1641623",
-      "kickoff_dublin": "2026-10-06T00:00:00+01:00",
-      "minutes_to_kickoff": 8.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Uruguay",
-      "round": "Clausura - 9",
-      "home": "Club Nacional",
-      "away": "Atletico Torque",
-      "venue": "Gran Parque Central",
-      "referee": "Gustavo Tejera",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Club Nacional",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Club Nacional or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1610853",
-      "kickoff_dublin": "2026-10-06T00:15:00+01:00",
-      "minutes_to_kickoff": 23.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Paraibano 2",
-      "country": "Brazil",
-      "round": "Regular Season - 7",
-      "home": "Auto Esporte",
-      "away": "Serrano PB",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Auto Esporte",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Auto Esporte",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1610854",
-      "kickoff_dublin": "2026-10-06T00:15:00+01:00",
-      "minutes_to_kickoff": 23.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Paraibano 2",
-      "country": "Brazil",
-      "round": "Regular Season - 7",
-      "home": "Guarabira",
-      "away": "Spartax",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Guarabira",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Guarabira or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
-    {
-      "fixture_id": "1641623",
-      "kickoff_dublin": "2026-10-06T00:00:00+01:00",
-      "minutes_to_kickoff": 8.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Uruguay",
-      "round": "Clausura - 9",
-      "home": "Club Nacional",
-      "away": "Atletico Torque",
-      "venue": "Gran Parque Central",
-      "referee": "Gustavo Tejera",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Club Nacional",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Club Nacional or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1610853",
-      "kickoff_dublin": "2026-10-06T00:15:00+01:00",
-      "minutes_to_kickoff": 23.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Paraibano 2",
-      "country": "Brazil",
-      "round": "Regular Season - 7",
-      "home": "Auto Esporte",
-      "away": "Serrano PB",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Auto Esporte",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Auto Esporte",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1610854",
-      "kickoff_dublin": "2026-10-06T00:15:00+01:00",
-      "minutes_to_kickoff": 23.9,
-      "timing_priority": "fixed_target_block",
-      "league": "Paraibano 2",
-      "country": "Brazil",
-      "round": "Regular Season - 7",
-      "home": "Guarabira",
-      "away": "Spartax",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Guarabira",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Guarabira or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "ranked_matches": [],
+  "matches": [],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-legacy30",

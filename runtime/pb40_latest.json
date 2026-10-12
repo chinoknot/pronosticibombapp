@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-13T00:06:41.910178+01:00",
+  "generated_at_dublin": "2026-10-13T00:10:16.624879+01:00",
   "match_date": "2026-10-13",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-13T01:00:00+01:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,29 +65,27 @@
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 5021,
+  "request_ms": 5789,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 3,
+    "odds_cache_hits": 3
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72091,
+    "daily_remaining": 72088,
     "minute_limit": 450,
-    "minute_remaining": 443
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1492402",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -154,7 +152,7 @@
     {
       "fixture_id": "1520922",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -221,7 +219,7 @@
     {
       "fixture_id": "1644222",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier Division",
       "country": "Antigua-And-Barbuda",
@@ -290,7 +288,7 @@
     {
       "fixture_id": "1492402",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -357,7 +355,7 @@
     {
       "fixture_id": "1520922",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -424,7 +422,7 @@
     {
       "fixture_id": "1644222",
       "kickoff_dublin": "2026-10-13T01:00:00+01:00",
-      "minutes_to_kickoff": 53.3,
+      "minutes_to_kickoff": 49.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier Division",
       "country": "Antigua-And-Barbuda",

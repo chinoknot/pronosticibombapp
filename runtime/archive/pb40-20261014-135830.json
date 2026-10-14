@@ -1,0 +1,2681 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-10-14T14:58:23.323349+01:00",
+  "match_date": "2026-10-14",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-10-14T15:00:00+01:00",
+  "target_block_end_dublin": "2026-10-14T15:45:00+01:00",
+  "target_block_matches": 15,
+  "block_verified": true,
+  "fixtures_today_total": 235,
+  "fixtures_target_date_total": 235,
+  "fixtures_in_next_75m": 19,
+  "relevant_fixtures_in_next_75m": 10,
+  "fixtures_in_target_block": 15,
+  "relevant_fixtures_in_target_block": 8,
+  "excluded_in_target_block": 7,
+  "excluded_breakdown": {
+    "youth": 3,
+    "excluded_country": 1,
+    "africa": 3
+  },
+  "fixtures_analyzed_before_ranking": 8,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 8,
+  "odds_coverage_count": 6,
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": true,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": true,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": true,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 2,
+  "matches_returned": 15,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 429,
+  "live_odds_requested": 8,
+  "live_predictions_requested": 8,
+  "pb_state_metrics_available": 8,
+  "fallback_used": false,
+  "request_ms": 7118,
+  "api_usage_this_request": {
+    "calls": 1,
+    "by_endpoint": {
+      "/fixtures": 1
+    },
+    "prediction_cache_hits": 8,
+    "odds_cache_hits": 8
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 73071,
+    "minute_limit": 450,
+    "minute_remaining": 449
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1606548",
+      "kickoff_dublin": "2026-10-14T15:30:00+01:00",
+      "minutes_to_kickoff": 31.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Second Division",
+      "country": "Qatar",
+      "round": "Regular Season - 4",
+      "home": "Al Shamal II",
+      "away": "Al-Markhiya",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Al-Markhiya",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Al-Markhiya",
+        "goals_home": null,
+        "goals_away": "-3.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 5.5,
+        "odd_draw": 4.0,
+        "odd_away": 1.48,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 2.178,
+        "lambda_total": 3.378,
+        "p_over_1_5": 0.8506,
+        "p_over_2_5": 0.656,
+        "p_over_3_5": 0.4368,
+        "p_btts_yes": 0.6197
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.656,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.078
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.656,
+        "odd": 1.73,
+        "implied_probability": 0.578,
+        "edge": 0.078
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.656,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.656,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": 0.078,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.078,
+          "consensus_ev": 0.1349,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8506,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8506,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4368,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4368,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6197,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6197,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 11.278,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645600",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "AGCFF Gulf Champions League",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Al-Duhail SC",
+      "away": "Al-Shabab",
+      "venue": "Abdullah bin Khalifa Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.25,
+        "odd_draw": 5.25,
+        "odd_away": 8.0,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 2.5,
+        "odd_btts_no": 1.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.4417,
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "edge": 0.0417
+        }
+      ],
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.4417,
+        "odd": 2.5,
+        "implied_probability": 0.4,
+        "edge": 0.0417
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "pb_edge": 0.0417,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0417,
+          "consensus_ev": 0.1042,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": -0.1527,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1527,
+          "consensus_ev": -0.4582,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1546,
+          "consensus_ev": -0.1933,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1783,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1783,
+          "consensus_ev": -0.3209,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 6.17,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1528026",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Kazakhstan",
+      "round": "Regular Season - 17",
+      "home": "Atyrau",
+      "away": "Yelimay Semey",
+      "venue": "Turkestan Arena",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atyrau",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atyrau or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.8,
+        "odd_draw": 3.4,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.2,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 0.99,
+        "lambda_away": 1.344,
+        "lambda_total": 2.334,
+        "p_over_1_5": 0.6769,
+        "p_over_2_5": 0.413,
+        "p_over_3_5": 0.2076,
+        "p_btts_yes": 0.4645
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6769,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6769,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.1044,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1044,
+          "consensus_ev": -0.1336,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2076,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2076,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.2,
+          "implied_probability": 0.3125,
+          "pb_edge": -0.1049,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1049,
+          "consensus_ev": -0.3357,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4645,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4645,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": -0.1069,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1069,
+          "consensus_ev": -0.1871,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.413,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.413,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1426,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1426,
+          "consensus_ev": -0.2566,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1585788",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "1. Lig",
+      "country": "Turkey",
+      "round": "Regular Season - 10",
+      "home": "Ümraniyespor",
+      "away": "Boluspor",
+      "venue": "Ümraniye Belediyesi Sehir Stadi",
+      "referee": "Berkay Erdemir",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ümraniyespor",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Ümraniyespor or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.42,
+        "odd_draw": 3.8,
+        "odd_away": 6.25,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.62,
+        "lambda_away": 0.585,
+        "lambda_total": 2.205,
+        "p_over_1_5": 0.6466,
+        "p_over_2_5": 0.3786,
+        "p_over_3_5": 0.1816,
+        "p_btts_yes": 0.3552
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3552,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3552,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "pb_edge": -0.1448,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1448,
+          "consensus_ev": -0.2896,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1816,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1816,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": -0.1517,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1517,
+          "consensus_ev": -0.4552,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6466,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6466,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1534,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1534,
+          "consensus_ev": -0.1918,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3786,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3786,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.177,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.177,
+          "consensus_ev": -0.3185,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1642172",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Indian Super League",
+      "country": "India",
+      "round": "Regular Season - 1",
+      "home": "Minerva Punjab",
+      "away": "Odisha",
+      "venue": "Jawaharlal Nehru Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Minerva Punjab",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Minerva Punjab or draw",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 3.5,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1139,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1139,
+          "consensus_ev": -0.2049,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.25,
+          "implied_probability": 0.3077,
+          "pb_edge": -0.1271,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1271,
+          "consensus_ev": -0.413,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.1359,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1359,
+          "consensus_ev": -0.1739,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "pb_edge": -0.149,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.149,
+          "consensus_ev": -0.2831,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644620",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Yarmouk",
+      "away": "Burgan",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Yarmouk",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-2.5",
+        "advice": "Combo Double chance : Yarmouk or draw and -2.5 goals",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.53,
+        "odd_draw": 3.7,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.3,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.74,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": -0.0819,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0819,
+          "consensus_ev": -0.1564,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.3,
+          "implied_probability": 0.303,
+          "pb_edge": -0.1224,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1224,
+          "consensus_ev": -0.404,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "pb_edge": -0.149,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.149,
+          "consensus_ev": -0.2831,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1546,
+          "consensus_ev": -0.1933,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644618",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Al Jazira",
+      "away": "Shamiya",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Al Jazira",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-2.5",
+        "advice": "Combo Double chance : Al Jazira or draw and -2.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.08,
+        "lambda_away": 1.0,
+        "lambda_total": 2.08,
+        "p_over_1_5": 0.6152,
+        "p_over_2_5": 0.345,
+        "p_over_3_5": 0.1576,
+        "p_btts_yes": 0.4175
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6152,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6152,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.345,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.345,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1576,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1576,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4175,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4175,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644619",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Ittihad Al-Shorta",
+      "away": "Sporty",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ittihad Al-Shorta",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Ittihad Al-Shorta or draw and +1.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.08,
+        "lambda_away": 0.9,
+        "lambda_total": 1.98,
+        "p_over_1_5": 0.5886,
+        "p_over_2_5": 0.3179,
+        "p_over_3_5": 0.1393,
+        "p_btts_yes": 0.3919
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.5886,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5886,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3179,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3179,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1393,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1393,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3919,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3919,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1528026",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Kazakhstan",
+      "round": "Regular Season - 17",
+      "home": "Atyrau",
+      "away": "Yelimay Semey",
+      "venue": "Turkestan Arena",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atyrau",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atyrau or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.8,
+        "odd_draw": 3.4,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.2,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 0.99,
+        "lambda_away": 1.344,
+        "lambda_total": 2.334,
+        "p_over_1_5": 0.6769,
+        "p_over_2_5": 0.413,
+        "p_over_3_5": 0.2076,
+        "p_btts_yes": 0.4645
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6769,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6769,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.1044,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1044,
+          "consensus_ev": -0.1336,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2076,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2076,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.2,
+          "implied_probability": 0.3125,
+          "pb_edge": -0.1049,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1049,
+          "consensus_ev": -0.3357,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4645,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4645,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": -0.1069,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1069,
+          "consensus_ev": -0.1871,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.413,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.413,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1426,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1426,
+          "consensus_ev": -0.2566,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1585788",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "1. Lig",
+      "country": "Turkey",
+      "round": "Regular Season - 10",
+      "home": "Ümraniyespor",
+      "away": "Boluspor",
+      "venue": "Ümraniye Belediyesi Sehir Stadi",
+      "referee": "Berkay Erdemir",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ümraniyespor",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Ümraniyespor or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.42,
+        "odd_draw": 3.8,
+        "odd_away": 6.25,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.62,
+        "lambda_away": 0.585,
+        "lambda_total": 2.205,
+        "p_over_1_5": 0.6466,
+        "p_over_2_5": 0.3786,
+        "p_over_3_5": 0.1816,
+        "p_btts_yes": 0.3552
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3552,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3552,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "pb_edge": -0.1448,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1448,
+          "consensus_ev": -0.2896,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1816,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1816,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": -0.1517,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1517,
+          "consensus_ev": -0.4552,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6466,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6466,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1534,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1534,
+          "consensus_ev": -0.1918,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3786,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3786,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.177,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.177,
+          "consensus_ev": -0.3185,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1599232",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Central Youth League",
+      "country": "Poland",
+      "round": "Regular Season - 8",
+      "home": "Escola Varsovia U19",
+      "away": "Zagłębie Lubin U19",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1637336",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA Youth League",
+      "country": "World",
+      "round": "League Phase - 2",
+      "home": "Real Betis U19",
+      "away": "Porto U19",
+      "venue": "Ciudad Deportiva Luis de Sol",
+      "referee": "M. Marcenaro",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1637340",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA Youth League",
+      "country": "World",
+      "round": "League Phase - 2",
+      "home": "Manchester City U19",
+      "away": "PSG U19",
+      "venue": "Academy Stadium",
+      "referee": "A. Kanagasingam",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1639262",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Cup",
+      "country": "Russia",
+      "round": "Regions Path - Semi-finals",
+      "home": "Volga Ulyanovsk",
+      "away": "Murom",
+      "venue": "Trud Stadium (Ulyanovsk)",
+      "referee": "",
+      "exclusion_reason": "excluded_country",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1642172",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Indian Super League",
+      "country": "India",
+      "round": "Regular Season - 1",
+      "home": "Minerva Punjab",
+      "away": "Odisha",
+      "venue": "Jawaharlal Nehru Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Minerva Punjab",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Minerva Punjab or draw",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 3.5,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1139,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1139,
+          "consensus_ev": -0.2049,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.25,
+          "implied_probability": 0.3077,
+          "pb_edge": -0.1271,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1271,
+          "consensus_ev": -0.413,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.1359,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1359,
+          "consensus_ev": -0.1739,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "pb_edge": -0.149,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.149,
+          "consensus_ev": -0.2831,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1643961",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 2",
+      "country": "Algeria",
+      "round": "Regular Season - 5",
+      "home": "MO Constantine",
+      "away": "Azazga",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1643967",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 2",
+      "country": "Algeria",
+      "round": "Regular Season - 5",
+      "home": "WA Mostaganem",
+      "away": "RC Kouba",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1645832",
+      "kickoff_dublin": "2026-10-14T15:00:00+01:00",
+      "minutes_to_kickoff": 1.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Lesotho",
+      "round": "Regular Season - 4",
+      "home": "Matlama",
+      "away": "Lijabatho",
+      "venue": "Setsoto Stadium",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1606548",
+      "kickoff_dublin": "2026-10-14T15:30:00+01:00",
+      "minutes_to_kickoff": 31.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Second Division",
+      "country": "Qatar",
+      "round": "Regular Season - 4",
+      "home": "Al Shamal II",
+      "away": "Al-Markhiya",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Al-Markhiya",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Al-Markhiya",
+        "goals_home": null,
+        "goals_away": "-3.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 5.5,
+        "odd_draw": 4.0,
+        "odd_away": 1.48,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 2.178,
+        "lambda_total": 3.378,
+        "p_over_1_5": 0.8506,
+        "p_over_2_5": 0.656,
+        "p_over_3_5": 0.4368,
+        "p_btts_yes": 0.6197
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.656,
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "edge": 0.078
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.656,
+        "odd": 1.73,
+        "implied_probability": 0.578,
+        "edge": 0.078
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.656,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.656,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": 0.078,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.078,
+          "consensus_ev": 0.1349,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8506,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8506,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.4368,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4368,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6197,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6197,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 11.278,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644618",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Al Jazira",
+      "away": "Shamiya",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Al Jazira",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-2.5",
+        "advice": "Combo Double chance : Al Jazira or draw and -2.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.08,
+        "lambda_away": 1.0,
+        "lambda_total": 2.08,
+        "p_over_1_5": 0.6152,
+        "p_over_2_5": 0.345,
+        "p_over_3_5": 0.1576,
+        "p_btts_yes": 0.4175
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6152,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6152,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.345,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.345,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1576,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1576,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4175,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4175,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644619",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Ittihad Al-Shorta",
+      "away": "Sporty",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Ittihad Al-Shorta",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Ittihad Al-Shorta or draw and +1.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.08,
+        "lambda_away": 0.9,
+        "lambda_total": 1.98,
+        "p_over_1_5": 0.5886,
+        "p_over_2_5": 0.3179,
+        "p_over_3_5": 0.1393,
+        "p_btts_yes": 0.3919
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.5886,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5886,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3179,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3179,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1393,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1393,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.3919,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3919,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1644620",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Kuwait",
+      "round": "Regular Season - 2",
+      "home": "Yarmouk",
+      "away": "Burgan",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Yarmouk",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-2.5",
+        "advice": "Combo Double chance : Yarmouk or draw and -2.5 goals",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.53,
+        "odd_draw": 3.7,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.3,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.74,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.91,
+          "implied_probability": 0.5236,
+          "pb_edge": -0.0819,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0819,
+          "consensus_ev": -0.1564,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.3,
+          "implied_probability": 0.303,
+          "pb_edge": -0.1224,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1224,
+          "consensus_ev": -0.404,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "pb_edge": -0.149,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.149,
+          "consensus_ev": -0.2831,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1546,
+          "consensus_ev": -0.1933,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645600",
+      "kickoff_dublin": "2026-10-14T15:45:00+01:00",
+      "minutes_to_kickoff": 46.6,
+      "timing_priority": "fixed_target_block",
+      "league": "AGCFF Gulf Champions League",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Al-Duhail SC",
+      "away": "Al-Shabab",
+      "venue": "Abdullah bin Khalifa Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.25,
+        "odd_draw": 5.25,
+        "odd_away": 8.0,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 2.5,
+        "odd_btts_no": 1.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.4417,
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "edge": 0.0417
+        }
+      ],
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.4417,
+        "odd": 2.5,
+        "implied_probability": 0.4,
+        "edge": 0.0417
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.5,
+          "implied_probability": 0.4,
+          "pb_edge": 0.0417,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0417,
+          "consensus_ev": 0.1042,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.0,
+          "implied_probability": 0.3333,
+          "pb_edge": -0.1527,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1527,
+          "consensus_ev": -0.4582,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.25,
+          "implied_probability": 0.8,
+          "pb_edge": -0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1546,
+          "consensus_ev": -0.1933,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.1783,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1783,
+          "consensus_ev": -0.3209,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 6.17,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-10-14T15:00:00+01:00",
+    "target_block_end_dublin": "2026-10-14T15:45:00+01:00",
+    "target_block_matches": 15,
+    "relevant_fixtures_in_target_block": 8,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

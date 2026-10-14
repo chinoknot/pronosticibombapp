@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-14T23:29:36.241261+01:00",
+  "generated_at_dublin": "2026-10-14T23:32:41.211150+01:00",
   "match_date": "2026-10-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-15T00:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 235,
   "fixtures_target_date_total": 164,
-  "fixtures_in_next_75m": 16,
-  "relevant_fixtures_in_next_75m": 15,
+  "fixtures_in_next_75m": 15,
+  "relevant_fixtures_in_next_75m": 14,
   "fixtures_in_target_block": 15,
   "relevant_fixtures_in_target_block": 14,
   "excluded_in_target_block": 1,
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,28 +67,27 @@
   "live_predictions_requested": 14,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 6317,
+  "request_ms": 5737,
   "api_usage_this_request": {
-    "calls": 16,
+    "calls": 2,
     "by_endpoint": {
-      "/fixtures": 2,
-      "/odds": 14
+      "/fixtures": 2
     },
     "prediction_cache_hits": 14,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 14
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71463,
+    "daily_remaining": 71460,
     "minute_limit": 450,
-    "minute_remaining": 435
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1493725",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -155,7 +154,7 @@
     {
       "fixture_id": "1493744",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -222,7 +221,7 @@
     {
       "fixture_id": "1493805",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -289,7 +288,7 @@
     {
       "fixture_id": "1559668",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -356,7 +355,7 @@
     {
       "fixture_id": "1560850",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -423,7 +422,7 @@
     {
       "fixture_id": "1598816",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -488,65 +487,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1645634",
-      "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Division",
-      "country": "Nicaragua",
-      "round": "Apertura - 12",
-      "home": "UNAN Managua",
-      "away": "Diriangén",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 4.75,
-        "odd_draw": 3.8,
-        "odd_away": 1.57,
-        "odd_ou_1_5_over": 1.24,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.74,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1490529",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -606,14 +549,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490531",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -673,14 +616,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1491553",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -740,14 +683,70 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645634",
+      "kickoff_dublin": "2026-10-15T00:00:00+01:00",
+      "minutes_to_kickoff": 27.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Division",
+      "country": "Nicaragua",
+      "round": "Apertura - 12",
+      "home": "UNAN Managua",
+      "away": "Diriangén",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.75,
+        "odd_draw": 3.8,
+        "odd_away": 1.57,
+        "odd_ou_1_5_over": 1.24,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.74,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490526",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -796,14 +795,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490527",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -852,14 +851,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490528",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -908,14 +907,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490530",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -964,7 +963,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -973,7 +972,7 @@
     {
       "fixture_id": "1493725",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1040,7 +1039,7 @@
     {
       "fixture_id": "1493744",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1107,7 +1106,7 @@
     {
       "fixture_id": "1493805",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -1174,7 +1173,7 @@
     {
       "fixture_id": "1559668",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -1241,7 +1240,7 @@
     {
       "fixture_id": "1560850",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -1308,7 +1307,7 @@
     {
       "fixture_id": "1598816",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -1375,7 +1374,7 @@
     {
       "fixture_id": "1645477",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa do Brasil U20",
       "country": "Brazil",
@@ -1415,7 +1414,7 @@
     {
       "fixture_id": "1645634",
       "kickoff_dublin": "2026-10-15T00:00:00+01:00",
-      "minutes_to_kickoff": 30.4,
+      "minutes_to_kickoff": 27.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -1471,7 +1470,7 @@
     {
       "fixture_id": "1490526",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1520,14 +1519,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490527",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1576,14 +1575,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490528",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1632,14 +1631,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490529",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1699,14 +1698,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490530",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1755,14 +1754,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1490531",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1822,14 +1821,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1491553",
       "kickoff_dublin": "2026-10-15T00:30:00+01:00",
-      "minutes_to_kickoff": 60.4,
+      "minutes_to_kickoff": 57.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1889,7 +1888,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

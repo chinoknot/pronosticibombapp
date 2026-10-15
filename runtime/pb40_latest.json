@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-15T18:13:30.100614+01:00",
+  "generated_at_dublin": "2026-10-15T18:17:42.266166+01:00",
   "match_date": "2026-10-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-15T19:00:00+01:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -60,36 +60,34 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
+  "live_api_budget": 428,
   "live_odds_requested": 7,
   "live_predictions_requested": 7,
   "pb_state_metrics_available": 7,
   "fallback_used": false,
-  "request_ms": 8101,
+  "request_ms": 7166,
   "api_usage_this_request": {
-    "calls": 15,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 7,
-      "/predictions": 7
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 7,
+    "odds_cache_hits": 7
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73189,
+    "daily_remaining": 73181,
     "minute_limit": 450,
-    "minute_remaining": 437
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1603044",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -265,7 +263,7 @@
     {
       "fixture_id": "1612108",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -413,7 +411,7 @@
     {
       "fixture_id": "1559672",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -574,7 +572,7 @@
     {
       "fixture_id": "1612093",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -714,7 +712,7 @@
     {
       "fixture_id": "1612098",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -854,7 +852,7 @@
     {
       "fixture_id": "1612104",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -994,7 +992,7 @@
     {
       "fixture_id": "1574761",
       "kickoff_dublin": "2026-10-15T19:45:00+01:00",
-      "minutes_to_kickoff": 91.5,
+      "minutes_to_kickoff": 87.3,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",
@@ -1136,7 +1134,7 @@
     {
       "fixture_id": "1559672",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -1297,7 +1295,7 @@
     {
       "fixture_id": "1603044",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
@@ -1473,7 +1471,7 @@
     {
       "fixture_id": "1612093",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -1613,7 +1611,7 @@
     {
       "fixture_id": "1612098",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -1753,7 +1751,7 @@
     {
       "fixture_id": "1612104",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -1893,7 +1891,7 @@
     {
       "fixture_id": "1612108",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Reserve League",
       "country": "Argentina",
@@ -2041,7 +2039,7 @@
     {
       "fixture_id": "1645478",
       "kickoff_dublin": "2026-10-15T19:00:00+01:00",
-      "minutes_to_kickoff": 46.5,
+      "minutes_to_kickoff": 42.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa do Brasil U20",
       "country": "Brazil",
@@ -2081,7 +2079,7 @@
     {
       "fixture_id": "1574761",
       "kickoff_dublin": "2026-10-15T19:45:00+01:00",
-      "minutes_to_kickoff": 91.5,
+      "minutes_to_kickoff": 87.3,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 3",
       "country": "France",

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-15T01:40:34.433891+01:00",
+  "generated_at_dublin": "2026-10-15T01:47:18.987999+01:00",
   "match_date": "2026-10-15",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-15T02:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 164,
   "fixtures_target_date_total": 164,
-  "fixtures_in_next_75m": 5,
-  "relevant_fixtures_in_next_75m": 5,
+  "fixtures_in_next_75m": 6,
+  "relevant_fixtures_in_next_75m": 6,
   "fixtures_in_target_block": 5,
   "relevant_fixtures_in_target_block": 5,
   "excluded_in_target_block": 0,
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -58,34 +58,35 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 440,
+  "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 420,
+  "live_api_budget": 429,
   "live_odds_requested": 5,
   "live_predictions_requested": 5,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 2710,
+  "request_ms": 6867,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 6,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 5
     },
     "prediction_cache_hits": 5,
-    "odds_cache_hits": 5
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74913,
+    "daily_remaining": 74890,
     "minute_limit": 450,
-    "minute_remaining": 440
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1559669",
       "kickoff_dublin": "2026-10-15T02:00:00+01:00",
-      "minutes_to_kickoff": 19.4,
+      "minutes_to_kickoff": 12.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -152,7 +153,7 @@
     {
       "fixture_id": "1645636",
       "kickoff_dublin": "2026-10-15T02:00:00+01:00",
-      "minutes_to_kickoff": 19.4,
+      "minutes_to_kickoff": 12.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -219,7 +220,7 @@
     {
       "fixture_id": "1490536",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -286,7 +287,7 @@
     {
       "fixture_id": "1490537",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -353,7 +354,7 @@
     {
       "fixture_id": "1644750",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Copa Colombia",
       "country": "Colombia",
@@ -422,7 +423,7 @@
     {
       "fixture_id": "1559669",
       "kickoff_dublin": "2026-10-15T02:00:00+01:00",
-      "minutes_to_kickoff": 19.4,
+      "minutes_to_kickoff": 12.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -489,7 +490,7 @@
     {
       "fixture_id": "1645636",
       "kickoff_dublin": "2026-10-15T02:00:00+01:00",
-      "minutes_to_kickoff": 19.4,
+      "minutes_to_kickoff": 12.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -556,7 +557,7 @@
     {
       "fixture_id": "1490536",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -623,7 +624,7 @@
     {
       "fixture_id": "1490537",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -690,7 +691,7 @@
     {
       "fixture_id": "1644750",
       "kickoff_dublin": "2026-10-15T02:30:00+01:00",
-      "minutes_to_kickoff": 49.4,
+      "minutes_to_kickoff": 42.7,
       "timing_priority": "fixed_target_block",
       "league": "Copa Colombia",
       "country": "Colombia",

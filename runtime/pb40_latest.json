@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-16T08:24:05.271626+01:00",
+  "generated_at_dublin": "2026-10-16T08:25:40.673310+01:00",
   "match_date": "2026-10-16",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-16T09:00:00+01:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,29 +67,27 @@
   "live_predictions_requested": 5,
   "pb_state_metrics_available": 5,
   "fallback_used": false,
-  "request_ms": 8597,
+  "request_ms": 7026,
   "api_usage_this_request": {
-    "calls": 11,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 5,
-      "/predictions": 5
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 5,
+    "odds_cache_hits": 5
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71465,
+    "daily_remaining": 71462,
     "minute_limit": 450,
-    "minute_remaining": 441
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1622791",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Indonesia",
@@ -257,7 +255,7 @@
     {
       "fixture_id": "1640329",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Australian Championship",
       "country": "Australia",
@@ -397,7 +395,7 @@
     {
       "fixture_id": "1640330",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Australian Championship",
       "country": "Australia",
@@ -537,7 +535,7 @@
     {
       "fixture_id": "1640113",
       "kickoff_dublin": "2026-10-16T09:45:00+01:00",
-      "minutes_to_kickoff": 80.9,
+      "minutes_to_kickoff": 79.3,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bangladesh",
@@ -677,7 +675,7 @@
     {
       "fixture_id": "1640114",
       "kickoff_dublin": "2026-10-16T09:45:00+01:00",
-      "minutes_to_kickoff": 80.9,
+      "minutes_to_kickoff": 79.3,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bangladesh",
@@ -819,7 +817,7 @@
     {
       "fixture_id": "1519176",
       "kickoff_dublin": "2026-10-16T09:00:00+01:00",
-      "minutes_to_kickoff": 35.9,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Youth Championship",
       "country": "Russia",
@@ -859,7 +857,7 @@
     {
       "fixture_id": "1622791",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Indonesia",
@@ -1027,7 +1025,7 @@
     {
       "fixture_id": "1640329",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Australian Championship",
       "country": "Australia",
@@ -1167,7 +1165,7 @@
     {
       "fixture_id": "1640330",
       "kickoff_dublin": "2026-10-16T09:30:00+01:00",
-      "minutes_to_kickoff": 65.9,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Australian Championship",
       "country": "Australia",
@@ -1307,7 +1305,7 @@
     {
       "fixture_id": "1640113",
       "kickoff_dublin": "2026-10-16T09:45:00+01:00",
-      "minutes_to_kickoff": 80.9,
+      "minutes_to_kickoff": 79.3,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bangladesh",
@@ -1447,7 +1445,7 @@
     {
       "fixture_id": "1640114",
       "kickoff_dublin": "2026-10-16T09:45:00+01:00",
-      "minutes_to_kickoff": 80.9,
+      "minutes_to_kickoff": 79.3,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bangladesh",

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-18T10:45:36.170179+01:00",
+  "generated_at_dublin": "2026-10-18T10:49:59.183753+01:00",
   "match_date": "2026-10-18",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-18T11:00:00+01:00",
@@ -35,19 +35,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,30 +67,29 @@
   "live_api_budget": 429,
   "live_odds_requested": 91,
   "live_predictions_requested": 91,
-  "pb_state_metrics_available": 90,
+  "pb_state_metrics_available": 91,
   "fallback_used": false,
-  "request_ms": 4924,
+  "request_ms": 1851,
   "api_usage_this_request": {
-    "calls": 92,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 91
+      "/fixtures": 1
     },
     "prediction_cache_hits": 91,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 91
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 62967,
+    "daily_remaining": 62961,
     "minute_limit": 450,
-    "minute_remaining": 396
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1617959",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 18",
       "country": "Spain",
@@ -258,7 +257,7 @@
     {
       "fixture_id": "1572391",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -426,7 +425,7 @@
     {
       "fixture_id": "1574634",
       "kickoff_dublin": "2026-10-18T11:45:00+01:00",
-      "minutes_to_kickoff": 59.4,
+      "minutes_to_kickoff": 55.0,
       "timing_priority": "fixed_target_block",
       "league": "Frauenliga",
       "country": "Austria",
@@ -591,7 +590,7 @@
     {
       "fixture_id": "1573313",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -748,7 +747,7 @@
     {
       "fixture_id": "1565500",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -914,9 +913,170 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1551842",
+      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
+      "minutes_to_kickoff": 25.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Eerste Divisie",
+      "country": "Netherlands",
+      "round": "Regular Season - 11",
+      "home": "Waalwijk",
+      "away": "FC Volendam",
+      "venue": "Mandemakers Stadion",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Waalwijk",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Waalwijk or draw and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.7,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.7,
+        "odd_ou_3_5_over": 2.0,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.871,
+        "lambda_away": 1.344,
+        "lambda_total": 4.215,
+        "p_over_1_5": 0.923,
+        "p_over_2_5": 0.7917,
+        "p_over_3_5": 0.6074,
+        "p_btts_yes": 0.6973
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.6074,
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "edge": 0.1074
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.7917,
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "edge": 0.0973
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.6074,
+        "odd": 2.0,
+        "implied_probability": 0.5,
+        "edge": 0.1074
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.6074,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6074,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "pb_edge": 0.1074,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1074,
+          "consensus_ev": 0.2148,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7917,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7917,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": 0.0973,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0973,
+          "consensus_ev": 0.14,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.923,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.923,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.11,
+          "implied_probability": 0.9009,
+          "pb_edge": 0.0221,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.0221,
+          "consensus_ev": 0.0245,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6973,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6973,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.4,
+          "implied_probability": 0.7143,
+          "pb_edge": -0.017,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.017,
+          "consensus_ev": -0.0238,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 17.055,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1608701",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -1084,7 +1244,7 @@
     {
       "fixture_id": "1569140",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -1239,170 +1399,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1551842",
-      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Eerste Divisie",
-      "country": "Netherlands",
-      "round": "Regular Season - 11",
-      "home": "Waalwijk",
-      "away": "FC Volendam",
-      "venue": "Mandemakers Stadion",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Waalwijk",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : Waalwijk or draw and +1.5 goals",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.7,
-        "odd_away": 3.2,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.7,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 2.871,
-        "lambda_away": 1.344,
-        "lambda_total": 4.215,
-        "p_over_1_5": 0.923,
-        "p_over_2_5": 0.7917,
-        "p_over_3_5": 0.6074,
-        "p_btts_yes": 0.6973
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.6074,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.1074
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.7917,
-          "odd": 1.44,
-          "implied_probability": 0.6944,
-          "edge": 0.0973
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.6074,
-        "odd": 2.0,
-        "implied_probability": 0.5,
-        "edge": 0.1074
-      },
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.6074,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6074,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "pb_edge": 0.1074,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.1074,
-          "consensus_ev": 0.2148,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7917,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7917,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.44,
-          "implied_probability": 0.6944,
-          "pb_edge": 0.0973,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0973,
-          "consensus_ev": 0.14,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.923,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.923,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.11,
-          "implied_probability": 0.9009,
-          "pb_edge": 0.0221,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0221,
-          "consensus_ev": 0.0245,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.6973,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6973,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "pb_edge": -0.017,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.017,
-          "consensus_ev": -0.0238,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 15.055,
-      "actionable_candidate": true,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1552194",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -1552,14 +1551,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 13.009,
+      "rank_score": 15.009,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1573009",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -1709,7 +1708,7 @@
     {
       "fixture_id": "1573007",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -1866,7 +1865,7 @@
     {
       "fixture_id": "1571173",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 2",
       "country": "Spain",
@@ -2023,7 +2022,7 @@
     {
       "fixture_id": "1565503",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -2177,7 +2176,7 @@
     {
       "fixture_id": "1523280",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -2317,7 +2316,7 @@
     {
       "fixture_id": "1572704",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -2457,7 +2456,7 @@
     {
       "fixture_id": "1573315",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -2597,7 +2596,7 @@
     {
       "fixture_id": "1573310",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -2738,9 +2737,138 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1553193",
+      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
+      "minutes_to_kickoff": 25.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "round": "Regular Season - 11",
+      "home": "Gornik Zabrze",
+      "away": "Piast Gliwice",
+      "venue": "Arena Zabrze",
+      "referee": "Patryk Gryckiewicz",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.55,
+        "odd_draw": 3.9,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.584,
+        "lambda_away": 1.2,
+        "lambda_total": 2.784,
+        "p_over_1_5": 0.7662,
+        "p_over_2_5": 0.5267,
+        "p_over_3_5": 0.3045,
+        "p_btts_yes": 0.5554
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5554,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5554,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": -0.016,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.016,
+          "consensus_ev": -0.0281,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.5267,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5267,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.73,
+          "implied_probability": 0.578,
+          "pb_edge": -0.0513,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0513,
+          "consensus_ev": -0.0888,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7662,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7662,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.22,
+          "implied_probability": 0.8197,
+          "pb_edge": -0.0535,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0535,
+          "consensus_ev": -0.0652,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3045,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3045,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.75,
+          "implied_probability": 0.3636,
+          "pb_edge": -0.0591,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0591,
+          "consensus_ev": -0.1626,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 4.384,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1572700",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -2869,7 +2997,7 @@
     {
       "fixture_id": "1607328",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Hong-Kong",
@@ -3009,7 +3137,7 @@
     {
       "fixture_id": "1602513",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -3159,7 +3287,7 @@
     {
       "fixture_id": "1585792",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -3299,7 +3427,7 @@
     {
       "fixture_id": "1584436",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -3437,138 +3565,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1553193",
-      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "round": "Regular Season - 11",
-      "home": "Gornik Zabrze",
-      "away": "Piast Gliwice",
-      "venue": "Arena Zabrze",
-      "referee": "Patryk Gryckiewicz",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.55,
-        "odd_draw": 3.9,
-        "odd_away": 5.25,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.75,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.584,
-        "lambda_away": 1.2,
-        "lambda_total": 2.784,
-        "p_over_1_5": 0.7662,
-        "p_over_2_5": 0.5267,
-        "p_over_3_5": 0.3045,
-        "p_btts_yes": 0.5554
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.5554,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5554,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.75,
-          "implied_probability": 0.5714,
-          "pb_edge": -0.016,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.016,
-          "consensus_ev": -0.0281,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.5267,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5267,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.73,
-          "implied_probability": 0.578,
-          "pb_edge": -0.0513,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0513,
-          "consensus_ev": -0.0888,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.7662,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7662,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.22,
-          "implied_probability": 0.8197,
-          "pb_edge": -0.0535,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0535,
-          "consensus_ev": -0.0652,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.3045,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3045,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 2.75,
-          "implied_probability": 0.3636,
-          "pb_edge": -0.0591,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0591,
-          "consensus_ev": -0.1626,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.384,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1616433",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -3708,7 +3707,7 @@
     {
       "fixture_id": "1620402",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Gamma Ethniki - Group 5",
       "country": "Greece",
@@ -3846,9 +3845,149 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1568833",
+      "kickoff_dublin": "2026-10-18T11:00:00+01:00",
+      "minutes_to_kickoff": 10.0,
+      "timing_priority": "fixed_target_block",
+      "league": "III Liga - Group 2",
+      "country": "Poland",
+      "round": "Group II - 13",
+      "home": "Lech Poznań II",
+      "away": "Polonia Środa",
+      "venue": "Amica Wronki Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Polonia Środa",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Polonia Środa",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.248,
+        "lambda_away": 2.475,
+        "lambda_total": 3.723,
+        "p_over_1_5": 0.8859,
+        "p_over_2_5": 0.7184,
+        "p_over_3_5": 0.5106,
+        "p_btts_yes": 0.6529
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8859,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8859,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7184,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7184,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5106,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5106,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6529,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6529,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.823,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1614595",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 7",
       "country": "Spain",
@@ -3988,7 +4127,7 @@
     {
       "fixture_id": "1534475",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -4128,7 +4267,7 @@
     {
       "fixture_id": "1570788",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 1",
       "country": "Spain",
@@ -4268,7 +4407,7 @@
     {
       "fixture_id": "1613069",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -4397,7 +4536,7 @@
     {
       "fixture_id": "1615512",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -4537,7 +4676,7 @@
     {
       "fixture_id": "1614601",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 7",
       "country": "Spain",
@@ -4677,7 +4816,7 @@
     {
       "fixture_id": "1581940",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -4817,7 +4956,7 @@
     {
       "fixture_id": "1615210",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -4957,7 +5096,7 @@
     {
       "fixture_id": "1613071",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -5086,7 +5225,7 @@
     {
       "fixture_id": "1639379",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",
@@ -5226,7 +5365,7 @@
     {
       "fixture_id": "1573006",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -5366,7 +5505,7 @@
     {
       "fixture_id": "1639380",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",
@@ -5506,7 +5645,7 @@
     {
       "fixture_id": "1569135",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -5635,7 +5774,7 @@
     {
       "fixture_id": "1551471",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Macedonia",
@@ -5764,7 +5903,7 @@
     {
       "fixture_id": "1613678",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 4",
       "country": "Spain",
@@ -5893,7 +6032,7 @@
     {
       "fixture_id": "1614899",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 8",
       "country": "Spain",
@@ -6033,7 +6172,7 @@
     {
       "fixture_id": "1613066",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -6173,7 +6312,7 @@
     {
       "fixture_id": "1572698",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -6302,7 +6441,7 @@
     {
       "fixture_id": "1577020",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Nordost-Nord",
       "country": "Germany",
@@ -6431,7 +6570,7 @@
     {
       "fixture_id": "1617967",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 18",
       "country": "Spain",
@@ -6571,7 +6710,7 @@
     {
       "fixture_id": "1616742",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -6700,7 +6839,7 @@
     {
       "fixture_id": "1615825",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -6840,7 +6979,7 @@
     {
       "fixture_id": "1616743",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -6980,7 +7119,7 @@
     {
       "fixture_id": "1615207",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -7120,7 +7259,7 @@
     {
       "fixture_id": "1615519",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -7260,7 +7399,7 @@
     {
       "fixture_id": "1613063",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -7400,7 +7539,7 @@
     {
       "fixture_id": "1570786",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 1",
       "country": "Spain",
@@ -7540,7 +7679,7 @@
     {
       "fixture_id": "1590188",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "First NL",
       "country": "Croatia",
@@ -7680,7 +7819,7 @@
     {
       "fixture_id": "1612765",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 1",
       "country": "Spain",
@@ -7820,7 +7959,7 @@
     {
       "fixture_id": "1613986",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -7960,7 +8099,7 @@
     {
       "fixture_id": "1613987",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -8100,7 +8239,7 @@
     {
       "fixture_id": "1615818",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -8240,7 +8379,7 @@
     {
       "fixture_id": "1615822",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -8380,7 +8519,7 @@
     {
       "fixture_id": "1616437",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -8520,7 +8659,7 @@
     {
       "fixture_id": "1617658",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 17",
       "country": "Spain",
@@ -8658,9 +8797,149 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1615208",
+      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
+      "minutes_to_kickoff": 25.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Tercera División RFEF - Group 9",
+      "country": "Spain",
+      "round": "Group 9 - 7",
+      "home": "Alhaurino",
+      "away": "Arenas Armilla",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Arenas Armilla",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Arenas Armilla",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 0.585,
+        "lambda_away": 1.104,
+        "lambda_total": 1.689,
+        "p_over_1_5": 0.5033,
+        "p_over_2_5": 0.2399,
+        "p_over_3_5": 0.0916,
+        "p_btts_yes": 0.2961
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.5033,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5033,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.2399,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2399,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.0916,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.0916,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.2961,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2961,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1531011",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -8789,7 +9068,7 @@
     {
       "fixture_id": "1572702",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -8918,7 +9197,7 @@
     {
       "fixture_id": "1615513",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -9047,7 +9326,7 @@
     {
       "fixture_id": "1572395",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -9176,7 +9455,7 @@
     {
       "fixture_id": "1613067",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -9305,7 +9584,7 @@
     {
       "fixture_id": "1613985",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -9434,7 +9713,7 @@
     {
       "fixture_id": "1528069",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kazakhstan",
@@ -9563,7 +9842,7 @@
     {
       "fixture_id": "1573002",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -9692,7 +9971,7 @@
     {
       "fixture_id": "1573309",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -9821,7 +10100,7 @@
     {
       "fixture_id": "1613070",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -9950,7 +10229,7 @@
     {
       "fixture_id": "1613982",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -10079,7 +10358,7 @@
     {
       "fixture_id": "1614291",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 6",
       "country": "Spain",
@@ -10208,7 +10487,7 @@
     {
       "fixture_id": "1615209",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -10337,7 +10616,7 @@
     {
       "fixture_id": "1615213",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -10466,7 +10745,7 @@
     {
       "fixture_id": "1615819",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -10595,7 +10874,7 @@
     {
       "fixture_id": "1634980",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "V.League 2",
       "country": "Vietnam",
@@ -10724,7 +11003,7 @@
     {
       "fixture_id": "1593928",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "NB III - Northeast",
       "country": "Hungary",
@@ -10862,76 +11141,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1568833",
-      "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
-      "timing_priority": "fixed_target_block",
-      "league": "III Liga - Group 2",
-      "country": "Poland",
-      "round": "Group II - 13",
-      "home": "Lech Poznań II",
-      "away": "Polonia Środa",
-      "venue": "Amica Wronki Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Polonia Środa",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Polonia Środa",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1615206",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -11071,7 +11283,7 @@
     {
       "fixture_id": "1616740",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -11200,7 +11412,7 @@
     {
       "fixture_id": "1615514",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -11327,149 +11539,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1615208",
-      "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 9",
-      "country": "Spain",
-      "round": "Group 9 - 7",
-      "home": "Alhaurino",
-      "away": "Arenas Armilla",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Arenas Armilla",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Arenas Armilla",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 0.585,
-        "lambda_away": 1.104,
-        "lambda_total": 1.689,
-        "p_over_1_5": 0.5033,
-        "p_over_2_5": 0.2399,
-        "p_over_3_5": 0.0916,
-        "p_btts_yes": 0.2961
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.5033,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5033,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.2399,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.2399,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.0916,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.0916,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.2961,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.2961,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1550155",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -11609,7 +11681,7 @@
     {
       "fixture_id": "1573005",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -11749,7 +11821,7 @@
     {
       "fixture_id": "1608704",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -11889,7 +11961,7 @@
     {
       "fixture_id": "1612763",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 1",
       "country": "Spain",
@@ -12029,7 +12101,7 @@
     {
       "fixture_id": "1615817",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -12169,7 +12241,7 @@
     {
       "fixture_id": "1616736",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -12309,7 +12381,7 @@
     {
       "fixture_id": "1613065",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -12438,7 +12510,7 @@
     {
       "fixture_id": "1616429",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -12567,7 +12639,7 @@
     {
       "fixture_id": "1616741",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -12698,7 +12770,7 @@
     {
       "fixture_id": "1523280",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "China",
@@ -12838,7 +12910,7 @@
     {
       "fixture_id": "1528069",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kazakhstan",
@@ -12967,7 +13039,7 @@
     {
       "fixture_id": "1530016",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Supreme Division Women",
       "country": "Russia",
@@ -13007,7 +13079,7 @@
     {
       "fixture_id": "1530019",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Supreme Division Women",
       "country": "Russia",
@@ -13047,7 +13119,7 @@
     {
       "fixture_id": "1531011",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Pro League A",
       "country": "Uzbekistan",
@@ -13176,7 +13248,7 @@
     {
       "fixture_id": "1534475",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -13316,7 +13388,7 @@
     {
       "fixture_id": "1551471",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Macedonia",
@@ -13445,7 +13517,7 @@
     {
       "fixture_id": "1565500",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -13613,7 +13685,7 @@
     {
       "fixture_id": "1565503",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ukraine",
@@ -13767,7 +13839,7 @@
     {
       "fixture_id": "1568833",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 2",
       "country": "Poland",
@@ -13803,9 +13875,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.248,
+        "lambda_away": 2.475,
+        "lambda_total": 3.723,
+        "p_over_1_5": 0.8859,
+        "p_over_2_5": 0.7184,
+        "p_over_3_5": 0.5106,
+        "p_btts_yes": 0.6529
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -13823,18 +13903,83 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8859,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8859,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7184,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7184,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5106,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5106,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6529,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6529,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": 0.823,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1569135",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -13963,7 +14108,7 @@
     {
       "fixture_id": "1569140",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 1",
       "country": "Poland",
@@ -14120,7 +14265,7 @@
     {
       "fixture_id": "1570786",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 1",
       "country": "Spain",
@@ -14260,7 +14405,7 @@
     {
       "fixture_id": "1570788",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 1",
       "country": "Spain",
@@ -14400,7 +14545,7 @@
     {
       "fixture_id": "1571173",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División RFEF - Group 2",
       "country": "Spain",
@@ -14557,7 +14702,7 @@
     {
       "fixture_id": "1572391",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -14725,7 +14870,7 @@
     {
       "fixture_id": "1572395",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -14854,7 +14999,7 @@
     {
       "fixture_id": "1572698",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -14983,7 +15128,7 @@
     {
       "fixture_id": "1572700",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -15112,7 +15257,7 @@
     {
       "fixture_id": "1572702",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -15241,7 +15386,7 @@
     {
       "fixture_id": "1572704",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 3",
       "country": "Spain",
@@ -15381,7 +15526,7 @@
     {
       "fixture_id": "1573002",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -15510,7 +15655,7 @@
     {
       "fixture_id": "1573006",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -15650,7 +15795,7 @@
     {
       "fixture_id": "1573007",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -15807,7 +15952,7 @@
     {
       "fixture_id": "1573009",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -15957,7 +16102,7 @@
     {
       "fixture_id": "1573309",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -16086,7 +16231,7 @@
     {
       "fixture_id": "1573310",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -16229,7 +16374,7 @@
     {
       "fixture_id": "1573313",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -16386,7 +16531,7 @@
     {
       "fixture_id": "1573315",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 5",
       "country": "Spain",
@@ -16526,7 +16671,7 @@
     {
       "fixture_id": "1573608",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División Femenina",
       "country": "Spain",
@@ -16566,7 +16711,7 @@
     {
       "fixture_id": "1573615",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División Femenina",
       "country": "Spain",
@@ -16606,7 +16751,7 @@
     {
       "fixture_id": "1577020",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Oberliga - Nordost-Nord",
       "country": "Germany",
@@ -16735,7 +16880,7 @@
     {
       "fixture_id": "1577555",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Russia",
@@ -16775,7 +16920,7 @@
     {
       "fixture_id": "1581940",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -16915,7 +17060,7 @@
     {
       "fixture_id": "1583887",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Second League A - Division A Gold",
       "country": "Russia",
@@ -16955,7 +17100,7 @@
     {
       "fixture_id": "1590188",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "First NL",
       "country": "Croatia",
@@ -17095,7 +17240,7 @@
     {
       "fixture_id": "1595689",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -17135,7 +17280,7 @@
     {
       "fixture_id": "1599255",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -17175,7 +17320,7 @@
     {
       "fixture_id": "1599256",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -17215,7 +17360,7 @@
     {
       "fixture_id": "1599259",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -17255,7 +17400,7 @@
     {
       "fixture_id": "1610748",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "1a Divisão - Women",
       "country": "Portugal",
@@ -17295,7 +17440,7 @@
     {
       "fixture_id": "1612765",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 1",
       "country": "Spain",
@@ -17435,7 +17580,7 @@
     {
       "fixture_id": "1613063",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -17575,7 +17720,7 @@
     {
       "fixture_id": "1613066",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -17715,7 +17860,7 @@
     {
       "fixture_id": "1613067",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -17844,7 +17989,7 @@
     {
       "fixture_id": "1613069",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -17973,7 +18118,7 @@
     {
       "fixture_id": "1613070",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -18102,7 +18247,7 @@
     {
       "fixture_id": "1613071",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -18231,7 +18376,7 @@
     {
       "fixture_id": "1613678",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 4",
       "country": "Spain",
@@ -18360,7 +18505,7 @@
     {
       "fixture_id": "1613982",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -18489,7 +18634,7 @@
     {
       "fixture_id": "1613985",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -18618,7 +18763,7 @@
     {
       "fixture_id": "1613986",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -18758,7 +18903,7 @@
     {
       "fixture_id": "1613987",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 5",
       "country": "Spain",
@@ -18898,7 +19043,7 @@
     {
       "fixture_id": "1614291",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 6",
       "country": "Spain",
@@ -19027,7 +19172,7 @@
     {
       "fixture_id": "1614595",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 7",
       "country": "Spain",
@@ -19167,7 +19312,7 @@
     {
       "fixture_id": "1614601",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 7",
       "country": "Spain",
@@ -19307,7 +19452,7 @@
     {
       "fixture_id": "1614899",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 8",
       "country": "Spain",
@@ -19447,7 +19592,7 @@
     {
       "fixture_id": "1615207",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -19587,7 +19732,7 @@
     {
       "fixture_id": "1615209",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -19716,7 +19861,7 @@
     {
       "fixture_id": "1615210",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -19856,7 +20001,7 @@
     {
       "fixture_id": "1615213",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -19985,7 +20130,7 @@
     {
       "fixture_id": "1615512",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -20125,7 +20270,7 @@
     {
       "fixture_id": "1615513",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -20254,7 +20399,7 @@
     {
       "fixture_id": "1615519",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -20394,7 +20539,7 @@
     {
       "fixture_id": "1615818",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -20534,7 +20679,7 @@
     {
       "fixture_id": "1615819",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -20663,7 +20808,7 @@
     {
       "fixture_id": "1615822",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -20803,7 +20948,7 @@
     {
       "fixture_id": "1615825",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -20943,7 +21088,7 @@
     {
       "fixture_id": "1616433",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -21083,7 +21228,7 @@
     {
       "fixture_id": "1616437",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -21223,7 +21368,7 @@
     {
       "fixture_id": "1616742",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -21352,7 +21497,7 @@
     {
       "fixture_id": "1616743",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -21492,7 +21637,7 @@
     {
       "fixture_id": "1617658",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 17",
       "country": "Spain",
@@ -21632,7 +21777,7 @@
     {
       "fixture_id": "1617959",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 18",
       "country": "Spain",
@@ -21800,7 +21945,7 @@
     {
       "fixture_id": "1617967",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 18",
       "country": "Spain",
@@ -21940,7 +22085,7 @@
     {
       "fixture_id": "1620402",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Gamma Ethniki - Group 5",
       "country": "Greece",
@@ -22080,7 +22225,7 @@
     {
       "fixture_id": "1629452",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Turkey",
@@ -22120,7 +22265,7 @@
     {
       "fixture_id": "1629453",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Turkey",
@@ -22160,7 +22305,7 @@
     {
       "fixture_id": "1634035",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Second League - Group 4",
       "country": "Russia",
@@ -22200,7 +22345,7 @@
     {
       "fixture_id": "1634980",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "V.League 2",
       "country": "Vietnam",
@@ -22329,7 +22474,7 @@
     {
       "fixture_id": "1639379",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",
@@ -22469,7 +22614,7 @@
     {
       "fixture_id": "1641022",
       "kickoff_dublin": "2026-10-18T11:00:00+01:00",
-      "minutes_to_kickoff": 14.4,
+      "minutes_to_kickoff": 10.0,
       "timing_priority": "fixed_target_block",
       "league": "Diski Challenge",
       "country": "South-Africa",
@@ -22509,7 +22654,7 @@
     {
       "fixture_id": "1551842",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Netherlands",
@@ -22663,14 +22808,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 15.055,
+      "rank_score": 17.055,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1552194",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie",
       "country": "Netherlands",
@@ -22820,14 +22965,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 13.009,
+      "rank_score": 15.009,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1553193",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraklasa",
       "country": "Poland",
@@ -22949,14 +23094,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 2.384,
+      "rank_score": 4.384,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1575085",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Eredivisie Women",
       "country": "Netherlands",
@@ -22996,7 +23141,7 @@
     {
       "fixture_id": "1581728",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Ekstraliga Women",
       "country": "Poland",
@@ -23036,7 +23181,7 @@
     {
       "fixture_id": "1615208",
       "kickoff_dublin": "2026-10-18T11:15:00+01:00",
-      "minutes_to_kickoff": 29.4,
+      "minutes_to_kickoff": 25.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -23169,14 +23314,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1550155",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Italy",
@@ -23316,7 +23461,7 @@
     {
       "fixture_id": "1573005",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 4",
       "country": "Spain",
@@ -23456,7 +23601,7 @@
     {
       "fixture_id": "1584436",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Süper Lig",
       "country": "Turkey",
@@ -23596,7 +23741,7 @@
     {
       "fixture_id": "1585792",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "1. Lig",
       "country": "Turkey",
@@ -23736,7 +23881,7 @@
     {
       "fixture_id": "1593928",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "NB III - Northeast",
       "country": "Hungary",
@@ -23876,7 +24021,7 @@
     {
       "fixture_id": "1601263",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie A Women",
       "country": "Italy",
@@ -23916,7 +24061,7 @@
     {
       "fixture_id": "1602513",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -24066,7 +24211,7 @@
     {
       "fixture_id": "1607328",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Hong-Kong",
@@ -24206,7 +24351,7 @@
     {
       "fixture_id": "1608701",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -24374,7 +24519,7 @@
     {
       "fixture_id": "1608704",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie C - Girone B",
       "country": "Italy",
@@ -24514,7 +24659,7 @@
     {
       "fixture_id": "1612763",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 1",
       "country": "Spain",
@@ -24654,7 +24799,7 @@
     {
       "fixture_id": "1613065",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 2",
       "country": "Spain",
@@ -24783,7 +24928,7 @@
     {
       "fixture_id": "1615206",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 9",
       "country": "Spain",
@@ -24923,7 +25068,7 @@
     {
       "fixture_id": "1615514",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 10",
       "country": "Spain",
@@ -25052,7 +25197,7 @@
     {
       "fixture_id": "1615817",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 11",
       "country": "Spain",
@@ -25192,7 +25337,7 @@
     {
       "fixture_id": "1616429",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 13",
       "country": "Spain",
@@ -25321,7 +25466,7 @@
     {
       "fixture_id": "1616736",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -25461,7 +25606,7 @@
     {
       "fixture_id": "1616740",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -25590,7 +25735,7 @@
     {
       "fixture_id": "1616741",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -25719,7 +25864,7 @@
     {
       "fixture_id": "1639380",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",
@@ -25859,7 +26004,7 @@
     {
       "fixture_id": "1640858",
       "kickoff_dublin": "2026-10-18T11:30:00+01:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 40.0,
       "timing_priority": "fixed_target_block",
       "league": "Diski Challenge",
       "country": "South-Africa",
@@ -25899,7 +26044,7 @@
     {
       "fixture_id": "1574634",
       "kickoff_dublin": "2026-10-18T11:45:00+01:00",
-      "minutes_to_kickoff": 59.4,
+      "minutes_to_kickoff": 55.0,
       "timing_priority": "fixed_target_block",
       "league": "Frauenliga",
       "country": "Austria",

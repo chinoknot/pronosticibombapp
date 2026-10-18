@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-18T22:43:14.807815+01:00",
+  "generated_at_dublin": "2026-10-18T22:48:01.303136+01:00",
   "match_date": "2026-10-18",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-18T23:00:00+01:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,28 @@
   "live_predictions_requested": 6,
   "pb_state_metrics_available": 6,
   "fallback_used": false,
-  "request_ms": 7830,
+  "request_ms": 8433,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 7,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 6
     },
     "prediction_cache_hits": 6,
-    "odds_cache_hits": 6
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 54800,
+    "daily_remaining": 54786,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 443
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1551706",
       "kickoff_dublin": "2026-10-18T23:00:00+01:00",
-      "minutes_to_kickoff": 16.8,
+      "minutes_to_kickoff": 12.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -225,7 +226,7 @@
     {
       "fixture_id": "1645248",
       "kickoff_dublin": "2026-10-18T23:00:00+01:00",
-      "minutes_to_kickoff": 16.8,
+      "minutes_to_kickoff": 12.0,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Suriname",
@@ -365,7 +366,7 @@
     {
       "fixture_id": "1632036",
       "kickoff_dublin": "2026-10-18T23:20:00+01:00",
-      "minutes_to_kickoff": 36.8,
+      "minutes_to_kickoff": 32.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -505,7 +506,7 @@
     {
       "fixture_id": "1632037",
       "kickoff_dublin": "2026-10-18T23:20:00+01:00",
-      "minutes_to_kickoff": 36.8,
+      "minutes_to_kickoff": 32.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -645,7 +646,7 @@
     {
       "fixture_id": "1492418",
       "kickoff_dublin": "2026-10-18T23:30:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 42.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -774,7 +775,7 @@
     {
       "fixture_id": "1645669",
       "kickoff_dublin": "2026-10-18T23:30:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 42.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Venezuela",
@@ -905,7 +906,7 @@
     {
       "fixture_id": "1551706",
       "kickoff_dublin": "2026-10-18T23:00:00+01:00",
-      "minutes_to_kickoff": 16.8,
+      "minutes_to_kickoff": 12.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -1045,7 +1046,7 @@
     {
       "fixture_id": "1645248",
       "kickoff_dublin": "2026-10-18T23:00:00+01:00",
-      "minutes_to_kickoff": 16.8,
+      "minutes_to_kickoff": 12.0,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Suriname",
@@ -1185,7 +1186,7 @@
     {
       "fixture_id": "1632036",
       "kickoff_dublin": "2026-10-18T23:20:00+01:00",
-      "minutes_to_kickoff": 36.8,
+      "minutes_to_kickoff": 32.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -1325,7 +1326,7 @@
     {
       "fixture_id": "1632037",
       "kickoff_dublin": "2026-10-18T23:20:00+01:00",
-      "minutes_to_kickoff": 36.8,
+      "minutes_to_kickoff": 32.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -1465,7 +1466,7 @@
     {
       "fixture_id": "1492418",
       "kickoff_dublin": "2026-10-18T23:30:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 42.0,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -1594,7 +1595,7 @@
     {
       "fixture_id": "1645669",
       "kickoff_dublin": "2026-10-18T23:30:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 42.0,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División",
       "country": "Venezuela",

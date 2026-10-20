@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-20T02:13:11.600216+01:00",
+  "generated_at_dublin": "2026-10-20T02:59:16.190032+01:00",
   "match_date": "2026-10-20",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-20T03:00:00+01:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,27 +65,95 @@
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 7650,
+  "request_ms": 6949,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 4,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 3
     },
     "prediction_cache_hits": 3,
-    "odds_cache_hits": 3
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74974,
+    "daily_remaining": 74941,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
+      "fixture_id": "1636004",
+      "kickoff_dublin": "2026-10-20T03:05:00+01:00",
+      "minutes_to_kickoff": 5.7,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Premier",
+      "country": "Mexico",
+      "round": "Regular Season - 8",
+      "home": "Tapachula",
+      "away": "Deportiva Venados",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Deportiva Venados",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Deportiva Venados and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.75,
+        "odd_draw": 4.2,
+        "odd_away": 1.5,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.7,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1601467",
       "kickoff_dublin": "2026-10-20T03:00:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 0.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Ascenso",
       "country": "Costa-Rica",
@@ -150,76 +218,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1636004",
-      "kickoff_dublin": "2026-10-20T03:05:00+01:00",
-      "minutes_to_kickoff": 51.8,
-      "timing_priority": "fixed_target_block",
-      "league": "Primera Premier",
-      "country": "Mexico",
-      "round": "Regular Season - 8",
-      "home": "Tapachula",
-      "away": "Deportiva Venados",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Deportiva Venados",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or Deportiva Venados and +1.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 4.75,
-        "odd_draw": 4.2,
-        "odd_away": 1.5,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.7,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1598817",
       "kickoff_dublin": "2026-10-20T03:00:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 0.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -288,7 +289,7 @@
     {
       "fixture_id": "1598817",
       "kickoff_dublin": "2026-10-20T03:00:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 0.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -355,7 +356,7 @@
     {
       "fixture_id": "1601467",
       "kickoff_dublin": "2026-10-20T03:00:00+01:00",
-      "minutes_to_kickoff": 46.8,
+      "minutes_to_kickoff": 0.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Ascenso",
       "country": "Costa-Rica",
@@ -422,7 +423,7 @@
     {
       "fixture_id": "1636004",
       "kickoff_dublin": "2026-10-20T03:05:00+01:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 5.7,
       "timing_priority": "fixed_target_block",
       "league": "Primera Premier",
       "country": "Mexico",
@@ -482,7 +483,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

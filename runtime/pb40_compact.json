@@ -1,642 +1,104 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-21T19:48:41.122958+01:00",
+  "generated_at_dublin": "2026-10-21T20:26:36.356096+01:00",
   "match_date": "2026-10-21",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-10-21T20:00:00+01:00",
-  "target_block_end_dublin": "2026-10-21T20:45:00+01:00",
-  "target_block_matches": 11,
+  "target_block_start_dublin": "2026-10-21T21:00:00+01:00",
+  "target_block_end_dublin": "2026-10-21T21:45:00+01:00",
+  "target_block_matches": 3,
   "block_verified": true,
   "fixtures_today_total": 266,
   "fixtures_target_date_total": 266,
-  "fixtures_in_next_75m": 14,
-  "relevant_fixtures_in_next_75m": 10,
-  "fixtures_in_target_block": 11,
-  "relevant_fixtures_in_target_block": 9,
+  "fixtures_in_next_75m": 4,
+  "relevant_fixtures_in_next_75m": 1,
+  "fixtures_in_target_block": 3,
+  "relevant_fixtures_in_target_block": 1,
   "excluded_in_target_block": 2,
   "excluded_breakdown": {
-    "youth": 2
+    "women": 2
   },
-  "fixtures_analyzed_before_ranking": 9,
+  "fixtures_analyzed_before_ranking": 1,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 9,
-  "odds_coverage_count": 9,
-  "actionable_candidates_found": 6,
-  "matches_returned": 11,
+  "technical_coverage_count": 1,
+  "odds_coverage_count": 1,
+  "actionable_candidates_found": 0,
+  "matches_returned": 3,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72480,
+    "daily_remaining": 72461,
     "minute_limit": 450,
-    "minute_remaining": 444
+    "minute_remaining": 447
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-1000-block-fresh",
     "source_url": "Render /pb40?max=1000&force=1",
-    "target_block_start_dublin": "2026-10-21T20:00:00+01:00",
-    "target_block_end_dublin": "2026-10-21T20:45:00+01:00",
-    "target_block_matches": 11,
-    "relevant_fixtures_in_target_block": 9,
+    "target_block_start_dublin": "2026-10-21T21:00:00+01:00",
+    "target_block_end_dublin": "2026-10-21T21:45:00+01:00",
+    "target_block_matches": 3,
+    "relevant_fixtures_in_target_block": 1,
     "block_verified": true,
     "fallback_used": false,
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [
-    {
-      "fixture_id": "1564378",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "League One",
-      "country": "England",
-      "home": "Reading",
-      "away": "Leyton Orient",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.42,
-        "odd_draw": 4.33,
-        "odd_away": 7.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6075,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0519
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6075,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0519
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.488,
-        "lambda_away": 1.536,
-        "lambda_total": 3.024,
-        "p_over_1_5": 0.8044,
-        "p_over_2_5": 0.5822,
-        "p_over_3_5": 0.3581,
-        "p_btts_yes": 0.6075
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_BALANCED",
-          "pick": "Over 3.5 goals",
-          "odd": 2.5,
-          "score": 1.364
-        }
-      ],
-      "rank_score": 23.814,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635621",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Aston Villa",
-      "away": "Viking",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.25,
-        "odd_draw": 6.0,
-        "odd_away": 10.0,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.25,
-        "odd_ou_2_5_under": 4.0,
-        "odd_ou_3_5_over": 1.67,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8192,
-        "odd": 1.67,
-        "implied_probability": 0.5988,
-        "edge": 0.2204
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8192,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.2204
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.762,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.1251
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9228,
-          "odd": 1.25,
-          "implied_probability": 0.8,
-          "edge": 0.1228
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.2075,
-        "lambda_away": 1.485,
-        "lambda_total": 5.6925,
-        "p_over_1_5": 0.9774,
-        "p_over_2_5": 0.9228,
-        "p_over_3_5": 0.8192,
-        "p_btts_yes": 0.762
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 29.04,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635630",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Bayern München",
-      "away": "Arsenal",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.2,
-        "odd_draw": 3.6,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.53,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.3,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8406,
-        "odd": 2.3,
-        "implied_probability": 0.4348,
-        "edge": 0.4058
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8406,
-          "odd": 2.3,
-          "implied_probability": 0.4348,
-          "edge": 0.4058
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9339,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.2803
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.95,
-        "lambda_away": 0.96,
-        "lambda_total": 5.91,
-        "p_over_1_5": 0.9813,
-        "p_over_2_5": 0.9339,
-        "p_over_3_5": 0.8406,
-        "p_btts_yes": 0.6127
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.38,
-          "score": 1.376
-        }
-      ],
-      "rank_score": 61.58,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635636",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Real Betis",
-      "away": "Feyenoord",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 4.33,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.7867,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.2631
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.7867,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.2631
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9052,
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "edge": 0.1699
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7485,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0342
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.96,
-        "lambda_away": 1.44,
-        "lambda_total": 5.4,
-        "p_over_1_5": 0.9711,
-        "p_over_2_5": 0.9052,
-        "p_over_3_5": 0.7867,
-        "p_btts_yes": 0.7485
-      },
-      "api_prediction": {
-        "pred_winner_name": "Real Betis",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+3.5",
-        "advice": "Combo Winner : Real Betis and +3.5 goals",
-        "goals_home": "-6.5",
-        "goals_away": "-2.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 33.81,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635645",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Club Brugge KV",
-      "away": "Lens",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.83,
-        "odd_draw": 4.2,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.7279,
-        "odd": 2.0,
-        "implied_probability": 0.5,
-        "edge": 0.2279
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.7279,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.2279
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8711,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.1568
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.8177,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.1034
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.98,
-        "lambda_away": 2.97,
-        "lambda_total": 4.95,
-        "p_over_1_5": 0.9579,
-        "p_over_2_5": 0.8711,
-        "p_over_3_5": 0.7279,
-        "p_btts_yes": 0.8177
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.0,
-          "score": 1.376
-        }
-      ],
-      "rank_score": 43.34,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635672",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Inter",
-      "away": "Shakhtar Donetsk",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.25,
-        "odd_draw": 6.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7816,
-        "odd": 1.67,
-        "implied_probability": 0.5988,
-        "edge": 0.1828
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7816,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1828
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.6397,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.1161
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8143,
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "edge": 0.079
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.92,
-        "lambda_away": 2.475,
-        "lambda_total": 4.395,
-        "p_over_1_5": 0.9334,
-        "p_over_2_5": 0.8143,
-        "p_over_3_5": 0.6397,
-        "p_btts_yes": 0.7816
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 24.275,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "top_actionable": [],
   "technical_fallbacks": [
     {
-      "fixture_id": "1635716",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
+      "fixture_id": "1636710",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Real Madrid",
-      "away": "RB Leipzig",
-      "bookmaker": "Bet365",
+      "league": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "home": "22 de Julio",
+      "away": "LDU Portoviejo",
+      "bookmaker": "William Hill",
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.22,
+        "bookmaker": "William Hill",
+        "odd_home": 15.0,
         "odd_draw": 7.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.05,
-        "odd_ou_2_5_over": 1.17,
-        "odd_ou_2_5_under": 5.0,
-        "odd_ou_3_5_over": 1.44,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
+        "odd_away": 1.12,
+        "odd_ou_1_5_over": 1.02,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 4.8,
+        "odd_ou_3_5_over": 1.51,
+        "odd_btts_yes": 2.3,
+        "odd_btts_no": 1.55,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 2.97,
-        "lambda_away": 0.9,
-        "lambda_total": 3.87,
-        "p_over_1_5": 0.8984,
-        "p_over_2_5": 0.7422,
-        "p_over_3_5": 0.5407,
-        "p_btts_yes": 0.563
+        "lambda_home": 0.912,
+        "lambda_away": 1.152,
+        "lambda_total": 2.064,
+        "p_over_1_5": 0.611,
+        "p_over_2_5": 0.3406,
+        "p_over_3_5": 0.1546,
+        "p_btts_yes": 0.4092
       },
-      "api_prediction": {},
+      "api_prediction": {
+        "pred_winner_name": "LDU Portoviejo",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or LDU Portoviejo and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 5.47,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635737",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Sporting CP",
-      "away": "Lask Linz",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.27,
-        "odd_draw": 5.75,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5652,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0096
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5652,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0096
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.475,
-        "lambda_away": 0.96,
-        "lambda_total": 3.435,
-        "p_over_1_5": 0.8571,
-        "p_over_2_5": 0.667,
-        "p_over_3_5": 0.4493,
-        "p_btts_yes": 0.5652
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 5.995,
-      "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1643390",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Copa Uruguay",
-      "country": "Uruguay",
-      "home": "Liverpool Montevideo",
-      "away": "Cerro Largo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.3,
-        "odd_away": 3.5,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 2.0,
-        "odd_btts_no": 1.73,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.68,
-        "lambda_away": 0.675,
-        "lambda_total": 2.355,
-        "p_over_1_5": 0.6816,
-        "p_over_2_5": 0.4185,
-        "p_over_3_5": 0.2119,
-        "p_btts_yes": 0.3994
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.0,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -645,14 +107,14 @@
   ],
   "excluded_matches": [
     {
-      "fixture_id": "1645780",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
+      "fixture_id": "1639869",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "Africa Cup of Nations U20",
+      "league": "CONMEBOL Libertadores Femenina",
       "country": "World",
-      "home": "Guinea U20",
-      "away": "Gambia U20",
+      "home": "Colo-Colo W",
+      "away": "Caracas W",
       "bookmaker": "",
       "live_odds": {},
       "best_value_market": null,
@@ -664,18 +126,18 @@
       "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "youth",
+      "exclusion_reason": "women",
       "live_enrichment": "not_requested"
     },
     {
-      "fixture_id": "1645484",
-      "kickoff_dublin": "2026-10-21T20:30:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "fixture_id": "1642145",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "Copa do Brasil U20",
-      "country": "Brazil",
-      "home": "São Paulo U20",
-      "away": "União TO U20",
+      "league": "CONMEBOL Libertadores Femenina",
+      "country": "World",
+      "home": "Santa Fe W",
+      "away": "Corinthians W",
       "bookmaker": "",
       "live_odds": {},
       "best_value_market": null,
@@ -687,612 +149,75 @@
       "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "youth",
+      "exclusion_reason": "women",
       "live_enrichment": "not_requested"
     }
   ],
   "all_ranked": [
     {
-      "fixture_id": "1564378",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
+      "fixture_id": "1636710",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "League One",
-      "country": "England",
-      "home": "Reading",
-      "away": "Leyton Orient",
-      "bookmaker": "Bet365",
+      "league": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "home": "22 de Julio",
+      "away": "LDU Portoviejo",
+      "bookmaker": "William Hill",
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.42,
-        "odd_draw": 4.33,
-        "odd_away": 7.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
+        "bookmaker": "William Hill",
+        "odd_home": 15.0,
+        "odd_draw": 7.0,
+        "odd_away": 1.12,
+        "odd_ou_1_5_over": 1.02,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 4.8,
+        "odd_ou_3_5_over": 1.51,
+        "odd_btts_yes": 2.3,
+        "odd_btts_no": 1.55,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6075,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0519
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6075,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0519
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.488,
-        "lambda_away": 1.536,
-        "lambda_total": 3.024,
-        "p_over_1_5": 0.8044,
-        "p_over_2_5": 0.5822,
-        "p_over_3_5": 0.3581,
-        "p_btts_yes": 0.6075
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_BALANCED",
-          "pick": "Over 3.5 goals",
-          "odd": 2.5,
-          "score": 1.364
-        }
-      ],
-      "rank_score": 23.814,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635621",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Aston Villa",
-      "away": "Viking",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.25,
-        "odd_draw": 6.0,
-        "odd_away": 10.0,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.25,
-        "odd_ou_2_5_under": 4.0,
-        "odd_ou_3_5_over": 1.67,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8192,
-        "odd": 1.67,
-        "implied_probability": 0.5988,
-        "edge": 0.2204
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8192,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.2204
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.762,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.1251
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9228,
-          "odd": 1.25,
-          "implied_probability": 0.8,
-          "edge": 0.1228
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.2075,
-        "lambda_away": 1.485,
-        "lambda_total": 5.6925,
-        "p_over_1_5": 0.9774,
-        "p_over_2_5": 0.9228,
-        "p_over_3_5": 0.8192,
-        "p_btts_yes": 0.762
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 29.04,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635630",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Bayern München",
-      "away": "Arsenal",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.2,
-        "odd_draw": 3.6,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.53,
-        "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.3,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.8406,
-        "odd": 2.3,
-        "implied_probability": 0.4348,
-        "edge": 0.4058
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.8406,
-          "odd": 2.3,
-          "implied_probability": 0.4348,
-          "edge": 0.4058
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9339,
-          "odd": 1.53,
-          "implied_probability": 0.6536,
-          "edge": 0.2803
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 4.95,
-        "lambda_away": 0.96,
-        "lambda_total": 5.91,
-        "p_over_1_5": 0.9813,
-        "p_over_2_5": 0.9339,
-        "p_over_3_5": 0.8406,
-        "p_btts_yes": 0.6127
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.38,
-          "score": 1.376
-        }
-      ],
-      "rank_score": 61.58,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635636",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Real Betis",
-      "away": "Feyenoord",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 4.33,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.7867,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.2631
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.7867,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.2631
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.9052,
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "edge": 0.1699
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.7485,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.0342
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 3.96,
-        "lambda_away": 1.44,
-        "lambda_total": 5.4,
-        "p_over_1_5": 0.9711,
-        "p_over_2_5": 0.9052,
-        "p_over_3_5": 0.7867,
-        "p_btts_yes": 0.7485
+        "lambda_home": 0.912,
+        "lambda_away": 1.152,
+        "lambda_total": 2.064,
+        "p_over_1_5": 0.611,
+        "p_over_2_5": 0.3406,
+        "p_over_3_5": 0.1546,
+        "p_btts_yes": 0.4092
       },
       "api_prediction": {
-        "pred_winner_name": "Real Betis",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+3.5",
-        "advice": "Combo Winner : Real Betis and +3.5 goals",
-        "goals_home": "-6.5",
+        "pred_winner_name": "LDU Portoviejo",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or LDU Portoviejo and +1.5 goals",
+        "goals_home": "-2.5",
         "goals_away": "-2.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
       },
       "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 33.81,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635645",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Club Brugge KV",
-      "away": "Lens",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.83,
-        "odd_draw": 4.2,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.11,
-        "odd_ou_2_5_over": 1.4,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.7279,
-        "odd": 2.0,
-        "implied_probability": 0.5,
-        "edge": 0.2279
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.7279,
-          "odd": 2.0,
-          "implied_probability": 0.5,
-          "edge": 0.2279
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8711,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.1568
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.8177,
-          "odd": 1.4,
-          "implied_probability": 0.7143,
-          "edge": 0.1034
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.98,
-        "lambda_away": 2.97,
-        "lambda_total": 4.95,
-        "p_over_1_5": 0.9579,
-        "p_over_2_5": 0.8711,
-        "p_over_3_5": 0.7279,
-        "p_btts_yes": 0.8177
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [
-        {
-          "category": "OVER_UNDER_TIPS",
-          "model": "TG_O35_MATCHCENTER_PUSH",
-          "pick": "Over 3.5 goals",
-          "odd": 2.0,
-          "score": 1.376
-        }
-      ],
-      "rank_score": 43.34,
-      "actionable_candidate": true,
-      "selection_reason": "PB editorial pick",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635672",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Inter",
-      "away": "Shakhtar Donetsk",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.25,
-        "odd_draw": 6.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.7816,
-        "odd": 1.67,
-        "implied_probability": 0.5988,
-        "edge": 0.1828
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.7816,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.1828
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.6397,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.1161
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.8143,
-          "odd": 1.36,
-          "implied_probability": 0.7353,
-          "edge": 0.079
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.92,
-        "lambda_away": 2.475,
-        "lambda_total": 4.395,
-        "p_over_1_5": 0.9334,
-        "p_over_2_5": 0.8143,
-        "p_over_3_5": 0.6397,
-        "p_btts_yes": 0.7816
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 24.275,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1635716",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
-      "country": "World",
-      "home": "Real Madrid",
-      "away": "RB Leipzig",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.22,
-        "odd_draw": 7.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.05,
-        "odd_ou_2_5_over": 1.17,
-        "odd_ou_2_5_under": 5.0,
-        "odd_ou_3_5_over": 1.44,
-        "odd_btts_yes": 1.44,
-        "odd_btts_no": 2.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.97,
-        "lambda_away": 0.9,
-        "lambda_total": 3.87,
-        "p_over_1_5": 0.8984,
-        "p_over_2_5": 0.7422,
-        "p_over_3_5": 0.5407,
-        "p_btts_yes": 0.563
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 5.47,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1635737",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
+      "fixture_id": "1639869",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "UEFA Champions League",
+      "league": "CONMEBOL Libertadores Femenina",
       "country": "World",
-      "home": "Sporting CP",
-      "away": "Lask Linz",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.27,
-        "odd_draw": 5.75,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.2,
-        "odd_ou_3_5_over": 1.91,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5652,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0096
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5652,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0096
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.475,
-        "lambda_away": 0.96,
-        "lambda_total": 3.435,
-        "p_over_1_5": 0.8571,
-        "p_over_2_5": 0.667,
-        "p_over_3_5": 0.4493,
-        "p_btts_yes": 0.5652
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 5.995,
-      "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1643390",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Copa Uruguay",
-      "country": "Uruguay",
-      "home": "Liverpool Montevideo",
-      "away": "Cerro Largo",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.3,
-        "odd_away": 3.5,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.1,
-        "odd_ou_2_5_under": 1.7,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 2.0,
-        "odd_btts_no": 1.73,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.68,
-        "lambda_away": 0.675,
-        "lambda_total": 2.355,
-        "p_over_1_5": 0.6816,
-        "p_over_2_5": 0.4185,
-        "p_over_3_5": 0.2119,
-        "p_btts_yes": 0.3994
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 4.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1645780",
-      "kickoff_dublin": "2026-10-21T20:00:00+01:00",
-      "minutes_to_kickoff": 11.3,
-      "timing_priority": "fixed_target_block",
-      "league": "Africa Cup of Nations U20",
-      "country": "World",
-      "home": "Guinea U20",
-      "away": "Gambia U20",
+      "home": "Colo-Colo W",
+      "away": "Caracas W",
       "bookmaker": "",
       "live_odds": {},
       "best_value_market": null,
@@ -1304,18 +229,18 @@
       "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "youth",
+      "exclusion_reason": "women",
       "live_enrichment": "not_requested"
     },
     {
-      "fixture_id": "1645484",
-      "kickoff_dublin": "2026-10-21T20:30:00+01:00",
-      "minutes_to_kickoff": 41.3,
+      "fixture_id": "1642145",
+      "kickoff_dublin": "2026-10-21T21:00:00+01:00",
+      "minutes_to_kickoff": 33.4,
       "timing_priority": "fixed_target_block",
-      "league": "Copa do Brasil U20",
-      "country": "Brazil",
-      "home": "São Paulo U20",
-      "away": "União TO U20",
+      "league": "CONMEBOL Libertadores Femenina",
+      "country": "World",
+      "home": "Santa Fe W",
+      "away": "Corinthians W",
       "bookmaker": "",
       "live_odds": {},
       "best_value_market": null,
@@ -1327,7 +252,7 @@
       "rank_score": 0.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
-      "exclusion_reason": "youth",
+      "exclusion_reason": "women",
       "live_enrichment": "not_requested"
     }
   ]

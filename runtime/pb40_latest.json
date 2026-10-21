@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-21T23:33:35.615642+01:00",
+  "generated_at_dublin": "2026-10-21T23:35:05.186967+01:00",
   "match_date": "2026-10-22",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-22T00:00:00+01:00",
@@ -60,14 +60,14 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 428,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 408,
+  "live_api_budget": 428,
   "live_odds_requested": 9,
   "live_predictions_requested": 9,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 7044,
+  "request_ms": 6712,
   "api_usage_this_request": {
     "calls": 2,
     "by_endpoint": {
@@ -78,16 +78,16 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 71369,
+    "daily_remaining": 71367,
     "minute_limit": 450,
-    "minute_remaining": 428
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1493936",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -147,14 +147,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1640094",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Canadian Championship",
       "country": "Canada",
@@ -214,14 +214,215 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1490439",
+      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
+      "minutes_to_kickoff": 24.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Major League Soccer",
+      "country": "USA",
+      "round": "Regular Season - 23",
+      "home": "FC Cincinnati",
+      "away": "DC United",
+      "venue": "TQL Stadium",
+      "referee": "Tim Ford",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 4.75,
+        "odd_away": 4.75,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.4,
+        "odd_ou_3_5_over": 1.8,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646337",
+      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
+      "minutes_to_kickoff": 24.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Venezuela",
+      "country": "Venezuela",
+      "round": "Round of 16",
+      "home": "Portuguesa FC",
+      "away": "Zamora FC",
+      "venue": "Estadio General Jose Antonio Paez",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.1,
+        "odd_draw": 3.0,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.39,
+        "odd_ou_2_5_over": 2.35,
+        "odd_ou_2_5_under": 1.57,
+        "odd_ou_3_5_over": 3.98,
+        "odd_btts_yes": 1.89,
+        "odd_btts_no": 1.77,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646338",
+      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
+      "minutes_to_kickoff": 24.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Copa Venezuela",
+      "country": "Venezuela",
+      "round": "Round of 16",
+      "home": "Puerto Cabello",
+      "away": "Rayo Zuliano",
+      "venue": "Complejo Deportivo Socialista",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.33,
+        "odd_draw": 5.0,
+        "odd_away": 6.25,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.59,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549770",
       "kickoff_dublin": "2026-10-22T00:15:00+01:00",
-      "minutes_to_kickoff": 41.4,
+      "minutes_to_kickoff": 39.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera A",
       "country": "Colombia",
@@ -288,7 +489,7 @@
     {
       "fixture_id": "1493731",
       "kickoff_dublin": "2026-10-22T00:30:00+01:00",
-      "minutes_to_kickoff": 56.4,
+      "minutes_to_kickoff": 54.9,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -355,7 +556,7 @@
     {
       "fixture_id": "1646332",
       "kickoff_dublin": "2026-10-22T00:30:00+01:00",
-      "minutes_to_kickoff": 56.4,
+      "minutes_to_kickoff": 54.9,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -420,210 +621,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1490439",
-      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 23",
-      "home": "FC Cincinnati",
-      "away": "DC United",
-      "venue": "TQL Stadium",
-      "referee": "Tim Ford",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.57,
-        "odd_draw": 4.75,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.08,
-        "odd_ou_2_5_over": 1.33,
-        "odd_ou_2_5_under": 3.4,
-        "odd_ou_3_5_over": 1.8,
-        "odd_btts_yes": 1.4,
-        "odd_btts_no": 2.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1646337",
-      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Copa Venezuela",
-      "country": "Venezuela",
-      "round": "Round of 16",
-      "home": "Portuguesa FC",
-      "away": "Zamora FC",
-      "venue": "Estadio General Jose Antonio Paez",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.1,
-        "odd_draw": 3.0,
-        "odd_away": 2.15,
-        "odd_ou_1_5_over": 1.39,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 3.98,
-        "odd_btts_yes": 1.89,
-        "odd_btts_no": 1.77,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1646338",
-      "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Copa Venezuela",
-      "country": "Venezuela",
-      "round": "Round of 16",
-      "home": "Puerto Cabello",
-      "away": "Rayo Zuliano",
-      "venue": "Complejo Deportivo Socialista",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": null,
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "No predictions available",
-        "goals_home": null,
-        "goals_away": null,
-        "prob_home": "33%",
-        "prob_draw": "33%",
-        "prob_away": "33%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.33,
-        "odd_draw": 5.0,
-        "odd_away": 6.25,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.59,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1645249",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Suriname",
@@ -683,7 +683,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -692,7 +692,7 @@
     {
       "fixture_id": "1490439",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -752,14 +752,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1493936",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -819,14 +819,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1640094",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Canadian Championship",
       "country": "Canada",
@@ -886,14 +886,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1645249",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Eerste Divisie",
       "country": "Suriname",
@@ -953,14 +953,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1645485",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Copa do Brasil U20",
       "country": "Brazil",
@@ -1000,7 +1000,7 @@
     {
       "fixture_id": "1646337",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -1060,14 +1060,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1646338",
       "kickoff_dublin": "2026-10-22T00:00:00+01:00",
-      "minutes_to_kickoff": 26.4,
+      "minutes_to_kickoff": 24.9,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",
@@ -1127,14 +1127,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549770",
       "kickoff_dublin": "2026-10-22T00:15:00+01:00",
-      "minutes_to_kickoff": 41.4,
+      "minutes_to_kickoff": 39.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera A",
       "country": "Colombia",
@@ -1201,7 +1201,7 @@
     {
       "fixture_id": "1493731",
       "kickoff_dublin": "2026-10-22T00:30:00+01:00",
-      "minutes_to_kickoff": 56.4,
+      "minutes_to_kickoff": 54.9,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1268,7 +1268,7 @@
     {
       "fixture_id": "1646332",
       "kickoff_dublin": "2026-10-22T00:30:00+01:00",
-      "minutes_to_kickoff": 56.4,
+      "minutes_to_kickoff": 54.9,
       "timing_priority": "fixed_target_block",
       "league": "Copa Venezuela",
       "country": "Venezuela",

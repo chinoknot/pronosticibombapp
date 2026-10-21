@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-21T16:27:32.580000+01:00",
+  "generated_at_dublin": "2026-10-21T16:32:08.434738+01:00",
   "match_date": "2026-10-21",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-21T17:00:00+01:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 268,
   "fixtures_target_date_total": 268,
-  "fixtures_in_next_75m": 20,
-  "relevant_fixtures_in_next_75m": 15,
+  "fixtures_in_next_75m": 17,
+  "relevant_fixtures_in_next_75m": 13,
   "fixtures_in_target_block": 17,
   "relevant_fixtures_in_target_block": 13,
   "excluded_in_target_block": 4,
@@ -35,19 +35,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -69,29 +69,27 @@
   "live_predictions_requested": 13,
   "pb_state_metrics_available": 13,
   "fallback_used": false,
-  "request_ms": 9014,
+  "request_ms": 8170,
   "api_usage_this_request": {
-    "calls": 27,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 13,
-      "/predictions": 13
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 13,
+    "odds_cache_hits": 13
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72803,
+    "daily_remaining": 72799,
     "minute_limit": 450,
-    "minute_remaining": 436
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1635684",
       "kickoff_dublin": "2026-10-21T17:45:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 72.9,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Champions League",
       "country": "World",
@@ -256,7 +254,7 @@
     {
       "fixture_id": "1616076",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -432,7 +430,7 @@
     {
       "fixture_id": "1635647",
       "kickoff_dublin": "2026-10-21T17:45:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 72.9,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Champions League",
       "country": "World",
@@ -590,7 +588,7 @@
     {
       "fixture_id": "1572378",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -747,7 +745,7 @@
     {
       "fixture_id": "1639347",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "CAF Champions League",
       "country": "World",
@@ -890,7 +888,7 @@
     {
       "fixture_id": "1582294",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -1045,9 +1043,149 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1616072",
+      "kickoff_dublin": "2026-10-21T17:30:00+01:00",
+      "minutes_to_kickoff": 57.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Tercera División RFEF - Group 12",
+      "country": "Spain",
+      "round": "Group 12 - 1",
+      "home": "Panadería Pulido",
+      "away": "Mensajero",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Panadería Pulido",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Panadería Pulido and +1.5 goals",
+        "goals_home": "-4.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.6235,
+        "lambda_away": 1.584,
+        "lambda_total": 4.2075,
+        "p_over_1_5": 0.9225,
+        "p_over_2_5": 0.7908,
+        "p_over_3_5": 0.606,
+        "p_btts_yes": 0.7372
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9225,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9225,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7908,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7908,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.606,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.606,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.7372,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7372,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -0.693,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1582296",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -1185,278 +1323,9 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1616072",
-      "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 12",
-      "country": "Spain",
-      "round": "Group 12 - 1",
-      "home": "Panadería Pulido",
-      "away": "Mensajero",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Panadería Pulido",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+1.5",
-        "advice": "Combo Winner : Panadería Pulido and +1.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 2.6235,
-        "lambda_away": 1.584,
-        "lambda_total": 4.2075,
-        "p_over_1_5": 0.9225,
-        "p_over_2_5": 0.7908,
-        "p_over_3_5": 0.606,
-        "p_btts_yes": 0.7372
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.9225,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.9225,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7908,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7908,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.606,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.606,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.7372,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7372,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.693,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1616075",
-      "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 12",
-      "country": "Spain",
-      "round": "Group 12 - 1",
-      "home": "San Miguel",
-      "away": "Estrella",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 2.574,
-        "lambda_away": 0.54,
-        "lambda_total": 3.114,
-        "p_over_1_5": 0.8172,
-        "p_over_2_5": 0.6019,
-        "p_over_3_5": 0.3783,
-        "p_btts_yes": 0.3854
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.8172,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.8172,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.6019,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.6019,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.3783,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3783,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.3854,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.3854,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.286,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
       "fixture_id": "1616070",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -1589,20 +1458,20 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.876,
+      "rank_score": -1.876,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1616720",
+      "fixture_id": "1616075",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 14",
+      "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
-      "round": "Group 14 - 5",
-      "home": "Llerenense",
-      "away": "Santa Amalia",
+      "round": "Group 12 - 1",
+      "home": "San Miguel",
+      "away": "Estrella",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
@@ -1622,13 +1491,13 @@
         "odd_ht_away_team_o05": null
       },
       "pb_metrics": {
-        "lambda_home": 1.248,
-        "lambda_away": 0.288,
-        "lambda_total": 1.536,
-        "p_over_1_5": 0.4542,
-        "p_over_2_5": 0.2002,
-        "p_over_3_5": 0.0702,
-        "p_btts_yes": 0.1784
+        "lambda_home": 2.574,
+        "lambda_away": 0.54,
+        "lambda_total": 3.114,
+        "p_over_1_5": 0.8172,
+        "p_over_2_5": 0.6019,
+        "p_over_3_5": 0.3783,
+        "p_btts_yes": 0.3854
       },
       "pb_picks": [],
       "pb_raw_available": true,
@@ -1652,9 +1521,9 @@
       "consensus_markets": [
         {
           "market": "Over 1.5",
-          "pb_probability": 0.4542,
+          "pb_probability": 0.8172,
           "oddalerts_probability": null,
-          "consensus_probability": 0.4542,
+          "consensus_probability": 0.8172,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1668,9 +1537,9 @@
         },
         {
           "market": "Over 2.5",
-          "pb_probability": 0.2002,
+          "pb_probability": 0.6019,
           "oddalerts_probability": null,
-          "consensus_probability": 0.2002,
+          "consensus_probability": 0.6019,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1684,9 +1553,9 @@
         },
         {
           "market": "Over 3.5",
-          "pb_probability": 0.0702,
+          "pb_probability": 0.3783,
           "oddalerts_probability": null,
-          "consensus_probability": 0.0702,
+          "consensus_probability": 0.3783,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1700,9 +1569,9 @@
         },
         {
           "market": "BTTS YES",
-          "pb_probability": 0.1784,
+          "pb_probability": 0.3854,
           "oddalerts_probability": null,
-          "consensus_probability": 0.1784,
+          "consensus_probability": 0.3854,
           "model_gap": null,
           "agreement": "single_source",
           "odd": null,
@@ -1718,14 +1587,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.0,
+      "rank_score": -2.286,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1566139",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - West",
       "country": "Slovakia",
@@ -1858,14 +1727,143 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.464,
+      "rank_score": -2.464,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1616720",
+      "kickoff_dublin": "2026-10-21T17:00:00+01:00",
+      "minutes_to_kickoff": 27.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Tercera División RFEF - Group 14",
+      "country": "Spain",
+      "round": "Group 14 - 5",
+      "home": "Llerenense",
+      "away": "Santa Amalia",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.248,
+        "lambda_away": 0.288,
+        "lambda_total": 1.536,
+        "p_over_1_5": 0.4542,
+        "p_over_2_5": 0.2002,
+        "p_over_3_5": 0.0702,
+        "p_btts_yes": 0.1784
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.4542,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4542,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.2002,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2002,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.0702,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.0702,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.1784,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1784,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1609939",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "1st League - RS",
       "country": "Bosnia",
@@ -1987,7 +1985,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -1996,7 +1994,7 @@
     {
       "fixture_id": "1572378",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Segunda División RFEF - Group 2",
       "country": "Spain",
@@ -2153,7 +2151,7 @@
     {
       "fixture_id": "1582294",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -2310,7 +2308,7 @@
     {
       "fixture_id": "1582296",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Malta",
@@ -2450,7 +2448,7 @@
     {
       "fixture_id": "1616075",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -2579,7 +2577,7 @@
     {
       "fixture_id": "1616076",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -2755,7 +2753,7 @@
     {
       "fixture_id": "1616720",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 14",
       "country": "Spain",
@@ -2884,7 +2882,7 @@
     {
       "fixture_id": "1639215",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Coppa Italia Serie D",
       "country": "Italy",
@@ -2924,7 +2922,7 @@
     {
       "fixture_id": "1639347",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "CAF Champions League",
       "country": "World",
@@ -3067,7 +3065,7 @@
     {
       "fixture_id": "1645779",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "Africa Cup of Nations U20",
       "country": "World",
@@ -3107,7 +3105,7 @@
     {
       "fixture_id": "1646079",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "LFA First Division",
       "country": "Liberia",
@@ -3147,7 +3145,7 @@
     {
       "fixture_id": "1646080",
       "kickoff_dublin": "2026-10-21T17:00:00+01:00",
-      "minutes_to_kickoff": 32.5,
+      "minutes_to_kickoff": 27.9,
       "timing_priority": "fixed_target_block",
       "league": "LFA First Division",
       "country": "Liberia",
@@ -3187,7 +3185,7 @@
     {
       "fixture_id": "1566139",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "3. liga - West",
       "country": "Slovakia",
@@ -3320,14 +3318,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.464,
+      "rank_score": -2.464,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1609939",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "1st League - RS",
       "country": "Bosnia",
@@ -3449,14 +3447,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1616070",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -3589,14 +3587,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.876,
+      "rank_score": -1.876,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1616072",
       "kickoff_dublin": "2026-10-21T17:30:00+01:00",
-      "minutes_to_kickoff": 62.5,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "Tercera División RFEF - Group 12",
       "country": "Spain",
@@ -3729,14 +3727,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.693,
+      "rank_score": -0.693,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1635647",
       "kickoff_dublin": "2026-10-21T17:45:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 72.9,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Champions League",
       "country": "World",
@@ -3894,7 +3892,7 @@
     {
       "fixture_id": "1635684",
       "kickoff_dublin": "2026-10-21T17:45:00+01:00",
-      "minutes_to_kickoff": 77.5,
+      "minutes_to_kickoff": 72.9,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Champions League",
       "country": "World",

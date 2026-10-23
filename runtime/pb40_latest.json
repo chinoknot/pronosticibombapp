@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-23T14:40:12.301148+01:00",
+  "generated_at_dublin": "2026-10-23T14:42:03.277124+01:00",
   "match_date": "2026-10-23",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-23T15:00:00+01:00",
@@ -35,19 +35,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -69,28 +69,27 @@
   "live_predictions_requested": 15,
   "pb_state_metrics_available": 15,
   "fallback_used": false,
-  "request_ms": 8352,
+  "request_ms": 7365,
   "api_usage_this_request": {
-    "calls": 16,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 15
+      "/fixtures": 1
     },
     "prediction_cache_hits": 15,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 15
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70640,
+    "daily_remaining": 70607,
     "minute_limit": 450,
-    "minute_remaining": 439
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1516166",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -238,7 +237,7 @@
     {
       "fixture_id": "1509207",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga",
       "country": "Georgia",
@@ -378,7 +377,7 @@
     {
       "fixture_id": "1516162",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -518,7 +517,7 @@
     {
       "fixture_id": "1632233",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "AFC Challenge League",
       "country": "World",
@@ -658,7 +657,7 @@
     {
       "fixture_id": "1643367",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "League",
       "country": "Jordan",
@@ -798,7 +797,7 @@
     {
       "fixture_id": "1628365",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "1st Division",
       "country": "Albania",
@@ -927,7 +926,7 @@
     {
       "fixture_id": "1634790",
       "kickoff_dublin": "2026-10-23T15:35:00+01:00",
-      "minutes_to_kickoff": 54.8,
+      "minutes_to_kickoff": 52.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kuwait",
@@ -1081,7 +1080,7 @@
     {
       "fixture_id": "1597949",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Stars League",
       "country": "Qatar",
@@ -1221,7 +1220,7 @@
     {
       "fixture_id": "1643409",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bahrain",
@@ -1361,7 +1360,7 @@
     {
       "fixture_id": "1534483",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -1501,7 +1500,7 @@
     {
       "fixture_id": "1628014",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -1641,7 +1640,7 @@
     {
       "fixture_id": "1639346",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "CAF Champions League",
       "country": "World",
@@ -1770,7 +1769,7 @@
     {
       "fixture_id": "1634339",
       "kickoff_dublin": "2026-10-23T15:40:00+01:00",
-      "minutes_to_kickoff": 59.8,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "Division 2",
       "country": "Saudi-Arabia",
@@ -1899,7 +1898,7 @@
     {
       "fixture_id": "1526010",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Belarus",
@@ -2028,7 +2027,7 @@
     {
       "fixture_id": "1646772",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Burkina-Faso",
@@ -2159,7 +2158,7 @@
     {
       "fixture_id": "1509207",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga",
       "country": "Georgia",
@@ -2299,7 +2298,7 @@
     {
       "fixture_id": "1516162",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -2439,7 +2438,7 @@
     {
       "fixture_id": "1516166",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Super League",
       "country": "Uzbekistan",
@@ -2587,7 +2586,7 @@
     {
       "fixture_id": "1534483",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "1. Division",
       "country": "Belarus",
@@ -2727,7 +2726,7 @@
     {
       "fixture_id": "1554198",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Prva Liga",
       "country": "Serbia",
@@ -2767,7 +2766,7 @@
     {
       "fixture_id": "1598723",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Revelação U23",
       "country": "Portugal",
@@ -2807,7 +2806,7 @@
     {
       "fixture_id": "1628014",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -2947,7 +2946,7 @@
     {
       "fixture_id": "1628365",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "1st Division",
       "country": "Albania",
@@ -3076,7 +3075,7 @@
     {
       "fixture_id": "1632233",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "AFC Challenge League",
       "country": "World",
@@ -3216,7 +3215,7 @@
     {
       "fixture_id": "1643367",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "League",
       "country": "Jordan",
@@ -3356,7 +3355,7 @@
     {
       "fixture_id": "1646756",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 2",
       "country": "Algeria",
@@ -3396,7 +3395,7 @@
     {
       "fixture_id": "1646757",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 2",
       "country": "Algeria",
@@ -3436,7 +3435,7 @@
     {
       "fixture_id": "1647007",
       "kickoff_dublin": "2026-10-23T15:00:00+01:00",
-      "minutes_to_kickoff": 19.8,
+      "minutes_to_kickoff": 17.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Eswatini",
@@ -3476,7 +3475,7 @@
     {
       "fixture_id": "1611429",
       "kickoff_dublin": "2026-10-23T15:15:00+01:00",
-      "minutes_to_kickoff": 34.8,
+      "minutes_to_kickoff": 32.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Algeria",
@@ -3516,7 +3515,7 @@
     {
       "fixture_id": "1611432",
       "kickoff_dublin": "2026-10-23T15:15:00+01:00",
-      "minutes_to_kickoff": 34.8,
+      "minutes_to_kickoff": 32.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Algeria",
@@ -3556,7 +3555,7 @@
     {
       "fixture_id": "1526010",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Belarus",
@@ -3685,7 +3684,7 @@
     {
       "fixture_id": "1597949",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Stars League",
       "country": "Qatar",
@@ -3825,7 +3824,7 @@
     {
       "fixture_id": "1639346",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "CAF Champions League",
       "country": "World",
@@ -3954,7 +3953,7 @@
     {
       "fixture_id": "1643409",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Bahrain",
@@ -4094,7 +4093,7 @@
     {
       "fixture_id": "1646772",
       "kickoff_dublin": "2026-10-23T15:30:00+01:00",
-      "minutes_to_kickoff": 49.8,
+      "minutes_to_kickoff": 47.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Burkina-Faso",
@@ -4223,7 +4222,7 @@
     {
       "fixture_id": "1634790",
       "kickoff_dublin": "2026-10-23T15:35:00+01:00",
-      "minutes_to_kickoff": 54.8,
+      "minutes_to_kickoff": 52.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Kuwait",
@@ -4377,7 +4376,7 @@
     {
       "fixture_id": "1634339",
       "kickoff_dublin": "2026-10-23T15:40:00+01:00",
-      "minutes_to_kickoff": 59.8,
+      "minutes_to_kickoff": 57.9,
       "timing_priority": "fixed_target_block",
       "league": "Division 2",
       "country": "Saudi-Arabia",

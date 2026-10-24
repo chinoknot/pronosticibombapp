@@ -1,28 +1,26 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-24T02:48:27.435626+01:00",
+  "generated_at_dublin": "2026-10-24T07:07:39.860948+01:00",
   "match_date": "2026-10-24",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-10-24T03:00:00+01:00",
-  "target_block_end_dublin": "2026-10-24T03:45:00+01:00",
-  "target_block_matches": 2,
+  "target_block_start_dublin": "2026-10-24T08:00:00+01:00",
+  "target_block_end_dublin": "2026-10-24T08:45:00+01:00",
+  "target_block_matches": 15,
   "block_verified": true,
   "fixtures_today_total": 1647,
   "fixtures_target_date_total": 1647,
-  "fixtures_in_next_75m": 4,
-  "relevant_fixtures_in_next_75m": 3,
-  "fixtures_in_target_block": 2,
-  "relevant_fixtures_in_target_block": 1,
-  "excluded_in_target_block": 1,
-  "excluded_breakdown": {
-    "women": 1
-  },
-  "fixtures_analyzed_before_ranking": 1,
+  "fixtures_in_next_75m": 2,
+  "relevant_fixtures_in_next_75m": 2,
+  "fixtures_in_target_block": 15,
+  "relevant_fixtures_in_target_block": 15,
+  "excluded_in_target_block": 0,
+  "excluded_breakdown": {},
+  "fixtures_analyzed_before_ranking": 15,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 1,
-  "odds_coverage_count": 0,
+  "technical_coverage_count": 13,
+  "odds_coverage_count": 15,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -55,55 +53,56 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 2,
+  "matches_returned": 15,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 413,
+  "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 393,
-  "live_odds_requested": 1,
-  "live_predictions_requested": 1,
+  "live_api_budget": 429,
+  "live_odds_requested": 15,
+  "live_predictions_requested": 15,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 4840,
+  "request_ms": 2477,
   "api_usage_this_request": {
-    "calls": 2,
+    "calls": 31,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 1
+      "/odds": 15,
+      "/predictions": 15
     },
-    "prediction_cache_hits": 1,
+    "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 68844,
+    "daily_remaining": 59940,
     "minute_limit": 450,
-    "minute_remaining": 407
+    "minute_remaining": 423
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
-      "fixture_id": "1598818",
-      "kickoff_dublin": "2026-10-24T03:00:00+01:00",
-      "minutes_to_kickoff": 11.5,
+      "fixture_id": "1528742",
+      "kickoff_dublin": "2026-10-24T08:00:00+01:00",
+      "minutes_to_kickoff": 52.3,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Costa-Rica",
-      "round": "Apertura - 13",
-      "home": "Escorpiones Belén",
-      "away": "Sporting San Jose",
-      "venue": "Estadio Edgardo Baltodano Briceno",
+      "league": "League One",
+      "country": "China",
+      "round": "Regular Season - 28",
+      "home": "Dalian Huayi",
+      "away": "Guangxi Hengchen",
+      "venue": "Dalian Sports Center Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Sporting San Jose",
+        "pred_winner_name": "Guangxi Hengchen",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Sporting San Jose",
+        "advice": "Double chance : draw or Guangxi Hengchen",
         "goals_home": "-1.5",
         "goals_away": "-2.5",
         "prob_home": "10%",
@@ -111,16 +110,16 @@
         "prob_away": "45%"
       },
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 4.0,
+        "odd_draw": 3.6,
+        "odd_away": 1.73,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -148,42 +147,860 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
-    }
-  ],
-  "matches": [
+    },
     {
-      "fixture_id": "1508582",
-      "kickoff_dublin": "2026-10-24T03:00:00+01:00",
-      "minutes_to_kickoff": 11.5,
+      "fixture_id": "1556113",
+      "kickoff_dublin": "2026-10-24T08:00:00+01:00",
+      "minutes_to_kickoff": 52.3,
       "timing_priority": "fixed_target_block",
-      "league": "NWSL Women",
-      "country": "USA",
-      "round": "Group Stage",
-      "home": "Portland Thorns W",
-      "away": "North Carolina Courage W",
-      "venue": "Providence Park",
-      "referee": "Matthew Thompson",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 12",
+      "home": "Gamba Osaka",
+      "away": "Kyoto Sanga",
+      "venue": "Panasonic Stadium Suita",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Kyoto Sanga",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Kyoto Sanga",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.9,
+        "odd_draw": 3.75,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
       "pb_metrics": {},
       "pb_picks": [],
       "pb_raw_available": false,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
-        "enabled": false,
+        "enabled": true,
         "ai": {
-          "matched": false
+          "matched": false,
+          "match_confidence": 0.0
         },
         "public_value_bet": {
-          "matched": false
+          "matched": false,
+          "match_confidence": 0.0
         },
         "corner_trend": {
-          "matched": false
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1510476",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "K League 2",
+      "country": "South-Korea",
+      "round": "Regular Season - 30",
+      "home": "Gimpo Citizen",
+      "away": "Gimhae City",
+      "venue": "Gimpo Salter Soccer Field",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gimpo Citizen",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Gimpo Citizen or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 3.6,
+        "odd_away": 4.33,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523283",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Chengdu Better City",
+      "away": "Dalian Zhixing",
+      "venue": "Chengdu Phoenix Hill Sports Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Chengdu Better City",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Chengdu Better City or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.95,
+        "odd_draw": 3.8,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.38,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523284",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Chongqing Tongliang Long",
+      "away": "Qingdao Jonoon",
+      "venue": "Tongliang Long Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Chongqing Tongliang Long",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Chongqing Tongliang Long or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.25,
+        "odd_draw": 5.25,
+        "odd_away": 12.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 2.05,
+        "odd_btts_no": 1.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523285",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Henan Jianye",
+      "away": "Beijing Guoan",
+      "venue": "Zhengzhou Hanghai Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Beijing Guoan",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Beijing Guoan",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.1,
+        "odd_draw": 3.7,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.48,
+        "odd_ou_2_5_under": 2.6,
+        "odd_ou_3_5_over": 2.1,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523286",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Shenyang Urban",
+      "away": "Hangzhou Greentown",
+      "venue": "Olympic Sports Centre Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hangzhou Greentown",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Hangzhou Greentown and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.95,
+        "odd_draw": 4.0,
+        "odd_away": 3.25,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.25,
+        "odd_ou_2_5_under": 4.0,
+        "odd_ou_3_5_over": 1.62,
+        "odd_btts_yes": 1.25,
+        "odd_btts_no": 3.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523287",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Qingdao Youth Island",
+      "away": "Yunnan Yukun",
+      "venue": "Qingdao Guzhenkou University City Sports Center",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Qingdao Youth Island",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Qingdao Youth Island or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.38,
+        "odd_draw": 3.8,
+        "odd_away": 2.6,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.2,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523288",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Sichuan Jiuniu",
+      "away": "Shanghai Shenhua",
+      "venue": "Shenzhen Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Shanghai Shenhua",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Shanghai Shenhua and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-4.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.7,
+        "odd_draw": 3.8,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.88,
+        "odd_ou_3_5_over": 1.91,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523289",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Tianjin Teda",
+      "away": "SHANGHAI SIPG",
+      "venue": "Olympic Sports Center Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "SHANGHAI SIPG",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or SHANGHAI SIPG",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.5,
+        "odd_away": 2.3,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523290",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Wuhan Three Towns",
+      "away": "Shandong Luneng",
+      "venue": "Wuhan Sports Centre",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Shandong Luneng",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Shandong Luneng",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.5,
+        "odd_draw": 4.1,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.4,
+        "odd_ou_3_5_over": 1.83,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 3.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1528743",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League One",
+      "country": "China",
+      "round": "Regular Season - 28",
+      "home": "Changchun Yatai",
+      "away": "Meizhou Kejia",
+      "venue": "Development Area Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Changchun Yatai",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Changchun Yatai or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.48,
+        "odd_draw": 4.1,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1638532",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League Two",
+      "country": "China",
+      "round": "Relegation Group - 28",
+      "home": "BIT",
+      "away": "Xiamen Feilu",
+      "venue": "Beijing Institute of Technology Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Xiamen Feilu",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Xiamen Feilu",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.3,
+        "odd_draw": 3.4,
+        "odd_away": 2.62,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.78,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1638480",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League Two",
+      "country": "China",
+      "round": "Promotion Group - 28",
+      "home": "Shandong Taishan II",
+      "away": "Jiangxi Liansheng",
+      "venue": "Zoucheng Sports Center",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.6,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.39,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
         }
       },
       "consensus_markets": [],
@@ -192,44 +1009,33 @@
       "oddalerts_rank_adjustment": 0.0,
       "rank_score": 0.0,
       "actionable_candidate": false,
-      "live_enrichment": "not_requested"
+      "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1598818",
-      "kickoff_dublin": "2026-10-24T03:00:00+01:00",
-      "minutes_to_kickoff": 11.5,
+      "fixture_id": "1638533",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Costa-Rica",
-      "round": "Apertura - 13",
-      "home": "Escorpiones Belén",
-      "away": "Sporting San Jose",
-      "venue": "Estadio Edgardo Baltodano Briceno",
+      "league": "League Two",
+      "country": "China",
+      "round": "Relegation Group - 28",
+      "home": "Qingdao Red Lions",
+      "away": "Shangyu Pterosaur",
+      "venue": "Qingdao Tiantai Stadium",
       "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Sporting San Jose",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Sporting San Jose",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
+      "api_prediction": {},
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 1.33,
+        "odd_draw": 4.2,
+        "odd_away": 9.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.8,
+        "odd_btts_yes": 2.45,
+        "odd_btts_no": 1.44,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -257,7 +1063,992 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1528742",
+      "kickoff_dublin": "2026-10-24T08:00:00+01:00",
+      "minutes_to_kickoff": 52.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League One",
+      "country": "China",
+      "round": "Regular Season - 28",
+      "home": "Dalian Huayi",
+      "away": "Guangxi Hengchen",
+      "venue": "Dalian Sports Center Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Guangxi Hengchen",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Guangxi Hengchen",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.0,
+        "odd_draw": 3.6,
+        "odd_away": 1.73,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1556113",
+      "kickoff_dublin": "2026-10-24T08:00:00+01:00",
+      "minutes_to_kickoff": 52.3,
+      "timing_priority": "fixed_target_block",
+      "league": "J1 League",
+      "country": "Japan",
+      "round": "Regular Season - 12",
+      "home": "Gamba Osaka",
+      "away": "Kyoto Sanga",
+      "venue": "Panasonic Stadium Suita",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Kyoto Sanga",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Kyoto Sanga",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.9,
+        "odd_draw": 3.75,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1510476",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "K League 2",
+      "country": "South-Korea",
+      "round": "Regular Season - 30",
+      "home": "Gimpo Citizen",
+      "away": "Gimhae City",
+      "venue": "Gimpo Salter Soccer Field",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gimpo Citizen",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Gimpo Citizen or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 3.6,
+        "odd_away": 4.33,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523283",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Chengdu Better City",
+      "away": "Dalian Zhixing",
+      "venue": "Chengdu Phoenix Hill Sports Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Chengdu Better City",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Chengdu Better City or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.95,
+        "odd_draw": 3.8,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 1.53,
+        "odd_btts_no": 2.38,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523284",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Chongqing Tongliang Long",
+      "away": "Qingdao Jonoon",
+      "venue": "Tongliang Long Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Chongqing Tongliang Long",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Chongqing Tongliang Long or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.25,
+        "odd_draw": 5.25,
+        "odd_away": 12.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 2.05,
+        "odd_btts_no": 1.7,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523285",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Henan Jianye",
+      "away": "Beijing Guoan",
+      "venue": "Zhengzhou Hanghai Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Beijing Guoan",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Beijing Guoan",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.1,
+        "odd_draw": 3.7,
+        "odd_away": 2.1,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.48,
+        "odd_ou_2_5_under": 2.6,
+        "odd_ou_3_5_over": 2.1,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523286",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Shenyang Urban",
+      "away": "Hangzhou Greentown",
+      "venue": "Olympic Sports Centre Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hangzhou Greentown",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Hangzhou Greentown and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.95,
+        "odd_draw": 4.0,
+        "odd_away": 3.25,
+        "odd_ou_1_5_over": 1.06,
+        "odd_ou_2_5_over": 1.25,
+        "odd_ou_2_5_under": 4.0,
+        "odd_ou_3_5_over": 1.62,
+        "odd_btts_yes": 1.25,
+        "odd_btts_no": 3.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523287",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Qingdao Youth Island",
+      "away": "Yunnan Yukun",
+      "venue": "Qingdao Guzhenkou University City Sports Center",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Qingdao Youth Island",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Qingdao Youth Island or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.38,
+        "odd_draw": 3.8,
+        "odd_away": 2.6,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.2,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523288",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Sichuan Jiuniu",
+      "away": "Shanghai Shenhua",
+      "venue": "Shenzhen Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Shanghai Shenhua",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Shanghai Shenhua and +1.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-4.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.7,
+        "odd_draw": 3.8,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.11,
+        "odd_ou_2_5_over": 1.4,
+        "odd_ou_2_5_under": 2.88,
+        "odd_ou_3_5_over": 1.91,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523289",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Tianjin Teda",
+      "away": "SHANGHAI SIPG",
+      "venue": "Olympic Sports Center Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "SHANGHAI SIPG",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or SHANGHAI SIPG",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.9,
+        "odd_draw": 3.5,
+        "odd_away": 2.3,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1523290",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Super League",
+      "country": "China",
+      "round": "Regular Season - 29",
+      "home": "Wuhan Three Towns",
+      "away": "Shandong Luneng",
+      "venue": "Wuhan Sports Centre",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Shandong Luneng",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Shandong Luneng",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.5,
+        "odd_draw": 4.1,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.4,
+        "odd_ou_3_5_over": 1.83,
+        "odd_btts_yes": 1.36,
+        "odd_btts_no": 3.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1528743",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League One",
+      "country": "China",
+      "round": "Regular Season - 28",
+      "home": "Changchun Yatai",
+      "away": "Meizhou Kejia",
+      "venue": "Development Area Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Changchun Yatai",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Changchun Yatai or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.48,
+        "odd_draw": 4.1,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.73,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1638480",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League Two",
+      "country": "China",
+      "round": "Promotion Group - 28",
+      "home": "Shandong Taishan II",
+      "away": "Jiangxi Liansheng",
+      "venue": "Zoucheng Sports Center",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.6,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.39,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 4.0,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1638532",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League Two",
+      "country": "China",
+      "round": "Relegation Group - 28",
+      "home": "BIT",
+      "away": "Xiamen Feilu",
+      "venue": "Beijing Institute of Technology Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Xiamen Feilu",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Xiamen Feilu",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.3,
+        "odd_draw": 3.4,
+        "odd_away": 2.62,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.78,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1638533",
+      "kickoff_dublin": "2026-10-24T08:30:00+01:00",
+      "minutes_to_kickoff": 82.3,
+      "timing_priority": "fixed_target_block",
+      "league": "League Two",
+      "country": "China",
+      "round": "Relegation Group - 28",
+      "home": "Qingdao Red Lions",
+      "away": "Shangyu Pterosaur",
+      "venue": "Qingdao Tiantai Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.33,
+        "odd_draw": 4.2,
+        "odd_away": 9.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.8,
+        "odd_btts_yes": 2.45,
+        "odd_btts_no": 1.44,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -266,10 +2057,10 @@
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-1000-block-fresh",
     "source_url": "Render /pb40?max=1000&force=1",
-    "target_block_start_dublin": "2026-10-24T03:00:00+01:00",
-    "target_block_end_dublin": "2026-10-24T03:45:00+01:00",
-    "target_block_matches": 2,
-    "relevant_fixtures_in_target_block": 1,
+    "target_block_start_dublin": "2026-10-24T08:00:00+01:00",
+    "target_block_end_dublin": "2026-10-24T08:45:00+01:00",
+    "target_block_matches": 15,
+    "relevant_fixtures_in_target_block": 15,
     "block_verified": true,
     "fallback_used": false,
     "freshness_limit_seconds": 480,

@@ -1,29 +1,29 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-24T17:40:31.731786+01:00",
+  "generated_at_dublin": "2026-10-24T20:01:11.965311+01:00",
   "match_date": "2026-10-24",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-10-24T18:00:00+01:00",
-  "target_block_end_dublin": "2026-10-24T18:45:00+01:00",
-  "target_block_matches": 46,
+  "target_block_start_dublin": "2026-10-24T21:00:00+01:00",
+  "target_block_end_dublin": "2026-10-24T21:45:00+01:00",
+  "target_block_matches": 31,
   "block_verified": true,
   "fixtures_today_total": 1642,
   "fixtures_target_date_total": 1642,
-  "fixtures_in_next_75m": 56,
-  "relevant_fixtures_in_next_75m": 45,
-  "fixtures_in_target_block": 46,
-  "relevant_fixtures_in_target_block": 36,
-  "excluded_in_target_block": 10,
+  "fixtures_in_next_75m": 24,
+  "relevant_fixtures_in_next_75m": 22,
+  "fixtures_in_target_block": 31,
+  "relevant_fixtures_in_target_block": 29,
+  "excluded_in_target_block": 2,
   "excluded_breakdown": {
-    "women": 3,
-    "africa": 7
+    "africa": 1,
+    "women": 1
   },
-  "fixtures_analyzed_before_ranking": 36,
+  "fixtures_analyzed_before_ranking": 29,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 14,
-  "odds_coverage_count": 25,
+  "technical_coverage_count": 11,
+  "odds_coverage_count": 13,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -55,7 +55,7 @@
     "footystats": "disabled",
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
-  "actionable_candidates_found": 1,
+  "actionable_candidates_found": 0,
   "matches_returned": 30,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
@@ -64,135 +64,116 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 36,
-  "live_predictions_requested": 36,
-  "pb_state_metrics_available": 0,
+  "live_odds_requested": 29,
+  "live_predictions_requested": 29,
+  "pb_state_metrics_available": 2,
   "fallback_used": false,
-  "request_ms": 3652,
+  "request_ms": 12930,
   "api_usage_this_request": {
-    "calls": 37,
+    "calls": 59,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 36
+      "/odds": 29,
+      "/predictions": 29
     },
-    "prediction_cache_hits": 36,
+    "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 53659,
+    "daily_remaining": 51754,
     "minute_limit": 450,
-    "minute_remaining": 420
+    "minute_remaining": 425
   },
-  "partial_api_errors": [],
-  "ranked_matches": [
+  "partial_api_errors": [
     {
-      "fixture_id": "1571872",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "round": "Regular Season - 11",
-      "home": "Gyirmot SE",
-      "away": "Soroksar",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 2.88,
-        "odd_btts_yes": 1.6,
-        "odd_btts_no": 2.15,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [
-        {
-          "category": "SAFE_GOALS",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.8,
-          "score": 2.143
-        },
-        {
-          "category": "SINGLE_GAME",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.8,
-          "score": 2.143
-        }
-      ],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 19.0,
-      "actionable_candidate": true,
-      "live_enrichment": "odds+prediction"
+      "fixture_id": "1549676",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549676"
     },
     {
-      "fixture_id": "1551581",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1549682",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549682"
+    },
+    {
+      "fixture_id": "1549681",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549681"
+    },
+    {
+      "fixture_id": "1549677",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549677"
+    },
+    {
+      "fixture_id": "1645251",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1645251"
+    },
+    {
+      "fixture_id": "1511719",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1511719"
+    },
+    {
+      "fixture_id": "1549678",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549678"
+    },
+    {
+      "fixture_id": "1549680",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1549680"
+    },
+    {
+      "fixture_id": "1511720",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1511720"
+    },
+    {
+      "fixture_id": "1643294",
+      "call": "prediction",
+      "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://v3.football.api-sports.io/predictions?fixture=1643294"
+    }
+  ],
+  "ranked_matches": [
+    {
+      "fixture_id": "1493209",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Super Liga",
-      "country": "Slovakia",
-      "round": "Regular Season - 12",
-      "home": "Dunajska Streda",
-      "away": "Ružomberok",
-      "venue": "",
-      "referee": "P. Kralovic",
+      "league": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "round": "Clausura - 14",
+      "home": "Talleres Cordoba",
+      "away": "Defensa Y Justicia",
+      "venue": "Estadio Mario Alberto Kempes",
+      "referee": "Juan Pafundi",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Dunajska Streda",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
+        "pred_winner_name": "Defensa Y Justicia",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
         "under_over": null,
-        "advice": "Winner : Dunajska Streda",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
+        "advice": "Double chance : draw or Defensa Y Justicia",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
         "prob_draw": "45%",
-        "prob_away": "10%"
+        "prob_away": "45%"
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.3,
-        "odd_draw": 5.5,
-        "odd_away": 8.5,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.83,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.2,
+        "odd_home": 2.35,
+        "odd_draw": 3.1,
+        "odd_away": 3.3,
+        "odd_ou_1_5_over": 1.33,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 3.75,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -220,29 +201,96 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1573013",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1559684",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Segunda División RFEF - Group 4",
-      "country": "Spain",
-      "round": "Group 4 - 8",
-      "home": "Estepona",
-      "away": "Ciudad de Lucena",
+      "league": "Liga Nacional",
+      "country": "Guatemala",
+      "round": "Regular Season - 16",
+      "home": "Xelajú",
+      "away": "Municipal",
+      "venue": "Estadio Mario Camposeco",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Municipal",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Municipal",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 2.9,
+        "odd_away": 3.0,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.08,
+        "odd_ou_2_5_under": 1.73,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.85,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1600690",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Lota Schwager",
+      "away": "Deportes Rengo",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Ciudad de Lucena",
+        "pred_winner_name": "Deportes Rengo",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Ciudad de Lucena",
+        "advice": "Double chance : draw or Deportes Rengo",
         "goals_home": "-2.5",
         "goals_away": "-3.5",
         "prob_home": "10%",
@@ -251,82 +299,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.85,
-        "odd_draw": 3.3,
-        "odd_away": 3.75,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.15,
-        "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 3.58,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1575518",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Primeira Liga",
-      "country": "Portugal",
-      "round": "Regular Season - 9",
-      "home": "Alverca",
-      "away": "Arouca",
-      "venue": "Complexo Desportivo FC Alverca",
-      "referee": "Pedro Miguel Torres Ramalho",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Alverca",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Alverca or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
+        "odd_home": 1.5,
+        "odd_draw": 4.0,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.33,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
         "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.85,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -354,180 +335,113 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1593338",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1601473",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Super League 1",
-      "country": "Greece",
-      "round": "Regular Season - 8",
-      "home": "AEK Athens FC",
-      "away": "Panetolikos",
-      "venue": "Allwyn Arena",
-      "referee": "Vasilios Fitsas",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "AEK Athens FC",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : AEK Athens FC",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.12,
-        "odd_draw": 8.0,
-        "odd_away": 17.0,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.7,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 2.25,
-        "odd_btts_no": 1.57,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1594179",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "NB III - Northwest",
-      "country": "Hungary",
-      "round": "Northwest - 13",
-      "home": "Tatabánya",
-      "away": "Dorogi FC",
-      "venue": "Grosics Gyula Stadion",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Tatabánya",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Tatabánya or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.7,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.21,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.83,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618433",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "round": "Regular Season - 11",
-      "home": "Roosendaal",
-      "away": "Gemert",
+      "league": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "round": "Regular Season - 13",
+      "home": "CS Uruguay",
+      "away": "Guadalupe FC",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Gemert",
+        "pred_winner_name": "Guadalupe FC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Guadalupe FC and +1.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.7,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 3.14,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 1.95,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1610590",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Provincial Ovalle",
+      "away": "General Velásquez",
+      "venue": "Estadio Diaguita",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Provincial Ovalle",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or Gemert and +1.5 goals",
-        "goals_home": "-3.5",
+        "under_over": null,
+        "advice": "Double chance : Provincial Ovalle or draw",
+        "goals_home": "-2.5",
         "goals_away": "-2.5",
-        "prob_home": "10%",
+        "prob_home": "45%",
         "prob_draw": "45%",
-        "prob_away": "45%"
+        "prob_away": "10%"
       },
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.2,
-        "odd_draw": 4.1,
-        "odd_away": 2.45,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.3,
-        "odd_ou_2_5_under": 3.4,
-        "odd_ou_3_5_over": 1.72,
-        "odd_btts_yes": 1.29,
-        "odd_btts_no": 3.25,
+        "odd_draw": 3.2,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.9,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.85,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -555,167 +469,201 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1628016",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1494053",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Iraqi League",
-      "country": "Iraq",
-      "round": "Regular Season - 11",
-      "home": "Ghaz Al Shamal",
-      "away": "Naft Maysan",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Ghaz Al Shamal",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "-3.5",
-        "advice": "Combo Double chance : Ghaz Al Shamal or draw and -3.5 goals",
-        "goals_home": "-1.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.5,
-        "odd_draw": 2.9,
-        "odd_away": 2.7,
-        "odd_ou_1_5_over": 1.47,
-        "odd_ou_2_5_over": 2.5,
-        "odd_ou_2_5_under": 1.5,
-        "odd_ou_3_5_over": 4.7,
-        "odd_btts_yes": 2.01,
-        "odd_btts_no": 1.66,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639545",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Pyramids FC",
-      "away": "EL Merriekh Bentiu",
-      "venue": "30 June Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Pyramids FC",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Pyramids FC or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.03,
-        "odd_draw": 17.0,
-        "odd_away": 51.0,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": 1.28,
-        "odd_ou_2_5_under": 3.6,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1562098",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Premiership",
-      "country": "Northern-Ireland",
-      "round": "Regular Season - 13",
-      "home": "Bangor",
-      "away": "Larne",
-      "venue": "Clandeboye Park",
+      "league": "USL League One",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "NY Cosmos",
+      "away": "Chattanooga Red Wolves",
+      "venue": "Hinchliffe Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 7.5,
-        "odd_draw": 4.33,
-        "odd_away": 1.33,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.62,
+        "odd_home": 2.45,
+        "odd_draw": 3.5,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.38,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1498916",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 35",
+      "home": "Quilmes",
+      "away": "San Martin Tucuman",
+      "venue": "Estadio Centenario Ciudad de Quilmes",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.4,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 4.5,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1600689",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Colina",
+      "away": "Santiago Morning",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.1,
+        "odd_draw": 2.9,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.62,
+        "odd_ou_2_5_under": 1.44,
+        "odd_ou_3_5_over": 5.4,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645509",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie C",
+      "country": "Brazil",
+      "round": "Final",
+      "home": "Ferroviária",
+      "away": "Maringá",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.91,
+        "odd_draw": 3.0,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.3,
+        "odd_ou_2_5_under": 1.6,
+        "odd_ou_3_5_over": 4.33,
         "odd_btts_yes": 2.0,
         "odd_btts_no": 1.73,
         "odd_ht_home_team_o05": null,
@@ -745,615 +693,100 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1576509",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Segunda Liga",
-      "country": "Portugal",
-      "round": "Regular Season - 8",
-      "home": "Farense",
-      "away": "Penafiel",
-      "venue": "Estádio de São Luís",
-      "referee": "Anzhony Rodrigues",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.1,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.33,
-        "odd_ou_2_5_over": 2.08,
-        "odd_ou_2_5_under": 1.73,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.83,
-        "odd_btts_no": 1.83,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1629718",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Challenge League",
-      "country": "Malta",
-      "round": "Regular Season - 5",
-      "home": "Santa Lucía",
-      "away": "Naxxar Lions",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.4,
-        "odd_draw": 3.6,
-        "odd_away": 1.85,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.66,
-        "odd_btts_yes": 1.61,
-        "odd_btts_no": 2.09,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639348",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Zamalek SC",
-      "away": "APR",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.2,
-        "odd_draw": 5.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 3.1,
-        "odd_btts_yes": 2.3,
-        "odd_btts_no": 1.55,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639357",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Black Bulls Maputo",
-      "away": "Rayon Sports",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.15,
-        "odd_draw": 3.1,
-        "odd_away": 3.1,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639358",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Réal Bamako",
-      "away": "ES Zarzis",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.62,
-        "odd_draw": 3.4,
-        "odd_away": 5.0,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.8,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639524",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "CS Sfaxien",
-      "away": "AFAD",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.33,
-        "odd_draw": 3.9,
-        "odd_away": 10.0,
-        "odd_ou_1_5_over": 1.45,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 2.75,
-        "odd_btts_no": 1.36,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639540",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Al Merreikh",
-      "away": "Horoya",
-      "venue": "Al Merreikh Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.7,
-        "odd_draw": 3.3,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1561951",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Bundesliga",
-      "country": "Austria",
-      "round": "Regular Season - 10",
-      "home": "Rapid Vienna",
-      "away": "Austria Lustenau",
-      "venue": "Allianz Stadion",
-      "referee": "Walter Altmann",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Rapid Vienna",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": "+1.5",
-        "advice": "Combo Winner : Rapid Vienna and +1.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.18,
-        "odd_draw": 7.0,
-        "odd_away": 12.0,
-        "odd_ou_1_5_over": 1.08,
-        "odd_ou_2_5_over": 1.3,
-        "odd_ou_2_5_under": 3.5,
-        "odd_ou_3_5_over": 1.73,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 2.0,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1579985",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
-      "timing_priority": "fixed_target_block",
-      "league": "First Amateur Division",
-      "country": "Belgium",
-      "round": "VV - 9",
-      "home": "Dessel Sport",
-      "away": "Oud-Heverlee Leuven II",
-      "venue": "Armand Melis Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Dessel Sport",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : Dessel Sport or draw and +1.5 goals",
-        "goals_home": "-4.5",
-        "goals_away": "-3.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.45,
-        "odd_draw": 4.0,
-        "odd_away": 2.2,
-        "odd_ou_1_5_over": 1.09,
-        "odd_ou_2_5_over": 1.3,
-        "odd_ou_2_5_under": 3.4,
-        "odd_ou_3_5_over": 1.75,
-        "odd_btts_yes": 1.29,
-        "odd_btts_no": 3.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1490557",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Major League Soccer",
-      "country": "USA",
-      "round": "Regular Season - 31",
-      "home": "CF Montreal",
-      "away": "Nashville SC",
-      "venue": "Saputo Stadium",
-      "referee": "Lukasz Szpala",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 6.25,
-        "odd_draw": 4.2,
-        "odd_away": 1.53,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.67,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
       "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1560266",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
+      "fixture_id": "1511717",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
       "timing_priority": "fixed_target_block",
-      "league": "NB I",
-      "country": "Hungary",
-      "round": "Regular Season - 11",
-      "home": "Zalaegerszegi TE",
-      "away": "Kisvarda FC",
-      "venue": "ZTE Arena",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "D. Puerto Montt",
+      "away": "Union San Felipe",
+      "venue": "Estadio Regional de Chinquihue",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "D. Puerto Montt",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : D. Puerto Montt or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.83,
+        "odd_draw": 3.4,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.35,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.9,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549520",
+      "kickoff_dublin": "2026-10-24T21:15:00+01:00",
+      "minutes_to_kickoff": 73.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Peru",
+      "round": "Clausura - 13",
+      "home": "Cusco",
+      "away": "Sporting Cristal",
+      "venue": "Estadio Inca Garcilaso de la Vega",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.65,
-        "odd_draw": 4.0,
-        "odd_away": 4.5,
-        "odd_ou_1_5_over": 1.18,
-        "odd_ou_2_5_over": 1.62,
-        "odd_ou_2_5_under": 2.25,
-        "odd_ou_3_5_over": 2.5,
+        "odd_home": 1.91,
+        "odd_draw": 3.7,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
         "odd_btts_yes": 1.62,
         "odd_btts_no": 2.2,
         "odd_ht_home_team_o05": null,
@@ -1383,91 +816,35 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
+      "rank_score": 0.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1601563",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
+      "fixture_id": "1511719",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
       "timing_priority": "fixed_target_block",
-      "league": "Serie B",
-      "country": "Italy",
-      "round": "Regular Season - 8",
-      "home": "Arezzo",
-      "away": "Benevento",
-      "venue": "Stadio Città di Arezzo",
-      "referee": "Francesco Fourneau",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "San Luis",
+      "away": "Recoleta",
+      "venue": "",
+      "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 3.25,
-        "odd_draw": 3.1,
-        "odd_away": 2.3,
-        "odd_ou_1_5_over": 1.3,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.5,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.95,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1493199",
-      "kickoff_dublin": "2026-10-24T18:45:00+01:00",
-      "minutes_to_kickoff": 64.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Profesional Argentina",
-      "country": "Argentina",
-      "round": "Clausura - 14",
-      "home": "Banfield",
-      "away": "Lanus",
-      "venue": "Estadio Florencio Sola",
-      "referee": "Facundo Tello",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.75,
-        "odd_draw": 3.2,
-        "odd_away": 2.1,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.25,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.0,
-        "odd_btts_yes": 1.95,
-        "odd_btts_no": 1.8,
+        "odd_home": 1.57,
+        "odd_draw": 3.9,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.63,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.15,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1500,29 +877,29 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1549525",
-      "kickoff_dublin": "2026-10-24T18:45:00+01:00",
-      "minutes_to_kickoff": 64.5,
+      "fixture_id": "1549675",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
       "timing_priority": "fixed_target_block",
-      "league": "Primera División",
-      "country": "Peru",
-      "round": "Clausura - 13",
-      "home": "Sport Huancayo",
-      "away": "Alianza Atletico",
-      "venue": "Estadio Huancayo",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Barranquilla",
+      "away": "Real Cartagena",
+      "venue": "Estadio Romelio Martinez",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.44,
-        "odd_draw": 4.33,
-        "odd_away": 6.5,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 1.73,
+        "odd_home": 6.0,
+        "odd_draw": 4.2,
+        "odd_away": 1.5,
+        "odd_ou_1_5_over": 1.19,
+        "odd_ou_2_5_over": 1.6,
+        "odd_ou_2_5_under": 2.3,
+        "odd_ou_3_5_over": 2.55,
+        "odd_btts_yes": 1.7,
         "odd_btts_no": 2.0,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
@@ -1556,36 +933,44 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1621651",
-      "kickoff_dublin": "2026-10-24T18:45:00+01:00",
-      "minutes_to_kickoff": 64.5,
+      "fixture_id": "1643294",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Liga Alef",
-      "country": "Israel",
-      "round": "South - 8",
-      "home": "Kfar Saba 1928",
-      "away": "Maccabi Ashdod",
+      "league": "Pernambucano - 1",
+      "country": "Brazil",
+      "round": "Regular Season - 2",
+      "home": "Afogados",
+      "away": "Ferroviario do Cabo",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.62,
-        "odd_draw": 3.2,
-        "odd_away": 2.38,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.42,
-        "odd_btts_yes": 1.75,
-        "odd_btts_no": 1.9,
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -1603,35 +988,100 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
+      "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1614602",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1632041",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 7",
-      "country": "Spain",
-      "round": "Group 7 - 8",
-      "home": "Cala Pozuelo",
-      "away": "SS Reyes II",
-      "venue": "",
-      "referee": "",
+      "league": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "round": "Clausura - 16",
+      "home": "Nacional Asuncion",
+      "away": "Sportivo Trinidense",
+      "venue": "Estádio Arsenio Erico",
+      "referee": "Blas Romero",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Cala Pozuelo",
+        "pred_winner_name": "Nacional Asuncion",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : Cala Pozuelo or draw and +1.5 goals",
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Nacional Asuncion or draw and -3.5 goals",
         "goals_home": "-2.5",
-        "goals_away": "-3.5",
+        "goals_away": "-1.5",
         "prob_home": "45%",
         "prob_draw": "45%",
         "prob_away": "10%"
@@ -1674,269 +1124,34 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1613378",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1636712",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 3",
-      "country": "Spain",
-      "round": "Group 3 - 8",
-      "home": "Atlético Albericia",
-      "away": "Atlético Mineros",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1613685",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 4",
-      "country": "Spain",
-      "round": "Group 4 - 8",
-      "home": "Derio",
-      "away": "Lagun Onak",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639355",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Al Ahli Tripoli",
-      "away": "Welwalo Adigrat Uni",
-      "venue": "Tripoli International Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1578125",
-      "kickoff_dublin": "2026-10-24T18:15:00+01:00",
-      "minutes_to_kickoff": 34.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - VFV A",
-      "country": "Belgium",
-      "round": "VFV A - 9",
-      "home": "Oudenaarde",
-      "away": "FC Lebbeke",
-      "venue": "",
+      "league": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "round": "Relegation Group - 9",
+      "home": "Gualaceo SC",
+      "away": "Santo Domingo",
+      "venue": "Estadio Jorge Andrade",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "FC Lebbeke",
+        "pred_winner_name": "Gualaceo SC",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or FC Lebbeke and +1.5 goals",
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Gualaceo SC or draw and -3.5 goals",
         "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1582903",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - ACFF",
-      "country": "Belgium",
-      "round": "ACFF - 10",
-      "home": "Stade Verviers",
-      "away": "RUS Binche",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "RUS Binche",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or RUS Binche and +1.5 goals",
-        "goals_home": "-3.5",
         "goals_away": "-2.5",
-        "prob_home": "10%",
+        "prob_home": "45%",
         "prob_draw": "45%",
-        "prob_away": "45%"
+        "prob_away": "10%"
       },
       "live_odds": {
         "bookmaker": "",
@@ -1981,15 +1196,71 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1578124",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
+      "fixture_id": "1557222",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - VFV A",
-      "country": "Belgium",
-      "round": "VFV A - 9",
-      "home": "Ninove",
-      "away": "Sparta Petegem",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Brooklyn W",
+      "away": "Tampa Bay Sun W",
+      "venue": "Maimonides Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1634927",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "round": "Regular Season - 12",
+      "home": "Atlántico",
+      "away": "Vega Real",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
@@ -2037,15 +1308,15 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1578363",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
+      "fixture_id": "1645251",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
       "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - VFV B",
-      "country": "Belgium",
-      "round": "VFV B - 9",
-      "home": "De Kempen",
-      "away": "Eendracht Termien",
+      "league": "Eerste Divisie",
+      "country": "Suriname",
+      "round": "Group Stage",
+      "home": "Notch",
+      "away": "Voorwaarts",
       "venue": "",
       "referee": "",
       "exclusion_reason": "",
@@ -2064,9 +1335,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.44,
+        "lambda_away": 0.864,
+        "lambda_total": 2.304,
+        "p_over_1_5": 0.6701,
+        "p_over_2_5": 0.405,
+        "p_over_3_5": 0.2015,
+        "p_btts_yes": 0.4415
+      },
       "pb_picks": [],
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "value_markets": [],
       "best_value_market": null,
       "oddalerts": {
@@ -2084,63 +1363,72 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1582899",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - ACFF",
-      "country": "Belgium",
-      "round": "ACFF - 10",
-      "home": "Huy",
-      "away": "Stade Mouscronnois",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6701,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6701,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
         },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.405,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.405,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
         },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2015,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2015,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4415,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4415,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
         }
-      },
-      "consensus_markets": [],
+      ],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
@@ -2149,85 +1437,29 @@
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1619755",
-      "kickoff_dublin": "2026-10-24T18:30:00+01:00",
-      "minutes_to_kickoff": 49.5,
+      "fixture_id": "1549679",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
       "timing_priority": "fixed_target_block",
-      "league": "Premier Division",
-      "country": "Gibraltar",
-      "round": "Regular Season - 8",
-      "home": "Glacis United",
-      "away": "Magpies",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -4.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1613076",
-      "kickoff_dublin": "2026-10-24T18:45:00+01:00",
-      "minutes_to_kickoff": 64.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 2",
-      "country": "Spain",
-      "round": "Group 2 - 8",
-      "home": "Siero",
-      "away": "Sporting Gijón II",
-      "venue": "",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Union Magdalena",
+      "away": "Depor FC",
+      "venue": "Estadio La Independencia",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Sporting Gijón II",
+        "pred_winner_name": "Union Magdalena",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Sporting Gijón II",
+        "advice": "Double chance : Union Magdalena or draw",
         "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
         "prob_draw": "45%",
-        "prob_away": "45%"
+        "prob_away": "10%"
       },
       "live_odds": {
         "bookmaker": "",
@@ -2270,239 +1502,549 @@
       "rank_score": -4.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511714",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Deportes Copiapo",
+      "away": "Deportes Santa Cruz",
+      "venue": "Estadio Luis Valenzuela Hermosilla",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511718",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Rangers de Talca",
+      "away": "Cobreloa",
+      "venue": "Estadio Fiscal de Talca",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511720",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Union Espanola",
+      "away": "Santiago Wanderers",
+      "venue": "Estadio Santa Laura-Universidad SEK",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549676",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Popayan",
+      "away": "Internacional Palmira",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549677",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Bogota FC",
+      "away": "Real Santander",
+      "venue": "Estadio Metropolitano de Techo",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549678",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Leones FC",
+      "away": "Orsomarso",
+      "venue": "Estadio Metropolitano Ciudad de Itagui",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549680",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Patriotas",
+      "away": "Envigado",
+      "venue": "Estadio La Independencia",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549681",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Quindio",
+      "away": "Tigres FC",
+      "venue": "Estadio Centenario",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549682",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Real Cundinamarca",
+      "away": "Ind. Yumbo",
+      "venue": "Estadio Municipal de Mosquera",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
     }
   ],
   "matches": [
     {
-      "fixture_id": "1551581",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1493209",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Super Liga",
-      "country": "Slovakia",
-      "round": "Regular Season - 12",
-      "home": "Dunajska Streda",
-      "away": "Ružomberok",
-      "venue": "",
-      "referee": "P. Kralovic",
+      "league": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "round": "Clausura - 14",
+      "home": "Talleres Cordoba",
+      "away": "Defensa Y Justicia",
+      "venue": "Estadio Mario Alberto Kempes",
+      "referee": "Juan Pafundi",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Dunajska Streda",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Dunajska Streda",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.3,
-        "odd_draw": 5.5,
-        "odd_away": 8.5,
-        "odd_ou_1_5_over": 1.1,
-        "odd_ou_2_5_over": 1.36,
-        "odd_ou_2_5_under": 3.0,
-        "odd_ou_3_5_over": 1.83,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.2,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1562098",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Premiership",
-      "country": "Northern-Ireland",
-      "round": "Regular Season - 13",
-      "home": "Bangor",
-      "away": "Larne",
-      "venue": "Clandeboye Park",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 7.5,
-        "odd_draw": 4.33,
-        "odd_away": 1.33,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.62,
-        "odd_btts_yes": 2.0,
-        "odd_btts_no": 1.73,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1571872",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "NB II",
-      "country": "Hungary",
-      "round": "Regular Season - 11",
-      "home": "Gyirmot SE",
-      "away": "Soroksar",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 2.88,
-        "odd_btts_yes": 1.6,
-        "odd_btts_no": 2.15,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [
-        {
-          "category": "SAFE_GOALS",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.8,
-          "score": 2.143
-        },
-        {
-          "category": "SINGLE_GAME",
-          "model": "SAFE_O25_CORE",
-          "pick": "Over 2.5 goals",
-          "odd": 1.8,
-          "score": 2.143
-        }
-      ],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 19.0,
-      "actionable_candidate": true,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1573013",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Segunda División RFEF - Group 4",
-      "country": "Spain",
-      "round": "Group 4 - 8",
-      "home": "Estepona",
-      "away": "Ciudad de Lucena",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Ciudad de Lucena",
+        "pred_winner_name": "Defensa Y Justicia",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : draw or Ciudad de Lucena",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
+        "advice": "Double chance : draw or Defensa Y Justicia",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
         "prob_home": "10%",
         "prob_draw": "45%",
         "prob_away": "45%"
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.85,
-        "odd_draw": 3.3,
-        "odd_away": 3.75,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.15,
-        "odd_ou_2_5_under": 1.67,
-        "odd_ou_3_5_over": 3.58,
+        "odd_home": 2.35,
+        "odd_draw": 3.1,
+        "odd_away": 3.3,
+        "odd_ou_1_5_over": 1.33,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 3.75,
         "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.8,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -2530,101 +2072,213 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1575518",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1494053",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Primeira Liga",
-      "country": "Portugal",
-      "round": "Regular Season - 9",
-      "home": "Alverca",
-      "away": "Arouca",
-      "venue": "Complexo Desportivo FC Alverca",
-      "referee": "Pedro Miguel Torres Ramalho",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Alverca",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Alverca or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.05,
-        "odd_draw": 3.4,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.28,
-        "odd_ou_2_5_over": 1.95,
-        "odd_ou_2_5_under": 1.85,
-        "odd_ou_3_5_over": 3.25,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1576509",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Segunda Liga",
-      "country": "Portugal",
-      "round": "Regular Season - 8",
-      "home": "Farense",
-      "away": "Penafiel",
-      "venue": "Estádio de São Luís",
-      "referee": "Anzhony Rodrigues",
+      "league": "USL League One",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "NY Cosmos",
+      "away": "Chattanooga Red Wolves",
+      "venue": "Hinchliffe Stadium",
+      "referee": "",
       "exclusion_reason": "",
       "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.91,
-        "odd_draw": 3.1,
-        "odd_away": 3.7,
-        "odd_ou_1_5_over": 1.33,
+        "odd_home": 2.45,
+        "odd_draw": 3.5,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.5,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.38,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1498916",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 35",
+      "home": "Quilmes",
+      "away": "San Martin Tucuman",
+      "venue": "Estadio Centenario Ciudad de Quilmes",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.4,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 4.5,
+        "odd_btts_yes": 2.1,
+        "odd_btts_no": 1.67,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557222",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Brooklyn W",
+      "away": "Tampa Bay Sun W",
+      "venue": "Maimonides Park",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1559684",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Nacional",
+      "country": "Guatemala",
+      "round": "Regular Season - 16",
+      "home": "Xelajú",
+      "away": "Municipal",
+      "venue": "Estadio Mario Camposeco",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Municipal",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Municipal",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 2.9,
+        "odd_away": 3.0,
+        "odd_ou_1_5_over": 1.36,
         "odd_ou_2_5_over": 2.08,
         "odd_ou_2_5_under": 1.73,
-        "odd_ou_3_5_over": 3.75,
-        "odd_btts_yes": 1.83,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.85,
         "odd_btts_no": 1.83,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
@@ -2653,46 +2307,35 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1593338",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1600689",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Super League 1",
-      "country": "Greece",
-      "round": "Regular Season - 8",
-      "home": "AEK Athens FC",
-      "away": "Panetolikos",
-      "venue": "Allwyn Arena",
-      "referee": "Vasilios Fitsas",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Colina",
+      "away": "Santiago Morning",
+      "venue": "",
+      "referee": "",
       "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "AEK Athens FC",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : AEK Athens FC",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
+      "api_prediction": {},
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.12,
-        "odd_draw": 8.0,
-        "odd_away": 17.0,
-        "odd_ou_1_5_over": 1.12,
-        "odd_ou_2_5_over": 1.44,
-        "odd_ou_2_5_under": 2.7,
-        "odd_ou_3_5_over": 2.0,
-        "odd_btts_yes": 2.25,
-        "odd_btts_no": 1.57,
+        "odd_home": 2.1,
+        "odd_draw": 2.9,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.5,
+        "odd_ou_2_5_over": 2.62,
+        "odd_ou_2_5_under": 1.44,
+        "odd_ou_3_5_over": 5.4,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.67,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -2720,372 +2363,180 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1594179",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1600690",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "NB III - Northwest",
-      "country": "Hungary",
-      "round": "Northwest - 13",
-      "home": "Tatabánya",
-      "away": "Dorogi FC",
-      "venue": "Grosics Gyula Stadion",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Lota Schwager",
+      "away": "Deportes Rengo",
+      "venue": "",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Tatabánya",
+        "pred_winner_name": "Deportes Rengo",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": null,
-        "advice": "Double chance : Tatabánya or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.7,
-        "odd_away": 3.0,
-        "odd_ou_1_5_over": 1.21,
-        "odd_ou_2_5_over": 1.7,
-        "odd_ou_2_5_under": 2.1,
-        "odd_ou_3_5_over": 2.83,
-        "odd_btts_yes": 1.62,
-        "odd_btts_no": 2.1,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1610890",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "1a Divisão - Women",
-      "country": "Portugal",
-      "round": "Regular Season - 5",
-      "home": "Sporting Braga W",
-      "away": "Torreense W",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1611433",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Ligue 1",
-      "country": "Algeria",
-      "round": "Regular Season - 7",
-      "home": "JS Saoura",
-      "away": "Ben Aknoun",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1613378",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 3",
-      "country": "Spain",
-      "round": "Group 3 - 8",
-      "home": "Atlético Albericia",
-      "away": "Atlético Mineros",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1613685",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 4",
-      "country": "Spain",
-      "round": "Group 4 - 8",
-      "home": "Derio",
-      "away": "Lagun Onak",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1614602",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Tercera División RFEF - Group 7",
-      "country": "Spain",
-      "round": "Group 7 - 8",
-      "home": "Cala Pozuelo",
-      "away": "SS Reyes II",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Cala Pozuelo",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : Cala Pozuelo or draw and +1.5 goals",
+        "advice": "Double chance : draw or Deportes Rengo",
         "goals_home": "-2.5",
         "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -1.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1618433",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Derde Divisie",
-      "country": "Netherlands",
-      "round": "Regular Season - 11",
-      "home": "Roosendaal",
-      "away": "Gemert",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Gemert",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or Gemert and +1.5 goals",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
         "prob_home": "10%",
         "prob_draw": "45%",
         "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.5,
+        "odd_draw": 4.0,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.33,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.85,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1601473",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga de Ascenso",
+      "country": "Costa-Rica",
+      "round": "Regular Season - 13",
+      "home": "CS Uruguay",
+      "away": "Guadalupe FC",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Guadalupe FC",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+1.5",
+        "advice": "Combo Winner : Guadalupe FC and +1.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-3.5",
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.7,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 3.14,
+        "odd_btts_yes": 1.75,
+        "odd_btts_no": 1.95,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1610590",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Chile",
+      "round": "Relegation Group - 9",
+      "home": "Provincial Ovalle",
+      "away": "General Velásquez",
+      "venue": "Estadio Diaguita",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Provincial Ovalle",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Provincial Ovalle or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
       },
       "live_odds": {
         "bookmaker": "Bet365",
         "odd_home": 2.2,
-        "odd_draw": 4.1,
-        "odd_away": 2.45,
-        "odd_ou_1_5_over": 1.07,
-        "odd_ou_2_5_over": 1.3,
-        "odd_ou_2_5_under": 3.4,
-        "odd_ou_3_5_over": 1.72,
-        "odd_btts_yes": 1.29,
-        "odd_btts_no": 3.25,
+        "odd_draw": 3.2,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.9,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.85,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -3113,800 +2564,34 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
-      "fixture_id": "1619355",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
+      "fixture_id": "1632041",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
       "timing_priority": "fixed_target_block",
-      "league": "Premier League Women",
-      "country": "Saudi-Arabia",
-      "round": "Regular Season - 5",
-      "home": "Al Ahli SC W",
-      "away": "Al Qadisiya W",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "women",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1628016",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Iraqi League",
-      "country": "Iraq",
-      "round": "Regular Season - 11",
-      "home": "Ghaz Al Shamal",
-      "away": "Naft Maysan",
-      "venue": "",
-      "referee": "",
+      "league": "Division Profesional - Clausura",
+      "country": "Paraguay",
+      "round": "Clausura - 16",
+      "home": "Nacional Asuncion",
+      "away": "Sportivo Trinidense",
+      "venue": "Estádio Arsenio Erico",
+      "referee": "Blas Romero",
       "exclusion_reason": "",
       "api_prediction": {
-        "pred_winner_name": "Ghaz Al Shamal",
+        "pred_winner_name": "Nacional Asuncion",
         "pred_winner_comment": "Win or draw",
         "win_or_draw": true,
         "under_over": "-3.5",
-        "advice": "Combo Double chance : Ghaz Al Shamal or draw and -3.5 goals",
-        "goals_home": "-1.5",
+        "advice": "Combo Double chance : Nacional Asuncion or draw and -3.5 goals",
+        "goals_home": "-2.5",
         "goals_away": "-1.5",
         "prob_home": "45%",
         "prob_draw": "45%",
         "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.5,
-        "odd_draw": 2.9,
-        "odd_away": 2.7,
-        "odd_ou_1_5_over": 1.47,
-        "odd_ou_2_5_over": 2.5,
-        "odd_ou_2_5_under": 1.5,
-        "odd_ou_3_5_over": 4.7,
-        "odd_btts_yes": 2.01,
-        "odd_btts_no": 1.66,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1629718",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Challenge League",
-      "country": "Malta",
-      "round": "Regular Season - 5",
-      "home": "Santa Lucía",
-      "away": "Naxxar Lions",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.4,
-        "odd_draw": 3.6,
-        "odd_away": 1.85,
-        "odd_ou_1_5_over": 1.19,
-        "odd_ou_2_5_over": 1.73,
-        "odd_ou_2_5_under": 2.08,
-        "odd_ou_3_5_over": 2.66,
-        "odd_btts_yes": 1.61,
-        "odd_btts_no": 2.09,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1634097",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Botswana",
-      "round": "Regular Season - 7",
-      "home": "Township Rollers",
-      "away": "Tonota",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1639348",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Zamalek SC",
-      "away": "APR",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.2,
-        "odd_draw": 5.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.22,
-        "odd_ou_2_5_over": 1.8,
-        "odd_ou_2_5_under": 2.0,
-        "odd_ou_3_5_over": 3.1,
-        "odd_btts_yes": 2.3,
-        "odd_btts_no": 1.55,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639355",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Al Ahli Tripoli",
-      "away": "Welwalo Adigrat Uni",
-      "venue": "Tripoli International Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639357",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Black Bulls Maputo",
-      "away": "Rayon Sports",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.15,
-        "odd_draw": 3.1,
-        "odd_away": 3.1,
-        "odd_ou_1_5_over": 1.4,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639358",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Réal Bamako",
-      "away": "ES Zarzis",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.62,
-        "odd_draw": 3.4,
-        "odd_away": 5.0,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.05,
-        "odd_ou_2_5_under": 1.75,
-        "odd_ou_3_5_over": 3.8,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.75,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639524",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Confederation Cup",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "CS Sfaxien",
-      "away": "AFAD",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.33,
-        "odd_draw": 3.9,
-        "odd_away": 10.0,
-        "odd_ou_1_5_over": 1.45,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": 4.5,
-        "odd_btts_yes": 2.75,
-        "odd_btts_no": 1.36,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639540",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Al Merreikh",
-      "away": "Horoya",
-      "venue": "Al Merreikh Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {},
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.7,
-        "odd_draw": 3.3,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": 2.35,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.0,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1639545",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "CAF Champions League",
-      "country": "World",
-      "round": "2nd Preliminary Round",
-      "home": "Pyramids FC",
-      "away": "EL Merriekh Bentiu",
-      "venue": "30 June Stadium",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Pyramids FC",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Pyramids FC or draw",
-        "goals_home": "-3.5",
-        "goals_away": "-3.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.03,
-        "odd_draw": 17.0,
-        "odd_away": 51.0,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": 1.28,
-        "odd_ou_2_5_under": 3.6,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.5,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1641192",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Botola 2",
-      "country": "Morocco",
-      "round": "Regular Season - 5",
-      "home": "Olympique Khouribga",
-      "away": "Stade Marocain",
-      "venue": "Complexe OCP",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1641194",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Botola 2",
-      "country": "Morocco",
-      "round": "Regular Season - 5",
-      "home": "Yacoub El Mansour",
-      "away": "Wydad Fès",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1645855",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Elite One",
-      "country": "Cameroon",
-      "round": "Regular Season - 2",
-      "home": "Unisport Bafang",
-      "away": "Victoria United",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1647063",
-      "kickoff_dublin": "2026-10-24T18:00:00+01:00",
-      "minutes_to_kickoff": 19.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Ligue 1",
-      "country": "Senegal",
-      "round": "Regular Season - 2",
-      "home": "Diambars",
-      "away": "HLM",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "africa",
-      "api_prediction": {},
-      "live_odds": {},
-      "pb_metrics": {},
-      "pb_picks": [],
-      "pb_raw_available": false,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": false,
-        "ai": {
-          "matched": false
-        },
-        "public_value_bet": {
-          "matched": false
-        },
-        "corner_trend": {
-          "matched": false
-        }
-      },
-      "consensus_markets": [],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.0,
-      "actionable_candidate": false,
-      "live_enrichment": "not_requested"
-    },
-    {
-      "fixture_id": "1578125",
-      "kickoff_dublin": "2026-10-24T18:15:00+01:00",
-      "minutes_to_kickoff": 34.5,
-      "timing_priority": "fixed_target_block",
-      "league": "Second Amateur Division - VFV A",
-      "country": "Belgium",
-      "round": "VFV A - 9",
-      "home": "Oudenaarde",
-      "away": "FC Lebbeke",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "FC Lebbeke",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : draw or FC Lebbeke and +1.5 goals",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
       },
       "live_odds": {
         "bookmaker": "",
@@ -3947,6 +2632,1200 @@
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
       "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1634927",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "round": "Regular Season - 12",
+      "home": "Atlántico",
+      "away": "Vega Real",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1636712",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Pro Serie B",
+      "country": "Ecuador",
+      "round": "Relegation Group - 9",
+      "home": "Gualaceo SC",
+      "away": "Santo Domingo",
+      "venue": "Estadio Jorge Andrade",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gualaceo SC",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Gualaceo SC or draw and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1643294",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Pernambucano - 1",
+      "country": "Brazil",
+      "round": "Regular Season - 2",
+      "home": "Afogados",
+      "away": "Ferroviario do Cabo",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.6454,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6454,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.3773,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3773,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.1806,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.1806,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.4417,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4417,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645509",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Serie C",
+      "country": "Brazil",
+      "round": "Final",
+      "home": "Ferroviária",
+      "away": "Maringá",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.91,
+        "odd_draw": 3.0,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.3,
+        "odd_ou_2_5_under": 1.6,
+        "odd_ou_3_5_over": 4.33,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646854",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "round": "Regular Season - 5",
+      "home": "Moghreb Tetouan",
+      "away": "Widad Témara",
+      "venue": "Stade Saniat Rmel",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1647069",
+      "kickoff_dublin": "2026-10-24T21:00:00+01:00",
+      "minutes_to_kickoff": 58.8,
+      "timing_priority": "fixed_target_block",
+      "league": "CONMEBOL Libertadores Femenina",
+      "country": "World",
+      "round": "Quarter-finals",
+      "home": "Palmeiras W",
+      "away": "Santa Fe W",
+      "venue": "Estadio Banco Guayaquil",
+      "referee": "",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1549520",
+      "kickoff_dublin": "2026-10-24T21:15:00+01:00",
+      "minutes_to_kickoff": 73.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Peru",
+      "round": "Clausura - 13",
+      "home": "Cusco",
+      "away": "Sporting Cristal",
+      "venue": "Estadio Inca Garcilaso de la Vega",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.91,
+        "odd_draw": 3.7,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511714",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Deportes Copiapo",
+      "away": "Deportes Santa Cruz",
+      "venue": "Estadio Luis Valenzuela Hermosilla",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511717",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "D. Puerto Montt",
+      "away": "Union San Felipe",
+      "venue": "Estadio Regional de Chinquihue",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "D. Puerto Montt",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : D. Puerto Montt or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.83,
+        "odd_draw": 3.4,
+        "odd_away": 3.5,
+        "odd_ou_1_5_over": 1.35,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.9,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511718",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Rangers de Talca",
+      "away": "Cobreloa",
+      "venue": "Estadio Fiscal de Talca",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511719",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "San Luis",
+      "away": "Recoleta",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.9,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.63,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1511720",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Chile",
+      "round": "Regular Season - 29",
+      "home": "Union Espanola",
+      "away": "Santiago Wanderers",
+      "venue": "Estadio Santa Laura-Universidad SEK",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549675",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Barranquilla",
+      "away": "Real Cartagena",
+      "venue": "Estadio Romelio Martinez",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 6.0,
+        "odd_draw": 4.2,
+        "odd_away": 1.5,
+        "odd_ou_1_5_over": 1.19,
+        "odd_ou_2_5_over": 1.6,
+        "odd_ou_2_5_under": 2.3,
+        "odd_ou_3_5_over": 2.55,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.0,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549676",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Popayan",
+      "away": "Internacional Palmira",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549677",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Bogota FC",
+      "away": "Real Santander",
+      "venue": "Estadio Metropolitano de Techo",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549678",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Leones FC",
+      "away": "Orsomarso",
+      "venue": "Estadio Metropolitano Ciudad de Itagui",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549679",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Union Magdalena",
+      "away": "Depor FC",
+      "venue": "Estadio La Independencia",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Union Magdalena",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Union Magdalena or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549680",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Patriotas",
+      "away": "Envigado",
+      "venue": "Estadio La Independencia",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549681",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Quindio",
+      "away": "Tigres FC",
+      "venue": "Estadio Centenario",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1549682",
+      "kickoff_dublin": "2026-10-24T21:30:00+01:00",
+      "minutes_to_kickoff": 88.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera B",
+      "country": "Colombia",
+      "round": "Clausura - 15",
+      "home": "Real Cundinamarca",
+      "away": "Ind. Yumbo",
+      "venue": "Estadio Municipal de Mosquera",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -5.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

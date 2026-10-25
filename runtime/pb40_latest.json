@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-25T01:25:02.426051+00:00",
+  "generated_at_dublin": "2026-10-25T01:25:42.401282+00:00",
   "match_date": "2026-10-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-25T02:00:00+00:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -58,36 +58,34 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 427,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
+  "live_api_budget": 407,
   "live_odds_requested": 17,
   "live_predictions_requested": 17,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8457,
+  "request_ms": 5147,
   "api_usage_this_request": {
-    "calls": 35,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 17,
-      "/predictions": 17
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 17,
+    "odds_cache_hits": 17
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70361,
+    "daily_remaining": 70351,
     "minute_limit": 450,
-    "minute_remaining": 437
+    "minute_remaining": 427
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1493764",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -154,7 +152,7 @@
     {
       "fixture_id": "1493766",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -221,7 +219,7 @@
     {
       "fixture_id": "1551708",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -288,7 +286,7 @@
     {
       "fixture_id": "1593690",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "A-League",
       "country": "Australia",
@@ -355,7 +353,7 @@
     {
       "fixture_id": "1636012",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera Premier",
       "country": "Mexico",
@@ -422,7 +420,7 @@
     {
       "fixture_id": "1493763",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -478,7 +476,7 @@
     {
       "fixture_id": "1559682",
       "kickoff_dublin": "2026-10-25T02:10:00+00:00",
-      "minutes_to_kickoff": 45.0,
+      "minutes_to_kickoff": 44.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -534,7 +532,7 @@
     {
       "fixture_id": "1490568",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -601,7 +599,7 @@
     {
       "fixture_id": "1642295",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -668,7 +666,7 @@
     {
       "fixture_id": "1490566",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -724,7 +722,7 @@
     {
       "fixture_id": "1490567",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -780,7 +778,7 @@
     {
       "fixture_id": "1490569",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -836,7 +834,7 @@
     {
       "fixture_id": "1494049",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -892,7 +890,7 @@
     {
       "fixture_id": "1549526",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -948,7 +946,7 @@
     {
       "fixture_id": "1639040",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "National League - National",
       "country": "New-Zealand",
@@ -1015,7 +1013,7 @@
     {
       "fixture_id": "1631781",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Premier Serie A",
       "country": "Mexico",
@@ -1071,7 +1069,7 @@
     {
       "fixture_id": "1647110",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Division di Honor",
       "country": "Aruba",
@@ -1129,7 +1127,7 @@
     {
       "fixture_id": "1493763",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1185,7 +1183,7 @@
     {
       "fixture_id": "1493764",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1252,7 +1250,7 @@
     {
       "fixture_id": "1493766",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1319,7 +1317,7 @@
     {
       "fixture_id": "1551708",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Costa-Rica",
@@ -1386,7 +1384,7 @@
     {
       "fixture_id": "1593690",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "A-League",
       "country": "Australia",
@@ -1453,7 +1451,7 @@
     {
       "fixture_id": "1631781",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Premier Serie A",
       "country": "Mexico",
@@ -1509,7 +1507,7 @@
     {
       "fixture_id": "1636012",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera Premier",
       "country": "Mexico",
@@ -1576,7 +1574,7 @@
     {
       "fixture_id": "1639040",
       "kickoff_dublin": "2026-10-25T02:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 34.3,
       "timing_priority": "fixed_target_block",
       "league": "National League - National",
       "country": "New-Zealand",
@@ -1643,7 +1641,7 @@
     {
       "fixture_id": "1559682",
       "kickoff_dublin": "2026-10-25T02:10:00+00:00",
-      "minutes_to_kickoff": 45.0,
+      "minutes_to_kickoff": 44.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -1699,7 +1697,7 @@
     {
       "fixture_id": "1490566",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1755,7 +1753,7 @@
     {
       "fixture_id": "1490567",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1811,7 +1809,7 @@
     {
       "fixture_id": "1490568",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1878,7 +1876,7 @@
     {
       "fixture_id": "1490569",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Major League Soccer",
       "country": "USA",
@@ -1934,7 +1932,7 @@
     {
       "fixture_id": "1494049",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "USL League One",
       "country": "USA",
@@ -1990,7 +1988,7 @@
     {
       "fixture_id": "1549526",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -2046,7 +2044,7 @@
     {
       "fixture_id": "1642295",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -2113,7 +2111,7 @@
     {
       "fixture_id": "1647110",
       "kickoff_dublin": "2026-10-25T02:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 64.3,
       "timing_priority": "fixed_target_block",
       "league": "Division di Honor",
       "country": "Aruba",

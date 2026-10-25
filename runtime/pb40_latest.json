@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-25T22:42:40.876284+00:00",
+  "generated_at_dublin": "2026-10-25T22:43:38.870616+00:00",
   "match_date": "2026-10-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-25T23:00:00+00:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,28 +67,27 @@
   "live_predictions_requested": 13,
   "pb_state_metrics_available": 13,
   "fallback_used": false,
-  "request_ms": 9085,
+  "request_ms": 5489,
   "api_usage_this_request": {
-    "calls": 14,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 13
+      "/fixtures": 1
     },
     "prediction_cache_hits": 13,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 13
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 56416,
+    "daily_remaining": 56427,
     "minute_limit": 450,
-    "minute_remaining": 438
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1559683",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -256,7 +255,7 @@
     {
       "fixture_id": "1646966",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -396,7 +395,7 @@
     {
       "fixture_id": "1551016",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX",
       "country": "Mexico",
@@ -536,7 +535,7 @@
     {
       "fixture_id": "1647074",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Jamaica",
@@ -676,7 +675,7 @@
     {
       "fixture_id": "1549521",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -805,7 +804,7 @@
     {
       "fixture_id": "1643337",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -934,7 +933,7 @@
     {
       "fixture_id": "1581457",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -1063,7 +1062,7 @@
     {
       "fixture_id": "1583793",
       "kickoff_dublin": "2026-10-25T23:15:00+00:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 31.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Panameña de Fútbol",
       "country": "Panama",
@@ -1224,7 +1223,7 @@
     {
       "fixture_id": "1505545",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -1353,7 +1352,7 @@
     {
       "fixture_id": "1549835",
       "kickoff_dublin": "2026-10-25T23:10:00+00:00",
-      "minutes_to_kickoff": 27.3,
+      "minutes_to_kickoff": 26.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera A",
       "country": "Colombia",
@@ -1493,7 +1492,7 @@
     {
       "fixture_id": "1646919",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Venezuela",
@@ -1633,7 +1632,7 @@
     {
       "fixture_id": "1645523",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -1762,7 +1761,7 @@
     {
       "fixture_id": "1642297",
       "kickoff_dublin": "2026-10-25T23:15:00+00:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 31.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -1893,7 +1892,7 @@
     {
       "fixture_id": "1505545",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -2022,7 +2021,7 @@
     {
       "fixture_id": "1508587",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "NWSL Women",
       "country": "USA",
@@ -2062,7 +2061,7 @@
     {
       "fixture_id": "1549521",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -2191,7 +2190,7 @@
     {
       "fixture_id": "1551016",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX",
       "country": "Mexico",
@@ -2331,7 +2330,7 @@
     {
       "fixture_id": "1581457",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga de Expansión MX",
       "country": "Mexico",
@@ -2460,7 +2459,7 @@
     {
       "fixture_id": "1643337",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera Division",
       "country": "Nicaragua",
@@ -2589,7 +2588,7 @@
     {
       "fixture_id": "1646966",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "MLS Next Pro",
       "country": "USA",
@@ -2729,7 +2728,7 @@
     {
       "fixture_id": "1647074",
       "kickoff_dublin": "2026-10-25T23:00:00+00:00",
-      "minutes_to_kickoff": 17.3,
+      "minutes_to_kickoff": 16.4,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Jamaica",
@@ -2869,7 +2868,7 @@
     {
       "fixture_id": "1549835",
       "kickoff_dublin": "2026-10-25T23:10:00+00:00",
-      "minutes_to_kickoff": 27.3,
+      "minutes_to_kickoff": 26.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera A",
       "country": "Colombia",
@@ -3009,7 +3008,7 @@
     {
       "fixture_id": "1583793",
       "kickoff_dublin": "2026-10-25T23:15:00+00:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 31.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Panameña de Fútbol",
       "country": "Panama",
@@ -3170,7 +3169,7 @@
     {
       "fixture_id": "1642297",
       "kickoff_dublin": "2026-10-25T23:15:00+00:00",
-      "minutes_to_kickoff": 32.3,
+      "minutes_to_kickoff": 31.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Honduras",
@@ -3299,7 +3298,7 @@
     {
       "fixture_id": "1559683",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -3467,7 +3466,7 @@
     {
       "fixture_id": "1645523",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -3596,7 +3595,7 @@
     {
       "fixture_id": "1646919",
       "kickoff_dublin": "2026-10-25T23:30:00+00:00",
-      "minutes_to_kickoff": 47.3,
+      "minutes_to_kickoff": 46.4,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Venezuela",

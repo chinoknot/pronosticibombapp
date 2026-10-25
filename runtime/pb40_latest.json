@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-25T06:40:31.940702+00:00",
+  "generated_at_dublin": "2026-10-25T06:44:12.207812+00:00",
   "match_date": "2026-10-25",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-25T07:00:00+00:00",
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,27 +67,28 @@
   "live_predictions_requested": 8,
   "pb_state_metrics_available": 8,
   "fallback_used": false,
-  "request_ms": 7941,
+  "request_ms": 9374,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 9,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 8
     },
     "prediction_cache_hits": 8,
-    "odds_cache_hits": 8
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 64526,
+    "daily_remaining": 64500,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 442
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1555761",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -111,15 +112,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.62,
-        "odd_draw": 3.8,
-        "odd_away": 4.2,
-        "odd_ou_1_5_over": 1.15,
+        "odd_home": 1.95,
+        "odd_draw": 3.5,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.5,
         "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.4,
+        "odd_ou_3_5_over": 2.29,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -138,9 +139,9 @@
         {
           "market": "Over 3.5",
           "probability": 0.5891,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1346
+          "odd": 2.29,
+          "implied_probability": 0.4367,
+          "edge": 0.1524
         },
         {
           "market": "Over 2.5",
@@ -148,21 +149,14 @@
           "odd": 1.5,
           "implied_probability": 0.6667,
           "edge": 0.1119
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6831,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0164
         }
       ],
       "best_value_market": {
         "market": "Over 3.5",
         "probability": 0.5891,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.1346
+        "odd": 2.29,
+        "implied_probability": 0.4367,
+        "edge": 0.1524
       },
       "oddalerts": {
         "enabled": true,
@@ -187,12 +181,12 @@
           "consensus_probability": 0.5891,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "pb_edge": 0.1346,
+          "odd": 2.29,
+          "implied_probability": 0.4367,
+          "pb_edge": 0.1524,
           "oddalerts_edge": null,
-          "consensus_edge": 0.1346,
-          "consensus_ev": 0.296,
+          "consensus_edge": 0.1524,
+          "consensus_ev": 0.349,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -219,12 +213,12 @@
           "consensus_probability": 0.9167,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.15,
-          "implied_probability": 0.8696,
-          "pb_edge": 0.0471,
+          "odd": 1.17,
+          "implied_probability": 0.8547,
+          "pb_edge": 0.062,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0471,
-          "consensus_ev": 0.0542,
+          "consensus_edge": 0.062,
+          "consensus_ev": 0.0725,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -235,12 +229,12 @@
           "consensus_probability": 0.6831,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "pb_edge": 0.0164,
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.0113,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0164,
-          "consensus_ev": 0.0247,
+          "consensus_edge": -0.0113,
+          "consensus_ev": -0.0163,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -248,14 +242,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 19.677,
+      "rank_score": 21.458,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1556115",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -423,7 +417,7 @@
     {
       "fixture_id": "1556112",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -563,7 +557,7 @@
     {
       "fixture_id": "1510481",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -717,7 +711,7 @@
     {
       "fixture_id": "1639101",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "PFL",
       "country": "Philippines",
@@ -857,7 +851,7 @@
     {
       "fixture_id": "1510480",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -997,7 +991,7 @@
     {
       "fixture_id": "1510482",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -1137,7 +1131,7 @@
     {
       "fixture_id": "1639381",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",
@@ -1279,7 +1273,7 @@
     {
       "fixture_id": "1555761",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J3 League",
       "country": "Japan",
@@ -1303,15 +1297,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.62,
-        "odd_draw": 3.8,
-        "odd_away": 4.2,
-        "odd_ou_1_5_over": 1.15,
+        "odd_home": 1.95,
+        "odd_draw": 3.5,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.17,
         "odd_ou_2_5_over": 1.5,
         "odd_ou_2_5_under": 2.5,
-        "odd_ou_3_5_over": 2.2,
-        "odd_btts_yes": 1.5,
-        "odd_btts_no": 2.4,
+        "odd_ou_3_5_over": 2.29,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -1330,9 +1324,9 @@
         {
           "market": "Over 3.5",
           "probability": 0.5891,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.1346
+          "odd": 2.29,
+          "implied_probability": 0.4367,
+          "edge": 0.1524
         },
         {
           "market": "Over 2.5",
@@ -1340,21 +1334,14 @@
           "odd": 1.5,
           "implied_probability": 0.6667,
           "edge": 0.1119
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6831,
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "edge": 0.0164
         }
       ],
       "best_value_market": {
         "market": "Over 3.5",
         "probability": 0.5891,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.1346
+        "odd": 2.29,
+        "implied_probability": 0.4367,
+        "edge": 0.1524
       },
       "oddalerts": {
         "enabled": true,
@@ -1379,12 +1366,12 @@
           "consensus_probability": 0.5891,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "pb_edge": 0.1346,
+          "odd": 2.29,
+          "implied_probability": 0.4367,
+          "pb_edge": 0.1524,
           "oddalerts_edge": null,
-          "consensus_edge": 0.1346,
-          "consensus_ev": 0.296,
+          "consensus_edge": 0.1524,
+          "consensus_ev": 0.349,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -1411,12 +1398,12 @@
           "consensus_probability": 0.9167,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.15,
-          "implied_probability": 0.8696,
-          "pb_edge": 0.0471,
+          "odd": 1.17,
+          "implied_probability": 0.8547,
+          "pb_edge": 0.062,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0471,
-          "consensus_ev": 0.0542,
+          "consensus_edge": 0.062,
+          "consensus_ev": 0.0725,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -1427,12 +1414,12 @@
           "consensus_probability": 0.6831,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.5,
-          "implied_probability": 0.6667,
-          "pb_edge": 0.0164,
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.0113,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0164,
-          "consensus_ev": 0.0247,
+          "consensus_edge": -0.0113,
+          "consensus_ev": -0.0163,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -1440,14 +1427,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 19.677,
+      "rank_score": 21.458,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1556112",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -1587,7 +1574,7 @@
     {
       "fixture_id": "1556115",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "J1 League",
       "country": "Japan",
@@ -1755,7 +1742,7 @@
     {
       "fixture_id": "1637245",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "Super League Women",
       "country": "South-Africa",
@@ -1795,7 +1782,7 @@
     {
       "fixture_id": "1639101",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "PFL",
       "country": "Philippines",
@@ -1935,7 +1922,7 @@
     {
       "fixture_id": "1647250",
       "kickoff_dublin": "2026-10-25T07:00:00+00:00",
-      "minutes_to_kickoff": 19.5,
+      "minutes_to_kickoff": 15.8,
       "timing_priority": "fixed_target_block",
       "league": "FIFA Women Champions Cup",
       "country": "World",
@@ -1975,7 +1962,7 @@
     {
       "fixture_id": "1510480",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -2115,7 +2102,7 @@
     {
       "fixture_id": "1510481",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -2269,7 +2256,7 @@
     {
       "fixture_id": "1510482",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "K League 2",
       "country": "South-Korea",
@@ -2409,7 +2396,7 @@
     {
       "fixture_id": "1639381",
       "kickoff_dublin": "2026-10-25T07:30:00+00:00",
-      "minutes_to_kickoff": 49.5,
+      "minutes_to_kickoff": 45.8,
       "timing_priority": "fixed_target_block",
       "league": "Taiwan Football Premier League",
       "country": "Chinese-Taipei",

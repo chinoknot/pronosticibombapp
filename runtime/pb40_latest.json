@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-26T20:05:38.936083+00:00",
+  "generated_at_dublin": "2026-10-26T20:40:02.823700+00:00",
   "match_date": "2026-10-26",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-26T21:00:00+00:00",
@@ -10,7 +10,7 @@
   "block_verified": true,
   "fixtures_today_total": 163,
   "fixtures_target_date_total": 163,
-  "fixtures_in_next_75m": 4,
+  "fixtures_in_next_75m": 5,
   "relevant_fixtures_in_next_75m": 4,
   "fixtures_in_target_block": 4,
   "relevant_fixtures_in_target_block": 3,
@@ -33,19 +33,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": true,
+      "cache_hit": false,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -67,27 +67,28 @@
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 3,
   "fallback_used": false,
-  "request_ms": 8479,
+  "request_ms": 7610,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 4,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 3
     },
     "prediction_cache_hits": 3,
-    "odds_cache_hits": 3
+    "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 69940,
+    "daily_remaining": 69897,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1647030",
       "kickoff_dublin": "2026-10-26T21:30:00+00:00",
-      "minutes_to_kickoff": 84.4,
+      "minutes_to_kickoff": 50.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -111,15 +112,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.67,
-        "odd_draw": 3.4,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.32,
+        "odd_home": 1.9,
+        "odd_draw": 3.3,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.33,
         "odd_ou_2_5_over": 2.08,
         "odd_ou_2_5_under": 1.73,
         "odd_ou_3_5_over": 3.6,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -152,9 +153,9 @@
         {
           "market": "BTTS YES",
           "probability": 0.5686,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0281
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "edge": 0.013
         }
       ],
       "best_value_market": {
@@ -213,34 +214,34 @@
           "recommended": false
         },
         {
-          "market": "BTTS YES",
-          "pb_probability": 0.5686,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5686,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "pb_edge": 0.0281,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0281,
-          "consensus_ev": 0.0519,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
           "market": "Over 1.5",
           "pb_probability": 0.7822,
           "oddalerts_probability": null,
           "consensus_probability": 0.7822,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.32,
-          "implied_probability": 0.7576,
-          "pb_edge": 0.0246,
+          "odd": 1.33,
+          "implied_probability": 0.7519,
+          "pb_edge": 0.0303,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0246,
-          "consensus_ev": 0.0325,
+          "consensus_edge": 0.0303,
+          "consensus_ev": 0.0403,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5686,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5686,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": 0.013,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.013,
+          "consensus_ev": 0.0235,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -248,14 +249,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 8.84,
+      "rank_score": 9.84,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1505544",
       "kickoff_dublin": "2026-10-26T21:00:00+00:00",
-      "minutes_to_kickoff": 54.4,
+      "minutes_to_kickoff": 20.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -388,14 +389,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.03,
+      "rank_score": 5.03,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1646427",
       "kickoff_dublin": "2026-10-26T21:00:00+00:00",
-      "minutes_to_kickoff": 54.4,
+      "minutes_to_kickoff": 20.0,
       "timing_priority": "fixed_target_block",
       "league": "Kings Cup",
       "country": "Brazil",
@@ -528,7 +529,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -537,7 +538,7 @@
     {
       "fixture_id": "1505544",
       "kickoff_dublin": "2026-10-26T21:00:00+00:00",
-      "minutes_to_kickoff": 54.4,
+      "minutes_to_kickoff": 20.0,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -670,14 +671,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 3.03,
+      "rank_score": 5.03,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1646427",
       "kickoff_dublin": "2026-10-26T21:00:00+00:00",
-      "minutes_to_kickoff": 54.4,
+      "minutes_to_kickoff": 20.0,
       "timing_priority": "fixed_target_block",
       "league": "Kings Cup",
       "country": "Brazil",
@@ -810,14 +811,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1647030",
       "kickoff_dublin": "2026-10-26T21:30:00+00:00",
-      "minutes_to_kickoff": 84.4,
+      "minutes_to_kickoff": 50.0,
       "timing_priority": "fixed_target_block",
       "league": "Division Intermedia",
       "country": "Paraguay",
@@ -841,15 +842,15 @@
       },
       "live_odds": {
         "bookmaker": "Bet365",
-        "odd_home": 1.67,
-        "odd_draw": 3.4,
-        "odd_away": 4.33,
-        "odd_ou_1_5_over": 1.32,
+        "odd_home": 1.9,
+        "odd_draw": 3.3,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.33,
         "odd_ou_2_5_over": 2.08,
         "odd_ou_2_5_under": 1.73,
         "odd_ou_3_5_over": 3.6,
-        "odd_btts_yes": 1.85,
-        "odd_btts_no": 1.85,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -882,9 +883,9 @@
         {
           "market": "BTTS YES",
           "probability": 0.5686,
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "edge": 0.0281
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "edge": 0.013
         }
       ],
       "best_value_market": {
@@ -943,34 +944,34 @@
           "recommended": false
         },
         {
-          "market": "BTTS YES",
-          "pb_probability": 0.5686,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5686,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.85,
-          "implied_probability": 0.5405,
-          "pb_edge": 0.0281,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0281,
-          "consensus_ev": 0.0519,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
           "market": "Over 1.5",
           "pb_probability": 0.7822,
           "oddalerts_probability": null,
           "consensus_probability": 0.7822,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": 1.32,
-          "implied_probability": 0.7576,
-          "pb_edge": 0.0246,
+          "odd": 1.33,
+          "implied_probability": 0.7519,
+          "pb_edge": 0.0303,
           "oddalerts_edge": null,
-          "consensus_edge": 0.0246,
-          "consensus_ev": 0.0325,
+          "consensus_edge": 0.0303,
+          "consensus_ev": 0.0403,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5686,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5686,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": 0.013,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.013,
+          "consensus_ev": 0.0235,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -978,14 +979,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 8.84,
+      "rank_score": 9.84,
       "actionable_candidate": true,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1603406",
       "kickoff_dublin": "2026-10-26T21:45:00+00:00",
-      "minutes_to_kickoff": 99.4,
+      "minutes_to_kickoff": 65.0,
       "timing_priority": "fixed_target_block",
       "league": "Liga MX Femenil",
       "country": "Mexico",

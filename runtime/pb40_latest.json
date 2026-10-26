@@ -1,26 +1,28 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-26T08:00:59.982337+00:00",
+  "generated_at_dublin": "2026-10-26T14:26:51.321583+00:00",
   "match_date": "2026-10-26",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-10-26T09:00:00+00:00",
-  "target_block_end_dublin": "2026-10-26T09:45:00+00:00",
-  "target_block_matches": 0,
+  "target_block_start_dublin": "2026-10-26T15:00:00+00:00",
+  "target_block_end_dublin": "2026-10-26T15:45:00+00:00",
+  "target_block_matches": 12,
   "block_verified": true,
-  "fixtures_today_total": 164,
-  "fixtures_target_date_total": 164,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 0,
-  "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 0,
-  "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 0,
+  "fixtures_today_total": 163,
+  "fixtures_target_date_total": 163,
+  "fixtures_in_next_75m": 12,
+  "relevant_fixtures_in_next_75m": 10,
+  "fixtures_in_target_block": 12,
+  "relevant_fixtures_in_target_block": 10,
+  "excluded_in_target_block": 2,
+  "excluded_breakdown": {
+    "africa": 2
+  },
+  "fixtures_analyzed_before_ranking": 10,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 0,
-  "odds_coverage_count": 0,
+  "technical_coverage_count": 7,
+  "odds_coverage_count": 10,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -52,8 +54,8 @@
     "footystats": "disabled",
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
-  "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "actionable_candidates_found": 1,
+  "matches_returned": 12,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -61,36 +63,1409 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 0,
-  "live_predictions_requested": 0,
+  "live_odds_requested": 10,
+  "live_predictions_requested": 10,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 9206,
+  "request_ms": 8933,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 11,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 10
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 10,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72250,
+    "daily_remaining": 70478,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 444
   },
   "partial_api_errors": [],
-  "ranked_matches": [],
-  "matches": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1509204",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Erovnuli Liga",
+      "country": "Georgia",
+      "round": "Regular Season - 30",
+      "home": "FC Iberia 1999",
+      "away": "Torpedo Kutaisi",
+      "venue": "Mikheil Meskhi Stadium",
+      "referee": "I. Shengelia",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "FC Iberia 1999",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : FC Iberia 1999 or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.6,
+        "odd_draw": 3.8,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [
+        {
+          "category": "GG Special",
+          "model": "GG_BALANCED",
+          "pick": "Both teams to score YES",
+          "odd": 1.64,
+          "score": 0.798
+        }
+      ],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 15.5,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581545",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Armenia",
+      "round": "Regular Season - 11",
+      "home": "Ararat-Armenia",
+      "away": "FC Noah",
+      "venue": "Football Academy Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "FC Noah",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or FC Noah",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.75,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.1,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1602525",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga II",
+      "country": "Romania",
+      "round": "Regular Season - 11",
+      "home": "Metaloglobus",
+      "away": "CSM Ramnicu Valcea",
+      "venue": "Metaloglobus Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Metaloglobus",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Metaloglobus or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.2,
+        "odd_draw": 3.3,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.26,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1604037",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Saudi-Arabia",
+      "round": "Regular Season - 9",
+      "home": "Al Bukayriyah",
+      "away": "Hajer",
+      "venue": "Al Bukayriyah Club Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hajer",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Hajer",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.1,
+        "odd_draw": 3.1,
+        "odd_away": 3.1,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.15,
+        "odd_ou_2_5_under": 1.67,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.85,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1551129",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "First League",
+      "country": "Bulgaria",
+      "round": "Regular Season - 12",
+      "home": "Lokomotiv Plovdiv",
+      "away": "Slavia Sofia",
+      "venue": "Hristo Bonev",
+      "referee": "M. Velikov",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.1,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 4.5,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646143",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Hapoel Acre",
+      "away": "Tira",
+      "venue": "Acre Municipal Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.5,
+        "odd_draw": 3.25,
+        "odd_away": 2.45,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646152",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Kafr Qasim",
+      "away": "Beitar Petah Tikva",
+      "venue": "Lod Municipal Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.18,
+        "odd_draw": 5.5,
+        "odd_away": 12.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646153",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Beitar Nahariya",
+      "away": "Hapoel Afula",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.7,
+        "odd_away": 1.9,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646155",
+      "kickoff_dublin": "2026-10-26T15:30:00+00:00",
+      "minutes_to_kickoff": 63.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Dimona",
+      "away": "Hapoel Rishon LeZion",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hapoel Rishon LeZion",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or Hapoel Rishon LeZion and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": null,
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.9,
+        "odd_away": 1.83,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646146",
+      "kickoff_dublin": "2026-10-26T15:30:00+00:00",
+      "minutes_to_kickoff": 63.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Hapoel Sderot",
+      "away": "Maccabi Ahi Nazareth",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.75,
+        "odd_draw": 3.6,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1509204",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Erovnuli Liga",
+      "country": "Georgia",
+      "round": "Regular Season - 30",
+      "home": "FC Iberia 1999",
+      "away": "Torpedo Kutaisi",
+      "venue": "Mikheil Meskhi Stadium",
+      "referee": "I. Shengelia",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "FC Iberia 1999",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : FC Iberia 1999 or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.6,
+        "odd_draw": 3.8,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [
+        {
+          "category": "GG Special",
+          "model": "GG_BALANCED",
+          "pick": "Both teams to score YES",
+          "odd": 1.64,
+          "score": 0.798
+        }
+      ],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 15.5,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1551129",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "First League",
+      "country": "Bulgaria",
+      "round": "Regular Season - 12",
+      "home": "Lokomotiv Plovdiv",
+      "away": "Slavia Sofia",
+      "venue": "Hristo Bonev",
+      "referee": "M. Velikov",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.1,
+        "odd_away": 3.6,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 4.5,
+        "odd_btts_yes": 2.0,
+        "odd_btts_no": 1.73,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581545",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Armenia",
+      "round": "Regular Season - 11",
+      "home": "Ararat-Armenia",
+      "away": "FC Noah",
+      "venue": "Football Academy Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "FC Noah",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or FC Noah",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.75,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.1,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1602525",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga II",
+      "country": "Romania",
+      "round": "Regular Season - 11",
+      "home": "Metaloglobus",
+      "away": "CSM Ramnicu Valcea",
+      "venue": "Metaloglobus Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Metaloglobus",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Metaloglobus or draw",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.2,
+        "odd_draw": 3.3,
+        "odd_away": 2.8,
+        "odd_ou_1_5_over": 1.26,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1604037",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Division 1",
+      "country": "Saudi-Arabia",
+      "round": "Regular Season - 9",
+      "home": "Al Bukayriyah",
+      "away": "Hajer",
+      "venue": "Al Bukayriyah Club Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hajer",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Hajer",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.1,
+        "odd_draw": 3.1,
+        "odd_away": 3.1,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.15,
+        "odd_ou_2_5_under": 1.67,
+        "odd_ou_3_5_over": 4.1,
+        "odd_btts_yes": 1.85,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1641338",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Ethiopia",
+      "round": "Regular Season - 4",
+      "home": "Welayta Dicha",
+      "away": "Halaba Ketema",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1646143",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Hapoel Acre",
+      "away": "Tira",
+      "venue": "Acre Municipal Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.5,
+        "odd_draw": 3.25,
+        "odd_away": 2.45,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 2.75,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646152",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Kafr Qasim",
+      "away": "Beitar Petah Tikva",
+      "venue": "Lod Municipal Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.18,
+        "odd_draw": 5.5,
+        "odd_away": 12.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646153",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Beitar Nahariya",
+      "away": "Hapoel Afula",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": null,
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "No predictions available",
+        "goals_home": null,
+        "goals_away": null,
+        "prob_home": "33%",
+        "prob_draw": "33%",
+        "prob_away": "33%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.7,
+        "odd_away": 1.9,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646452",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 33.1,
+      "timing_priority": "fixed_target_block",
+      "league": "Elite Two",
+      "country": "Cameroon",
+      "round": "Regular Season - 1",
+      "home": "FAP",
+      "away": "Fortuna Mfou",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1646146",
+      "kickoff_dublin": "2026-10-26T15:30:00+00:00",
+      "minutes_to_kickoff": 63.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Hapoel Sderot",
+      "away": "Maccabi Ahi Nazareth",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.75,
+        "odd_draw": 3.6,
+        "odd_away": 2.15,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646155",
+      "kickoff_dublin": "2026-10-26T15:30:00+00:00",
+      "minutes_to_kickoff": 63.1,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "round": "Round of 64",
+      "home": "Dimona",
+      "away": "Hapoel Rishon LeZion",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hapoel Rishon LeZion",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or Hapoel Rishon LeZion and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": null,
+        "prob_home": "0%",
+        "prob_draw": "50%",
+        "prob_away": "50%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.9,
+        "odd_away": 1.83,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.62,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
     "refreshed_by": "pb40-public-feed-1000-block-fresh",
     "source_url": "Render /pb40?max=1000&force=1",
-    "target_block_start_dublin": "2026-10-26T09:00:00+00:00",
-    "target_block_end_dublin": "2026-10-26T09:45:00+00:00",
-    "target_block_matches": 0,
-    "relevant_fixtures_in_target_block": 0,
+    "target_block_start_dublin": "2026-10-26T15:00:00+00:00",
+    "target_block_end_dublin": "2026-10-26T15:45:00+00:00",
+    "target_block_matches": 12,
+    "relevant_fixtures_in_target_block": 10,
     "block_verified": true,
     "fallback_used": false,
     "freshness_limit_seconds": 480,

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-26T14:26:51.321583+00:00",
+  "generated_at_dublin": "2026-10-26T14:30:20.952663+00:00",
   "match_date": "2026-10-26",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-26T15:00:00+00:00",
@@ -21,18 +21,18 @@
   "fixtures_analyzed_before_ranking": 10,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 7,
+  "technical_coverage_count": 10,
   "odds_coverage_count": 10,
-  "actionable_candidates_found": 1,
+  "actionable_candidates_found": 3,
   "matches_returned": 12,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70478,
+    "daily_remaining": 70470,
     "minute_limit": 450,
-    "minute_remaining": 444
+    "minute_remaining": 449
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -51,7 +51,7 @@
     {
       "fixture_id": "1509204",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga",
       "country": "Georgia",
@@ -74,7 +74,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.296,
+        "lambda_away": 1.152,
+        "lambda_total": 2.448,
+        "p_over_1_5": 0.7019,
+        "p_over_2_5": 0.4428,
+        "p_over_3_5": 0.2314,
+        "p_btts_yes": 0.4968
+      },
       "api_prediction": {
         "pred_winner_name": "FC Iberia 1999",
         "pred_winner_comment": "Win or draw",
@@ -87,7 +95,7 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [
         {
           "category": "GG Special",
@@ -97,9 +105,164 @@
           "score": 0.798
         }
       ],
-      "rank_score": 15.5,
+      "rank_score": 16.548,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581545",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 29.7,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Armenia",
+      "home": "Ararat-Armenia",
+      "away": "FC Noah",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.75,
+        "odd_draw": 3.6,
+        "odd_away": 1.75,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.9,
+        "odd_ou_2_5_under": 1.9,
+        "odd_ou_3_5_over": 3.1,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 2.05,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6354,
+        "odd": 1.9,
+        "implied_probability": 0.5263,
+        "edge": 0.1091
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6354,
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "edge": 0.1091
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.414,
+          "odd": 3.1,
+          "implied_probability": 0.3226,
+          "edge": 0.0914
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.632,
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "edge": 0.0438
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.344,
+        "lambda_away": 1.9305,
+        "lambda_total": 3.2745,
+        "p_over_1_5": 0.8383,
+        "p_over_2_5": 0.6354,
+        "p_over_3_5": 0.414,
+        "p_btts_yes": 0.632
+      },
+      "api_prediction": {
+        "pred_winner_name": "FC Noah",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or FC Noah",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 14.285,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646152",
+      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
+      "minutes_to_kickoff": 29.7,
+      "timing_priority": "fixed_target_block",
+      "league": "State Cup",
+      "country": "Israel",
+      "home": "Kafr Qasim",
+      "away": "Beitar Petah Tikva",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.18,
+        "odd_draw": 5.5,
+        "odd_away": 12.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.735,
+        "odd": 2.38,
+        "implied_probability": 0.4202,
+        "edge": 0.3148
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.735,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.3148
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.8753,
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "edge": 0.2384
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6205,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.2003
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 4.0,
+        "lambda_away": 1.0,
+        "lambda_total": 5.0,
+        "p_over_1_5": 0.9596,
+        "p_over_2_5": 0.8753,
+        "p_over_3_5": 0.735,
+        "p_btts_yes": 0.6205
+      },
+      "api_prediction": {},
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 36.08,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     }
@@ -108,7 +271,7 @@
     {
       "fixture_id": "1551129",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Bulgaria",
@@ -131,58 +294,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.72,
+        "lambda_away": 0.9,
+        "lambda_total": 1.62,
+        "p_over_1_5": 0.4815,
+        "p_over_2_5": 0.2218,
+        "p_over_3_5": 0.0816,
+        "p_btts_yes": 0.3046
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581545",
-      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Armenia",
-      "home": "Ararat-Armenia",
-      "away": "FC Noah",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 3.75,
-        "odd_draw": 3.6,
-        "odd_away": 1.75,
-        "odd_ou_1_5_over": 1.25,
-        "odd_ou_2_5_over": 1.9,
-        "odd_ou_2_5_under": 1.9,
-        "odd_ou_3_5_over": 3.1,
-        "odd_btts_yes": 1.7,
-        "odd_btts_no": 2.05,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {
-        "pred_winner_name": "FC Noah",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or FC Noah",
-        "goals_home": "-2.5",
-        "goals_away": "-3.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -191,7 +315,7 @@
     {
       "fixture_id": "1602525",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -214,7 +338,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.125,
+        "lambda_away": 1.08,
+        "lambda_total": 2.205,
+        "p_over_1_5": 0.6466,
+        "p_over_2_5": 0.3786,
+        "p_over_3_5": 0.1816,
+        "p_btts_yes": 0.446
+      },
       "api_prediction": {
         "pred_winner_name": "Metaloglobus",
         "pred_winner_comment": "Win or draw",
@@ -227,9 +359,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -238,7 +370,7 @@
     {
       "fixture_id": "1604037",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -261,7 +393,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.495,
+        "lambda_away": 0.99,
+        "lambda_total": 1.485,
+        "p_over_1_5": 0.4371,
+        "p_over_2_5": 0.1874,
+        "p_over_3_5": 0.0638,
+        "p_btts_yes": 0.2454
+      },
       "api_prediction": {
         "pred_winner_name": "Hajer",
         "pred_winner_comment": "Win or draw",
@@ -274,9 +414,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -285,7 +425,7 @@
     {
       "fixture_id": "1646143",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -308,7 +448,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -321,45 +469,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1646152",
-      "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
-      "timing_priority": "fixed_target_block",
-      "league": "State Cup",
-      "country": "Israel",
-      "home": "Kafr Qasim",
-      "away": "Beitar Petah Tikva",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.18,
-        "odd_draw": 5.5,
-        "odd_away": 12.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.38,
-        "odd_btts_yes": 2.38,
-        "odd_btts_no": 1.53,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
-      "api_prediction": {},
-      "pb_raw_available": false,
-      "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -368,7 +480,7 @@
     {
       "fixture_id": "1646153",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -391,7 +503,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -404,9 +524,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -415,7 +535,7 @@
     {
       "fixture_id": "1646146",
       "kickoff_dublin": "2026-10-26T15:30:00+00:00",
-      "minutes_to_kickoff": 63.1,
+      "minutes_to_kickoff": 59.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -438,11 +558,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -451,7 +579,7 @@
     {
       "fixture_id": "1646155",
       "kickoff_dublin": "2026-10-26T15:30:00+00:00",
-      "minutes_to_kickoff": 63.1,
+      "minutes_to_kickoff": 59.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -474,7 +602,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.92,
+        "lambda_away": 1.0,
+        "lambda_total": 2.92,
+        "p_over_1_5": 0.7886,
+        "p_over_2_5": 0.5586,
+        "p_over_3_5": 0.3349,
+        "p_btts_yes": 0.5394
+      },
       "api_prediction": {
         "pred_winner_name": "Hapoel Rishon LeZion",
         "pred_winner_comment": "Win or draw",
@@ -487,9 +623,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 3.02,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -500,7 +636,7 @@
     {
       "fixture_id": "1641338",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ethiopia",
@@ -523,7 +659,7 @@
     {
       "fixture_id": "1646452",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Elite Two",
       "country": "Cameroon",
@@ -548,7 +684,7 @@
     {
       "fixture_id": "1509204",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Erovnuli Liga",
       "country": "Georgia",
@@ -571,7 +707,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.296,
+        "lambda_away": 1.152,
+        "lambda_total": 2.448,
+        "p_over_1_5": 0.7019,
+        "p_over_2_5": 0.4428,
+        "p_over_3_5": 0.2314,
+        "p_btts_yes": 0.4968
+      },
       "api_prediction": {
         "pred_winner_name": "FC Iberia 1999",
         "pred_winner_comment": "Win or draw",
@@ -584,7 +728,7 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [
         {
           "category": "GG Special",
@@ -594,7 +738,7 @@
           "score": 0.798
         }
       ],
-      "rank_score": 15.5,
+      "rank_score": 16.548,
       "actionable_candidate": true,
       "selection_reason": "PB editorial pick",
       "exclusion_reason": "",
@@ -603,7 +747,7 @@
     {
       "fixture_id": "1551129",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "First League",
       "country": "Bulgaria",
@@ -626,11 +770,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.72,
+        "lambda_away": 0.9,
+        "lambda_total": 1.62,
+        "p_over_1_5": 0.4815,
+        "p_over_2_5": 0.2218,
+        "p_over_3_5": 0.0816,
+        "p_btts_yes": 0.3046
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -639,7 +791,7 @@
     {
       "fixture_id": "1581545",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -660,9 +812,45 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 2.5",
+        "probability": 0.6354,
+        "odd": 1.9,
+        "implied_probability": 0.5263,
+        "edge": 0.1091
+      },
+      "value_markets": [
+        {
+          "market": "Over 2.5",
+          "probability": 0.6354,
+          "odd": 1.9,
+          "implied_probability": 0.5263,
+          "edge": 0.1091
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.414,
+          "odd": 3.1,
+          "implied_probability": 0.3226,
+          "edge": 0.0914
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.632,
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "edge": 0.0438
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.344,
+        "lambda_away": 1.9305,
+        "lambda_total": 3.2745,
+        "p_over_1_5": 0.8383,
+        "p_over_2_5": 0.6354,
+        "p_over_3_5": 0.414,
+        "p_btts_yes": 0.632
+      },
       "api_prediction": {
         "pred_winner_name": "FC Noah",
         "pred_winner_comment": "Win or draw",
@@ -675,18 +863,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 14.285,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1602525",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -709,7 +897,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.125,
+        "lambda_away": 1.08,
+        "lambda_total": 2.205,
+        "p_over_1_5": 0.6466,
+        "p_over_2_5": 0.3786,
+        "p_over_3_5": 0.1816,
+        "p_btts_yes": 0.446
+      },
       "api_prediction": {
         "pred_winner_name": "Metaloglobus",
         "pred_winner_comment": "Win or draw",
@@ -722,9 +918,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -733,7 +929,7 @@
     {
       "fixture_id": "1604037",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Division 1",
       "country": "Saudi-Arabia",
@@ -756,7 +952,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 0.495,
+        "lambda_away": 0.99,
+        "lambda_total": 1.485,
+        "p_over_1_5": 0.4371,
+        "p_over_2_5": 0.1874,
+        "p_over_3_5": 0.0638,
+        "p_btts_yes": 0.2454
+      },
       "api_prediction": {
         "pred_winner_name": "Hajer",
         "pred_winner_comment": "Win or draw",
@@ -769,9 +973,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -780,7 +984,7 @@
     {
       "fixture_id": "1641338",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Ethiopia",
@@ -803,7 +1007,7 @@
     {
       "fixture_id": "1646143",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -826,7 +1030,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -839,9 +1051,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -850,7 +1062,7 @@
     {
       "fixture_id": "1646152",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -871,22 +1083,58 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": null,
-      "value_markets": [],
-      "pb_metrics": {},
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.735,
+        "odd": 2.38,
+        "implied_probability": 0.4202,
+        "edge": 0.3148
+      },
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.735,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.3148
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.8753,
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "edge": 0.2384
+        },
+        {
+          "market": "BTTS YES",
+          "probability": 0.6205,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.2003
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 4.0,
+        "lambda_away": 1.0,
+        "lambda_total": 5.0,
+        "p_over_1_5": 0.9596,
+        "p_over_2_5": 0.8753,
+        "p_over_3_5": 0.735,
+        "p_btts_yes": 0.6205
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
-      "actionable_candidate": false,
-      "selection_reason": "No positive value market",
+      "rank_score": 36.08,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1646153",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -909,7 +1157,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {
         "pred_winner_name": null,
         "pred_winner_comment": null,
@@ -922,9 +1178,9 @@
         "prob_draw": "33%",
         "prob_away": "33%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 1.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -933,7 +1189,7 @@
     {
       "fixture_id": "1646452",
       "kickoff_dublin": "2026-10-26T15:00:00+00:00",
-      "minutes_to_kickoff": 33.1,
+      "minutes_to_kickoff": 29.7,
       "timing_priority": "fixed_target_block",
       "league": "Elite Two",
       "country": "Cameroon",
@@ -956,7 +1212,7 @@
     {
       "fixture_id": "1646146",
       "kickoff_dublin": "2026-10-26T15:30:00+00:00",
-      "minutes_to_kickoff": 63.1,
+      "minutes_to_kickoff": 59.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -979,11 +1235,19 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.0,
+        "lambda_total": 2.2,
+        "p_over_1_5": 0.6454,
+        "p_over_2_5": 0.3773,
+        "p_over_3_5": 0.1806,
+        "p_btts_yes": 0.4417
+      },
       "api_prediction": {},
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.0,
+      "rank_score": 2.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -992,7 +1256,7 @@
     {
       "fixture_id": "1646155",
       "kickoff_dublin": "2026-10-26T15:30:00+00:00",
-      "minutes_to_kickoff": 63.1,
+      "minutes_to_kickoff": 59.7,
       "timing_priority": "fixed_target_block",
       "league": "State Cup",
       "country": "Israel",
@@ -1015,7 +1279,15 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {},
+      "pb_metrics": {
+        "lambda_home": 1.92,
+        "lambda_away": 1.0,
+        "lambda_total": 2.92,
+        "p_over_1_5": 0.7886,
+        "p_over_2_5": 0.5586,
+        "p_over_3_5": 0.3349,
+        "p_btts_yes": 0.5394
+      },
       "api_prediction": {
         "pred_winner_name": "Hapoel Rishon LeZion",
         "pred_winner_comment": "Win or draw",
@@ -1028,9 +1300,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": false,
+      "pb_raw_available": true,
       "pb_picks": [],
-      "rank_score": 0.5,
+      "rank_score": 3.02,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",

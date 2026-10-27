@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-27T21:25:00.109500+00:00",
+  "generated_at_dublin": "2026-10-27T21:27:25.768014+00:00",
   "match_date": "2026-10-27",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-27T22:00:00+00:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,29 +65,27 @@
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 4,
   "fallback_used": false,
-  "request_ms": 8832,
+  "request_ms": 7936,
   "api_usage_this_request": {
-    "calls": 9,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 4,
-      "/predictions": 4
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 4,
+    "odds_cache_hits": 4
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 68675,
+    "daily_remaining": 68670,
     "minute_limit": 450,
-    "minute_remaining": 445
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1493198",
       "kickoff_dublin": "2026-10-27T22:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 32.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -227,7 +225,7 @@
     {
       "fixture_id": "1643386",
       "kickoff_dublin": "2026-10-27T22:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 62.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Uruguay",
       "country": "Uruguay",
@@ -367,7 +365,7 @@
     {
       "fixture_id": "1644261",
       "kickoff_dublin": "2026-10-27T22:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 62.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paraguay",
       "country": "Paraguay",
@@ -507,7 +505,7 @@
     {
       "fixture_id": "1647260",
       "kickoff_dublin": "2026-10-27T22:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 32.6,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -649,7 +647,7 @@
     {
       "fixture_id": "1493198",
       "kickoff_dublin": "2026-10-27T22:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 32.6,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -789,7 +787,7 @@
     {
       "fixture_id": "1647260",
       "kickoff_dublin": "2026-10-27T22:00:00+00:00",
-      "minutes_to_kickoff": 35.0,
+      "minutes_to_kickoff": 32.6,
       "timing_priority": "fixed_target_block",
       "league": "Paraibano 2",
       "country": "Brazil",
@@ -929,7 +927,7 @@
     {
       "fixture_id": "1643386",
       "kickoff_dublin": "2026-10-27T22:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 62.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Uruguay",
       "country": "Uruguay",
@@ -1069,7 +1067,7 @@
     {
       "fixture_id": "1644261",
       "kickoff_dublin": "2026-10-27T22:30:00+00:00",
-      "minutes_to_kickoff": 65.0,
+      "minutes_to_kickoff": 62.6,
       "timing_priority": "fixed_target_block",
       "league": "Copa Paraguay",
       "country": "Paraguay",

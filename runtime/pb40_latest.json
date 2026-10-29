@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-29T13:27:52.465243+00:00",
+  "generated_at_dublin": "2026-10-29T13:36:42.511383+00:00",
   "match_date": "2026-10-29",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-29T14:00:00+00:00",
@@ -10,7 +10,7 @@
   "block_verified": true,
   "fixtures_today_total": 208,
   "fixtures_target_date_total": 208,
-  "fixtures_in_next_75m": 9,
+  "fixtures_in_next_75m": 6,
   "relevant_fixtures_in_next_75m": 4,
   "fixtures_in_target_block": 5,
   "relevant_fixtures_in_target_block": 3,
@@ -34,19 +34,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -61,43 +61,41 @@
   "max_return_limit": 1000,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
   "live_api_minute_limit_seen": 450,
-  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_minute_remaining_before_enrichment": 448,
   "live_api_safety_reserve": 20,
-  "live_api_budget": 429,
+  "live_api_budget": 428,
   "live_odds_requested": 3,
   "live_predictions_requested": 3,
   "pb_state_metrics_available": 3,
   "fallback_used": false,
-  "request_ms": 7208,
+  "request_ms": 6826,
   "api_usage_this_request": {
-    "calls": 7,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 3,
-      "/predictions": 3
+      "/fixtures": 1
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 3,
+    "odds_cache_hits": 3
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72440,
+    "daily_remaining": 72422,
     "minute_limit": 450,
-    "minute_remaining": 443
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1603075",
       "kickoff_dublin": "2026-10-29T14:35:00+00:00",
-      "minutes_to_kickoff": 67.1,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
       "round": "Regular Season - 12",
       "home": "Al Khaleej Saihat",
       "away": "Al-Hazm",
-      "venue": "Al-Khaleej Club Stadium",
+      "venue": "Prince Mohammed Bin Fahd Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
@@ -223,14 +221,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1646198",
       "kickoff_dublin": "2026-10-29T14:00:00+00:00",
-      "minutes_to_kickoff": 32.1,
+      "minutes_to_kickoff": 23.3,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -363,14 +361,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1606551",
       "kickoff_dublin": "2026-10-29T14:15:00+00:00",
-      "minutes_to_kickoff": 47.1,
+      "minutes_to_kickoff": 38.3,
       "timing_priority": "fixed_target_block",
       "league": "Second Division",
       "country": "Qatar",
@@ -512,7 +510,7 @@
     {
       "fixture_id": "1563672",
       "kickoff_dublin": "2026-10-29T14:00:00+00:00",
-      "minutes_to_kickoff": 32.1,
+      "minutes_to_kickoff": 23.3,
       "timing_priority": "fixed_target_block",
       "league": "Cup",
       "country": "Russia",
@@ -552,7 +550,7 @@
     {
       "fixture_id": "1612271",
       "kickoff_dublin": "2026-10-29T14:00:00+00:00",
-      "minutes_to_kickoff": 32.1,
+      "minutes_to_kickoff": 23.3,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Egypt",
@@ -592,7 +590,7 @@
     {
       "fixture_id": "1646198",
       "kickoff_dublin": "2026-10-29T14:00:00+00:00",
-      "minutes_to_kickoff": 32.1,
+      "minutes_to_kickoff": 23.3,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -725,14 +723,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -2.5,
+      "rank_score": -0.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1606551",
       "kickoff_dublin": "2026-10-29T14:15:00+00:00",
-      "minutes_to_kickoff": 47.1,
+      "minutes_to_kickoff": 38.3,
       "timing_priority": "fixed_target_block",
       "league": "Second Division",
       "country": "Qatar",
@@ -872,14 +870,14 @@
     {
       "fixture_id": "1603075",
       "kickoff_dublin": "2026-10-29T14:35:00+00:00",
-      "minutes_to_kickoff": 67.1,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Pro League",
       "country": "Saudi-Arabia",
       "round": "Regular Season - 12",
       "home": "Al Khaleej Saihat",
       "away": "Al-Hazm",
-      "venue": "Al-Khaleej Club Stadium",
+      "venue": "Prince Mohammed Bin Fahd Stadium",
       "referee": "",
       "exclusion_reason": "",
       "api_prediction": {
@@ -1005,7 +1003,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 1.5,
+      "rank_score": 2.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

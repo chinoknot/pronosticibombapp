@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-29T23:28:19.823234+00:00",
+  "generated_at_dublin": "2026-10-29T23:31:42.743458+00:00",
   "match_date": "2026-10-30",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-30T00:00:00+00:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 208,
   "fixtures_target_date_total": 403,
-  "fixtures_in_next_75m": 6,
-  "relevant_fixtures_in_next_75m": 6,
+  "fixtures_in_next_75m": 4,
+  "relevant_fixtures_in_next_75m": 4,
   "fixtures_in_target_block": 4,
   "relevant_fixtures_in_target_block": 4,
   "excluded_in_target_block": 0,
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,29 +65,27 @@
   "live_predictions_requested": 4,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8951,
+  "request_ms": 7553,
   "api_usage_this_request": {
-    "calls": 10,
+    "calls": 2,
     "by_endpoint": {
-      "/fixtures": 2,
-      "/odds": 4,
-      "/predictions": 4
+      "/fixtures": 2
     },
-    "prediction_cache_hits": 0,
-    "odds_cache_hits": 0
+    "prediction_cache_hits": 4,
+    "odds_cache_hits": 4
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70468,
+    "daily_remaining": 70461,
     "minute_limit": 450,
-    "minute_remaining": 440
+    "minute_remaining": 448
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1559685",
       "kickoff_dublin": "2026-10-30T00:00:00+00:00",
-      "minutes_to_kickoff": 31.7,
+      "minutes_to_kickoff": 28.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -154,7 +152,7 @@
     {
       "fixture_id": "1639721",
       "kickoff_dublin": "2026-10-30T00:00:00+00:00",
-      "minutes_to_kickoff": 31.7,
+      "minutes_to_kickoff": 28.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa Ecuador",
       "country": "Ecuador",
@@ -221,7 +219,7 @@
     {
       "fixture_id": "1492436",
       "kickoff_dublin": "2026-10-30T00:30:00+00:00",
-      "minutes_to_kickoff": 61.7,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -281,14 +279,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549530",
       "kickoff_dublin": "2026-10-30T00:30:00+00:00",
-      "minutes_to_kickoff": 61.7,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -348,7 +346,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }
@@ -357,7 +355,7 @@
     {
       "fixture_id": "1559685",
       "kickoff_dublin": "2026-10-30T00:00:00+00:00",
-      "minutes_to_kickoff": 31.7,
+      "minutes_to_kickoff": 28.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga Nacional",
       "country": "Guatemala",
@@ -424,7 +422,7 @@
     {
       "fixture_id": "1639721",
       "kickoff_dublin": "2026-10-30T00:00:00+00:00",
-      "minutes_to_kickoff": 31.7,
+      "minutes_to_kickoff": 28.3,
       "timing_priority": "fixed_target_block",
       "league": "Copa Ecuador",
       "country": "Ecuador",
@@ -491,7 +489,7 @@
     {
       "fixture_id": "1492436",
       "kickoff_dublin": "2026-10-30T00:30:00+00:00",
-      "minutes_to_kickoff": 61.7,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Serie A",
       "country": "Brazil",
@@ -551,14 +549,14 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1549530",
       "kickoff_dublin": "2026-10-30T00:30:00+00:00",
-      "minutes_to_kickoff": 61.7,
+      "minutes_to_kickoff": 58.3,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Peru",
@@ -618,7 +616,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 0.5,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

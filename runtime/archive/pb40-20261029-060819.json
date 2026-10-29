@@ -1,0 +1,425 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-10-29T06:08:10.560723+00:00",
+  "match_date": "2026-10-29",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-10-29T07:00:00+00:00",
+  "target_block_end_dublin": "2026-10-29T07:45:00+00:00",
+  "target_block_matches": 1,
+  "block_verified": true,
+  "fixtures_today_total": 202,
+  "fixtures_target_date_total": 202,
+  "fixtures_in_next_75m": 0,
+  "relevant_fixtures_in_next_75m": 0,
+  "fixtures_in_target_block": 1,
+  "relevant_fixtures_in_target_block": 1,
+  "excluded_in_target_block": 0,
+  "excluded_breakdown": {},
+  "fixtures_analyzed_before_ranking": 1,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 1,
+  "odds_coverage_count": 1,
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 1,
+  "matches_returned": 1,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 429,
+  "live_odds_requested": 1,
+  "live_predictions_requested": 1,
+  "pb_state_metrics_available": 1,
+  "fallback_used": false,
+  "request_ms": 8677,
+  "api_usage_this_request": {
+    "calls": 3,
+    "by_endpoint": {
+      "/fixtures": 1,
+      "/odds": 1,
+      "/predictions": 1
+    },
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 72931,
+    "minute_limit": 450,
+    "minute_remaining": 447
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1630384",
+      "kickoff_dublin": "2026-10-29T07:45:00+00:00",
+      "minutes_to_kickoff": 96.8,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC Champions League Two",
+      "country": "World",
+      "round": "Group Stage - 3",
+      "home": "Adelaide United",
+      "away": "Home United",
+      "venue": "Coopers Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Adelaide United",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Adelaide United",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.8,
+        "odd_draw": 3.75,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.65,
+        "odd_ou_2_5_under": 2.2,
+        "odd_ou_3_5_over": 2.59,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.97,
+        "lambda_away": 0.9,
+        "lambda_total": 3.87,
+        "p_over_1_5": 0.8984,
+        "p_over_2_5": 0.7422,
+        "p_over_3_5": 0.5407,
+        "p_btts_yes": 0.563
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.5407,
+          "odd": 2.59,
+          "implied_probability": 0.3861,
+          "edge": 0.1546
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.7422,
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "edge": 0.1361
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.5407,
+        "odd": 2.59,
+        "implied_probability": 0.3861,
+        "edge": 0.1546
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5407,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5407,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.59,
+          "implied_probability": 0.3861,
+          "pb_edge": 0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1546,
+          "consensus_ev": 0.4004,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7422,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7422,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "pb_edge": 0.1361,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1361,
+          "consensus_ev": 0.2246,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8984,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8984,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.21,
+          "implied_probability": 0.8264,
+          "pb_edge": 0.072,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.072,
+          "consensus_ev": 0.0871,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.563,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.563,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.6,
+          "implied_probability": 0.625,
+          "pb_edge": -0.062,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.062,
+          "consensus_ev": -0.0992,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 18.43,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1630384",
+      "kickoff_dublin": "2026-10-29T07:45:00+00:00",
+      "minutes_to_kickoff": 96.8,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC Champions League Two",
+      "country": "World",
+      "round": "Group Stage - 3",
+      "home": "Adelaide United",
+      "away": "Home United",
+      "venue": "Coopers Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Adelaide United",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Adelaide United",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.8,
+        "odd_draw": 3.75,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.65,
+        "odd_ou_2_5_under": 2.2,
+        "odd_ou_3_5_over": 2.59,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 2.97,
+        "lambda_away": 0.9,
+        "lambda_total": 3.87,
+        "p_over_1_5": 0.8984,
+        "p_over_2_5": 0.7422,
+        "p_over_3_5": 0.5407,
+        "p_btts_yes": 0.563
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [
+        {
+          "market": "Over 3.5",
+          "probability": 0.5407,
+          "odd": 2.59,
+          "implied_probability": 0.3861,
+          "edge": 0.1546
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.7422,
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "edge": 0.1361
+        }
+      ],
+      "best_value_market": {
+        "market": "Over 3.5",
+        "probability": 0.5407,
+        "odd": 2.59,
+        "implied_probability": 0.3861,
+        "edge": 0.1546
+      },
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.5407,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5407,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.59,
+          "implied_probability": 0.3861,
+          "pb_edge": 0.1546,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1546,
+          "consensus_ev": 0.4004,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7422,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7422,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.65,
+          "implied_probability": 0.6061,
+          "pb_edge": 0.1361,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.1361,
+          "consensus_ev": 0.2246,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8984,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8984,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.21,
+          "implied_probability": 0.8264,
+          "pb_edge": 0.072,
+          "oddalerts_edge": null,
+          "consensus_edge": 0.072,
+          "consensus_ev": 0.0871,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.563,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.563,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.6,
+          "implied_probability": 0.625,
+          "pb_edge": -0.062,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.062,
+          "consensus_ev": -0.0992,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 18.43,
+      "actionable_candidate": true,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-10-29T07:00:00+00:00",
+    "target_block_end_dublin": "2026-10-29T07:45:00+00:00",
+    "target_block_matches": 1,
+    "relevant_fixtures_in_target_block": 1,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

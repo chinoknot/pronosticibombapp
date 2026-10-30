@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-30T21:38:14.277907+00:00",
+  "generated_at_dublin": "2026-10-30T21:40:04.177071+00:00",
   "match_date": "2026-10-30",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-30T22:00:00+00:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -65,28 +65,27 @@
   "live_predictions_requested": 10,
   "pb_state_metrics_available": 10,
   "fallback_used": false,
-  "request_ms": 7598,
+  "request_ms": 7632,
   "api_usage_this_request": {
-    "calls": 11,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 10
+      "/fixtures": 1
     },
     "prediction_cache_hits": 10,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 10
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 66490,
+    "daily_remaining": 66486,
     "minute_limit": 450,
-    "minute_remaining": 442
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1505548",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -215,7 +214,7 @@
     {
       "fixture_id": "1493218",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -355,7 +354,7 @@
     {
       "fixture_id": "1493219",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -495,7 +494,7 @@
     {
       "fixture_id": "1505549",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -624,7 +623,7 @@
     {
       "fixture_id": "1645526",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -753,7 +752,7 @@
     {
       "fixture_id": "1632045",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -903,7 +902,7 @@
     {
       "fixture_id": "1647325",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",
@@ -1043,7 +1042,7 @@
     {
       "fixture_id": "1632049",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -1172,7 +1171,7 @@
     {
       "fixture_id": "1520952",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -1301,7 +1300,7 @@
     {
       "fixture_id": "1646955",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro - 3",
       "country": "Brazil",
@@ -1443,7 +1442,7 @@
     {
       "fixture_id": "1493218",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1583,7 +1582,7 @@
     {
       "fixture_id": "1493219",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Profesional Argentina",
       "country": "Argentina",
@@ -1723,7 +1722,7 @@
     {
       "fixture_id": "1505548",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -1852,7 +1851,7 @@
     {
       "fixture_id": "1505549",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Chile",
@@ -1981,7 +1980,7 @@
     {
       "fixture_id": "1645526",
       "kickoff_dublin": "2026-10-30T22:00:00+00:00",
-      "minutes_to_kickoff": 21.8,
+      "minutes_to_kickoff": 19.9,
       "timing_priority": "fixed_target_block",
       "league": "Primera División",
       "country": "Bolivia",
@@ -2110,7 +2109,7 @@
     {
       "fixture_id": "1520952",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Serie B",
       "country": "Brazil",
@@ -2239,7 +2238,7 @@
     {
       "fixture_id": "1632045",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -2389,7 +2388,7 @@
     {
       "fixture_id": "1632049",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Division Profesional - Clausura",
       "country": "Paraguay",
@@ -2518,7 +2517,7 @@
     {
       "fixture_id": "1646955",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "Mineiro - 3",
       "country": "Brazil",
@@ -2658,7 +2657,7 @@
     {
       "fixture_id": "1647325",
       "kickoff_dublin": "2026-10-30T22:30:00+00:00",
-      "minutes_to_kickoff": 51.8,
+      "minutes_to_kickoff": 49.9,
       "timing_priority": "fixed_target_block",
       "league": "USL Championship",
       "country": "USA",

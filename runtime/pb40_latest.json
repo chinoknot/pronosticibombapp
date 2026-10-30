@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-10-30T10:18:25.305496+00:00",
+  "generated_at_dublin": "2026-10-30T10:24:04.580055+00:00",
   "match_date": "2026-10-30",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-10-30T11:00:00+00:00",
@@ -22,7 +22,7 @@
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 14,
-  "odds_coverage_count": 4,
+  "odds_coverage_count": 5,
   "oddalerts_ai_coverage_count": 0,
   "oddalerts_public_value_coverage_count": 0,
   "oddalerts_corner_trend_coverage_count": 0,
@@ -67,29 +67,28 @@
   "live_predictions_requested": 14,
   "pb_state_metrics_available": 14,
   "fallback_used": false,
-  "request_ms": 9830,
+  "request_ms": 9220,
   "api_usage_this_request": {
-    "calls": 29,
+    "calls": 15,
     "by_endpoint": {
       "/fixtures": 1,
-      "/odds": 14,
-      "/predictions": 14
+      "/odds": 14
     },
-    "prediction_cache_hits": 0,
+    "prediction_cache_hits": 14,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 70870,
+    "daily_remaining": 70854,
     "minute_limit": 450,
-    "minute_remaining": 429
+    "minute_remaining": 435
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1633922",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "V.League 1",
       "country": "Vietnam",
@@ -246,7 +245,7 @@
     {
       "fixture_id": "1603479",
       "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
+      "minutes_to_kickoff": 65.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Singapore",
@@ -422,7 +421,7 @@
     {
       "fixture_id": "1581554",
       "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
+      "minutes_to_kickoff": 65.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -572,7 +571,7 @@
     {
       "fixture_id": "1642056",
       "kickoff_dublin": "2026-10-30T11:15:00+00:00",
-      "minutes_to_kickoff": 56.6,
+      "minutes_to_kickoff": 50.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Lebanon",
@@ -699,9 +698,149 @@
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1621378",
+      "kickoff_dublin": "2026-10-30T11:30:00+00:00",
+      "minutes_to_kickoff": 65.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Alef",
+      "country": "Israel",
+      "round": "North - 9",
+      "home": "Hapoel Bnei Musmus",
+      "away": "Hapoel Migdal HaEmek",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Hapoel Migdal HaEmek",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Hapoel Migdal HaEmek",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.5,
+        "odd_away": 1.91,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.83,
+        "odd_btts_yes": 1.59,
+        "odd_btts_no": 2.13,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.035,
+        "lambda_away": 1.44,
+        "lambda_total": 2.475,
+        "p_over_1_5": 0.7075,
+        "p_over_2_5": 0.4498,
+        "p_over_3_5": 0.2371,
+        "p_btts_yes": 0.492
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2371,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2371,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.83,
+          "implied_probability": 0.3534,
+          "pb_edge": -0.1163,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1163,
+          "consensus_ev": -0.329,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4498,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4498,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": -0.1216,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1216,
+          "consensus_ev": -0.2128,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.492,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.492,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.59,
+          "implied_probability": 0.6289,
+          "pb_edge": -0.1369,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.1369,
+          "consensus_ev": -0.2177,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7075,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7075,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.18,
+          "implied_probability": 0.8475,
+          "pb_edge": -0.14,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.14,
+          "consensus_ev": -0.1652,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.575,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1576942",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -841,7 +980,7 @@
     {
       "fixture_id": "1633677",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga III - Serie 7",
       "country": "Romania",
@@ -981,7 +1120,7 @@
     {
       "fixture_id": "1642057",
       "kickoff_dublin": "2026-10-30T11:15:00+00:00",
-      "minutes_to_kickoff": 56.6,
+      "minutes_to_kickoff": 50.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Lebanon",
@@ -1121,7 +1260,7 @@
     {
       "fixture_id": "1576940",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -1250,7 +1389,7 @@
     {
       "fixture_id": "1507477",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -1390,7 +1529,7 @@
     {
       "fixture_id": "1507476",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -1530,7 +1669,7 @@
     {
       "fixture_id": "1507478",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -1659,7 +1798,7 @@
     {
       "fixture_id": "1644865",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -1799,7 +1938,7 @@
     {
       "fixture_id": "1644866",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -1924,153 +2063,13 @@
       "rank_score": -3.0,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1621378",
-      "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga Alef",
-      "country": "Israel",
-      "round": "North - 9",
-      "home": "Hapoel Bnei Musmus",
-      "away": "Hapoel Migdal HaEmek",
-      "venue": "",
-      "referee": "",
-      "exclusion_reason": "",
-      "api_prediction": {
-        "pred_winner_name": "Hapoel Migdal HaEmek",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Hapoel Migdal HaEmek",
-        "goals_home": "-1.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "pb_metrics": {
-        "lambda_home": 1.035,
-        "lambda_away": 1.44,
-        "lambda_total": 2.475,
-        "p_over_1_5": 0.7075,
-        "p_over_2_5": 0.4498,
-        "p_over_3_5": 0.2371,
-        "p_btts_yes": 0.492
-      },
-      "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [],
-      "best_value_market": null,
-      "oddalerts": {
-        "enabled": true,
-        "ai": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "public_value_bet": {
-          "matched": false,
-          "match_confidence": 0.0
-        },
-        "corner_trend": {
-          "matched": false,
-          "match_confidence": 0.0
-        }
-      },
-      "consensus_markets": [
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.7075,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7075,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.4498,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.4498,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.2371,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.2371,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.492,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.492,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
-      "best_consensus_market": null,
-      "model_disagreement": false,
-      "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.425,
-      "actionable_candidate": false,
-      "live_enrichment": "odds+prediction"
     }
   ],
   "matches": [
     {
       "fixture_id": "1507476",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -2210,7 +2209,7 @@
     {
       "fixture_id": "1507477",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -2350,7 +2349,7 @@
     {
       "fixture_id": "1507478",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -2479,7 +2478,7 @@
     {
       "fixture_id": "1519185",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Youth Championship",
       "country": "Russia",
@@ -2519,7 +2518,7 @@
     {
       "fixture_id": "1565144",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -2559,7 +2558,7 @@
     {
       "fixture_id": "1576940",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -2688,7 +2687,7 @@
     {
       "fixture_id": "1576942",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -2828,7 +2827,7 @@
     {
       "fixture_id": "1599268",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -2868,7 +2867,7 @@
     {
       "fixture_id": "1599272",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -2908,7 +2907,7 @@
     {
       "fixture_id": "1599273",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Central Youth League",
       "country": "Poland",
@@ -2948,7 +2947,7 @@
     {
       "fixture_id": "1633677",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga III - Serie 7",
       "country": "Romania",
@@ -3088,7 +3087,7 @@
     {
       "fixture_id": "1633922",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "V.League 1",
       "country": "Vietnam",
@@ -3245,7 +3244,7 @@
     {
       "fixture_id": "1644865",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -3385,7 +3384,7 @@
     {
       "fixture_id": "1644866",
       "kickoff_dublin": "2026-10-30T11:00:00+00:00",
-      "minutes_to_kickoff": 41.6,
+      "minutes_to_kickoff": 35.9,
       "timing_priority": "fixed_target_block",
       "league": "Ligue 1",
       "country": "Congo-DR",
@@ -3514,7 +3513,7 @@
     {
       "fixture_id": "1642056",
       "kickoff_dublin": "2026-10-30T11:15:00+00:00",
-      "minutes_to_kickoff": 56.6,
+      "minutes_to_kickoff": 50.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Lebanon",
@@ -3643,7 +3642,7 @@
     {
       "fixture_id": "1642057",
       "kickoff_dublin": "2026-10-30T11:15:00+00:00",
-      "minutes_to_kickoff": 56.6,
+      "minutes_to_kickoff": 50.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Lebanon",
@@ -3783,7 +3782,7 @@
     {
       "fixture_id": "1581554",
       "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
+      "minutes_to_kickoff": 65.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -3933,7 +3932,7 @@
     {
       "fixture_id": "1603479",
       "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
+      "minutes_to_kickoff": 65.9,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Singapore",
@@ -4109,7 +4108,7 @@
     {
       "fixture_id": "1621378",
       "kickoff_dublin": "2026-10-30T11:30:00+00:00",
-      "minutes_to_kickoff": 71.6,
+      "minutes_to_kickoff": 65.9,
       "timing_priority": "fixed_target_block",
       "league": "Liga Alef",
       "country": "Israel",
@@ -4132,16 +4131,16 @@
         "prob_away": "45%"
       },
       "live_odds": {
-        "bookmaker": "",
-        "odd_home": null,
-        "odd_draw": null,
-        "odd_away": null,
-        "odd_ou_1_5_over": null,
-        "odd_ou_2_5_over": null,
-        "odd_ou_2_5_under": null,
-        "odd_ou_3_5_over": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.5,
+        "odd_away": 1.91,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.75,
+        "odd_ou_2_5_under": 2.05,
+        "odd_ou_3_5_over": 2.83,
+        "odd_btts_yes": 1.59,
+        "odd_btts_no": 2.13,
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
@@ -4175,18 +4174,18 @@
       },
       "consensus_markets": [
         {
-          "market": "Over 1.5",
-          "pb_probability": 0.7075,
+          "market": "Over 3.5",
+          "pb_probability": 0.2371,
           "oddalerts_probability": null,
-          "consensus_probability": 0.7075,
+          "consensus_probability": 0.2371,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
+          "odd": 2.83,
+          "implied_probability": 0.3534,
+          "pb_edge": -0.1163,
           "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
+          "consensus_edge": -0.1163,
+          "consensus_ev": -0.329,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -4197,28 +4196,12 @@
           "consensus_probability": 0.4498,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
+          "odd": 1.75,
+          "implied_probability": 0.5714,
+          "pb_edge": -0.1216,
           "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.2371,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.2371,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
-          "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
+          "consensus_edge": -0.1216,
+          "consensus_ev": -0.2128,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         },
@@ -4229,12 +4212,28 @@
           "consensus_probability": 0.492,
           "model_gap": null,
           "agreement": "single_source",
-          "odd": null,
-          "implied_probability": null,
-          "pb_edge": null,
+          "odd": 1.59,
+          "implied_probability": 0.6289,
+          "pb_edge": -0.1369,
           "oddalerts_edge": null,
-          "consensus_edge": null,
-          "consensus_ev": null,
+          "consensus_edge": -0.1369,
+          "consensus_ev": -0.2177,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7075,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7075,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.18,
+          "implied_probability": 0.8475,
+          "pb_edge": -0.14,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.14,
+          "consensus_ev": -0.1652,
           "tag": "NO_CONFIRMED_VALUE",
           "recommended": false
         }
@@ -4242,7 +4241,7 @@
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": -3.425,
+      "rank_score": 1.575,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction"
     }

@@ -1,0 +1,1479 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-10-31T07:20:07.848334+00:00",
+  "match_date": "2026-10-31",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-10-31T08:00:00+00:00",
+  "target_block_end_dublin": "2026-10-31T08:45:00+00:00",
+  "target_block_matches": 13,
+  "block_verified": true,
+  "fixtures_today_total": 1568,
+  "fixtures_target_date_total": 1568,
+  "fixtures_in_next_75m": 15,
+  "relevant_fixtures_in_next_75m": 10,
+  "fixtures_in_target_block": 13,
+  "relevant_fixtures_in_target_block": 8,
+  "excluded_in_target_block": 5,
+  "excluded_breakdown": {
+    "youth": 5
+  },
+  "fixtures_analyzed_before_ranking": 8,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 6,
+  "odds_coverage_count": 6,
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 0,
+  "matches_returned": 13,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 429,
+  "live_odds_requested": 8,
+  "live_predictions_requested": 8,
+  "pb_state_metrics_available": 1,
+  "fallback_used": false,
+  "request_ms": 9415,
+  "api_usage_this_request": {
+    "calls": 17,
+    "by_endpoint": {
+      "/fixtures": 1,
+      "/odds": 8,
+      "/predictions": 8
+    },
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 60572,
+    "minute_limit": 450,
+    "minute_remaining": 435
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1622819",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Arema FC",
+      "away": "Bali United",
+      "venue": "Kanjuruhan Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Bali United",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Bali United and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.8,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.15,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.26,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1622820",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "PSM Makassar",
+      "away": "Persepam Madura Utd",
+      "venue": "Gelora BJ Habibie",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "PSM Makassar",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : PSM Makassar or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.5,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.27,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.1,
+        "odd_btts_yes": 1.65,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1637699",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 2",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Bekasi City",
+      "away": "PSPS",
+      "venue": "Purnawarman Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Bekasi City",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Bekasi City or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.38,
+        "odd_draw": 3.4,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.29,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 1.96,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1593695",
+      "kickoff_dublin": "2026-10-31T08:40:00+00:00",
+      "minutes_to_kickoff": 79.9,
+      "timing_priority": "fixed_target_block",
+      "league": "A-League",
+      "country": "Australia",
+      "round": "Regular Season - 3",
+      "home": "Macarthur",
+      "away": "Western Sydney Wanderers",
+      "venue": "Campbelltown Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Western Sydney Wanderers",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Western Sydney Wanderers",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.7,
+        "odd_draw": 3.8,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1622822",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Persik Kediri",
+      "away": "Persita",
+      "venue": "Brawijaya Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.4,
+        "odd_away": 3.0,
+        "odd_ou_1_5_over": 1.23,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1637696",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 2",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "PSGC Ciamis",
+      "away": "PSMS Medan",
+      "venue": "Stadion Galuh",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.0,
+        "odd_draw": 3.5,
+        "odd_away": 1.73,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 1.81,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1641924",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Lao League",
+      "country": "Laos",
+      "round": "Regular Season - 4",
+      "home": "Namtha United",
+      "away": "Oudomxay Entremets",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Namtha United",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+3.5",
+        "advice": "Combo Winner : Namtha United and +3.5 goals",
+        "goals_home": "-8.5",
+        "goals_away": null,
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 5.445,
+        "lambda_away": 4.0,
+        "lambda_total": 9.445,
+        "p_over_1_5": 0.9992,
+        "p_over_2_5": 0.9956,
+        "p_over_3_5": 0.9845,
+        "p_btts_yes": 0.9774
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9992,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9992,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.9956,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9956,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.9845,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9845,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.9774,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9774,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1641923",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Lao League",
+      "country": "Laos",
+      "round": "Regular Season - 4",
+      "home": "Viengchanh",
+      "away": "Lao Army",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Viengchanh",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Viengchanh",
+        "goals_home": "-4.5",
+        "goals_away": null,
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1640865",
+      "kickoff_dublin": "2026-10-31T08:00:00+00:00",
+      "minutes_to_kickoff": 39.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Diski Challenge",
+      "country": "South-Africa",
+      "round": "Regular Season - 6",
+      "home": "AmaZulu U23",
+      "away": "Stellenbosch U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1640866",
+      "kickoff_dublin": "2026-10-31T08:00:00+00:00",
+      "minutes_to_kickoff": 39.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Diski Challenge",
+      "country": "South-Africa",
+      "round": "Regular Season - 6",
+      "home": "Golden Arrows U23",
+      "away": "TS Galaxy U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1640867",
+      "kickoff_dublin": "2026-10-31T08:00:00+00:00",
+      "minutes_to_kickoff": 39.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Diski Challenge",
+      "country": "South-Africa",
+      "round": "Regular Season - 6",
+      "home": "Mamelodi Sundowns U23",
+      "away": "Polokwane City U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1640868",
+      "kickoff_dublin": "2026-10-31T08:00:00+00:00",
+      "minutes_to_kickoff": 39.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Diski Challenge",
+      "country": "South-Africa",
+      "round": "Regular Season - 6",
+      "home": "Orlando Pirates U23",
+      "away": "Sekhukhune United U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1641025",
+      "kickoff_dublin": "2026-10-31T08:00:00+00:00",
+      "minutes_to_kickoff": 39.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Diski Challenge",
+      "country": "South-Africa",
+      "round": "Regular Season - 6",
+      "home": "Chippa United U23",
+      "away": "Milford FC U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1622819",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Arema FC",
+      "away": "Bali United",
+      "venue": "Kanjuruhan Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Bali United",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Bali United and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.4,
+        "odd_draw": 3.8,
+        "odd_away": 1.85,
+        "odd_ou_1_5_over": 1.15,
+        "odd_ou_2_5_over": 1.5,
+        "odd_ou_2_5_under": 2.5,
+        "odd_ou_3_5_over": 2.26,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1622820",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "PSM Makassar",
+      "away": "Persepam Madura Utd",
+      "venue": "Gelora BJ Habibie",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "PSM Makassar",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : PSM Makassar or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.5,
+        "odd_away": 3.2,
+        "odd_ou_1_5_over": 1.27,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.1,
+        "odd_btts_yes": 1.65,
+        "odd_btts_no": 2.15,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1622822",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 1",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Persik Kediri",
+      "away": "Persita",
+      "venue": "Brawijaya Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.15,
+        "odd_draw": 3.4,
+        "odd_away": 3.0,
+        "odd_ou_1_5_over": 1.23,
+        "odd_ou_2_5_over": 1.73,
+        "odd_ou_2_5_under": 2.08,
+        "odd_ou_3_5_over": 2.88,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1637696",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 2",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "PSGC Ciamis",
+      "away": "PSMS Medan",
+      "venue": "Stadion Galuh",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 4.0,
+        "odd_draw": 3.5,
+        "odd_away": 1.73,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 1.81,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1637699",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga 2",
+      "country": "Indonesia",
+      "round": "Regular Season - 8",
+      "home": "Bekasi City",
+      "away": "PSPS",
+      "venue": "Purnawarman Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Bekasi City",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Bekasi City or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.38,
+        "odd_draw": 3.4,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.29,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_btts_yes": 1.7,
+        "odd_btts_no": 1.96,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1641923",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Lao League",
+      "country": "Laos",
+      "round": "Regular Season - 4",
+      "home": "Viengchanh",
+      "away": "Lao Army",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Viengchanh",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Viengchanh",
+        "goals_home": "-4.5",
+        "goals_away": null,
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1641924",
+      "kickoff_dublin": "2026-10-31T08:30:00+00:00",
+      "minutes_to_kickoff": 69.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Lao League",
+      "country": "Laos",
+      "round": "Regular Season - 4",
+      "home": "Namtha United",
+      "away": "Oudomxay Entremets",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Namtha United",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": "+3.5",
+        "advice": "Combo Winner : Namtha United and +3.5 goals",
+        "goals_home": "-8.5",
+        "goals_away": null,
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 5.445,
+        "lambda_away": 4.0,
+        "lambda_total": 9.445,
+        "p_over_1_5": 0.9992,
+        "p_over_2_5": 0.9956,
+        "p_over_3_5": 0.9845,
+        "p_btts_yes": 0.9774
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.9992,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9992,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.9956,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9956,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.9845,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9845,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.9774,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.9774,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1593695",
+      "kickoff_dublin": "2026-10-31T08:40:00+00:00",
+      "minutes_to_kickoff": 79.9,
+      "timing_priority": "fixed_target_block",
+      "league": "A-League",
+      "country": "Australia",
+      "round": "Regular Season - 3",
+      "home": "Macarthur",
+      "away": "Western Sydney Wanderers",
+      "venue": "Campbelltown Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Western Sydney Wanderers",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Western Sydney Wanderers",
+        "goals_home": "-2.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.7,
+        "odd_draw": 3.8,
+        "odd_away": 2.35,
+        "odd_ou_1_5_over": 1.18,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.38,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-10-31T08:00:00+00:00",
+    "target_block_end_dublin": "2026-10-31T08:45:00+00:00",
+    "target_block_matches": 13,
+    "relevant_fixtures_in_target_block": 8,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

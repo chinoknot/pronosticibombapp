@@ -1,0 +1,1767 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-11-01T21:19:31.169639+00:00",
+  "match_date": "2026-11-01",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-11-01T22:00:00+00:00",
+  "target_block_end_dublin": "2026-11-01T22:45:00+00:00",
+  "target_block_matches": 19,
+  "block_verified": true,
+  "fixtures_today_total": 1186,
+  "fixtures_target_date_total": 1186,
+  "fixtures_in_next_75m": 29,
+  "relevant_fixtures_in_next_75m": 20,
+  "fixtures_in_target_block": 19,
+  "relevant_fixtures_in_target_block": 11,
+  "excluded_in_target_block": 8,
+  "excluded_breakdown": {
+    "women": 8
+  },
+  "fixtures_analyzed_before_ranking": 11,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 5,
+  "odds_coverage_count": 6,
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 0,
+  "matches_returned": 19,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 436,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 416,
+  "live_odds_requested": 11,
+  "live_predictions_requested": 11,
+  "pb_state_metrics_available": 0,
+  "fallback_used": false,
+  "request_ms": 9293,
+  "api_usage_this_request": {
+    "calls": 23,
+    "by_endpoint": {
+      "/fixtures": 1,
+      "/odds": 11,
+      "/predictions": 11
+    },
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 50567,
+    "minute_limit": 450,
+    "minute_remaining": 422
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1498929",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 36",
+      "home": "Gimnasia Y Tiro",
+      "away": "Quilmes",
+      "venue": "Estadio El Gigante del Norte",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gimnasia Y Tiro",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Gimnasia Y Tiro or draw and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.85,
+        "odd_draw": 3.25,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1551714",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Costa-Rica",
+      "round": "Apertura - 14",
+      "home": "Deportivo Saprissa",
+      "away": "LD Alajuelense",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Deportivo Saprissa",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Deportivo Saprissa or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.83,
+        "odd_draw": 3.5,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557227",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Tampa Bay Sun W",
+      "away": "DC Power W",
+      "venue": "Riverfront Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "DC Power W",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or DC Power W",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.2,
+        "odd_draw": 3.25,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.5,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1631793",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Premier Serie A",
+      "country": "Mexico",
+      "round": "Apertura - 10",
+      "home": "Acambaro",
+      "away": "Vaqueros Reynosa",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Acambaro",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Acambaro or draw and +1.5 goals",
+        "goals_home": "-4.5",
+        "goals_away": "-3.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 4.2,
+        "odd_away": 3.75,
+        "odd_ou_1_5_over": 1.16,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.15,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.45,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557226",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Dallas Trinity W",
+      "away": "Fort Lauderdale United W",
+      "venue": "Cotton Bowl",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.5,
+        "odd_draw": 4.1,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1647170",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Uruguay",
+      "round": "2nd Phase - 25",
+      "home": "Miramar",
+      "away": "Plaza Colonia",
+      "venue": "Parque Palermo",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.2,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
+        "odd_ou_3_5_over": 4.33,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646750",
+      "kickoff_dublin": "2026-11-01T22:15:00+00:00",
+      "minutes_to_kickoff": 55.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "round": "Round of 16",
+      "home": "Atenas",
+      "away": "Sarmiento de La Banda",
+      "venue": "Estadio 9 de Julio",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atenas",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atenas or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1634932",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "round": "Regular Season - 13",
+      "home": "Vega Real",
+      "away": "Delfines Del Este",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645260",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Eerste Divisie",
+      "country": "Suriname",
+      "round": "Group Stage",
+      "home": "Coronie Boys",
+      "away": "Leo Victor",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1647428",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Semi-finals",
+      "home": "Chattanooga",
+      "away": "Columbus Crew II",
+      "venue": "Finley Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1648027",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Division",
+      "country": "Nicaragua",
+      "round": "Apertura - 16",
+      "home": "Walter Ferretti",
+      "away": "San Marcos",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1498929",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "round": "Regular Season - 36",
+      "home": "Gimnasia Y Tiro",
+      "away": "Quilmes",
+      "venue": "Estadio El Gigante del Norte",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Gimnasia Y Tiro",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Gimnasia Y Tiro or draw and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.85,
+        "odd_draw": 3.25,
+        "odd_away": 4.5,
+        "odd_ou_1_5_over": 1.44,
+        "odd_ou_2_5_over": 2.4,
+        "odd_ou_2_5_under": 1.53,
+        "odd_ou_3_5_over": 5.0,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1508588",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Angel City W",
+      "away": "Boston Legacy W",
+      "venue": "Banc of California Stadium",
+      "referee": "Brad Jensen",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508589",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Bay FC W",
+      "away": "San Diego Wave W",
+      "venue": "PayPal Park",
+      "referee": "Rodrigo Albuquerque",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508590",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "NJ/NY Gotham FC W",
+      "away": "Utah Royals W",
+      "venue": "Sports Illustrated Stadium",
+      "referee": "Alyssa Pennington",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508591",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Houston Dash W",
+      "away": "Portland Thorns W",
+      "venue": "BBVA Compass Stadium",
+      "referee": "Joshua Encarnacion ",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508592",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "North Carolina Courage W",
+      "away": "Denver Summit W",
+      "venue": "WakeMed Soccer Park",
+      "referee": "Bensalah, Nabil",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508593",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Racing Louisville W",
+      "away": "Kansas City W",
+      "venue": "Lynn Family Stadium",
+      "referee": "Jaclyn Metz",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508594",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Seattle Reign FC W",
+      "away": "Orlando Pride W",
+      "venue": "Lumen Field",
+      "referee": "Calin Radosav",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1508595",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "NWSL Women",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Washington Spirit W",
+      "away": "Chicago Red Stars W",
+      "venue": "Audi Field",
+      "referee": "Shawn Tehini",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1551714",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera División",
+      "country": "Costa-Rica",
+      "round": "Apertura - 14",
+      "home": "Deportivo Saprissa",
+      "away": "LD Alajuelense",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Deportivo Saprissa",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Deportivo Saprissa or draw",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.83,
+        "odd_draw": 3.5,
+        "odd_away": 3.9,
+        "odd_ou_1_5_over": 1.25,
+        "odd_ou_2_5_over": 1.8,
+        "odd_ou_2_5_under": 2.0,
+        "odd_ou_3_5_over": 3.0,
+        "odd_btts_yes": 1.67,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557226",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Dallas Trinity W",
+      "away": "Fort Lauderdale United W",
+      "venue": "Cotton Bowl",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.5,
+        "odd_draw": 4.1,
+        "odd_away": 5.0,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.85,
+        "odd_ou_2_5_under": 1.95,
+        "odd_ou_3_5_over": 3.25,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1557227",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "USL Super League",
+      "country": "USA",
+      "round": "Group Stage",
+      "home": "Tampa Bay Sun W",
+      "away": "DC Power W",
+      "venue": "Riverfront Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "DC Power W",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or DC Power W",
+        "goals_home": "-1.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.2,
+        "odd_draw": 3.25,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.05,
+        "odd_ou_2_5_under": 1.75,
+        "odd_ou_3_5_over": 3.5,
+        "odd_btts_yes": 1.83,
+        "odd_btts_no": 1.83,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1631793",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Premier Serie A",
+      "country": "Mexico",
+      "round": "Apertura - 10",
+      "home": "Acambaro",
+      "away": "Vaqueros Reynosa",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Acambaro",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : Acambaro or draw and +1.5 goals",
+        "goals_home": "-4.5",
+        "goals_away": "-3.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.65,
+        "odd_draw": 4.2,
+        "odd_away": 3.75,
+        "odd_ou_1_5_over": 1.16,
+        "odd_ou_2_5_over": 1.44,
+        "odd_ou_2_5_under": 2.62,
+        "odd_ou_3_5_over": 2.15,
+        "odd_btts_yes": 1.5,
+        "odd_btts_no": 2.45,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1634932",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga Mayor",
+      "country": "Dominican-Republic",
+      "round": "Regular Season - 13",
+      "home": "Vega Real",
+      "away": "Delfines Del Este",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1645260",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Eerste Divisie",
+      "country": "Suriname",
+      "round": "Group Stage",
+      "home": "Coronie Boys",
+      "away": "Leo Victor",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1647170",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Segunda División",
+      "country": "Uruguay",
+      "round": "2nd Phase - 25",
+      "home": "Miramar",
+      "away": "Plaza Colonia",
+      "venue": "Parque Palermo",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.25,
+        "odd_draw": 3.2,
+        "odd_away": 2.0,
+        "odd_ou_1_5_over": 1.4,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
+        "odd_ou_3_5_over": 4.33,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 1.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1647428",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "MLS Next Pro",
+      "country": "USA",
+      "round": "Semi-finals",
+      "home": "Chattanooga",
+      "away": "Columbus Crew II",
+      "venue": "Finley Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1648027",
+      "kickoff_dublin": "2026-11-01T22:00:00+00:00",
+      "minutes_to_kickoff": 40.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Primera Division",
+      "country": "Nicaragua",
+      "round": "Apertura - 16",
+      "home": "Walter Ferretti",
+      "away": "San Marcos",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {},
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -4.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1646750",
+      "kickoff_dublin": "2026-11-01T22:15:00+00:00",
+      "minutes_to_kickoff": 55.5,
+      "timing_priority": "fixed_target_block",
+      "league": "Torneo Federal A",
+      "country": "Argentina",
+      "round": "Round of 16",
+      "home": "Atenas",
+      "away": "Sarmiento de La Banda",
+      "venue": "Estadio 9 de Julio",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Atenas",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Atenas or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction"
+    }
+  ],
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-11-01T22:00:00+00:00",
+    "target_block_end_dublin": "2026-11-01T22:45:00+00:00",
+    "target_block_matches": 19,
+    "relevant_fixtures_in_target_block": 11,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

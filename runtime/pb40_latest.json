@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-02T07:53:44.642893+00:00",
+  "generated_at_dublin": "2026-11-02T07:57:59.808984+00:00",
   "match_date": "2026-11-02",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-11-02T08:00:00+00:00",
@@ -31,19 +31,19 @@
     "ai": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
     },
     "value": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
     },
     "corner_trend": {
       "ok": false,
       "status_code": null,
-      "cache_hit": false,
+      "cache_hit": true,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
     }
   },
@@ -63,30 +63,29 @@
   "live_api_budget": 429,
   "live_odds_requested": 1,
   "live_predictions_requested": 1,
-  "pb_state_metrics_available": 1,
+  "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8728,
+  "request_ms": 8594,
   "api_usage_this_request": {
-    "calls": 2,
+    "calls": 1,
     "by_endpoint": {
-      "/fixtures": 1,
-      "/odds": 1
+      "/fixtures": 1
     },
     "prediction_cache_hits": 1,
-    "odds_cache_hits": 0
+    "odds_cache_hits": 1
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 69338,
+    "daily_remaining": 69337,
     "minute_limit": 450,
-    "minute_remaining": 448
+    "minute_remaining": 449
   },
   "partial_api_errors": [],
   "ranked_matches": [
     {
       "fixture_id": "1646990",
       "kickoff_dublin": "2026-11-02T08:00:00+00:00",
-      "minutes_to_kickoff": 6.3,
+      "minutes_to_kickoff": 2.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Mongolia",
@@ -122,33 +121,11 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {
-        "lambda_home": 2.178,
-        "lambda_away": 1.92,
-        "lambda_total": 4.098,
-        "p_over_1_5": 0.9153,
-        "p_over_2_5": 0.7759,
-        "p_over_3_5": 0.5854,
-        "p_btts_yes": 0.7567
-      },
+      "pb_metrics": {},
       "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5854,
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "edge": 0.0006
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5854,
-        "odd": 1.71,
-        "implied_probability": 0.5848,
-        "edge": 0.0006
-      },
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
       "oddalerts": {
         "enabled": true,
         "ai": {
@@ -164,86 +141,21 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.5854,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5854,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "pb_edge": 0.0006,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0006,
-          "consensus_ev": 0.001,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7759,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7759,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.28,
-          "implied_probability": 0.7812,
-          "pb_edge": -0.0053,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0053,
-          "consensus_ev": -0.0068,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.7567,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7567,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.29,
-          "implied_probability": 0.7752,
-          "pb_edge": -0.0185,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0185,
-          "consensus_ev": -0.0239,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.9153,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.9153,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.05,
-          "implied_probability": 0.9524,
-          "pb_edge": -0.0371,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0371,
-          "consensus_ev": -0.0389,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
+      "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 6.258,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction",
-      "pb_metrics_source": "pb_raw"
+      "pb_metrics_source": "none"
     }
   ],
   "matches": [
     {
       "fixture_id": "1646990",
       "kickoff_dublin": "2026-11-02T08:00:00+00:00",
-      "minutes_to_kickoff": 6.3,
+      "minutes_to_kickoff": 2.0,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Mongolia",
@@ -279,33 +191,11 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "pb_metrics": {
-        "lambda_home": 2.178,
-        "lambda_away": 1.92,
-        "lambda_total": 4.098,
-        "p_over_1_5": 0.9153,
-        "p_over_2_5": 0.7759,
-        "p_over_3_5": 0.5854,
-        "p_btts_yes": 0.7567
-      },
+      "pb_metrics": {},
       "pb_picks": [],
-      "pb_raw_available": true,
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.5854,
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "edge": 0.0006
-        }
-      ],
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.5854,
-        "odd": 1.71,
-        "implied_probability": 0.5848,
-        "edge": 0.0006
-      },
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
       "oddalerts": {
         "enabled": true,
         "ai": {
@@ -321,79 +211,14 @@
           "match_confidence": 0.0
         }
       },
-      "consensus_markets": [
-        {
-          "market": "Over 3.5",
-          "pb_probability": 0.5854,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.5854,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.71,
-          "implied_probability": 0.5848,
-          "pb_edge": 0.0006,
-          "oddalerts_edge": null,
-          "consensus_edge": 0.0006,
-          "consensus_ev": 0.001,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 2.5",
-          "pb_probability": 0.7759,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7759,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.28,
-          "implied_probability": 0.7812,
-          "pb_edge": -0.0053,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0053,
-          "consensus_ev": -0.0068,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "BTTS YES",
-          "pb_probability": 0.7567,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.7567,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.29,
-          "implied_probability": 0.7752,
-          "pb_edge": -0.0185,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0185,
-          "consensus_ev": -0.0239,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        },
-        {
-          "market": "Over 1.5",
-          "pb_probability": 0.9153,
-          "oddalerts_probability": null,
-          "consensus_probability": 0.9153,
-          "model_gap": null,
-          "agreement": "single_source",
-          "odd": 1.05,
-          "implied_probability": 0.9524,
-          "pb_edge": -0.0371,
-          "oddalerts_edge": null,
-          "consensus_edge": -0.0371,
-          "consensus_ev": -0.0389,
-          "tag": "NO_CONFIRMED_VALUE",
-          "recommended": false
-        }
-      ],
+      "consensus_markets": [],
       "best_consensus_market": null,
       "model_disagreement": false,
       "oddalerts_rank_adjustment": 0.0,
-      "rank_score": 6.258,
+      "rank_score": 1.5,
       "actionable_candidate": false,
       "live_enrichment": "odds+prediction",
-      "pb_metrics_source": "pb_raw"
+      "pb_metrics_source": "none"
     }
   ],
   "public_feed": {

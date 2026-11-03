@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-03T09:47:45.035400+00:00",
+  "generated_at_dublin": "2026-11-03T09:56:59.038972+00:00",
   "match_date": "2026-11-03",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-11-03T10:00:00+00:00",
@@ -23,16 +23,16 @@
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 3,
   "odds_coverage_count": 3,
-  "actionable_candidates_found": 2,
+  "actionable_candidates_found": 0,
   "matches_returned": 4,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72048,
+    "daily_remaining": 72044,
     "minute_limit": 450,
-    "minute_remaining": 446
+    "minute_remaining": 447
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -47,153 +47,12 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [
-    {
-      "fixture_id": "1629967",
-      "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
-      "timing_priority": "fixed_target_block",
-      "league": "AFC Champions League Elite",
-      "country": "World",
-      "home": "Kashiwa Reysol",
-      "away": "Daejeon Citizen",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.53,
-        "odd_draw": 4.1,
-        "odd_away": 5.25,
-        "odd_ou_1_5_over": 1.2,
-        "odd_ou_2_5_over": 1.65,
-        "odd_ou_2_5_under": 2.2,
-        "odd_ou_3_5_over": 2.62,
-        "odd_ou_3_5_under": 1.44,
-        "odd_btts_yes": 1.8,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6052,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0496
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6052,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0496
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.872,
-        "lambda_away": 1.256,
-        "lambda_total": 3.128,
-        "p_over_1_5": 0.8192,
-        "p_over_2_5": 0.6049,
-        "p_over_3_5": 0.3814,
-        "p_btts_yes": 0.6052
-      },
-      "api_prediction": {
-        "pred_winner_name": "Kashiwa Reysol",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Kashiwa Reysol",
-        "goals_home": "-3.5",
-        "goals_away": "-1.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 10.188,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1629968",
-      "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
-      "timing_priority": "fixed_target_block",
-      "league": "AFC Champions League Elite",
-      "country": "World",
-      "home": "Vissel Kobe",
-      "away": "Ratchaburi",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.2,
-        "odd_draw": 6.0,
-        "odd_away": 11.0,
-        "odd_ou_1_5_over": 1.17,
-        "odd_ou_2_5_over": 1.53,
-        "odd_ou_2_5_under": 2.38,
-        "odd_ou_3_5_over": 2.25,
-        "odd_ou_3_5_under": 1.57,
-        "odd_btts_yes": 2.2,
-        "odd_btts_no": 1.62,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5167,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.0622
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5167,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.0622
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.572,
-        "lambda_away": 1.056,
-        "lambda_total": 2.628,
-        "p_over_1_5": 0.738,
-        "p_over_2_5": 0.4886,
-        "p_over_3_5": 0.2701,
-        "p_btts_yes": 0.5167
-      },
-      "api_prediction": {
-        "pred_winner_name": "Vissel Kobe",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Vissel Kobe or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "45%",
-        "prob_draw": "45%",
-        "prob_away": "10%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 10.948,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "top_actionable": [],
   "technical_fallbacks": [
     {
       "fixture_id": "1629966",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "AFC Champions League Elite",
       "country": "World",
@@ -218,13 +77,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.472,
-        "lambda_away": 1.356,
-        "lambda_total": 2.828,
-        "p_over_1_5": 0.7736,
-        "p_over_2_5": 0.5372,
-        "p_over_3_5": 0.3143,
-        "p_btts_yes": 0.572
+        "lambda_home": 1.6559,
+        "lambda_away": 1.2441,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Johor Darul Takzim FC",
@@ -238,9 +98,123 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.928,
+      "rank_score": 3.0,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1629967",
+      "kickoff_dublin": "2026-11-03T10:00:00+00:00",
+      "minutes_to_kickoff": 3.0,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC Champions League Elite",
+      "country": "World",
+      "home": "Kashiwa Reysol",
+      "away": "Daejeon Citizen",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.53,
+        "odd_draw": 4.1,
+        "odd_away": 5.25,
+        "odd_ou_1_5_over": 1.2,
+        "odd_ou_2_5_over": 1.65,
+        "odd_ou_2_5_under": 2.2,
+        "odd_ou_3_5_over": 2.62,
+        "odd_ou_3_5_under": 1.44,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.879,
+        "lambda_away": 2.121,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5148,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {
+        "pred_winner_name": "Kashiwa Reysol",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Kashiwa Reysol",
+        "goals_home": "-3.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.1,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1629968",
+      "kickoff_dublin": "2026-11-03T10:00:00+00:00",
+      "minutes_to_kickoff": 3.0,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC Champions League Elite",
+      "country": "World",
+      "home": "Vissel Kobe",
+      "away": "Ratchaburi",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.2,
+        "odd_draw": 6.0,
+        "odd_away": 11.0,
+        "odd_ou_1_5_over": 1.17,
+        "odd_ou_2_5_over": 1.53,
+        "odd_ou_2_5_under": 2.38,
+        "odd_ou_3_5_over": 2.25,
+        "odd_ou_3_5_under": 1.57,
+        "odd_btts_yes": 2.2,
+        "odd_btts_no": 1.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 2.5856,
+        "lambda_away": 0.6144,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.4241,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {
+        "pred_winner_name": "Vissel Kobe",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Vissel Kobe or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 3.3,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -251,7 +225,7 @@
     {
       "fixture_id": "1637363",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Youth League",
       "country": "World",
@@ -276,7 +250,7 @@
     {
       "fixture_id": "1629966",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "AFC Champions League Elite",
       "country": "World",
@@ -301,13 +275,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.472,
-        "lambda_away": 1.356,
-        "lambda_total": 2.828,
-        "p_over_1_5": 0.7736,
-        "p_over_2_5": 0.5372,
-        "p_over_3_5": 0.3143,
-        "p_btts_yes": 0.572
+        "lambda_home": 1.6559,
+        "lambda_away": 1.2441,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Johor Darul Takzim FC",
@@ -321,9 +296,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 4.928,
+      "rank_score": 3.0,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -332,7 +307,7 @@
     {
       "fixture_id": "1629967",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "AFC Champions League Elite",
       "country": "World",
@@ -354,30 +329,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6052,
-        "odd": 1.8,
-        "implied_probability": 0.5556,
-        "edge": 0.0496
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6052,
-          "odd": 1.8,
-          "implied_probability": 0.5556,
-          "edge": 0.0496
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.872,
-        "lambda_away": 1.256,
-        "lambda_total": 3.128,
-        "p_over_1_5": 0.8192,
-        "p_over_2_5": 0.6049,
-        "p_over_3_5": 0.3814,
-        "p_btts_yes": 0.6052
+        "lambda_home": 0.879,
+        "lambda_away": 2.121,
+        "lambda_total": 3.0,
+        "p_over_1_5": 0.8009,
+        "p_over_2_5": 0.5768,
+        "p_over_3_5": 0.3528,
+        "p_btts_yes": 0.5148,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Kashiwa Reysol",
@@ -391,18 +353,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 10.188,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.1,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1629968",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "AFC Champions League Elite",
       "country": "World",
@@ -424,30 +386,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.5167,
-        "odd": 2.2,
-        "implied_probability": 0.4545,
-        "edge": 0.0622
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.5167,
-          "odd": 2.2,
-          "implied_probability": 0.4545,
-          "edge": 0.0622
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.572,
-        "lambda_away": 1.056,
-        "lambda_total": 2.628,
-        "p_over_1_5": 0.738,
-        "p_over_2_5": 0.4886,
-        "p_over_3_5": 0.2701,
-        "p_btts_yes": 0.5167
+        "lambda_home": 2.5856,
+        "lambda_away": 0.6144,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.4241,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Vissel Kobe",
@@ -461,18 +410,18 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 10.948,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 3.3,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1637363",
       "kickoff_dublin": "2026-11-03T10:00:00+00:00",
-      "minutes_to_kickoff": 12.2,
+      "minutes_to_kickoff": 3.0,
       "timing_priority": "fixed_target_block",
       "league": "UEFA Youth League",
       "country": "World",

@@ -19,6 +19,7 @@ import {
 // =======================
 // CONFIG SUPABASE
 // =======================
+const ROI_START_DATE = "2026-11-01";
 const SUPABASE_URL = "https://oiudaxsyvhjpjjhglejd.supabase.co";
 const SUPABASE_ANON_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9pdWRheHN5dmhqcGpqaGdsZWpkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQwMDk0OTcsImV4cCI6MjA3OTU4NTQ5N30.r7kz3FdijAhsJLz1DcEtobJLaPCqygrQGgCPpSc-05A";
@@ -606,7 +607,7 @@ const PicksHistoryScreen = () => {
       setError(null);
 
       const toDate = todayStr();
-      const fromDate = getDateStrOffset(-6); // ultimi 7 giorni
+      const fromDate = [getDateStrOffset(-6), ROI_START_DATE].sort().pop(); // ultimi 7 giorni, da novembre 2026
 
       const picks = await sbFetch(
         "picks",
@@ -831,7 +832,8 @@ const RoiHistoryScreen = () => {
     setError(null);
 
     const toDate = getDateStrOffset(0);
-    const fromDate = getDateStrOffset(-daysBack + 1);
+    // Ripartenza ROI: mai prima del 1 novembre 2026 (dati vecchi restano nel DB).
+    const fromDate = [getDateStrOffset(-daysBack + 1), ROI_START_DATE].sort().pop();
 
     try {
       const rawResults = await sbFetch(

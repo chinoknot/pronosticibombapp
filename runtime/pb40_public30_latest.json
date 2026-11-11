@@ -1,26 +1,28 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-11T04:40:21.837422+00:00",
+  "generated_at_dublin": "2026-11-11T12:11:03.460435+00:00",
   "match_date": "2026-11-11",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-11-11T05:00:00+00:00",
-  "target_block_end_dublin": "2026-11-11T05:45:00+00:00",
-  "target_block_matches": 0,
+  "target_block_start_dublin": "2026-11-11T13:00:00+00:00",
+  "target_block_end_dublin": "2026-11-11T13:45:00+00:00",
+  "target_block_matches": 13,
   "block_verified": true,
-  "fixtures_today_total": 205,
-  "fixtures_target_date_total": 205,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 0,
-  "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 0,
-  "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 0,
+  "fixtures_today_total": 200,
+  "fixtures_target_date_total": 200,
+  "fixtures_in_next_75m": 16,
+  "relevant_fixtures_in_next_75m": 7,
+  "fixtures_in_target_block": 13,
+  "relevant_fixtures_in_target_block": 5,
+  "excluded_in_target_block": 8,
+  "excluded_breakdown": {
+    "youth": 8
+  },
+  "fixtures_analyzed_before_ranking": 5,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 0,
-  "odds_coverage_count": 0,
+  "technical_coverage_count": 5,
+  "odds_coverage_count": 1,
   "prematchstats_coverage_count": 0,
   "prematchstats_status": {
     "ok": false,
@@ -59,7 +61,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "matches_returned": 13,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -67,31 +69,1203 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 0,
-  "live_predictions_requested": 0,
+  "live_odds_requested": 5,
+  "live_predictions_requested": 5,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8914,
+  "request_ms": 9208,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 11,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 5,
+      "/predictions": 5
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72167,
+    "daily_remaining": 70254,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 439
   },
   "partial_api_errors": [],
-  "ranked_matches": [],
-  "matches": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1579841",
+      "kickoff_dublin": "2026-11-11T13:30:00+00:00",
+      "minutes_to_kickoff": 78.9,
+      "timing_priority": "fixed_target_block",
+      "league": "First Amateur Division",
+      "country": "Belgium",
+      "round": "ACFF - 9",
+      "home": "Onhaye",
+      "away": "Habay-la-Neuve",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Habay-la-Neuve",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Habay-la-Neuve",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.45,
+        "odd_draw": 3.5,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.88,
+        "odd_ou_3_5_under": 1.42,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.3514,
+        "lambda_away": 1.5486,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5836,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3304,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3304,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "pb_edge": -0.0168,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0168,
+          "consensus_ev": -0.0484,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.554,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.554,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.0342,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0342,
+          "consensus_ev": -0.0582,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.22,
+          "implied_probability": 0.8197,
+          "pb_edge": -0.0343,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0343,
+          "consensus_ev": -0.0418,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5836,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5836,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "pb_edge": -0.0533,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0533,
+          "consensus_ev": -0.0837,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    },
+    {
+      "fixture_id": "1644890",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "CS Manika",
+      "away": "Butras",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "CS Manika",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : CS Manika or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1644893",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Lubumbashi Sport",
+      "away": "Malole",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Lubumbashi Sport",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Lubumbashi Sport or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1644894",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Tanganyika",
+      "away": "AS New Soger",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Tanganyika",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Tanganyika or draw and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1646211",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Dauphins Noirs",
+      "away": "Novakin",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Dauphins Noirs",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Dauphins Noirs or draw and -3.5 goals",
+        "goals_home": null,
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1559468",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Sweden U17",
+      "away": "Albania U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635769",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Czechia U19",
+      "away": "Netherlands U19",
+      "venue": "Sportski Park Granicar Kotoriba",
+      "referee": "P. Gryckiewicz",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635814",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Turkey U19",
+      "away": "Slovakia U19",
+      "venue": "Arslan Zeki Demirci Spor Kompleksi",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1638007",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC U17 Asian Cup",
+      "country": "World",
+      "round": "Group Stage - 2",
+      "home": "Lebanon U17",
+      "away": "Oman U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1638014",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC U17 Asian Cup",
+      "country": "World",
+      "round": "Group Stage - 2",
+      "home": "Singapore U17",
+      "away": "India U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644200",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "South Sudan U23",
+      "away": "Senegal U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644768",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "Zimbabwe U23",
+      "away": "Mali U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644890",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "CS Manika",
+      "away": "Butras",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "CS Manika",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : CS Manika or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1644893",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Lubumbashi Sport",
+      "away": "Malole",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Lubumbashi Sport",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Lubumbashi Sport or draw and -3.5 goals",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1644894",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Tanganyika",
+      "away": "AS New Soger",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Tanganyika",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Tanganyika or draw and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1646211",
+      "kickoff_dublin": "2026-11-11T13:00:00+00:00",
+      "minutes_to_kickoff": 48.9,
+      "timing_priority": "fixed_target_block",
+      "league": "Ligue 1",
+      "country": "Congo-DR",
+      "round": "Regular Season - 5",
+      "home": "Dauphins Noirs",
+      "away": "Novakin",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Dauphins Noirs",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : Dauphins Noirs or draw and -3.5 goals",
+        "goals_home": null,
+        "goals_away": "-1.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -3.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1559467",
+      "kickoff_dublin": "2026-11-11T13:30:00+00:00",
+      "minutes_to_kickoff": 78.9,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Slovakia U17",
+      "away": "Malta U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1579841",
+      "kickoff_dublin": "2026-11-11T13:30:00+00:00",
+      "minutes_to_kickoff": 78.9,
+      "timing_priority": "fixed_target_block",
+      "league": "First Amateur Division",
+      "country": "Belgium",
+      "round": "ACFF - 9",
+      "home": "Onhaye",
+      "away": "Habay-la-Neuve",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Habay-la-Neuve",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Habay-la-Neuve",
+        "goals_home": "-1.5",
+        "goals_away": "-1.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.45,
+        "odd_draw": 3.5,
+        "odd_away": 2.38,
+        "odd_ou_1_5_over": 1.22,
+        "odd_ou_2_5_over": 1.7,
+        "odd_ou_2_5_under": 2.1,
+        "odd_ou_3_5_over": 2.88,
+        "odd_ou_3_5_under": 1.42,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.3514,
+        "lambda_away": 1.5486,
+        "lambda_total": 2.9,
+        "p_over_1_5": 0.7854,
+        "p_over_2_5": 0.554,
+        "p_over_3_5": 0.3304,
+        "p_btts_yes": 0.5836,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.3304,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.3304,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.88,
+          "implied_probability": 0.3472,
+          "pb_edge": -0.0168,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0168,
+          "consensus_ev": -0.0484,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.554,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.554,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.7,
+          "implied_probability": 0.5882,
+          "pb_edge": -0.0342,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0342,
+          "consensus_ev": -0.0582,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7854,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7854,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.22,
+          "implied_probability": 0.8197,
+          "pb_edge": -0.0343,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0343,
+          "consensus_ev": -0.0418,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5836,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5836,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.57,
+          "implied_probability": 0.6369,
+          "pb_edge": -0.0533,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0533,
+          "consensus_ev": -0.0837,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.0,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    }
+  ],
   "render_cache": {
     "state": "refreshed",
-    "generated_at_dublin": "2026-11-11T04:40:21.837422+00:00",
+    "generated_at_dublin": "2026-11-11T12:11:03.460435+00:00",
     "refresh_error": null
   },
   "public_feed": {

@@ -1,26 +1,28 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-13T02:57:10.041366+00:00",
+  "generated_at_dublin": "2026-11-13T10:43:58.579923+00:00",
   "match_date": "2026-11-13",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-11-13T03:00:00+00:00",
-  "target_block_end_dublin": "2026-11-13T03:45:00+00:00",
-  "target_block_matches": 0,
+  "target_block_start_dublin": "2026-11-13T11:00:00+00:00",
+  "target_block_end_dublin": "2026-11-13T11:45:00+00:00",
+  "target_block_matches": 7,
   "block_verified": true,
-  "fixtures_today_total": 222,
-  "fixtures_target_date_total": 222,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 0,
-  "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 0,
-  "excluded_breakdown": {},
-  "fixtures_analyzed_before_ranking": 0,
+  "fixtures_today_total": 223,
+  "fixtures_target_date_total": 223,
+  "fixtures_in_next_75m": 9,
+  "relevant_fixtures_in_next_75m": 4,
+  "fixtures_in_target_block": 7,
+  "relevant_fixtures_in_target_block": 2,
+  "excluded_in_target_block": 5,
+  "excluded_breakdown": {
+    "friendly": 5
+  },
+  "fixtures_analyzed_before_ranking": 2,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 0,
-  "odds_coverage_count": 0,
+  "technical_coverage_count": 2,
+  "odds_coverage_count": 1,
   "prematchstats_coverage_count": 0,
   "prematchstats_status": {
     "ok": false,
@@ -59,7 +61,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "matches_returned": 7,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -67,31 +69,663 @@
   "live_api_minute_remaining_before_enrichment": 449,
   "live_api_safety_reserve": 20,
   "live_api_budget": 429,
-  "live_odds_requested": 0,
-  "live_predictions_requested": 0,
+  "live_odds_requested": 2,
+  "live_predictions_requested": 2,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8179,
+  "request_ms": 8948,
   "api_usage_this_request": {
-    "calls": 1,
+    "calls": 5,
     "by_endpoint": {
-      "/fixtures": 1
+      "/fixtures": 1,
+      "/odds": 2,
+      "/predictions": 2
     },
     "prediction_cache_hits": 0,
     "odds_cache_hits": 0
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 74846,
+    "daily_remaining": 72641,
     "minute_limit": 450,
-    "minute_remaining": 449
+    "minute_remaining": 446
   },
   "partial_api_errors": [],
-  "ranked_matches": [],
-  "matches": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1593078",
+      "kickoff_dublin": "2026-11-13T11:30:00+00:00",
+      "minutes_to_kickoff": 46.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Druha Liga",
+      "country": "Ukraine",
+      "round": "Regular Season - 15",
+      "home": "Ruh Lviv",
+      "away": "Nyva Ternopil II",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nyva Ternopil II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Nyva Ternopil II and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "1xBet",
+        "odd_home": 2.68,
+        "odd_draw": 3.8,
+        "odd_away": 2.11,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": 1.48,
+        "odd_ou_2_5_under": 2.39,
+        "odd_ou_3_5_over": 2.32,
+        "odd_ou_3_5_under": 1.51,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.59,
+        "lambda_away": 1.59,
+        "lambda_total": 3.18,
+        "p_over_1_5": 0.8262,
+        "p_over_2_5": 0.6159,
+        "p_over_3_5": 0.393,
+        "p_btts_yes": 0.6345,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.393,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.393,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.32,
+          "implied_probability": 0.431,
+          "pb_edge": -0.038,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.038,
+          "consensus_ev": -0.0882,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6159,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6159,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.48,
+          "implied_probability": 0.6757,
+          "pb_edge": -0.0598,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0598,
+          "consensus_ev": -0.0885,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6345,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6345,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.0599,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0599,
+          "consensus_ev": -0.0863,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8262,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8262,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.28,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    },
+    {
+      "fixture_id": "1633689",
+      "kickoff_dublin": "2026-11-13T11:00:00+00:00",
+      "minutes_to_kickoff": 16.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga III - Serie 7",
+      "country": "Romania",
+      "round": "Group 7 - 13",
+      "home": "Poli Timisoara 2",
+      "away": "Progresul Pecica",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Poli Timisoara 2",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Poli Timisoara 2 or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1633689",
+      "kickoff_dublin": "2026-11-13T11:00:00+00:00",
+      "minutes_to_kickoff": 16.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga III - Serie 7",
+      "country": "Romania",
+      "round": "Group 7 - 13",
+      "home": "Poli Timisoara 2",
+      "away": "Progresul Pecica",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Poli Timisoara 2",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Poli Timisoara 2 or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-1.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "live_odds": {
+        "bookmaker": "",
+        "odd_home": null,
+        "odd_draw": null,
+        "odd_away": null,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": null,
+        "odd_ou_2_5_under": null,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": -1.5,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "none"
+    },
+    {
+      "fixture_id": "1646119",
+      "kickoff_dublin": "2026-11-13T11:00:00+00:00",
+      "minutes_to_kickoff": 16.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies Clubs",
+      "country": "World",
+      "round": "Club Friendlies",
+      "home": "Vasteras SK FK",
+      "away": "IF Brommapojkarna",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1649012",
+      "kickoff_dublin": "2026-11-13T11:00:00+00:00",
+      "minutes_to_kickoff": 16.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies",
+      "country": "World",
+      "round": "Friendly International",
+      "home": "Czechia U18",
+      "away": "Poland U18",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1593078",
+      "kickoff_dublin": "2026-11-13T11:30:00+00:00",
+      "minutes_to_kickoff": 46.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Druha Liga",
+      "country": "Ukraine",
+      "round": "Regular Season - 15",
+      "home": "Ruh Lviv",
+      "away": "Nyva Ternopil II",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Nyva Ternopil II",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : draw or Nyva Ternopil II and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-3.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "1xBet",
+        "odd_home": 2.68,
+        "odd_draw": 3.8,
+        "odd_away": 2.11,
+        "odd_ou_1_5_over": null,
+        "odd_ou_2_5_over": 1.48,
+        "odd_ou_2_5_under": 2.39,
+        "odd_ou_3_5_over": 2.32,
+        "odd_ou_3_5_under": 1.51,
+        "odd_btts_yes": 1.44,
+        "odd_btts_no": 2.5,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.59,
+        "lambda_away": 1.59,
+        "lambda_total": 3.18,
+        "p_over_1_5": 0.8262,
+        "p_over_2_5": 0.6159,
+        "p_over_3_5": 0.393,
+        "p_btts_yes": 0.6345,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.393,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.393,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.32,
+          "implied_probability": 0.431,
+          "pb_edge": -0.038,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.038,
+          "consensus_ev": -0.0882,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.6159,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6159,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.48,
+          "implied_probability": 0.6757,
+          "pb_edge": -0.0598,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0598,
+          "consensus_ev": -0.0885,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6345,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6345,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.44,
+          "implied_probability": 0.6944,
+          "pb_edge": -0.0599,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0599,
+          "consensus_ev": -0.0863,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8262,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8262,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": null,
+          "implied_probability": null,
+          "pb_edge": null,
+          "oddalerts_edge": null,
+          "consensus_edge": null,
+          "consensus_ev": null,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.28,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    },
+    {
+      "fixture_id": "1648271",
+      "kickoff_dublin": "2026-11-13T11:30:00+00:00",
+      "minutes_to_kickoff": 46.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies Clubs",
+      "country": "World",
+      "round": "Club Friendlies",
+      "home": "Turku PS",
+      "away": "Ilves",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1649940",
+      "kickoff_dublin": "2026-11-13T11:30:00+00:00",
+      "minutes_to_kickoff": 46.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies Clubs",
+      "country": "World",
+      "round": "Club Friendlies",
+      "home": "VfL Bochum",
+      "away": "Verl",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1649941",
+      "kickoff_dublin": "2026-11-13T11:30:00+00:00",
+      "minutes_to_kickoff": 46.0,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies Clubs",
+      "country": "World",
+      "round": "Club Friendlies",
+      "home": "TSV Hartberg",
+      "away": "Floridsdorfer AC",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    }
+  ],
   "render_cache": {
     "state": "refreshed",
-    "generated_at_dublin": "2026-11-13T02:57:10.041366+00:00",
+    "generated_at_dublin": "2026-11-13T10:43:58.579923+00:00",
     "refresh_error": null
   },
   "public_feed": {

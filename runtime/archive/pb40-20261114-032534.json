@@ -1,0 +1,772 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-11-14T03:25:25.658254+00:00",
+  "match_date": "2026-11-14",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-11-14T04:00:00+00:00",
+  "target_block_end_dublin": "2026-11-14T04:45:00+00:00",
+  "target_block_matches": 4,
+  "block_verified": true,
+  "fixtures_today_total": 1052,
+  "fixtures_target_date_total": 1052,
+  "fixtures_in_next_75m": 4,
+  "relevant_fixtures_in_next_75m": 2,
+  "fixtures_in_target_block": 4,
+  "relevant_fixtures_in_target_block": 2,
+  "excluded_in_target_block": 2,
+  "excluded_breakdown": {
+    "women": 2
+  },
+  "fixtures_analyzed_before_ranking": 2,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 2,
+  "odds_coverage_count": 2,
+  "prematchstats_coverage_count": 0,
+  "prematchstats_status": {
+    "ok": false,
+    "rows": 0,
+    "error": "disabled: public sites return 403 from server hosts"
+  },
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 0,
+  "matches_returned": 4,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 449,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 429,
+  "live_odds_requested": 2,
+  "live_predictions_requested": 2,
+  "pb_state_metrics_available": 0,
+  "fallback_used": false,
+  "request_ms": 8874,
+  "api_usage_this_request": {
+    "calls": 5,
+    "by_endpoint": {
+      "/fixtures": 1,
+      "/odds": 2,
+      "/predictions": 2
+    },
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 70253,
+    "minute_limit": 450,
+    "minute_remaining": 444
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1640363",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Australian Championship",
+      "country": "Australia",
+      "round": "Group Stage - 5",
+      "home": "South Hobart",
+      "away": "Wollongong Wolves",
+      "venue": "Darcy Street",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Wollongong Wolves",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Wollongong Wolves",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.9,
+        "odd_draw": 4.2,
+        "odd_away": 1.6,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.25,
+        "odd_ou_3_5_over": 1.8,
+        "odd_ou_3_5_under": 1.91,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2983,
+        "lambda_away": 2.4217,
+        "lambda_total": 3.72,
+        "p_over_1_5": 0.8856,
+        "p_over_2_5": 0.7179,
+        "p_over_3_5": 0.51,
+        "p_btts_yes": 0.6627,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7179,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7179,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.33,
+          "implied_probability": 0.7519,
+          "pb_edge": -0.034,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.034,
+          "consensus_ev": -0.0452,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8856,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8856,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.08,
+          "implied_probability": 0.9259,
+          "pb_edge": -0.0403,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0403,
+          "consensus_ev": -0.0436,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.51,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.51,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.0456,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0456,
+          "consensus_ev": -0.082,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6627,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6627,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.4,
+          "implied_probability": 0.7143,
+          "pb_edge": -0.0516,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0516,
+          "consensus_ev": -0.0722,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.82,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    },
+    {
+      "fixture_id": "1640364",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Australian Championship",
+      "country": "Australia",
+      "round": "Group Stage - 5",
+      "home": "Sydney United",
+      "away": "South Melbourne",
+      "venue": "Sydney United Sports Centre",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "South Melbourne",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or South Melbourne and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.45,
+        "odd_draw": 3.3,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_ou_3_5_under": 1.3,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.32,
+        "lambda_away": 1.32,
+        "lambda_total": 2.64,
+        "p_over_1_5": 0.7402,
+        "p_over_2_5": 0.4916,
+        "p_over_3_5": 0.2727,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4916,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4916,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.95,
+          "implied_probability": 0.5128,
+          "pb_edge": -0.0212,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0212,
+          "consensus_ev": -0.0414,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2727,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2727,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.4,
+          "implied_probability": 0.2941,
+          "pb_edge": -0.0214,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0214,
+          "consensus_ev": -0.0728,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7402,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7402,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.0411,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0411,
+          "consensus_ev": -0.0525,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5759,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5759,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "pb_edge": -0.0414,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0414,
+          "consensus_ev": -0.067,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.74,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1632122",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "A-League Women",
+      "country": "Australia",
+      "round": "Regular Season - 5",
+      "home": "Melbourne City W",
+      "away": "Newcastle Jets FC W",
+      "venue": "Ctrl cyber Pitch",
+      "referee": "M. Ryan",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1632123",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "A-League Women",
+      "country": "Australia",
+      "round": "Regular Season - 5",
+      "home": "Melbourne Victory W",
+      "away": "Adelaide United W",
+      "venue": "The Home of the Matildas",
+      "referee": "B. Faucett",
+      "exclusion_reason": "women",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1640363",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Australian Championship",
+      "country": "Australia",
+      "round": "Group Stage - 5",
+      "home": "South Hobart",
+      "away": "Wollongong Wolves",
+      "venue": "Darcy Street",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "Wollongong Wolves",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Wollongong Wolves",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 3.9,
+        "odd_draw": 4.2,
+        "odd_away": 1.6,
+        "odd_ou_1_5_over": 1.08,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.25,
+        "odd_ou_3_5_over": 1.8,
+        "odd_ou_3_5_under": 1.91,
+        "odd_btts_yes": 1.4,
+        "odd_btts_no": 2.75,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.2983,
+        "lambda_away": 2.4217,
+        "lambda_total": 3.72,
+        "p_over_1_5": 0.8856,
+        "p_over_2_5": 0.7179,
+        "p_over_3_5": 0.51,
+        "p_btts_yes": 0.6627,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.7179,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7179,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.33,
+          "implied_probability": 0.7519,
+          "pb_edge": -0.034,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.034,
+          "consensus_ev": -0.0452,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.8856,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.8856,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.08,
+          "implied_probability": 0.9259,
+          "pb_edge": -0.0403,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0403,
+          "consensus_ev": -0.0436,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.51,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.51,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.0456,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0456,
+          "consensus_ev": -0.082,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.6627,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.6627,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.4,
+          "implied_probability": 0.7143,
+          "pb_edge": -0.0516,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0516,
+          "consensus_ev": -0.0722,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 3.82,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    },
+    {
+      "fixture_id": "1640364",
+      "kickoff_dublin": "2026-11-14T04:00:00+00:00",
+      "minutes_to_kickoff": 34.6,
+      "timing_priority": "fixed_target_block",
+      "league": "Australian Championship",
+      "country": "Australia",
+      "round": "Group Stage - 5",
+      "home": "Sydney United",
+      "away": "South Melbourne",
+      "venue": "Sydney United Sports Centre",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "South Melbourne",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "-3.5",
+        "advice": "Combo Double chance : draw or South Melbourne and -3.5 goals",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.45,
+        "odd_draw": 3.3,
+        "odd_away": 2.5,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.4,
+        "odd_ou_3_5_under": 1.3,
+        "odd_btts_yes": 1.62,
+        "odd_btts_no": 2.2,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.32,
+        "lambda_away": 1.32,
+        "lambda_total": 2.64,
+        "p_over_1_5": 0.7402,
+        "p_over_2_5": 0.4916,
+        "p_over_3_5": 0.2727,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
+      },
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4916,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4916,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.95,
+          "implied_probability": 0.5128,
+          "pb_edge": -0.0212,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0212,
+          "consensus_ev": -0.0414,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2727,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2727,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.4,
+          "implied_probability": 0.2941,
+          "pb_edge": -0.0214,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0214,
+          "consensus_ev": -0.0728,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7402,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7402,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.28,
+          "implied_probability": 0.7812,
+          "pb_edge": -0.0411,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0411,
+          "consensus_ev": -0.0525,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5759,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5759,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.62,
+          "implied_probability": 0.6173,
+          "pb_edge": -0.0414,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0414,
+          "consensus_ev": -0.067,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 2.74,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "market_implied_fallback"
+    }
+  ],
+  "render_cache": {
+    "state": "refreshed",
+    "generated_at_dublin": "2026-11-14T03:25:25.658254+00:00",
+    "refresh_error": null
+  },
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-11-14T04:00:00+00:00",
+    "target_block_end_dublin": "2026-11-14T04:45:00+00:00",
+    "target_block_matches": 4,
+    "relevant_fixtures_in_target_block": 2,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

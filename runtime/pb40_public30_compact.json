@@ -1,16 +1,16 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-16T06:08:06.440750+00:00",
+  "generated_at_dublin": "2026-11-16T15:38:09.078050+00:00",
   "match_date": "2026-11-16",
   "selection_window": "fixed_next_hour_00_45",
   "fixtures_today_total": 83,
-  "fixtures_in_next_75m": 0,
-  "relevant_fixtures_in_next_75m": 0,
-  "fixtures_analyzed_before_ranking": 0,
+  "fixtures_in_next_75m": 5,
+  "relevant_fixtures_in_next_75m": 3,
+  "fixtures_analyzed_before_ranking": 3,
   "analysis_truncated": false,
-  "actionable_candidates_found": 0,
-  "matches_returned": 0,
+  "actionable_candidates_found": 2,
+  "matches_returned": 5,
   "max_is_return_limit_only": true,
   "partial_api_errors": [],
   "public_feed": {
@@ -19,7 +19,454 @@
     "source_url": "Render /pb40?max=30",
     "canonical": false
   },
-  "top_actionable": [],
-  "technical_fallbacks": [],
-  "all_ranked": []
+  "top_actionable": [
+    {
+      "fixture_id": "1545888",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "home": "Central African Republic",
+      "away": "Benin",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 6.0,
+        "odd_draw": 4.1,
+        "odd_away": 1.42,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 3.75,
+        "odd_ou_3_5_under": 1.25,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5338,
+        "odd": 2.38,
+        "implied_probability": 0.4202,
+        "edge": 0.1136
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5338,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.1136
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.4886,
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "edge": 0.0124
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.2701,
+          "odd": 3.75,
+          "implied_probability": 0.2667,
+          "edge": 0.0034
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.372,
+        "lambda_away": 1.256,
+        "lambda_total": 2.628,
+        "p_over_1_5": 0.738,
+        "p_over_2_5": 0.4886,
+        "p_over_3_5": 0.2701,
+        "p_btts_yes": 0.5338
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 16.088,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    },
+    {
+      "fixture_id": "1545890",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "home": "Eritrea",
+      "away": "Guinea",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 7.5,
+        "odd_draw": 3.7,
+        "odd_away": 1.44,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_ou_3_5_under": 1.33,
+        "odd_btts_yes": 2.2,
+        "odd_btts_no": 1.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5981,
+        "odd": 2.2,
+        "implied_probability": 0.4545,
+        "edge": 0.1436
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5981,
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "edge": 0.1436
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.5719,
+          "odd": 1.95,
+          "implied_probability": 0.5128,
+          "edge": 0.0591
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.3478,
+          "odd": 3.25,
+          "implied_probability": 0.3077,
+          "edge": 0.0401
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.572,
+        "lambda_away": 1.406,
+        "lambda_total": 2.978,
+        "p_over_1_5": 0.7975,
+        "p_over_2_5": 0.5719,
+        "p_over_3_5": 0.3478,
+        "p_btts_yes": 0.5981
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 19.438,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    }
+  ],
+  "technical_fallbacks": [
+    {
+      "fixture_id": "1561202",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "2. liga",
+      "country": "Slovakia",
+      "home": "Tatran Prešov",
+      "away": "Lokomotíva Zvolen",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.5,
+        "odd_draw": 4.1,
+        "odd_away": 5.5,
+        "odd_ou_1_5_over": 1.19,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.55,
+        "odd_ou_3_5_under": 1.5,
+        "odd_btts_yes": 1.65,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.63,
+        "lambda_away": 1.0067,
+        "lambda_total": 2.6367,
+        "p_over_1_5": 0.7396,
+        "p_over_2_5": 0.4907,
+        "p_over_3_5": 0.272,
+        "p_btts_yes": 0.5102
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 4.737,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market"
+    },
+    {
+      "fixture_id": "1632095",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "U20 Elite League",
+      "country": "World",
+      "home": "Portugal U20",
+      "away": "England U20",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1649669",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Première Division",
+      "country": "Mali",
+      "home": "Diarra",
+      "away": "ASKO",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    }
+  ],
+  "all_ranked": [
+    {
+      "fixture_id": "1545888",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "home": "Central African Republic",
+      "away": "Benin",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 6.0,
+        "odd_draw": 4.1,
+        "odd_away": 1.42,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.1,
+        "odd_ou_2_5_under": 1.7,
+        "odd_ou_3_5_over": 3.75,
+        "odd_ou_3_5_under": 1.25,
+        "odd_btts_yes": 2.38,
+        "odd_btts_no": 1.53,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5338,
+        "odd": 2.38,
+        "implied_probability": 0.4202,
+        "edge": 0.1136
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5338,
+          "odd": 2.38,
+          "implied_probability": 0.4202,
+          "edge": 0.1136
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.4886,
+          "odd": 2.1,
+          "implied_probability": 0.4762,
+          "edge": 0.0124
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.2701,
+          "odd": 3.75,
+          "implied_probability": 0.2667,
+          "edge": 0.0034
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.372,
+        "lambda_away": 1.256,
+        "lambda_total": 2.628,
+        "p_over_1_5": 0.738,
+        "p_over_2_5": 0.4886,
+        "p_over_3_5": 0.2701,
+        "p_btts_yes": 0.5338
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 16.088,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    },
+    {
+      "fixture_id": "1545890",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Africa Cup of Nations - Qualification",
+      "country": "World",
+      "home": "Eritrea",
+      "away": "Guinea",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 7.5,
+        "odd_draw": 3.7,
+        "odd_away": 1.44,
+        "odd_ou_1_5_over": 1.28,
+        "odd_ou_2_5_over": 1.95,
+        "odd_ou_2_5_under": 1.85,
+        "odd_ou_3_5_over": 3.25,
+        "odd_ou_3_5_under": 1.33,
+        "odd_btts_yes": 2.2,
+        "odd_btts_no": 1.62,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": {
+        "market": "BTTS YES",
+        "probability": 0.5981,
+        "odd": 2.2,
+        "implied_probability": 0.4545,
+        "edge": 0.1436
+      },
+      "value_markets": [
+        {
+          "market": "BTTS YES",
+          "probability": 0.5981,
+          "odd": 2.2,
+          "implied_probability": 0.4545,
+          "edge": 0.1436
+        },
+        {
+          "market": "Over 2.5",
+          "probability": 0.5719,
+          "odd": 1.95,
+          "implied_probability": 0.5128,
+          "edge": 0.0591
+        },
+        {
+          "market": "Over 3.5",
+          "probability": 0.3478,
+          "odd": 3.25,
+          "implied_probability": 0.3077,
+          "edge": 0.0401
+        }
+      ],
+      "pb_metrics": {
+        "lambda_home": 1.572,
+        "lambda_away": 1.406,
+        "lambda_total": 2.978,
+        "p_over_1_5": 0.7975,
+        "p_over_2_5": 0.5719,
+        "p_over_3_5": 0.3478,
+        "p_btts_yes": 0.5981
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 19.438,
+      "actionable_candidate": true,
+      "selection_reason": "Positive model edge >= 2%"
+    },
+    {
+      "fixture_id": "1561202",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "2. liga",
+      "country": "Slovakia",
+      "home": "Tatran Prešov",
+      "away": "Lokomotíva Zvolen",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.5,
+        "odd_draw": 4.1,
+        "odd_away": 5.5,
+        "odd_ou_1_5_over": 1.19,
+        "odd_ou_2_5_over": 1.62,
+        "odd_ou_2_5_under": 2.25,
+        "odd_ou_3_5_over": 2.55,
+        "odd_ou_3_5_under": 1.5,
+        "odd_btts_yes": 1.65,
+        "odd_btts_no": 2.1,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.63,
+        "lambda_away": 1.0067,
+        "lambda_total": 2.6367,
+        "p_over_1_5": 0.7396,
+        "p_over_2_5": 0.4907,
+        "p_over_3_5": 0.272,
+        "p_btts_yes": 0.5102
+      },
+      "pb_raw_available": true,
+      "pb_picks": [],
+      "rank_score": 4.737,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market"
+    },
+    {
+      "fixture_id": "1632095",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "U20 Elite League",
+      "country": "World",
+      "home": "Portugal U20",
+      "away": "England U20",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    },
+    {
+      "fixture_id": "1649669",
+      "kickoff_dublin": "2026-11-16T16:00:00+00:00",
+      "minutes_to_kickoff": 21.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Première Division",
+      "country": "Mali",
+      "home": "Diarra",
+      "away": "ASKO",
+      "bookmaker": "",
+      "live_odds": {},
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "selection_reason": "No bookmaker odds"
+    }
+  ]
 }

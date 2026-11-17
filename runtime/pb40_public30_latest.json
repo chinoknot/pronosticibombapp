@@ -1,21 +1,23 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-17T05:16:24.494634+00:00",
+  "generated_at_dublin": "2026-11-17T14:39:02.941688+00:00",
   "match_date": "2026-11-17",
   "selection_window": "fixed_next_hour_00_45",
-  "target_block_start_dublin": "2026-11-17T06:00:00+00:00",
-  "target_block_end_dublin": "2026-11-17T06:45:00+00:00",
-  "target_block_matches": 1,
+  "target_block_start_dublin": "2026-11-17T15:00:00+00:00",
+  "target_block_end_dublin": "2026-11-17T15:45:00+00:00",
+  "target_block_matches": 13,
   "block_verified": true,
   "fixtures_today_total": 202,
   "fixtures_target_date_total": 202,
-  "fixtures_in_next_75m": 1,
+  "fixtures_in_next_75m": 13,
   "relevant_fixtures_in_next_75m": 0,
-  "fixtures_in_target_block": 1,
+  "fixtures_in_target_block": 13,
   "relevant_fixtures_in_target_block": 0,
-  "excluded_in_target_block": 1,
+  "excluded_in_target_block": 13,
   "excluded_breakdown": {
+    "africa": 1,
+    "youth": 11,
     "friendly": 1
   },
   "fixtures_analyzed_before_ranking": 0,
@@ -61,7 +63,7 @@
     "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
   },
   "actionable_candidates_found": 0,
-  "matches_returned": 1,
+  "matches_returned": 13,
   "max_is_return_limit_only": true,
   "max_return_limit": 30,
   "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
@@ -73,7 +75,7 @@
   "live_predictions_requested": 0,
   "pb_state_metrics_available": 0,
   "fallback_used": false,
-  "request_ms": 8725,
+  "request_ms": 8786,
   "api_usage_this_request": {
     "calls": 1,
     "by_endpoint": {
@@ -84,7 +86,7 @@
   },
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 73591,
+    "daily_remaining": 71153,
     "minute_limit": 450,
     "minute_remaining": 449
   },
@@ -92,16 +94,496 @@
   "ranked_matches": [],
   "matches": [
     {
-      "fixture_id": "1647367",
-      "kickoff_dublin": "2026-11-17T06:00:00+00:00",
-      "minutes_to_kickoff": 43.6,
+      "fixture_id": "1628598",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "NPFL",
+      "country": "Nigeria",
+      "round": "Regular Season - 13",
+      "home": "Plateau United",
+      "away": "Kun Khalifat FC",
+      "venue": "Rwang Pam Stadium",
+      "referee": "",
+      "exclusion_reason": "africa",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635754",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Faroe Islands U19",
+      "away": "Azerbaijan U19",
+      "venue": "Vozdovac Stadium",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635755",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Scotland U19",
+      "away": "Belgium U19",
+      "venue": "Broadwood Stadium",
+      "referee": "R. Hensgens",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635783",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Lithuania U19",
+      "away": "Germany U19",
+      "venue": "Estadio Carlos Osorio",
+      "referee": "M. Boskovic",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635794",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Kosovo U19",
+      "away": "Kazakhstan U19",
+      "venue": "Albert Bartlett Stadium",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635806",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Sweden U19",
+      "away": "Portugal U19",
+      "venue": "Estadio Marcolino de Castro",
+      "referee": "L. Kuzma",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635811",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Montenegro U19",
+      "away": "Serbia U19",
+      "venue": "Sportsko-Rekreativni Centar Mladost",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644771",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "Ghana U23",
+      "away": "Libya U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644775",
+      "kickoff_dublin": "2026-11-17T15:00:00+00:00",
+      "minutes_to_kickoff": 21.0,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "Nigeria U23",
+      "away": "Congo DR U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1638042",
+      "kickoff_dublin": "2026-11-17T15:20:00+00:00",
+      "minutes_to_kickoff": 41.0,
+      "timing_priority": "fixed_target_block",
+      "league": "AFC U17 Asian Cup",
+      "country": "World",
+      "round": "Group Stage - 4",
+      "home": "Syria U17",
+      "away": "United Arab Emirates U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635782",
+      "kickoff_dublin": "2026-11-17T15:30:00+00:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "San Marino U19",
+      "away": "Georgia U19",
+      "venue": "Ezio Conti",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1643180",
+      "kickoff_dublin": "2026-11-17T15:30:00+00:00",
+      "minutes_to_kickoff": 51.0,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "Morocco U23",
+      "away": "Ethiopia U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1647370",
+      "kickoff_dublin": "2026-11-17T15:30:00+00:00",
+      "minutes_to_kickoff": 51.0,
       "timing_priority": "fixed_target_block",
       "league": "Friendlies",
       "country": "World",
       "round": "Friendly International",
-      "home": "Yemen",
-      "away": "Malaysia",
-      "venue": "Zhaoqing New District Sports Center Stadium",
+      "home": "Saudi Arabia",
+      "away": "Uzbekistan",
+      "venue": "",
       "referee": "",
       "exclusion_reason": "friendly",
       "api_prediction": {},
@@ -134,7 +616,7 @@
   ],
   "render_cache": {
     "state": "refreshed",
-    "generated_at_dublin": "2026-11-17T05:16:24.494634+00:00",
+    "generated_at_dublin": "2026-11-17T14:39:02.941688+00:00",
     "refresh_error": null
   },
   "public_feed": {

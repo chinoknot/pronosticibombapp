@@ -1,0 +1,763 @@
+{
+  "ok": true,
+  "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
+  "generated_at_dublin": "2026-11-17T13:42:11.043067+00:00",
+  "match_date": "2026-11-17",
+  "selection_window": "fixed_next_hour_00_45",
+  "target_block_start_dublin": "2026-11-17T14:00:00+00:00",
+  "target_block_end_dublin": "2026-11-17T14:45:00+00:00",
+  "target_block_matches": 10,
+  "block_verified": true,
+  "fixtures_today_total": 202,
+  "fixtures_target_date_total": 202,
+  "fixtures_in_next_75m": 10,
+  "relevant_fixtures_in_next_75m": 1,
+  "fixtures_in_target_block": 10,
+  "relevant_fixtures_in_target_block": 1,
+  "excluded_in_target_block": 9,
+  "excluded_breakdown": {
+    "youth": 6,
+    "friendly": 3
+  },
+  "fixtures_analyzed_before_ranking": 1,
+  "analysis_truncated": false,
+  "analysis_hard_cap": 1000,
+  "technical_coverage_count": 1,
+  "odds_coverage_count": 1,
+  "prematchstats_coverage_count": 0,
+  "prematchstats_status": {
+    "ok": false,
+    "rows": 0,
+    "error": "disabled: public sites return 403 from server hosts"
+  },
+  "oddalerts_ai_coverage_count": 0,
+  "oddalerts_public_value_coverage_count": 0,
+  "oddalerts_corner_trend_coverage_count": 0,
+  "oddalerts_confirmed_value_count": 0,
+  "model_disagreement_count": 0,
+  "oddalerts_status": {
+    "enabled": true,
+    "ai": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/ai-football-predictions"
+    },
+    "value": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/value-bets"
+    },
+    "corner_trend": {
+      "ok": false,
+      "status_code": null,
+      "cache_hit": false,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.oddalerts.com/trends/over-8-corners"
+    }
+  },
+  "external_signal_policy": {
+    "oddalerts": "enabled_public_best_effort_second_model",
+    "footystats": "disabled",
+    "failure_policy": "OddAlerts failure never invalidates PB40; fall back to PB + API-Football"
+  },
+  "actionable_candidates_found": 0,
+  "matches_returned": 10,
+  "max_is_return_limit_only": true,
+  "max_return_limit": 1000,
+  "live_enrichment_strategy": "prediction_for_no_pb_then_odds_for_pb_then_complementary_calls_plus_oddalerts_parallel",
+  "live_api_minute_limit_seen": 450,
+  "live_api_minute_remaining_before_enrichment": 445,
+  "live_api_safety_reserve": 20,
+  "live_api_budget": 425,
+  "live_odds_requested": 1,
+  "live_predictions_requested": 1,
+  "pb_state_metrics_available": 1,
+  "fallback_used": false,
+  "request_ms": 8567,
+  "api_usage_this_request": {
+    "calls": 3,
+    "by_endpoint": {
+      "/fixtures": 1,
+      "/odds": 1,
+      "/predictions": 1
+    },
+    "prediction_cache_hits": 0,
+    "odds_cache_hits": 0
+  },
+  "api_rate_limit": {
+    "daily_limit": 75000,
+    "daily_remaining": 71415,
+    "minute_limit": 450,
+    "minute_remaining": 443
+  },
+  "partial_api_errors": [],
+  "ranked_matches": [
+    {
+      "fixture_id": "1650172",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "SAFF Championship",
+      "country": "World",
+      "round": "Final",
+      "home": "India",
+      "away": "Pakistan",
+      "venue": "Bangabandhu National Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "India",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : India or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.25,
+        "odd_away": 3.1,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.4,
+        "odd_ou_3_5_under": 1.3,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.31,
+        "lambda_away": 1.2967,
+        "lambda_total": 2.6067,
+        "p_over_1_5": 0.7339,
+        "p_over_2_5": 0.4832,
+        "p_over_3_5": 0.2654,
+        "p_btts_yes": 0.5305
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4832,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4832,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "pb_edge": -0.0168,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0168,
+          "consensus_ev": -0.0336,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5305,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5305,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.0251,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0251,
+          "consensus_ev": -0.0451,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2654,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2654,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.4,
+          "implied_probability": 0.2941,
+          "pb_edge": -0.0287,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0287,
+          "consensus_ev": -0.0976,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7339,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7339,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.3,
+          "implied_probability": 0.7692,
+          "pb_edge": -0.0353,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0353,
+          "consensus_ev": -0.0459,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 4.707,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "pb_raw"
+    }
+  ],
+  "matches": [
+    {
+      "fixture_id": "1559496",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Denmark U17",
+      "away": "Republic of Ireland U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1559498",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U17 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage - 1",
+      "home": "Estonia U17",
+      "away": "Wales U17",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1619193",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Professional Development League",
+      "country": "England",
+      "round": "Regular Season",
+      "home": "Sheffield United U21",
+      "away": "Huddersfield Town U21",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635779",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Greece U19",
+      "away": "France U19",
+      "venue": "Stade Centre Formation EAG 1",
+      "referee": "M. Busquets",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1635788",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "UEFA U19 Championship - Qualification",
+      "country": "World",
+      "round": "Group Stage",
+      "home": "Norway U19",
+      "away": "Republic of Ireland U19",
+      "venue": "Espace Oceane",
+      "referee": "K. Zabroda",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1647369",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies",
+      "country": "World",
+      "round": "Friendly International",
+      "home": "Qatar",
+      "away": "South Korea",
+      "venue": "Abdullah bin Khalifa Stadium",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1649023",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies",
+      "country": "World",
+      "round": "Friendly International",
+      "home": "Turkey U18",
+      "away": "Germany U18",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1650172",
+      "kickoff_dublin": "2026-11-17T14:00:00+00:00",
+      "minutes_to_kickoff": 17.8,
+      "timing_priority": "fixed_target_block",
+      "league": "SAFF Championship",
+      "country": "World",
+      "round": "Final",
+      "home": "India",
+      "away": "Pakistan",
+      "venue": "Bangabandhu National Stadium",
+      "referee": "",
+      "exclusion_reason": "",
+      "api_prediction": {
+        "pred_winner_name": "India",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : India or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "45%",
+        "prob_draw": "45%",
+        "prob_away": "10%"
+      },
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.05,
+        "odd_draw": 3.25,
+        "odd_away": 3.1,
+        "odd_ou_1_5_over": 1.3,
+        "odd_ou_2_5_over": 2.0,
+        "odd_ou_2_5_under": 1.8,
+        "odd_ou_3_5_over": 3.4,
+        "odd_ou_3_5_under": 1.3,
+        "odd_btts_yes": 1.8,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "pb_metrics": {
+        "lambda_home": 1.31,
+        "lambda_away": 1.2967,
+        "lambda_total": 2.6067,
+        "p_over_1_5": 0.7339,
+        "p_over_2_5": 0.4832,
+        "p_over_3_5": 0.2654,
+        "p_btts_yes": 0.5305
+      },
+      "pb_picks": [],
+      "pb_raw_available": true,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": true,
+        "ai": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "public_value_bet": {
+          "matched": false,
+          "match_confidence": 0.0
+        },
+        "corner_trend": {
+          "matched": false,
+          "match_confidence": 0.0
+        }
+      },
+      "consensus_markets": [
+        {
+          "market": "Over 2.5",
+          "pb_probability": 0.4832,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.4832,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 2.0,
+          "implied_probability": 0.5,
+          "pb_edge": -0.0168,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0168,
+          "consensus_ev": -0.0336,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "BTTS YES",
+          "pb_probability": 0.5305,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.5305,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.8,
+          "implied_probability": 0.5556,
+          "pb_edge": -0.0251,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0251,
+          "consensus_ev": -0.0451,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 3.5",
+          "pb_probability": 0.2654,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.2654,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 3.4,
+          "implied_probability": 0.2941,
+          "pb_edge": -0.0287,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0287,
+          "consensus_ev": -0.0976,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        },
+        {
+          "market": "Over 1.5",
+          "pb_probability": 0.7339,
+          "oddalerts_probability": null,
+          "consensus_probability": 0.7339,
+          "model_gap": null,
+          "agreement": "single_source",
+          "odd": 1.3,
+          "implied_probability": 0.7692,
+          "pb_edge": -0.0353,
+          "oddalerts_edge": null,
+          "consensus_edge": -0.0353,
+          "consensus_ev": -0.0459,
+          "tag": "NO_CONFIRMED_VALUE",
+          "recommended": false
+        }
+      ],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 4.707,
+      "actionable_candidate": false,
+      "live_enrichment": "odds+prediction",
+      "independent_stats": null,
+      "pb_metrics_source": "pb_raw"
+    },
+    {
+      "fixture_id": "1650001",
+      "kickoff_dublin": "2026-11-17T14:10:00+00:00",
+      "minutes_to_kickoff": 27.8,
+      "timing_priority": "fixed_target_block",
+      "league": "Friendlies",
+      "country": "World",
+      "round": "Friendly International",
+      "home": "United Arab Emirates",
+      "away": "Syria",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "friendly",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    },
+    {
+      "fixture_id": "1644390",
+      "kickoff_dublin": "2026-11-17T14:30:00+00:00",
+      "minutes_to_kickoff": 47.8,
+      "timing_priority": "fixed_target_block",
+      "league": "CAF U23 Cup of Nations",
+      "country": "World",
+      "round": "Semi-finals",
+      "home": "Gabon U23",
+      "away": "Tunisia U23",
+      "venue": "",
+      "referee": "",
+      "exclusion_reason": "youth",
+      "api_prediction": {},
+      "live_odds": {},
+      "pb_metrics": {},
+      "pb_picks": [],
+      "pb_raw_available": false,
+      "value_markets": [],
+      "best_value_market": null,
+      "oddalerts": {
+        "enabled": false,
+        "ai": {
+          "matched": false
+        },
+        "public_value_bet": {
+          "matched": false
+        },
+        "corner_trend": {
+          "matched": false
+        }
+      },
+      "consensus_markets": [],
+      "best_consensus_market": null,
+      "model_disagreement": false,
+      "oddalerts_rank_adjustment": 0.0,
+      "rank_score": 0.0,
+      "actionable_candidate": false,
+      "live_enrichment": "not_requested"
+    }
+  ],
+  "render_cache": {
+    "state": "refreshed",
+    "generated_at_dublin": "2026-11-17T13:42:11.043067+00:00",
+    "refresh_error": null
+  },
+  "public_feed": {
+    "repository": "chinoknot/pronosticibombapp",
+    "refreshed_by": "pb40-public-feed-1000-block-fresh",
+    "source_url": "Render /pb40?max=1000&force=1",
+    "target_block_start_dublin": "2026-11-17T14:00:00+00:00",
+    "target_block_end_dublin": "2026-11-17T14:45:00+00:00",
+    "target_block_matches": 10,
+    "relevant_fixtures_in_target_block": 1,
+    "block_verified": true,
+    "fallback_used": false,
+    "freshness_limit_seconds": 480,
+    "complete_block_required": true
+  }
+}

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-20T10:15:34.728644+00:00",
+  "generated_at_dublin": "2026-11-20T10:22:47.265212+00:00",
   "match_date": "2026-11-20",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-11-20T11:00:00+00:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 373,
   "fixtures_target_date_total": 373,
-  "fixtures_in_next_75m": 18,
-  "relevant_fixtures_in_next_75m": 15,
+  "fixtures_in_next_75m": 19,
+  "relevant_fixtures_in_next_75m": 16,
   "fixtures_in_target_block": 16,
   "relevant_fixtures_in_target_block": 13,
   "excluded_in_target_block": 3,
@@ -24,16 +24,16 @@
   "analysis_hard_cap": 1000,
   "technical_coverage_count": 13,
   "odds_coverage_count": 8,
-  "actionable_candidates_found": 3,
+  "actionable_candidates_found": 0,
   "matches_returned": 16,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 72594,
+    "daily_remaining": 72335,
     "minute_limit": 450,
-    "minute_remaining": 399
+    "minute_remaining": 411
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -48,219 +48,12 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [
-    {
-      "fixture_id": "1581564",
-      "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Premier League",
-      "country": "Armenia",
-      "home": "Van",
-      "away": "Ararat-Armenia",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 7.5,
-        "odd_draw": 4.75,
-        "odd_away": 1.28,
-        "odd_ou_1_5_over": 1.14,
-        "odd_ou_2_5_over": 1.57,
-        "odd_ou_2_5_under": 2.35,
-        "odd_ou_3_5_over": 2.41,
-        "odd_ou_3_5_under": 1.52,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6042,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.0806
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6042,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.0806
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.3456,
-        "lambda_away": 1.6978,
-        "lambda_total": 3.0433,
-        "p_over_1_5": 0.8072,
-        "p_over_2_5": 0.5864,
-        "p_over_3_5": 0.3625,
-        "p_btts_yes": 0.6042
-      },
-      "api_prediction": {},
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 10.703,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1628043",
-      "kickoff_dublin": "2026-11-20T11:15:00+00:00",
-      "minutes_to_kickoff": 59.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Iraqi League",
-      "country": "Iraq",
-      "home": "Al Zawra'a",
-      "away": "Al Talaba",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 2.0,
-        "odd_draw": 3.1,
-        "odd_away": 3.4,
-        "odd_ou_1_5_over": 1.36,
-        "odd_ou_2_5_over": 2.25,
-        "odd_ou_2_5_under": 1.62,
-        "odd_ou_3_5_over": 4.0,
-        "odd_ou_3_5_under": 1.2,
-        "odd_btts_yes": 1.91,
-        "odd_btts_no": 1.91,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.4901,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.0457
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.4901,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.0457
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2714,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.0214
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.566,
-        "lambda_away": 1.068,
-        "lambda_total": 2.634,
-        "p_over_1_5": 0.7391,
-        "p_over_2_5": 0.4901,
-        "p_over_3_5": 0.2714,
-        "p_btts_yes": 0.5192
-      },
-      "api_prediction": {
-        "pred_winner_name": "Al Zawra'a",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : Al Zawra'a or draw",
-        "goals_home": "-2.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 7.304,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1581977",
-      "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
-      "timing_priority": "fixed_target_block",
-      "league": "Persha Liga",
-      "country": "Ukraine",
-      "home": "Yarud Mariupol'",
-      "away": "Ahrobiznes Volochysk",
-      "bookmaker": "Pinnacle",
-      "live_odds": {
-        "bookmaker": "Pinnacle",
-        "odd_home": 1.96,
-        "odd_draw": 2.93,
-        "odd_away": 3.73,
-        "odd_ou_1_5_over": 1.37,
-        "odd_ou_2_5_over": 2.22,
-        "odd_ou_2_5_under": 1.57,
-        "odd_ou_3_5_over": null,
-        "odd_ou_3_5_under": null,
-        "odd_btts_yes": null,
-        "odd_btts_no": null,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5549,
-        "odd": 2.22,
-        "implied_probability": 0.4505,
-        "edge": 0.1044
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5549,
-          "odd": 2.22,
-          "implied_probability": 0.4505,
-          "edge": 0.1044
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.6282,
-        "lambda_away": 1.2755,
-        "lambda_total": 2.9036,
-        "p_over_1_5": 0.786,
-        "p_over_2_5": 0.5549,
-        "p_over_3_5": 0.3312,
-        "p_btts_yes": 0.5792
-      },
-      "api_prediction": {
-        "pred_winner_name": "Ahrobiznes Volochysk",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": null,
-        "advice": "Double chance : draw or Ahrobiznes Volochysk",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "10%",
-        "prob_draw": "45%",
-        "prob_away": "45%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 12.444,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "top_actionable": [],
   "technical_fallbacks": [
     {
       "fixture_id": "1507493",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -284,15 +77,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1329,
-        "lambda_away": 1.19,
-        "lambda_total": 3.3229,
-        "p_over_1_5": 0.8442,
-        "p_over_2_5": 0.6452,
-        "p_over_3_5": 0.4247,
-        "p_btts_yes": 0.6133
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "FC Iberia 1999 II",
         "pred_winner_comment": null,
@@ -305,9 +90,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.577,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -316,7 +101,7 @@
     {
       "fixture_id": "1576950",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -340,15 +125,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.916,
-        "lambda_away": 1.308,
-        "lambda_total": 4.224,
-        "p_over_1_5": 0.9235,
-        "p_over_2_5": 0.7929,
-        "p_over_3_5": 0.609,
-        "p_btts_yes": 0.6901
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Iskra",
         "pred_winner_comment": null,
@@ -361,9 +138,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.676,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -372,7 +149,7 @@
     {
       "fixture_id": "1576953",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -396,15 +173,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8509,
-        "lambda_away": 1.7527,
-        "lambda_total": 3.6036,
-        "p_over_1_5": 0.8747,
-        "p_over_2_5": 0.6979,
-        "p_over_3_5": 0.4856,
-        "p_btts_yes": 0.6968
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vulturii Cutezători",
         "pred_winner_comment": "Win or draw",
@@ -417,9 +186,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.296,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -428,7 +197,7 @@
     {
       "fixture_id": "1576954",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -452,15 +221,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.656,
-        "lambda_away": 1.578,
-        "lambda_total": 3.234,
-        "p_over_1_5": 0.8332,
-        "p_over_2_5": 0.6271,
-        "p_over_3_5": 0.405,
-        "p_btts_yes": 0.6421
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "FCM Ungheni",
         "pred_winner_comment": "Win or draw",
@@ -473,18 +234,64 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.666,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1581564",
+      "kickoff_dublin": "2026-11-20T11:00:00+00:00",
+      "minutes_to_kickoff": 37.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Premier League",
+      "country": "Armenia",
+      "home": "Van",
+      "away": "Ararat-Armenia",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 7.5,
+        "odd_draw": 4.75,
+        "odd_away": 1.28,
+        "odd_ou_1_5_over": 1.14,
+        "odd_ou_2_5_over": 1.57,
+        "odd_ou_2_5_under": 2.35,
+        "odd_ou_3_5_over": 2.41,
+        "odd_ou_3_5_under": 1.52,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 0.8112,
+        "lambda_away": 2.3088,
+        "lambda_total": 3.12,
+        "p_over_1_5": 0.8181,
+        "p_over_2_5": 0.6032,
+        "p_over_3_5": 0.3796,
+        "p_btts_yes": 0.5,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {},
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 2.72,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1633694",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga III - Serie 7",
       "country": "Romania",
@@ -508,15 +315,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.926,
-        "lambda_away": 1.668,
-        "lambda_total": 3.594,
-        "p_over_1_5": 0.8737,
-        "p_over_2_5": 0.6962,
-        "p_over_3_5": 0.4835,
-        "p_btts_yes": 0.6931
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cetate Deva",
         "pred_winner_comment": "Win or draw",
@@ -529,18 +328,75 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.306,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
+      "fixture_id": "1628043",
+      "kickoff_dublin": "2026-11-20T11:15:00+00:00",
+      "minutes_to_kickoff": 52.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Iraqi League",
+      "country": "Iraq",
+      "home": "Al Zawra'a",
+      "away": "Al Talaba",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 2.0,
+        "odd_draw": 3.1,
+        "odd_away": 3.4,
+        "odd_ou_1_5_over": 1.36,
+        "odd_ou_2_5_over": 2.25,
+        "odd_ou_2_5_under": 1.62,
+        "odd_ou_3_5_over": 4.0,
+        "odd_ou_3_5_under": 1.2,
+        "odd_btts_yes": 1.91,
+        "odd_btts_no": 1.91,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2,
+        "lambda_away": 1.2,
+        "lambda_total": 2.4,
+        "p_over_1_5": 0.6916,
+        "p_over_2_5": 0.4303,
+        "p_over_3_5": 0.2213,
+        "p_btts_yes": 0.5,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {
+        "pred_winner_name": "Al Zawra'a",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : Al Zawra'a or draw",
+        "goals_home": "-2.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
       "fixture_id": "1561738",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "II Liga - East",
       "country": "Poland",
@@ -565,13 +421,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.7873,
-        "lambda_away": 1.3709,
-        "lambda_total": 3.1582,
-        "p_over_1_5": 0.8233,
-        "p_over_2_5": 0.6113,
-        "p_over_3_5": 0.3882,
-        "p_btts_yes": 0.6212
+        "lambda_home": 1.3568,
+        "lambda_away": 1.8432,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.625,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Stal Stalowa Wola",
@@ -585,9 +442,57 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.258,
+      "rank_score": 2.3,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1581977",
+      "kickoff_dublin": "2026-11-20T11:30:00+00:00",
+      "minutes_to_kickoff": 67.2,
+      "timing_priority": "fixed_target_block",
+      "league": "Persha Liga",
+      "country": "Ukraine",
+      "home": "Yarud Mariupol'",
+      "away": "Ahrobiznes Volochysk",
+      "bookmaker": "Pinnacle",
+      "live_odds": {
+        "bookmaker": "Pinnacle",
+        "odd_home": 1.96,
+        "odd_draw": 2.93,
+        "odd_away": 3.73,
+        "odd_ou_1_5_over": 1.37,
+        "odd_ou_2_5_over": 2.22,
+        "odd_ou_2_5_under": 1.57,
+        "odd_ou_3_5_over": null,
+        "odd_ou_3_5_under": null,
+        "odd_btts_yes": null,
+        "odd_btts_no": null,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
+      "api_prediction": {
+        "pred_winner_name": "Ahrobiznes Volochysk",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": null,
+        "advice": "Double chance : draw or Ahrobiznes Volochysk",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "10%",
+        "prob_draw": "45%",
+        "prob_away": "45%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 0.5,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -596,7 +501,7 @@
     {
       "fixture_id": "1603483",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Singapore",
@@ -621,13 +526,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.5514,
-        "lambda_away": 1.3971,
-        "lambda_total": 2.9486,
-        "p_over_1_5": 0.793,
-        "p_over_2_5": 0.5652,
-        "p_over_3_5": 0.3412,
-        "p_btts_yes": 0.5932
+        "lambda_home": 1.1902,
+        "lambda_away": 2.2898,
+        "lambda_total": 3.48,
+        "p_over_1_5": 0.862,
+        "p_over_2_5": 0.6754,
+        "p_over_3_5": 0.459,
+        "p_btts_yes": 0.625,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Balestier Khalsa",
@@ -641,9 +547,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.049,
+      "rank_score": 2.58,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -652,7 +558,7 @@
     {
       "fixture_id": "1604166",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 3",
       "country": "Poland",
@@ -677,13 +583,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.3418,
-        "lambda_away": 1.4345,
-        "lambda_total": 2.7764,
-        "p_over_1_5": 0.7649,
-        "p_over_2_5": 0.5249,
-        "p_over_3_5": 0.3028,
-        "p_btts_yes": 0.5627
+        "lambda_home": 1.58,
+        "lambda_away": 1.58,
+        "lambda_total": 3.16,
+        "p_over_1_5": 0.8235,
+        "p_over_2_5": 0.6117,
+        "p_over_3_5": 0.3886,
+        "p_btts_yes": 0.6361,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Górnik Polkowice",
@@ -697,9 +604,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.876,
+      "rank_score": 2.26,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -708,7 +615,7 @@
     {
       "fixture_id": "1642195",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "Indian Super League",
       "country": "India",
@@ -733,13 +640,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.59,
-        "lambda_away": 1.32,
-        "lambda_total": 2.91,
-        "p_over_1_5": 0.787,
-        "p_over_2_5": 0.5563,
-        "p_over_3_5": 0.3326,
-        "p_btts_yes": 0.5834
+        "lambda_home": 0.9475,
+        "lambda_away": 2.4125,
+        "lambda_total": 3.36,
+        "p_over_1_5": 0.8486,
+        "p_over_2_5": 0.6525,
+        "p_over_3_5": 0.4329,
+        "p_btts_yes": 0.557,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "East Bengal II",
@@ -753,9 +661,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.01,
+      "rank_score": 2.46,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -764,7 +672,7 @@
     {
       "fixture_id": "1638058",
       "kickoff_dublin": "2026-11-20T11:35:00+00:00",
-      "minutes_to_kickoff": 79.4,
+      "minutes_to_kickoff": 72.2,
       "timing_priority": "fixed_target_block",
       "league": "FA Cup",
       "country": "China",
@@ -789,13 +697,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.622,
-        "lambda_away": 1.406,
-        "lambda_total": 3.028,
-        "p_over_1_5": 0.805,
-        "p_over_2_5": 0.5831,
-        "p_over_3_5": 0.359,
-        "p_btts_yes": 0.6058
+        "lambda_home": 1.66,
+        "lambda_away": 1.66,
+        "lambda_total": 3.32,
+        "p_over_1_5": 0.8438,
+        "p_over_2_5": 0.6446,
+        "p_over_3_5": 0.4241,
+        "p_btts_yes": 0.6881,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Beijing Guoan",
@@ -809,9 +718,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.128,
+      "rank_score": 2.42,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -822,7 +731,7 @@
     {
       "fixture_id": "1629123",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "FKF Premier League",
       "country": "Kenya",
@@ -845,7 +754,7 @@
     {
       "fixture_id": "1629125",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "FKF Premier League",
       "country": "Kenya",
@@ -868,7 +777,7 @@
     {
       "fixture_id": "1638044",
       "kickoff_dublin": "2026-11-20T11:20:00+00:00",
-      "minutes_to_kickoff": 64.4,
+      "minutes_to_kickoff": 57.2,
       "timing_priority": "fixed_target_block",
       "league": "AFC U17 Asian Cup",
       "country": "World",
@@ -893,7 +802,7 @@
     {
       "fixture_id": "1507493",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 3",
       "country": "Georgia",
@@ -917,15 +826,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.1329,
-        "lambda_away": 1.19,
-        "lambda_total": 3.3229,
-        "p_over_1_5": 0.8442,
-        "p_over_2_5": 0.6452,
-        "p_over_3_5": 0.4247,
-        "p_btts_yes": 0.6133
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "FC Iberia 1999 II",
         "pred_winner_comment": null,
@@ -938,9 +839,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.577,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -949,7 +850,7 @@
     {
       "fixture_id": "1576950",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -973,15 +874,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 2.916,
-        "lambda_away": 1.308,
-        "lambda_total": 4.224,
-        "p_over_1_5": 0.9235,
-        "p_over_2_5": 0.7929,
-        "p_over_3_5": 0.609,
-        "p_btts_yes": 0.6901
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Iskra",
         "pred_winner_comment": null,
@@ -994,9 +887,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -0.676,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1005,7 +898,7 @@
     {
       "fixture_id": "1576953",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -1029,15 +922,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.8509,
-        "lambda_away": 1.7527,
-        "lambda_total": 3.6036,
-        "p_over_1_5": 0.8747,
-        "p_over_2_5": 0.6979,
-        "p_over_3_5": 0.4856,
-        "p_btts_yes": 0.6968
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Vulturii Cutezători",
         "pred_winner_comment": "Win or draw",
@@ -1050,9 +935,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.296,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1061,7 +946,7 @@
     {
       "fixture_id": "1576954",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga 1",
       "country": "Moldova",
@@ -1085,15 +970,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.656,
-        "lambda_away": 1.578,
-        "lambda_total": 3.234,
-        "p_over_1_5": 0.8332,
-        "p_over_2_5": 0.6271,
-        "p_over_3_5": 0.405,
-        "p_btts_yes": 0.6421
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "FCM Ungheni",
         "pred_winner_comment": "Win or draw",
@@ -1106,9 +983,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.666,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1117,7 +994,7 @@
     {
       "fixture_id": "1581564",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Armenia",
@@ -1139,44 +1016,31 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6042,
-        "odd": 1.91,
-        "implied_probability": 0.5236,
-        "edge": 0.0806
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6042,
-          "odd": 1.91,
-          "implied_probability": 0.5236,
-          "edge": 0.0806
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.3456,
-        "lambda_away": 1.6978,
-        "lambda_total": 3.0433,
-        "p_over_1_5": 0.8072,
-        "p_over_2_5": 0.5864,
-        "p_over_3_5": 0.3625,
-        "p_btts_yes": 0.6042
+        "lambda_home": 0.8112,
+        "lambda_away": 2.3088,
+        "lambda_total": 3.12,
+        "p_over_1_5": 0.8181,
+        "p_over_2_5": 0.6032,
+        "p_over_3_5": 0.3796,
+        "p_btts_yes": 0.5,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 10.703,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 2.72,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1629123",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "FKF Premier League",
       "country": "Kenya",
@@ -1199,7 +1063,7 @@
     {
       "fixture_id": "1629125",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "FKF Premier League",
       "country": "Kenya",
@@ -1222,7 +1086,7 @@
     {
       "fixture_id": "1633694",
       "kickoff_dublin": "2026-11-20T11:00:00+00:00",
-      "minutes_to_kickoff": 44.4,
+      "minutes_to_kickoff": 37.2,
       "timing_priority": "fixed_target_block",
       "league": "Liga III - Serie 7",
       "country": "Romania",
@@ -1246,15 +1110,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.926,
-        "lambda_away": 1.668,
-        "lambda_total": 3.594,
-        "p_over_1_5": 0.8737,
-        "p_over_2_5": 0.6962,
-        "p_over_3_5": 0.4835,
-        "p_btts_yes": 0.6931
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Cetate Deva",
         "pred_winner_comment": "Win or draw",
@@ -1267,9 +1123,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.306,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1278,7 +1134,7 @@
     {
       "fixture_id": "1628043",
       "kickoff_dublin": "2026-11-20T11:15:00+00:00",
-      "minutes_to_kickoff": 59.4,
+      "minutes_to_kickoff": 52.2,
       "timing_priority": "fixed_target_block",
       "league": "Iraqi League",
       "country": "Iraq",
@@ -1300,37 +1156,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.4901,
-        "odd": 2.25,
-        "implied_probability": 0.4444,
-        "edge": 0.0457
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.4901,
-          "odd": 2.25,
-          "implied_probability": 0.4444,
-          "edge": 0.0457
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2714,
-          "odd": 4.0,
-          "implied_probability": 0.25,
-          "edge": 0.0214
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.566,
-        "lambda_away": 1.068,
-        "lambda_total": 2.634,
-        "p_over_1_5": 0.7391,
-        "p_over_2_5": 0.4901,
-        "p_over_3_5": 0.2714,
-        "p_btts_yes": 0.5192
+        "lambda_home": 1.2,
+        "lambda_away": 1.2,
+        "lambda_total": 2.4,
+        "p_over_1_5": 0.6916,
+        "p_over_2_5": 0.4303,
+        "p_over_3_5": 0.2213,
+        "p_btts_yes": 0.5,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Al Zawra'a",
@@ -1344,18 +1180,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 7.304,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 2.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1638044",
       "kickoff_dublin": "2026-11-20T11:20:00+00:00",
-      "minutes_to_kickoff": 64.4,
+      "minutes_to_kickoff": 57.2,
       "timing_priority": "fixed_target_block",
       "league": "AFC U17 Asian Cup",
       "country": "World",
@@ -1378,7 +1214,7 @@
     {
       "fixture_id": "1561738",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "II Liga - East",
       "country": "Poland",
@@ -1403,13 +1239,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.7873,
-        "lambda_away": 1.3709,
-        "lambda_total": 3.1582,
-        "p_over_1_5": 0.8233,
-        "p_over_2_5": 0.6113,
-        "p_over_3_5": 0.3882,
-        "p_btts_yes": 0.6212
+        "lambda_home": 1.3568,
+        "lambda_away": 1.8432,
+        "lambda_total": 3.2,
+        "p_over_1_5": 0.8288,
+        "p_over_2_5": 0.6201,
+        "p_over_3_5": 0.3975,
+        "p_btts_yes": 0.625,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Stal Stalowa Wola",
@@ -1423,9 +1260,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.258,
+      "rank_score": 2.3,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1434,7 +1271,7 @@
     {
       "fixture_id": "1581977",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -1456,31 +1293,9 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5549,
-        "odd": 2.22,
-        "implied_probability": 0.4505,
-        "edge": 0.1044
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5549,
-          "odd": 2.22,
-          "implied_probability": 0.4505,
-          "edge": 0.1044
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 1.6282,
-        "lambda_away": 1.2755,
-        "lambda_total": 2.9036,
-        "p_over_1_5": 0.786,
-        "p_over_2_5": 0.5549,
-        "p_over_3_5": 0.3312,
-        "p_btts_yes": 0.5792
-      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Ahrobiznes Volochysk",
         "pred_winner_comment": "Win or draw",
@@ -1493,18 +1308,18 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 12.444,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 0.5,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1603483",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "Premier League",
       "country": "Singapore",
@@ -1529,13 +1344,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.5514,
-        "lambda_away": 1.3971,
-        "lambda_total": 2.9486,
-        "p_over_1_5": 0.793,
-        "p_over_2_5": 0.5652,
-        "p_over_3_5": 0.3412,
-        "p_btts_yes": 0.5932
+        "lambda_home": 1.1902,
+        "lambda_away": 2.2898,
+        "lambda_total": 3.48,
+        "p_over_1_5": 0.862,
+        "p_over_2_5": 0.6754,
+        "p_over_3_5": 0.459,
+        "p_btts_yes": 0.625,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Balestier Khalsa",
@@ -1549,9 +1365,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.049,
+      "rank_score": 2.58,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1560,7 +1376,7 @@
     {
       "fixture_id": "1604166",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "III Liga - Group 3",
       "country": "Poland",
@@ -1585,13 +1401,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.3418,
-        "lambda_away": 1.4345,
-        "lambda_total": 2.7764,
-        "p_over_1_5": 0.7649,
-        "p_over_2_5": 0.5249,
-        "p_over_3_5": 0.3028,
-        "p_btts_yes": 0.5627
+        "lambda_home": 1.58,
+        "lambda_away": 1.58,
+        "lambda_total": 3.16,
+        "p_over_1_5": 0.8235,
+        "p_over_2_5": 0.6117,
+        "p_over_3_5": 0.3886,
+        "p_btts_yes": 0.6361,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Górnik Polkowice",
@@ -1605,9 +1422,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 1.876,
+      "rank_score": 2.26,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1616,7 +1433,7 @@
     {
       "fixture_id": "1642195",
       "kickoff_dublin": "2026-11-20T11:30:00+00:00",
-      "minutes_to_kickoff": 74.4,
+      "minutes_to_kickoff": 67.2,
       "timing_priority": "fixed_target_block",
       "league": "Indian Super League",
       "country": "India",
@@ -1641,13 +1458,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.59,
-        "lambda_away": 1.32,
-        "lambda_total": 2.91,
-        "p_over_1_5": 0.787,
-        "p_over_2_5": 0.5563,
-        "p_over_3_5": 0.3326,
-        "p_btts_yes": 0.5834
+        "lambda_home": 0.9475,
+        "lambda_away": 2.4125,
+        "lambda_total": 3.36,
+        "p_over_1_5": 0.8486,
+        "p_over_2_5": 0.6525,
+        "p_over_3_5": 0.4329,
+        "p_btts_yes": 0.557,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "East Bengal II",
@@ -1661,9 +1479,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.01,
+      "rank_score": 2.46,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1672,7 +1490,7 @@
     {
       "fixture_id": "1638058",
       "kickoff_dublin": "2026-11-20T11:35:00+00:00",
-      "minutes_to_kickoff": 79.4,
+      "minutes_to_kickoff": 72.2,
       "timing_priority": "fixed_target_block",
       "league": "FA Cup",
       "country": "China",
@@ -1697,13 +1515,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.622,
-        "lambda_away": 1.406,
-        "lambda_total": 3.028,
-        "p_over_1_5": 0.805,
-        "p_over_2_5": 0.5831,
-        "p_over_3_5": 0.359,
-        "p_btts_yes": 0.6058
+        "lambda_home": 1.66,
+        "lambda_away": 1.66,
+        "lambda_total": 3.32,
+        "p_over_1_5": 0.8438,
+        "p_over_2_5": 0.6446,
+        "p_over_3_5": 0.4241,
+        "p_btts_yes": 0.6881,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Beijing Guoan",
@@ -1717,9 +1536,9 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.128,
+      "rank_score": 2.42,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",

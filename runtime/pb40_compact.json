@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "API-Football live + PronosticiBomba Supabase + OddAlerts public pages",
-  "generated_at_dublin": "2026-11-21T08:30:15.817642+00:00",
+  "generated_at_dublin": "2026-11-21T08:42:44.046434+00:00",
   "match_date": "2026-11-21",
   "selection_window": "fixed_next_hour_00_45",
   "target_block_start_dublin": "2026-11-21T09:00:00+00:00",
@@ -10,8 +10,8 @@
   "block_verified": true,
   "fixtures_today_total": 1301,
   "fixtures_target_date_total": 1301,
-  "fixtures_in_next_75m": 18,
-  "relevant_fixtures_in_next_75m": 14,
+  "fixtures_in_next_75m": 17,
+  "relevant_fixtures_in_next_75m": 13,
   "fixtures_in_target_block": 17,
   "relevant_fixtures_in_target_block": 13,
   "excluded_in_target_block": 4,
@@ -21,18 +21,18 @@
   "fixtures_analyzed_before_ranking": 13,
   "analysis_truncated": false,
   "analysis_hard_cap": 1000,
-  "technical_coverage_count": 13,
+  "technical_coverage_count": 12,
   "odds_coverage_count": 8,
-  "actionable_candidates_found": 2,
+  "actionable_candidates_found": 0,
   "matches_returned": 17,
   "max_is_return_limit_only": true,
   "max_return_limit": 1000,
   "partial_api_errors": [],
   "api_rate_limit": {
     "daily_limit": 75000,
-    "daily_remaining": 60888,
+    "daily_remaining": 60874,
     "minute_limit": 450,
-    "minute_remaining": 428
+    "minute_remaining": 438
   },
   "public_feed": {
     "repository": "chinoknot/pronosticibombapp",
@@ -47,167 +47,12 @@
     "freshness_limit_seconds": 480,
     "complete_block_required": true
   },
-  "top_actionable": [
-    {
-      "fixture_id": "1602556",
-      "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga II",
-      "country": "Romania",
-      "home": "FC Bacau",
-      "away": "CS Dinamo București",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.27,
-        "odd_draw": 5.5,
-        "odd_away": 8.5,
-        "odd_ou_1_5_over": 1.09,
-        "odd_ou_2_5_over": 1.33,
-        "odd_ou_2_5_under": 3.25,
-        "odd_ou_3_5_over": 1.78,
-        "odd_ou_3_5_under": 2.09,
-        "odd_btts_yes": 1.57,
-        "odd_btts_no": 2.3,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6606,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.0237
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6606,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0237
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.36,
-        "lambda_away": 1.3073,
-        "lambda_total": 3.6673,
-        "p_over_1_5": 0.8808,
-        "p_over_2_5": 0.709,
-        "p_over_3_5": 0.499,
-        "p_btts_yes": 0.6606
-      },
-      "api_prediction": {
-        "pred_winner_name": "FC Bacau",
-        "pred_winner_comment": "Win or draw",
-        "win_or_draw": true,
-        "under_over": "+1.5",
-        "advice": "Combo Double chance : FC Bacau or draw and +1.5 goals",
-        "goals_home": "-3.5",
-        "goals_away": "-2.5",
-        "prob_home": "35%",
-        "prob_draw": "35%",
-        "prob_away": "30%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 6.137,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    },
-    {
-      "fixture_id": "1602559",
-      "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
-      "timing_priority": "fixed_target_block",
-      "league": "Liga II",
-      "country": "Romania",
-      "home": "Popești-Leordeni",
-      "away": "Viitorul Şelimbăr",
-      "bookmaker": "Bet365",
-      "live_odds": {
-        "bookmaker": "Bet365",
-        "odd_home": 1.57,
-        "odd_draw": 3.75,
-        "odd_away": 4.75,
-        "odd_ou_1_5_over": 1.21,
-        "odd_ou_2_5_over": 1.67,
-        "odd_ou_2_5_under": 2.15,
-        "odd_ou_3_5_over": 2.63,
-        "odd_ou_3_5_under": 1.47,
-        "odd_btts_yes": 1.6,
-        "odd_btts_no": 2.25,
-        "odd_ht_home_team_o05": null,
-        "odd_ht_away_team_o05": null
-      },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4577,
-        "odd": 2.63,
-        "implied_probability": 0.3802,
-        "edge": 0.0775
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4577,
-          "odd": 2.63,
-          "implied_probability": 0.3802,
-          "edge": 0.0775
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.6743,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.0755
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6304,
-          "odd": 1.6,
-          "implied_probability": 0.625,
-          "edge": 0.0054
-        }
-      ],
-      "pb_metrics": {
-        "lambda_home": 2.256,
-        "lambda_away": 1.218,
-        "lambda_total": 3.474,
-        "p_over_1_5": 0.8613,
-        "p_over_2_5": 0.6743,
-        "p_over_3_5": 0.4577,
-        "p_btts_yes": 0.6304
-      },
-      "api_prediction": {
-        "pred_winner_name": "Popești-Leordeni",
-        "pred_winner_comment": null,
-        "win_or_draw": false,
-        "under_over": null,
-        "advice": "Winner : Popești-Leordeni",
-        "goals_home": "-4.5",
-        "goals_away": "-1.5",
-        "prob_home": "50%",
-        "prob_draw": "50%",
-        "prob_away": "0%"
-      },
-      "pb_raw_available": true,
-      "pb_picks": [],
-      "rank_score": 11.324,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
-      "exclusion_reason": "",
-      "live_enrichment": "odds+prediction"
-    }
-  ],
+  "top_actionable": [],
   "technical_fallbacks": [
     {
       "fixture_id": "1581978",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -232,13 +77,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0555,
-        "lambda_away": 1.2755,
-        "lambda_total": 2.3309,
-        "p_over_1_5": 0.6762,
-        "p_over_2_5": 0.4121,
-        "p_over_3_5": 0.207,
-        "p_btts_yes": 0.4699
+        "lambda_home": 0.9173,
+        "lambda_away": 1.6027,
+        "lambda_total": 2.52,
+        "p_over_1_5": 0.7168,
+        "p_over_2_5": 0.4613,
+        "p_over_3_5": 0.2467,
+        "p_btts_yes": 0.4795,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Viktoriya Mykolaivka",
@@ -252,9 +98,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.5,
+      "rank_score": 4.62,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -263,7 +109,7 @@
     {
       "fixture_id": "1593089",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -287,19 +133,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.776,
-        "lambda_away": 0.948,
-        "lambda_total": 2.724,
-        "p_over_1_5": 0.7557,
-        "p_over_2_5": 0.5122,
-        "p_over_3_5": 0.2912,
-        "p_btts_yes": 0.5088
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.676,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -308,7 +146,7 @@
     {
       "fixture_id": "1602553",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -333,13 +171,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.326,
-        "lambda_away": 1.398,
-        "lambda_total": 2.724,
-        "p_over_1_5": 0.7557,
-        "p_over_2_5": 0.5122,
-        "p_over_3_5": 0.2912,
-        "p_btts_yes": 0.553
+        "lambda_home": 1.276,
+        "lambda_away": 1.664,
+        "lambda_total": 2.94,
+        "p_over_1_5": 0.7917,
+        "p_over_2_5": 0.5632,
+        "p_over_3_5": 0.3393,
+        "p_btts_yes": 0.5844,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "CS Afumati",
@@ -353,9 +192,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.824,
+      "rank_score": 5.04,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -364,7 +203,7 @@
     {
       "fixture_id": "1602554",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -386,37 +225,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5195,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.0067
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5195,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.0067
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2978,
-          "odd": 3.4,
-          "implied_probability": 0.2941,
-          "edge": 0.0037
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.446,
-        "lambda_away": 1.308,
-        "lambda_total": 2.754,
-        "p_over_1_5": 0.761,
-        "p_over_2_5": 0.5195,
-        "p_over_3_5": 0.2978,
-        "p_btts_yes": 0.5578
+        "lambda_home": 1.2619,
+        "lambda_away": 1.3781,
+        "lambda_total": 2.64,
+        "p_over_1_5": 0.7402,
+        "p_over_2_5": 0.4916,
+        "p_over_3_5": 0.2727,
+        "p_btts_yes": 0.5362,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "CSM Reşiţa",
@@ -430,18 +249,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.524,
+      "rank_score": 4.74,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1602555",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -466,13 +285,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.956,
-        "lambda_away": 1.008,
-        "lambda_total": 2.964,
-        "p_over_1_5": 0.7954,
-        "p_over_2_5": 0.5687,
-        "p_over_3_5": 0.3447,
-        "p_btts_yes": 0.5452
+        "lambda_home": 1.0892,
+        "lambda_away": 1.8308,
+        "lambda_total": 2.92,
+        "p_over_1_5": 0.7886,
+        "p_over_2_5": 0.5586,
+        "p_over_3_5": 0.3349,
+        "p_btts_yes": 0.557,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Slatina",
@@ -486,9 +306,123 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.064,
+      "rank_score": 5.02,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1602556",
+      "kickoff_dublin": "2026-11-21T09:00:00+00:00",
+      "minutes_to_kickoff": 17.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga II",
+      "country": "Romania",
+      "home": "FC Bacau",
+      "away": "CS Dinamo București",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.27,
+        "odd_draw": 5.5,
+        "odd_away": 8.5,
+        "odd_ou_1_5_over": 1.09,
+        "odd_ou_2_5_over": 1.33,
+        "odd_ou_2_5_under": 3.25,
+        "odd_ou_3_5_over": 1.78,
+        "odd_ou_3_5_under": 2.09,
+        "odd_btts_yes": 1.57,
+        "odd_btts_no": 2.3,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.0055,
+        "lambda_away": 2.7745,
+        "lambda_total": 3.78,
+        "p_over_1_5": 0.8909,
+        "p_over_2_5": 0.7279,
+        "p_over_3_5": 0.5224,
+        "p_btts_yes": 0.5943,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {
+        "pred_winner_name": "FC Bacau",
+        "pred_winner_comment": "Win or draw",
+        "win_or_draw": true,
+        "under_over": "+1.5",
+        "advice": "Combo Double chance : FC Bacau or draw and +1.5 goals",
+        "goals_home": "-3.5",
+        "goals_away": "-2.5",
+        "prob_home": "35%",
+        "prob_draw": "35%",
+        "prob_away": "30%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 5.88,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
+      "exclusion_reason": "",
+      "live_enrichment": "odds+prediction"
+    },
+    {
+      "fixture_id": "1602559",
+      "kickoff_dublin": "2026-11-21T09:00:00+00:00",
+      "minutes_to_kickoff": 17.3,
+      "timing_priority": "fixed_target_block",
+      "league": "Liga II",
+      "country": "Romania",
+      "home": "Popești-Leordeni",
+      "away": "Viitorul Şelimbăr",
+      "bookmaker": "Bet365",
+      "live_odds": {
+        "bookmaker": "Bet365",
+        "odd_home": 1.57,
+        "odd_draw": 3.75,
+        "odd_away": 4.75,
+        "odd_ou_1_5_over": 1.21,
+        "odd_ou_2_5_over": 1.67,
+        "odd_ou_2_5_under": 2.15,
+        "odd_ou_3_5_over": 2.63,
+        "odd_ou_3_5_under": 1.47,
+        "odd_btts_yes": 1.6,
+        "odd_btts_no": 2.25,
+        "odd_ht_home_team_o05": null,
+        "odd_ht_away_team_o05": null
+      },
+      "best_value_market": null,
+      "value_markets": [],
+      "pb_metrics": {
+        "lambda_home": 1.2278,
+        "lambda_away": 1.7522,
+        "lambda_total": 2.98,
+        "p_over_1_5": 0.7978,
+        "p_over_2_5": 0.5723,
+        "p_over_3_5": 0.3483,
+        "p_btts_yes": 0.5844,
+        "source": "market_implied_fallback"
+      },
+      "api_prediction": {
+        "pred_winner_name": "Popești-Leordeni",
+        "pred_winner_comment": null,
+        "win_or_draw": false,
+        "under_over": null,
+        "advice": "Winner : Popești-Leordeni",
+        "goals_home": "-4.5",
+        "goals_away": "-1.5",
+        "prob_home": "50%",
+        "prob_draw": "50%",
+        "prob_away": "0%"
+      },
+      "pb_raw_available": false,
+      "pb_picks": [],
+      "rank_score": 5.08,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -497,7 +431,7 @@
     {
       "fixture_id": "1602562",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -522,18 +456,19 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.236,
-        "lambda_away": 1.248,
-        "lambda_total": 2.484,
-        "p_over_1_5": 0.7094,
-        "p_over_2_5": 0.4521,
-        "p_over_3_5": 0.239,
-        "p_btts_yes": 0.5058
+        "lambda_home": 1.0592,
+        "lambda_away": 1.7208,
+        "lambda_total": 2.78,
+        "p_over_1_5": 0.7655,
+        "p_over_2_5": 0.5258,
+        "p_over_3_5": 0.3036,
+        "p_btts_yes": 0.5362,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.084,
+      "rank_score": 4.38,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -542,7 +477,7 @@
     {
       "fixture_id": "1610574",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -567,18 +502,19 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.266,
-        "lambda_away": 1.578,
-        "lambda_total": 2.844,
-        "p_over_1_5": 0.7763,
-        "p_over_2_5": 0.541,
-        "p_over_3_5": 0.3179,
-        "p_btts_yes": 0.5698
+        "lambda_home": 1.4,
+        "lambda_away": 1.4,
+        "lambda_total": 2.8,
+        "p_over_1_5": 0.7689,
+        "p_over_2_5": 0.5305,
+        "p_over_3_5": 0.3081,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.444,
+      "rank_score": 4.4,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -587,7 +523,7 @@
     {
       "fixture_id": "1634859",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "National League",
       "country": "Myanmar",
@@ -611,15 +547,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6433,
-        "lambda_away": 1.38,
-        "lambda_total": 3.0233,
-        "p_over_1_5": 0.8043,
-        "p_over_2_5": 0.582,
-        "p_over_3_5": 0.358,
-        "p_btts_yes": 0.6037
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Yangon United",
         "pred_winner_comment": "Win or draw",
@@ -632,9 +560,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.877,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -643,7 +571,7 @@
     {
       "fixture_id": "1593083",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -667,15 +595,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.716,
-        "lambda_away": 1.098,
-        "lambda_total": 2.814,
-        "p_over_1_5": 0.7713,
-        "p_over_2_5": 0.5339,
-        "p_over_3_5": 0.3112,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Bratslav Vinnytsia",
         "pred_winner_comment": "Win or draw",
@@ -688,9 +608,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.086,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -699,7 +619,7 @@
     {
       "fixture_id": "1634860",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "National League",
       "country": "Myanmar",
@@ -723,15 +643,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.9267,
-        "lambda_away": 1.4633,
-        "lambda_total": 3.39,
-        "p_over_1_5": 0.852,
-        "p_over_2_5": 0.6583,
-        "p_over_3_5": 0.4395,
-        "p_btts_yes": 0.6566
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Sagaing United",
         "pred_winner_comment": null,
@@ -744,9 +656,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.51,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -755,7 +667,7 @@
     {
       "fixture_id": "1593087",
       "kickoff_dublin": "2026-11-21T09:45:00+00:00",
-      "minutes_to_kickoff": 74.7,
+      "minutes_to_kickoff": 62.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -779,15 +691,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.476,
-        "lambda_away": 1.638,
-        "lambda_total": 3.114,
-        "p_over_1_5": 0.8172,
-        "p_over_2_5": 0.6019,
-        "p_over_3_5": 0.3783,
-        "p_btts_yes": 0.6215
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Karbon Cherkasy",
         "pred_winner_comment": "Win or draw",
@@ -800,9 +704,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.786,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -813,7 +717,7 @@
     {
       "fixture_id": "1565129",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -836,7 +740,7 @@
     {
       "fixture_id": "1629482",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Turkey",
@@ -859,7 +763,7 @@
     {
       "fixture_id": "1595823",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -882,7 +786,7 @@
     {
       "fixture_id": "1595811",
       "kickoff_dublin": "2026-11-21T09:45:00+00:00",
-      "minutes_to_kickoff": 74.7,
+      "minutes_to_kickoff": 62.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -907,7 +811,7 @@
     {
       "fixture_id": "1565129",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "1. Liga U19",
       "country": "Czech-Republic",
@@ -930,7 +834,7 @@
     {
       "fixture_id": "1581978",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Persha Liga",
       "country": "Ukraine",
@@ -955,13 +859,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.0555,
-        "lambda_away": 1.2755,
-        "lambda_total": 2.3309,
-        "p_over_1_5": 0.6762,
-        "p_over_2_5": 0.4121,
-        "p_over_3_5": 0.207,
-        "p_btts_yes": 0.4699
+        "lambda_home": 0.9173,
+        "lambda_away": 1.6027,
+        "lambda_total": 2.52,
+        "p_over_1_5": 0.7168,
+        "p_over_2_5": 0.4613,
+        "p_over_3_5": 0.2467,
+        "p_btts_yes": 0.4795,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Viktoriya Mykolaivka",
@@ -975,9 +880,9 @@
         "prob_draw": "50%",
         "prob_away": "50%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.5,
+      "rank_score": 4.62,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -986,7 +891,7 @@
     {
       "fixture_id": "1593089",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -1010,19 +915,11 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.776,
-        "lambda_away": 0.948,
-        "lambda_total": 2.724,
-        "p_over_1_5": 0.7557,
-        "p_over_2_5": 0.5122,
-        "p_over_3_5": 0.2912,
-        "p_btts_yes": 0.5088
-      },
+      "pb_metrics": {},
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.676,
+      "rank_score": -2.0,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1031,7 +928,7 @@
     {
       "fixture_id": "1602553",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1056,13 +953,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.326,
-        "lambda_away": 1.398,
-        "lambda_total": 2.724,
-        "p_over_1_5": 0.7557,
-        "p_over_2_5": 0.5122,
-        "p_over_3_5": 0.2912,
-        "p_btts_yes": 0.553
+        "lambda_home": 1.276,
+        "lambda_away": 1.664,
+        "lambda_total": 2.94,
+        "p_over_1_5": 0.7917,
+        "p_over_2_5": 0.5632,
+        "p_over_3_5": 0.3393,
+        "p_btts_yes": 0.5844,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "CS Afumati",
@@ -1076,9 +974,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.824,
+      "rank_score": 5.04,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1087,7 +985,7 @@
     {
       "fixture_id": "1602554",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1109,37 +1007,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 2.5",
-        "probability": 0.5195,
-        "odd": 1.95,
-        "implied_probability": 0.5128,
-        "edge": 0.0067
-      },
-      "value_markets": [
-        {
-          "market": "Over 2.5",
-          "probability": 0.5195,
-          "odd": 1.95,
-          "implied_probability": 0.5128,
-          "edge": 0.0067
-        },
-        {
-          "market": "Over 3.5",
-          "probability": 0.2978,
-          "odd": 3.4,
-          "implied_probability": 0.2941,
-          "edge": 0.0037
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.446,
-        "lambda_away": 1.308,
-        "lambda_total": 2.754,
-        "p_over_1_5": 0.761,
-        "p_over_2_5": 0.5195,
-        "p_over_3_5": 0.2978,
-        "p_btts_yes": 0.5578
+        "lambda_home": 1.2619,
+        "lambda_away": 1.3781,
+        "lambda_total": 2.64,
+        "p_over_1_5": 0.7402,
+        "p_over_2_5": 0.4916,
+        "p_over_3_5": 0.2727,
+        "p_btts_yes": 0.5362,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "CSM Reşiţa",
@@ -1153,18 +1031,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.524,
+      "rank_score": 4.74,
       "actionable_candidate": false,
-      "selection_reason": "Positive edge below actionable threshold",
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1602555",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1189,13 +1067,14 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.956,
-        "lambda_away": 1.008,
-        "lambda_total": 2.964,
-        "p_over_1_5": 0.7954,
-        "p_over_2_5": 0.5687,
-        "p_over_3_5": 0.3447,
-        "p_btts_yes": 0.5452
+        "lambda_home": 1.0892,
+        "lambda_away": 1.8308,
+        "lambda_total": 2.92,
+        "p_over_1_5": 0.7886,
+        "p_over_2_5": 0.5586,
+        "p_over_3_5": 0.3349,
+        "p_btts_yes": 0.557,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Slatina",
@@ -1209,9 +1088,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 3.064,
+      "rank_score": 5.02,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1220,7 +1099,7 @@
     {
       "fixture_id": "1602556",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1242,30 +1121,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "BTTS YES",
-        "probability": 0.6606,
-        "odd": 1.57,
-        "implied_probability": 0.6369,
-        "edge": 0.0237
-      },
-      "value_markets": [
-        {
-          "market": "BTTS YES",
-          "probability": 0.6606,
-          "odd": 1.57,
-          "implied_probability": 0.6369,
-          "edge": 0.0237
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 2.36,
-        "lambda_away": 1.3073,
-        "lambda_total": 3.6673,
-        "p_over_1_5": 0.8808,
-        "p_over_2_5": 0.709,
-        "p_over_3_5": 0.499,
-        "p_btts_yes": 0.6606
+        "lambda_home": 1.0055,
+        "lambda_away": 2.7745,
+        "lambda_total": 3.78,
+        "p_over_1_5": 0.8909,
+        "p_over_2_5": 0.7279,
+        "p_over_3_5": 0.5224,
+        "p_btts_yes": 0.5943,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "FC Bacau",
@@ -1279,18 +1145,18 @@
         "prob_draw": "35%",
         "prob_away": "30%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 6.137,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 5.88,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1602559",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1312,44 +1178,17 @@
         "odd_ht_home_team_o05": null,
         "odd_ht_away_team_o05": null
       },
-      "best_value_market": {
-        "market": "Over 3.5",
-        "probability": 0.4577,
-        "odd": 2.63,
-        "implied_probability": 0.3802,
-        "edge": 0.0775
-      },
-      "value_markets": [
-        {
-          "market": "Over 3.5",
-          "probability": 0.4577,
-          "odd": 2.63,
-          "implied_probability": 0.3802,
-          "edge": 0.0775
-        },
-        {
-          "market": "Over 2.5",
-          "probability": 0.6743,
-          "odd": 1.67,
-          "implied_probability": 0.5988,
-          "edge": 0.0755
-        },
-        {
-          "market": "BTTS YES",
-          "probability": 0.6304,
-          "odd": 1.6,
-          "implied_probability": 0.625,
-          "edge": 0.0054
-        }
-      ],
+      "best_value_market": null,
+      "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 2.256,
-        "lambda_away": 1.218,
-        "lambda_total": 3.474,
-        "p_over_1_5": 0.8613,
-        "p_over_2_5": 0.6743,
-        "p_over_3_5": 0.4577,
-        "p_btts_yes": 0.6304
+        "lambda_home": 1.2278,
+        "lambda_away": 1.7522,
+        "lambda_total": 2.98,
+        "p_over_1_5": 0.7978,
+        "p_over_2_5": 0.5723,
+        "p_over_3_5": 0.3483,
+        "p_btts_yes": 0.5844,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {
         "pred_winner_name": "Popești-Leordeni",
@@ -1363,18 +1202,18 @@
         "prob_draw": "50%",
         "prob_away": "0%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 11.324,
-      "actionable_candidate": true,
-      "selection_reason": "Positive model edge >= 2%",
+      "rank_score": 5.08,
+      "actionable_candidate": false,
+      "selection_reason": "No positive value market",
       "exclusion_reason": "",
       "live_enrichment": "odds+prediction"
     },
     {
       "fixture_id": "1602562",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1399,18 +1238,19 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.236,
-        "lambda_away": 1.248,
-        "lambda_total": 2.484,
-        "p_over_1_5": 0.7094,
-        "p_over_2_5": 0.4521,
-        "p_over_3_5": 0.239,
-        "p_btts_yes": 0.5058
+        "lambda_home": 1.0592,
+        "lambda_away": 1.7208,
+        "lambda_total": 2.78,
+        "p_over_1_5": 0.7655,
+        "p_over_2_5": 0.5258,
+        "p_over_3_5": 0.3036,
+        "p_btts_yes": 0.5362,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.084,
+      "rank_score": 4.38,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1419,7 +1259,7 @@
     {
       "fixture_id": "1610574",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "Liga II",
       "country": "Romania",
@@ -1444,18 +1284,19 @@
       "best_value_market": null,
       "value_markets": [],
       "pb_metrics": {
-        "lambda_home": 1.266,
-        "lambda_away": 1.578,
-        "lambda_total": 2.844,
-        "p_over_1_5": 0.7763,
-        "p_over_2_5": 0.541,
-        "p_over_3_5": 0.3179,
-        "p_btts_yes": 0.5698
+        "lambda_home": 1.4,
+        "lambda_away": 1.4,
+        "lambda_total": 2.8,
+        "p_over_1_5": 0.7689,
+        "p_over_2_5": 0.5305,
+        "p_over_3_5": 0.3081,
+        "p_btts_yes": 0.5759,
+        "source": "market_implied_fallback"
       },
       "api_prediction": {},
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": 2.444,
+      "rank_score": 4.4,
       "actionable_candidate": false,
       "selection_reason": "No positive value market",
       "exclusion_reason": "",
@@ -1464,7 +1305,7 @@
     {
       "fixture_id": "1629482",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 league",
       "country": "Turkey",
@@ -1487,7 +1328,7 @@
     {
       "fixture_id": "1634859",
       "kickoff_dublin": "2026-11-21T09:00:00+00:00",
-      "minutes_to_kickoff": 29.7,
+      "minutes_to_kickoff": 17.3,
       "timing_priority": "fixed_target_block",
       "league": "National League",
       "country": "Myanmar",
@@ -1511,15 +1352,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.6433,
-        "lambda_away": 1.38,
-        "lambda_total": 3.0233,
-        "p_over_1_5": 0.8043,
-        "p_over_2_5": 0.582,
-        "p_over_3_5": 0.358,
-        "p_btts_yes": 0.6037
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Yangon United",
         "pred_winner_comment": "Win or draw",
@@ -1532,9 +1365,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.877,
+      "rank_score": -1.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1543,7 +1376,7 @@
     {
       "fixture_id": "1593083",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -1567,15 +1400,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.716,
-        "lambda_away": 1.098,
-        "lambda_total": 2.814,
-        "p_over_1_5": 0.7713,
-        "p_over_2_5": 0.5339,
-        "p_over_3_5": 0.3112,
-        "p_btts_yes": 0.5466
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Bratslav Vinnytsia",
         "pred_winner_comment": "Win or draw",
@@ -1588,9 +1413,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.086,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1599,7 +1424,7 @@
     {
       "fixture_id": "1595823",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
@@ -1622,7 +1447,7 @@
     {
       "fixture_id": "1634860",
       "kickoff_dublin": "2026-11-21T09:30:00+00:00",
-      "minutes_to_kickoff": 59.7,
+      "minutes_to_kickoff": 47.3,
       "timing_priority": "fixed_target_block",
       "league": "National League",
       "country": "Myanmar",
@@ -1646,15 +1471,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.9267,
-        "lambda_away": 1.4633,
-        "lambda_total": 3.39,
-        "p_over_1_5": 0.852,
-        "p_over_2_5": 0.6583,
-        "p_over_3_5": 0.4395,
-        "p_btts_yes": 0.6566
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Sagaing United",
         "pred_winner_comment": null,
@@ -1667,9 +1484,9 @@
         "prob_draw": "45%",
         "prob_away": "10%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -1.51,
+      "rank_score": -3.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1678,7 +1495,7 @@
     {
       "fixture_id": "1593087",
       "kickoff_dublin": "2026-11-21T09:45:00+00:00",
-      "minutes_to_kickoff": 74.7,
+      "minutes_to_kickoff": 62.3,
       "timing_priority": "fixed_target_block",
       "league": "Druha Liga",
       "country": "Ukraine",
@@ -1702,15 +1519,7 @@
       },
       "best_value_market": null,
       "value_markets": [],
-      "pb_metrics": {
-        "lambda_home": 1.476,
-        "lambda_away": 1.638,
-        "lambda_total": 3.114,
-        "p_over_1_5": 0.8172,
-        "p_over_2_5": 0.6019,
-        "p_over_3_5": 0.3783,
-        "p_btts_yes": 0.6215
-      },
+      "pb_metrics": {},
       "api_prediction": {
         "pred_winner_name": "Karbon Cherkasy",
         "pred_winner_comment": "Win or draw",
@@ -1723,9 +1532,9 @@
         "prob_draw": "45%",
         "prob_away": "45%"
       },
-      "pb_raw_available": true,
+      "pb_raw_available": false,
       "pb_picks": [],
-      "rank_score": -2.786,
+      "rank_score": -4.5,
       "actionable_candidate": false,
       "selection_reason": "No bookmaker odds",
       "exclusion_reason": "",
@@ -1734,7 +1543,7 @@
     {
       "fixture_id": "1595811",
       "kickoff_dublin": "2026-11-21T09:45:00+00:00",
-      "minutes_to_kickoff": 74.7,
+      "minutes_to_kickoff": 62.3,
       "timing_priority": "fixed_target_block",
       "league": "U19 Bundesliga",
       "country": "Germany",
